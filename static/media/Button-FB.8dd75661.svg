@@ -1,0 +1,10 @@
+<svg id="Button-FB" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.52" height="37.521" viewBox="0 0 37.52 37.521">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_237" data-name="Rectangle 237" width="37.52" height="37.521" fill="#676ab1"/>
+    </clipPath>
+  </defs>
+  <g id="Button-FB-2" data-name="Button-FB" clip-path="url(#clip-path)">
+    <path id="Path_306" data-name="Path 306" d="M31.819,0H5.7A5.7,5.7,0,0,0,0,5.7V31.819a5.7,5.7,0,0,0,5.7,5.7H31.819a5.7,5.7,0,0,0,5.7-5.7V5.7a5.7,5.7,0,0,0-5.7-5.7M29.551,11.676H27.062c-1.953,0-2.333.928-2.333,2.291v3h4.658l-.607,4.7H24.73V33.746H19.873V21.676H15.81v-4.7h4.063V13.5c0-4.026,2.458-6.219,6.049-6.219a33.244,33.244,0,0,1,3.629.185Z" fill="#676ab1"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+.ventures {
+  .hero {
+    height: 100vh;
+    background: url("../images/otherbusinessventures/hero-bg.png") center /
+      cover no-repeat;
+
+    display: grid;
+    place-content: center;
+
+    &__content {
+      font-family: "gill sans", sans-serif !important;
+
+      width: 40vw;
+      margin-top: -3vw;
+
+      p,
+      h1 {
+        margin: 0;
+      }
+    }
+
+    &__title {
+      font-family: "gill sans", sans-serif !important;
+      letter-spacing: 0.5vw;
+      font-weight: 600 !important;
+      text-transform: uppercase;
+      line-height: 3.1vw;
+      font-size: 2.3vw;
+      color: #283a97;
+      // margin: 10.3vw 0 3.4vw 0;
+      text-align: center;
+    }
+
+    &__desc {
+      padding-top: 4vw;
+      font-family: "gill sans medium", sans-serif;
+      font-weight: 500 !important;
+      margin-bottom: 9.4vw;
+      font-size: 1vw;
+      color: #676ab0;
+      line-height: 1.9vw;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}

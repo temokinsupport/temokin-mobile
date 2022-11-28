@@ -1,0 +1,618 @@
+.--civil-engineering {
+    background: url("../images/civilengineering/CivilEng_BG-01.png") bottom 0vw left -3vw;
+    background-size: 105vw auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    image-rendering: -webkit-optimize-contrast;
+
+    position: relative;
+    min-height: 100vh;
+    .--bg-1 {
+        padding: 10vw 0 5vw 0;
+        min-height: 51vw;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        .--title {
+            font-family: "gill sans", sans-serif !important;
+            letter-spacing: 0.4vw;
+            font-weight: 500 !important;
+            text-transform: uppercase;
+            line-height: 3.1vw;
+            font-size: 2vw;
+            color: #283a97;
+            margin: 16.1vw 0 2vw 0;
+            text-align: center;
+        }
+        .--desc {
+            font-family: "gill sans", sans-serif;
+            font-weight: 500 !important;
+            margin-bottom: 9.4vw;
+            font-size: 1.6vw;
+            color: #676ab0;
+            line-height: 2.3vw;
+            text-align: center;
+            letter-spacing: 0.25vw;
+        }
+    }
+    .--bg-2 {
+        padding: 10vw 0 5vw 0;
+        min-height: 51vw;
+        width: 100%;
+        position: relative;
+        .--title {
+            font-family: "gill sans", sans-serif !important;
+            letter-spacing: 0.4vw;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            line-height: 3.1vw;
+            font-size: 2vw;
+            color: #283a97;
+            margin: 5.5vw 0 2vw 0;
+            text-align: center;
+        }
+        hr {
+            background-color: #283997;
+            height: 2px;
+            width: 30vw;
+            opacity: 1;
+            margin: 1vw auto 1.5vw auto;
+        }
+        hr:not([size]) {
+            height: 2px;
+        }
+        .--desc {
+            font-family: "gill sans", sans-serif;
+            font-weight: 600 !important;
+            margin-bottom: 9.4vw;
+            font-size: 1.6vw;
+            color: #676ab0;
+            line-height: 2.3vw;
+            text-align: center;
+            letter-spacing: 0.25vw;
+        }
+    }
+    .--bg-3 {
+        padding: 15vw 0 5vw 0;
+        min-height: 51vw;
+        width: 100%;
+        position: relative;
+        .projects-bg-shape {
+            content: "";
+            border: 1px solid #ffffff;
+            width: 41vw;
+            position: absolute;
+            height: 16vw;
+            top: -5vw;
+            z-index: -3;
+            transform: rotate3d(1, 2, -2, -24deg);
+            left: -24vw;
+        }
+        .projects-bg-shape1 {
+            content: "";
+            border: 1px solid #ffffff;
+            width: 44vw;
+            position: absolute;
+            height: 14vw;
+            top: 186vw;
+            z-index: -4;
+            transform: rotate3d(1, 2, -2, -24deg);
+            left: -26vw;
+        }
+        .--max {
+            max-width: 75%;
+        }
+        .card {
+            width: 79%;
+            border-radius: 0 !important;
+            background-color: transparent !important;
+            border: 0 !important;
+            margin-bottom: 7vw;
+            &.--blue {
+                .card-body {
+                    .card-title,
+                    .card-text {
+                        color: #ffffff;
+                    }
+                }
+            }
+            &.--right {
+                margin-left: auto;
+            }
+            img {
+                width: 28.4vw;
+                height: 28.4vw;
+                object-position: 0 0;
+                object-fit: contain;
+                image-rendering: pixelated;
+                border-radius: 0 !important;
+            }
+            .card-body {
+                padding: 1.5vw 0;
+                .card-title {
+                    font-family: "gill sans", sans-serif !important;
+                    letter-spacing: 0.24vw;
+                    font-weight: 500 !important;
+                    text-transform: uppercase;
+                    line-height: normal;
+                    font-size: 1vw;
+                    color: #000000;
+                    text-align: left;
+                    margin-bottom: 30px;
+                }
+                .card-text {
+                    letter-spacing: 0.2vw;
+                    color: #000000;
+                    text-align: left;
+                    margin-bottom: 35px;
+                    span.--title {
+                        font-family: "gill sans ", sans-serif !important;
+                        font-weight: 600 !important;
+                        line-height: normal;
+                        font-size: 0.9vw;
+                    }
+                    span {
+                        display: block;
+                        font-family: "gill sans light", sans-serif !important;
+                        font-weight: 300 !important;
+                        line-height: normal;
+                        font-size: 1vw;
+                    }
+                }
+                .--btn-view-project {
+                    background-color: #ffffff !important;
+                    border: 0 !important;
+                    border-radius: 0 !important;
+                    font-family: "gill sans", sans-serif !important;
+                    letter-spacing: 0.1vw;
+                    color: #283997;
+                    text-align: center;
+                    text-transform: uppercase;
+                    padding: 15px 3.3vw;
+                    box-shadow: none !important;
+                    outline: 0 !important;
+                    text-decoration: none !important;
+                    border: 0 !important;
+                    white-space: nowrap !important;
+                }
+            }
+        }
+    }
+    .--bg-4 {
+        padding: 8vw 0 0 0;
+        min-height: 51vw;
+        width: 100%;
+        position: relative;
+        .projects-bg-shape2 {
+            content: "";
+            border: 1px solid #ffffff;
+            width: 44vw;
+            position: absolute;
+            height: 13vw;
+            top: 2vw;
+            z-index: -4;
+            transform: rotate3d(1, 2, -2, -29deg);
+            right: -26vw;
+        }
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: 10vw;
+        //     left: 0vw;
+        //     right: 0vw;
+        //     bottom: 0vw;
+        //     height: 26vw;
+        //     width: 100%;
+        //     background: #696aac;
+        //     z-index: -3;
+        // }
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 150vw;
+        //     left: 0vw;
+        //     right: 0vw;
+        //     bottom: 0vw;
+        //     height: 26vw;
+        //     width: 100%;
+        //     background: rgb(219, 219, 219);
+        //     background: linear-gradient(90deg, rgba(219, 219, 219, 1) 0%, rgba(204, 204, 204, 1) 100%);
+        //     z-index: -5;
+        // }
+        .--max {
+            max-width: 70%;
+        }
+        .--white {
+            .card {
+                .card-body {
+                    .card-title,
+                    .card-text {
+                        color: #ffffff !important;
+                    }
+                }
+            }
+        }
+        .card {
+            max-width: 85%;
+            border-radius: 0 !important;
+            background-color: transparent !important;
+            border: 0 !important;
+            margin: 0 0 2vw auto;
+            &.--blue {
+                .card-body {
+                    .card-title,
+                    .card-text {
+                        color: #ffffff;
+                    }
+                }
+            }
+            &.--right {
+                margin-left: auto;
+            }
+            img {
+                width: 10vw;
+                height: 10vw;
+                object-position: 0 0;
+                object-fit: contain;
+                image-rendering: -webkit-optimize-contrast;
+                border-radius: 0 !important;
+                margin: 0 auto 0 5vw;
+            }
+            .card-body {
+                padding: 3vw 0;
+                .card-title {
+                    font-family: "gill sans", sans-serif !important;
+                    letter-spacing: 0.2vw;
+                    font-weight: 600 !important;
+                    text-transform: uppercase;
+                    line-height: normal;
+                    font-size: 1vw;
+                    color: #000000;
+                    text-align: left;
+                    margin-bottom: 30px;
+                    min-height: 5.5vw;
+                }
+                .card-text {
+                    letter-spacing: 0.2vw;
+                    color: #000000;
+                    text-align: left;
+                    margin-bottom: 35px;
+                    span.--title {
+                        font-family: "gill sans ", sans-serif !important;
+                        font-weight: 600 !important;
+                        line-height: normal;
+                        font-size: 0.9vw;
+                    }
+                    span {
+                        display: block;
+                        font-family: "gill sans light", sans-serif !important;
+                        font-weight: 300 !important;
+                        line-height: normal;
+                        font-size: 1vw;
+                    }
+                }
+                .--btn-view-project {
+                    background-color: #ffffff !important;
+                    border: 0 !important;
+                    border-radius: 0 !important;
+                    font-family: "gill sans", sans-serif !important;
+                    letter-spacing: 0.1vw;
+                    color: #283997;
+                    text-align: center;
+                    text-transform: uppercase;
+                    padding: 15px 3.3vw;
+                }
+            }
+        }
+    }
+
+    .header-bg {
+        background: url("../images/civilengineering/CivilEng_BG-01-5.png") top right -1vw;
+        background-repeat: no-repeat;
+        background-size: 105vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 116vw;
+        top: 0;
+    }
+    .desc-bg {
+        background: url("../images/civilengineering/CivilEng_BG-01-5.png") bottom right -1vw;
+        background-repeat: no-repeat;
+        background-size: 105vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 116vw;
+        bottom: 15vw;
+    }
+    .header-shapes {
+        background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 10vw left -8vw;
+        background-repeat: no-repeat;
+        background-size: 145vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+        height: 116vw;
+        top: 0;
+        // position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            bottom: 48vw;
+            right: -23vw;
+            width: 39vw;
+            height: 16vw;
+            border: 1px solid rgba(40, 57, 150, 0.66);
+            z-index: 10;
+            transform: rotate3d(6, -7, 5, 61deg);
+        }
+    }
+    .header-shapes-2 {
+        background: url("../images/civilengineering/CivilEng_Shapes-02.png") top 45vw left -2.5vw;
+        background-repeat: no-repeat;
+        background-size: 35vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        height: 116vw;
+        top: 0;
+    }
+
+    .projects-bg {
+        background: url("../images/civilengineering/CivilEng_BG-01-1.png") top -0.3vw right -1vw;
+        background-repeat: no-repeat;
+        background-size: 105vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+        height: 134vw;
+        top: -15vw;
+    }
+    .project1-bg {
+        background: url("../images/civilengineering/CivilEng_BG-01-2.png") top -0.3vw right -1vw;
+        background-repeat: no-repeat;
+        background-size: 105vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+        height: 116vw;
+        bottom: -42.7vw;
+    }
+    .projectsicon-bg {
+        background: url("../images/civilengineering/CivilEng_BG-01-3.png") top -0.3vw right -1vw;
+        background-repeat: no-repeat;
+        background-size: 105vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+        height: 134vw;
+        top: 25.2vw;
+    }
+    .projectsicon1-bg {
+        // background: url("../images/civilengineering/CivilEng_BG-01-4.png") bottom 0 right -1vw;
+        background-repeat: no-repeat;
+        background-size: 105vw 46vw !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+        height: 47vw;
+        bottom: 6vw;
+    }
+
+    @media (max-width: 1777px) {
+        .project1-bg {
+            z-index: -4;
+            height: 116vw;
+            bottom: -38.7vw;
+        }
+        .project1-bg {
+            z-index: -4;
+            height: 116vw;
+            bottom: -38.7vw;
+        }
+    }
+    @media (max-width: 1600px) {
+        .project1-bg {
+            bottom: -34.7vw;
+        }
+    }
+    @media (max-width: 1440px) {
+        .project1-bg {
+            bottom: -46.7vw;
+            height: 135vw;
+        }
+    }
+    @media (max-width: 1140px) {
+        .project1-bg {
+            bottom: -51.7vw;
+            height: 146vw;
+        }
+    }
+    @media (max-width: 1024px) {
+        .projects-bg {
+            background-size: 158vw auto !important;
+            height: 202vw;
+        }
+    }
+    @media (max-width: 922px) {
+        overflow-x: hidden;
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 680vh, 110vw 185vw !important;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        .header-bg,
+        .desc-bg,
+        .project1-bg,
+        .projects-bg,
+        .projectsicon-bg,
+        .projectsicon1-bg {
+            display: none;
+        }
+        .--bg-1 {
+            margin-top: 0;
+            padding: 160px 0 100px 0;
+            h1 {
+                &.--title {
+                    font-size: 1.5em;
+                    margin-bottom: 25px;
+                }
+            }
+            p {
+                &.--desc {
+                    font-size: 1em;
+                    line-height: 1.6;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .--bg-2 {
+            padding: 100px 0;
+            h1 {
+                &.--title {
+                    font-size: 1.5em;
+                    margin-bottom: 25px;
+                }
+            }
+            p {
+                &.--desc {
+                    font-size: 1em;
+                    line-height: 1.6;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .--bg-3 {
+            padding: 100px 0;
+            .--max {
+                max-width: 90%;
+                .col-md-6 {
+                    width: 50%;
+                    max-width: 50%;
+                }
+            }
+            .card {
+                width: 90%;
+                margin-bottom: 100px;
+                img {
+                    width: auto;
+                    height: 38vw;
+                }
+                .card-body {
+                    .card-title {
+                        font-size: 1em;
+                        br {
+                            display: none;
+                        }
+                    }
+                    .card-text {
+                        span.--title {
+                            font-size: 0.875em;
+                        }
+                        span {
+                            font-size: 0.875em;
+                        }
+                    }
+                    .--btn-view-project {
+                        font-size: 0.875em;
+                    }
+                }
+            }
+        }
+        .--bg-4 {
+            .--max {
+                max-width: 90%;
+                .col-md-6 {
+                    width: 50%;
+                    max-width: 50%;
+                }
+            }
+            .card {
+                img {
+                    width: 18vw;
+                    height: 18vw;
+                }
+                .card-body {
+                    .card-title {
+                        font-size: 0.875em;
+                        br {
+                            display: none;
+                        }
+                    }
+                    .card-text {
+                        span.--title {
+                            font-size: 0.875em;
+                        }
+                        span {
+                            font-size: 0.875em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 700px) {
+        image-rendering: -webkit-optimize-contrast;
+        .--bg-1 {
+            padding: 18vw 0 10vw 0;
+        }
+        .--bg-2 {
+            padding: 10vw 0;
+        }
+        .--bg-3 {
+            padding: 27vw 0 10vw 0;
+        }
+    }
+    @media (max-width:650px) {
+        overflow-x: hidden;
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 630vh, 110vw 185vw !important;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        transition: background 0.3s;
+    }
+    @media (max-width: 500px) {
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 570vh, 110vw 185vw !important;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        .--bg-3 {
+            padding: 27vw 0 10vw 0;
+        }
+        .header-shapes {
+            background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 20vw left -8vw;
+            background-repeat: no-repeat;
+            height: 300vw;
+        }
+    }
+    @media (max-width: 420px) {
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 600vh, 110vw 200vh !important;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: -webkit-optimize-contrast;
+    }
+}

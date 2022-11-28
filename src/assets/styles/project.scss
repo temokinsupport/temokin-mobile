@@ -1,0 +1,327 @@
+/*
+*
+|  Page Name       : propertprojects.scss
+|  Description     : scss for property development projects page use
+|  Created by      : May Altamerano
+|  Date Created    : July 6 2021
+|  Last Update by  : May Altamerano
+|  Last update     : July 6 2021
+*
+*/
+
+.--projects {
+  min-height: 100vh;
+  // margin-top: -9.1vw;
+  width: 100%;
+  // background: url("../images/propertyprojects/PropertyDev_BG-01.png") top center;
+  transition: background 0.3s;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100vw 170vh;
+  position: relative;
+  overflow: hidden;
+
+  .svg {
+    position: absolute;
+
+    &--1 {
+      top: 5%;
+      left: 0;
+      width: 14%;
+    }
+    &--2 {
+      top: 10%;
+      right: 0;
+      width: 14%;
+    }
+    &--3 {
+      top: 9%;
+      left: 0;
+      width: 60%;
+      height: 30vw;
+    }
+    &--4 {
+      top: 20%;
+      right: 0;
+      width: 20%;
+      height: 20vw;
+      z-index: 2;
+    }
+    &--5 {
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 20vw;
+    }
+    &--6 {
+      z-index: 2;
+      bottom: 20%;
+      right: 0;
+      width: 25%;
+      height: 30%;
+    }
+    &--7 {
+      top: 0;
+      left: 0;
+      width: 30%;
+      height: 30%;
+      mix-blend-mode: multiply;
+      opacity: 0.8;
+    }
+    &--8 {
+      bottom: 0%;
+      right: 0;
+      width: 30%;
+    }
+    &--9 {
+      left: 0;
+      width: 30%;
+      height: auto;
+      z-index: 2;
+      bottom: -2%;
+    }
+
+    &--10 {
+      left: 0;
+      bottom: 0%;
+      width: 30%;
+      height: auto;
+      // z-index: 2;
+    }
+    &--11 {
+      left: 0;
+      bottom: -23%;
+      width: 30%;
+      height: auto;
+      z-index: 2;
+    }
+  }
+
+  &--building {
+    .preview {
+      background-color: #cc833d !important;
+    }
+
+    .middle__caption {
+      background-color: #cc833d !important;
+    }
+
+    .related {
+      background-color: #cc833d !important;
+    }
+  }
+
+  &--property-development {
+    .preview {
+      background-color: #00b7aa !important;
+    }
+
+    .middle__caption {
+      background-color: #00b7aa !important;
+    }
+
+    .related {
+      background-color: #00b7aa !important;
+    }
+  }
+
+  section {
+    position: relative;
+  }
+
+  .--bg-1 {
+    min-height: 50vw;
+    // padding: 15vw 0 0 0;
+    padding-top: 15vw;
+    .--max {
+      //   max-width: 80%;
+      //   min-height: 75.5vw;
+    }
+    .--project-details {
+      width: 100%;
+      position: relative;
+      img {
+        width: 100% !important;
+        margin: 0;
+      }
+    }
+    .--about-content {
+      max-width: 58vw;
+      margin: 3vw auto 5vw auto;
+      display: block;
+    }
+  }
+
+  .middle {
+    $padding-bottom: 8vw;
+    margin-top: -12vh;
+    display: grid;
+
+    p {
+      margin: 0;
+    }
+
+    & > * {
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+
+    &--tropicana-cenang {
+      // background-color: #cc833d !important;
+
+      &--1 {
+        .middle__polygon-image {
+          padding-bottom: 0;
+        }
+      }
+
+      &--2 {
+        margin-top: unset;
+
+        .middle__caption {
+          height: 100% !important;
+        }
+      }
+
+      .svg--5 {
+        top: 0;
+        left: 0;
+        width: 35%;
+        height: auto !important;
+      }
+
+      .svg--6 {
+        top: 36%;
+        right: 0;
+        width: 28%;
+        height: auto !important;
+        mix-blend-mode: darken;
+      }
+    }
+
+    &__polygon-image {
+      display: flex;
+      justify-content: center;
+      z-index: 1;
+      padding-bottom: $padding-bottom;
+
+      img {
+        width: 100%;
+      }
+    }
+    &__caption {
+      font-family: "gill sans", sans-serif !important;
+
+      padding: 0 10vw $padding-bottom 10vw;
+      height: 50%;
+      margin-top: auto;
+      //   padding-bottom: 5vw;
+      //   background-color: #00b7aa;
+
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+
+      p {
+        width: 31%;
+        font-size: 1.6vw;
+        color: white;
+        letter-spacing: 0.1em;
+        line-height: 1.7em;
+        font-family: "gill sans medium", sans-serif !important;
+      }
+    }
+  }
+
+  .preview {
+    // background-color: #00b7aa;
+    padding-bottom: 10vw;
+  }
+
+  .related {
+    // background-color: #00b7aa;
+    padding: 25vw 0 13vw;
+
+    .section-label {
+      font-family: "gill sans", sans-serif !important;
+      text-transform: uppercase;
+      font-size: 1.2vw;
+      letter-spacing: 0.1em;
+      color: white;
+    }
+
+    &__cards {
+      margin-top: 5vw;
+
+      & > * {
+        width: 33%;
+      }
+
+      .preview-card {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    background-size: cover !important;
+    .--bg-1 {
+      padding: 230px 0 0 0 !important;
+      .--max {
+        max-width: 90% !important;
+        .col-md-7,
+        .col-md-5 {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      .--project-details {
+        img {
+          width: 100% !important;
+          margin: 0 auto;
+          object-fit: contain;
+        }
+      }
+      .--about-content {
+        max-width: 100%;
+        margin: 30px auto !important;
+        h3 {
+          font-size: 1.125em !important;
+          text-align: center !important;
+          br {
+            display: none;
+          }
+        }
+        hr {
+          width: 100%;
+        }
+        p {
+          font-size: 0.875em !important;
+          text-align: center !important;
+          br {
+            display: none;
+          }
+        }
+        .col-md-6 {
+          &:nth-child(2) {
+            div {
+              margin-left: 0 !important;
+              margin-top: 50px;
+              h3 {
+                text-align: left !important;
+                font-size: 0.875em !important;
+              }
+              p {
+                text-align: left !important;
+                font-size: 0.875em !important;
+                br {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

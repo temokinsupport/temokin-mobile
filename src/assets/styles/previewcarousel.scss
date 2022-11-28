@@ -1,0 +1,38 @@
+.preview-carousel {
+  aspect-ratio: 48/25;
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-inner {
+    height: 50vw;
+  }
+
+  .carousel-item img {
+    height: 100%;
+  }
+
+  .carousel-indicators {
+    gap: 2%;
+    transform: translateY(100%);
+    bottom: -8%;
+
+    li {
+      border-radius: 100px;
+      aspect-ratio: 1/1;
+      width: 1.3vw;
+      border: white 1px solid;
+
+      &.active {
+        background: white;
+      }
+    }
+  }
+
+  .carousel-inner {
+    -webkit-clip-path: url(#previewCarouselClipPath);
+    clip-path: url(#previewCarouselClipPath);
+  }
+}

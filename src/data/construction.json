@@ -1,0 +1,81 @@
+[
+  {
+    "name": "tropicana-cenang",
+    "title": "TROPICANA CENANG",
+    "background": "carousel/diami.png",
+    "hero": "/building/tropicana-cenang.png",
+    "description": "A natural paradise, Langkawi is perhaps unmatched anywhere else in Southeast Asia. Its beautiful geological heritage of stunning landscapes and unique rock formations earns Langkawi an UNESCO Geopark status. Fine beaches, pure emerald waters and rich marine life offers sun-and-fun-filled holidays.",
+    "client": "Tropicana Corporation Berhad",
+    "value": "",
+    "period": "Ongoing",
+    "caption": "AN ISLAND OF MANY ATTRACTIONS, A TREAT FOR THE SENSES.",
+    "middle": "/building/tropicana-middle.png",
+    "carousel": ["/building/carousel/tropicana/1.png"],
+    "related": [
+      {
+        "image": "/building/natl-camp.png",
+        "name": "NATIONAL CAMP AND SERVICES",
+        "path": "/building/natl-camp"
+      },
+      {
+        "image": "/building/mahligai.png",
+        "name": "MAHLIGAI AT NUSA DAMAI",
+        "path": "/building/mahligai"
+      }
+    ]
+  },
+  {
+    "name": "natl-camp",
+    "title": "NATIONAL CAMP AND SERVICES \n (NORTHERN REGIONS)",
+    "background": "carousel/mahligai.png",
+    "hero": "/building/natl-camp.png",
+
+    "description": "The National Services (NS) Camp (Northern Region) was constructed successfully on a very tight schedule and incorporated homely design elements for new trainees to feel comfortable in a lush forest environment.",
+    "client": "Ministry of Defence, Malaysia ",
+    "value": "RM30 million",
+    "period": "Sept 2004 to Dec 2004",
+    "related": [
+      {
+        "image": "/building/tropicana-cenang.png",
+        "name": "TROPICANA CENANG",
+        "path": "/building/tropicana-cenang"
+      },
+      {
+        "image": "/building/mahligai.png",
+        "name": "MAHLIGAI AT NUSA DAMAI",
+        "path": "/building/mahligai"
+      }
+    ]
+  },
+  {
+    "name": "mahligai",
+    "title": "MAHLIGAI AT NUSA DAMAI, \n 2 & 2.5 STOREY HOUSING, JOHOR",
+    "background": "carousel/mahligai.png",
+    "hero": "/building/mahligai.png",
+
+    "description": "The idea behind Mahligai is a series of attractively designed terrace homes nestled in the flourishing township of Nusa Damai. So near to Pasir Gudang and Johor Bahru yet cocooned in its own bubble of greenery and tranquillity, it is surrounded by all the amenities and convenience of a mature neighbourhood. Here you’ll find the perfect modern residence with all the space you and your family need to enjoy life, all at an affordable price. A great place to come home to every day.",
+    "client": "Temokin Development Sdn Bhd",
+    "value": "RM100 million",
+    "period": "Feb 2017 to Ongoing",
+    "caption": "A HAVEN OF TRANQUILITY IN A THRIVING TOWNSHIP. WELCOME HOME.",
+    "middle": "/building/mahligai-middle.png",
+    "carousel": [
+      "/building/carousel/mahligai/1.png",
+      "/building/carousel/mahligai/2.png",
+      "/building/carousel/mahligai/3.png",
+      "/building/carousel/mahligai/4.png"
+    ],
+    "related": [
+      {
+        "image": "/building/tropicana-cenang.png",
+        "name": "TROPICANA CENANG",
+        "path": "/building/tropicana-cenang"
+      },
+      {
+        "image": "/building/natl-camp.png",
+        "name": "NATIONAL CAMP AND SERVICES",
+        "path": "/building/natl-camp"
+      }
+    ]
+  }
+]

@@ -1,0 +1,472 @@
+/*
+*
+|  Page Name       : propertydevelopment.scss
+|  Description     : scss for property development page use
+|  Created by      : May Altamerano
+|  Date Created    : July 2 2021
+|  Last Update by  : May Altamerano
+|  Last update     : July 2 2021
+*
+*/
+.carousel.overlay-carousel {
+  min-height: 100vh;
+
+  &--building {
+    min-height: unset;
+    .carousel-caption {
+      .--bottom-detail {
+        position: relative;
+
+        &:not(:last-child):after {
+          content: "";
+          position: absolute;
+          bottom: -17.5px;
+          left: 0;
+          width: 120%;
+          height: 1px;
+          background-color: #283997;
+        }
+      }
+    }
+
+    .carousel-indicators {
+      top: 5vw !important;
+    }
+  }
+
+  .carousel-item {
+    height: 70vw;
+    position: relative;
+    display: flex;
+
+    justify-content: end;
+    align-items: center;
+    opacity: 0;
+
+    transition: opacity 0.2s ease-in-out;
+
+    &.true {
+      opacity: 1;
+      // height: 100%;
+    }
+  }
+  .carousel-inner {
+    height: 65vw;
+
+    height: 100%;
+
+    img {
+      position: absolute;
+      height: 65vw;
+
+      height: 100%;
+      width: 100%;
+
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+  .carousel-indicators {
+    bottom: 22vw;
+    left: unset;
+    width: 45vw;
+    margin-left: unset;
+    margin-right: unset;
+    justify-content: flex-start;
+    padding-left: 5.7vw;
+
+    position: relative;
+    top: unset;
+    left: unset;
+    bottom: unset;
+    right: unset;
+    padding-left: 0;
+    display: none;
+
+    &.custom {
+      display: flex;
+    }
+    li {
+      height: 30px;
+      width: 30px;
+      border-radius: 100px;
+      border: 1px solid #283a97;
+      background-color: transparent;
+      transition: background-color 0.5s;
+      margin: 0 2.5vw 0 0;
+      :hover {
+        background-color: #283a97;
+        transition: background-color 0.5s;
+      }
+      &.active {
+        background-color: #283a97;
+        transition: background-color 0.5s;
+      }
+    }
+  }
+  .carousel-caption {
+    position: absolute;
+
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: unset;
+    top: 0;
+
+    padding-top: 8vw;
+    padding-bottom: 17.3vw;
+
+    padding-top: 14vw;
+    padding-bottom: 14vw;
+
+    color: #fff;
+    text-align: left;
+    width: 28vw;
+
+    margin-right: 12vw;
+
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    height: 100%;
+    .--title {
+      white-space: pre-line;
+      font-family: "gill sans", sans-serif !important;
+      letter-spacing: 0.2vw;
+      font-weight: 700 !important;
+      text-transform: uppercase;
+      line-height: 1.1;
+      font-size: 1.2vw;
+      color: #283a97;
+      margin: 0 0 0.8vw 0;
+      text-align: left;
+      //   padding-left: 5.7vw;
+    }
+    .--desc {
+      font-family: "gill sans medium", sans-serif;
+      font-weight: 500 !important;
+      margin-bottom: 2.4vw;
+      font-size: 1.2vw;
+      color: #283a97;
+      line-height: 1.4vw;
+      text-align: left;
+      //   padding-left: 5.7vw;
+      letter-spacing: 0.17vw;
+      position: relative;
+
+      &::after {
+        content: "";
+
+        content: "";
+        height: 1px;
+        width: 27vw;
+        background-color: #283a97;
+        opacity: 1 !important;
+        margin-bottom: 2vw;
+        position: absolute;
+        bottom: -4vw;
+        left: 0;
+      }
+    }
+    .--hr {
+      height: 1px;
+      width: 27vw;
+      // background-color: #283a97;
+      opacity: 1 !important;
+      margin-bottom: 2vw;
+    }
+    .--bottom-detail {
+      letter-spacing: 0.2vw;
+      color: #283a97;
+      text-align: left;
+      margin-bottom: 35px;
+
+      span.--title {
+        font-family: "gill sans", sans-serif !important;
+        font-weight: 700 !important;
+        line-height: normal;
+        font-size: 1vw;
+        text-transform: capitalize;
+        // padding-left: 5.7vw;
+        margin-bottom: 0;
+      }
+      span {
+        display: block;
+        font-family: "gill sans medium", sans-serif !important;
+        font-weight: 300 !important;
+        line-height: normal;
+        font-size: 1.01vw;
+        // padding-left: 5.7vw;
+
+        &:last-child:not(:only-child) {
+          // margin-top: 1vw;
+        }
+      }
+    }
+    .--buttons {
+      margin-top: 7vw;
+      display: flex;
+      flex-direction: column;
+    }
+    .--btn-view-project {
+      background-color: #ffffff !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      font-family: "gill sans", sans-serif !important;
+      letter-spacing: 0.2em;
+      font-size: 0.8rem;
+      color: #283997;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 1em 4em;
+      //   margin-left: 5.7vw;
+      //   margin-top: 5vw;
+      text-decoration: none !important;
+      box-shadow: none !important;
+      outline: 0 !important;
+      z-index: 10;
+      position: relative;
+
+      border: 0.2px solid #283a97;
+
+      &:hover {
+        color: white;
+        background-color: #283997 !important;
+      }
+
+      &:last-child:not(:only-of-type) {
+        margin-top: 2vw;
+      }
+    }
+    .awards {
+      // display: g;
+    }
+    .award {
+      display: flex;
+      //   justify-content: space-between;
+      gap: 5%;
+
+      &__name {
+        // flex: 6;
+        width: 60%;
+      }
+
+      &__image {
+        // flex: 1;
+        width: 20%;
+        position: relative;
+      }
+
+      &:last-child:not(:only-of-type) {
+        margin-top: 2vw;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .carousel {
+      height: 100vw;
+
+      .carousel-inner {
+        height: 100vw;
+        img {
+          height: 100vw;
+        }
+      }
+      .carousel-caption {
+        width: 90%;
+        left: 50px;
+        .--title {
+          font-size: 1.125em;
+          line-height: 1.6;
+        }
+        .--desc {
+          font-size: 0.875em;
+          line-height: 1.6;
+          br {
+            display: none;
+          }
+        }
+        .--hr {
+          margin-left: 5.7vw;
+          width: 80vw;
+        }
+        span.--title,
+        span {
+          font-size: 0.875em !important;
+        }
+        .--btn-view-project {
+          font-size: 0.875em !important;
+        }
+        .--bottom-detail {
+          margin-bottom: 30px;
+        }
+      }
+      .carousel-indicators {
+        width: 92vw;
+        bottom: 25vw;
+        li {
+          height: 21px;
+          width: 21px;
+        }
+      }
+    }
+    .--carousel-container {
+      position: relative;
+      .--btn-carousel-container {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 10;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+      .carousel-indicators {
+        display: none;
+      }
+      button {
+        &.carousel-control-prev {
+          background: url("../images/licensesandregistrations/Licenses_Button-03.png")
+            center;
+          transition: background 0.3s;
+          background-attachment: local;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 9vw;
+          display: block;
+          padding: 0;
+          cursor: pointer;
+          height: 9vw;
+          opacity: 1;
+          outline: 0 !important;
+          box-shadow: none !important;
+          border: 0 !important;
+          margin-left: 3vw;
+          margin-top: auto;
+          span {
+            display: none !important;
+          }
+        }
+        &.carousel-control-next {
+          background: url("../images/licensesandregistrations/Licenses_Button-04.png")
+            center;
+          transition: background 0.3s;
+          background-attachment: local;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 9vw;
+          display: block;
+          padding: 0;
+          cursor: pointer;
+          height: 9vw;
+          opacity: 1;
+          outline: 0 !important;
+          box-shadow: none !important;
+          border: 0 !important;
+          margin-right: 3vw;
+          margin-top: auto;
+          span {
+            display: none !important;
+          }
+        }
+      }
+      .--carousel-mb {
+        .carousel-inner {
+          img {
+            width: 100% !important;
+            margin: 0 auto;
+          }
+          .carousel-caption {
+            position: absolute;
+            right: 13vw;
+            left: 13vw;
+            margin-top: 8vw;
+            width: auto !important;
+            h3 {
+              font-size: 1.125em;
+              margin-bottom: 1.5vw;
+              letter-spacing: 0.4vw;
+            }
+            p {
+              font-size: 0.875em;
+              letter-spacing: 0.2vw;
+              br {
+                display: none;
+              }
+            }
+            .--hr {
+              width: 58vw;
+            }
+          }
+        }
+        a.carousel-control-next,
+        a.carousel-control-prev {
+          display: none;
+          span {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    .carousel {
+      height: 115vw;
+      .carousel-inner {
+        height: 115vw;
+        img {
+          height: 115vw;
+        }
+      }
+      .carousel-caption {
+        left: 25px;
+      }
+    }
+  }
+  @media (max-width: 570px) {
+    .carousel {
+      height: 140vw;
+      .carousel-inner {
+        height: 140vw;
+        img {
+          height: 140vw;
+        }
+      }
+      .carousel-caption {
+        left: 25px;
+      }
+      .carousel-indicators {
+        bottom: 28vw;
+      }
+    }
+  }
+  @media (max-width: 500px) {
+    .carousel {
+      height: 200vw;
+      .carousel-inner {
+        height: 200vw;
+        img {
+          height: 200vw;
+        }
+      }
+      .carousel-caption {
+        left: 25px;
+        padding-bottom: 35.3vw;
+      }
+      .carousel-indicators {
+        bottom: 50vw;
+      }
+    }
+  }
+}

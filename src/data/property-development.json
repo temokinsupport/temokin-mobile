@@ -1,0 +1,118 @@
+[
+  {
+    "name": "mahligai",
+    "title": "MAHLIGAI AT NUSA DAMAI \n 2 & 2.5 STOREY HOUSING, JOHOR",
+    "background": "carousel/mahligai.png",
+    "hero": "/propertydevelopment/mahligai.png",
+    "description": "Mahligai terrace homes feature an open layout design that maximizes space while still accommodating up to 5 spacious bedrooms. That’s plenty of room for your family to grow. For maximum convenience and privacy, each bedroom also comes with its own attached bathroom. On the exterior, Mahligai’s modern facade accommodates a column-free car porch for a more efficient use of space. Even better, Parcel 3 homes now come with a studio with balcony so you can enjoy your outdoor space.",
+    "value": "RM100 million ",
+    "period": "Feb 2017 to ongoing",
+    "website": "http://www.mahligai.my",
+    "caption": "A HAVEN OF TRANQUILITY IN A THRIVING TOWNSHIP. WELCOME HOME.",
+    "middle": "/propertydevelopment/mahligai-middle.png",
+    "carousel": [
+      "/propertydevelopment/carousel/mahligai/1.png",
+      "/propertydevelopment/carousel/mahligai/2.png",
+      "/propertydevelopment/carousel/mahligai/3.png",
+      "/propertydevelopment/carousel/mahligai/4.png"
+    ],
+    "awards": [
+      {
+        "image": "apa.png",
+        "description": "Highly Commended for Best High End Landed Development (Southern)"
+      }
+    ],
+    "links": {
+      "project": "/mahilgai",
+      "website": "/mahilgai"
+    },
+    "related": [
+      {
+        "image": "/propertydevelopment/related/tropicana-miyu.png",
+        "name": "TROPICANA MIYU, PETALING JAYA",
+        "path": "/property-development/tropicana-miyu"
+      },
+      {
+        "image": "/propertydevelopment/related/diami.png",
+        "name": "DIAMI",
+        "path": "/property-development/diami"
+      }
+    ]
+  },
+  {
+    "name": "diami",
+    "title": "DIAMI",
+    "background": "carousel/diami.png",
+    "hero": "/propertydevelopment/related/diami.png",
+    "description": "Modern living with heart. Diami Residences hearken back to traditional kampung architecture, reinvented and adapted for an urban lifestyle, with cool, airy verandas and balconies, and a panoramic view of Bukit Tabur.",
+    "value": "RM48 million",
+    "period": "September 2021 to ongoing",
+    "caption": "AN INSPIRED DECISION. A STATEMENT OF TASTE.",
+    "middle": "/propertydevelopment/diami-middle.png",
+    "carousel": [
+      "/propertydevelopment/carousel/diami/1.png",
+      "/propertydevelopment/carousel/diami/2.png",
+      "/propertydevelopment/carousel/diami/3.png",
+      "/propertydevelopment/carousel/diami/4.png"
+    ],
+    "links": {
+      "project": "/diami",
+      "website": ""
+    },
+    "related": [
+      {
+        "image": "/propertydevelopment/related/tropicana-miyu.png",
+        "name": "TROPICANA MIYU, PETALING JAYA",
+        "path": "/property-development/tropicana-miyu"
+      },
+      {
+        "image": "/propertydevelopment/related/mahligai.png",
+        "name": "MAHLIGAI AT NUSA DAMAI",
+        "path": "/property-development/mahligai"
+      }
+    ]
+  },
+  {
+    "name": "tropicana-miyu",
+    "title": "TROPICANA MIYU, PETALING JAYA",
+    "background": "carousel/tropicana.png",
+    "hero": "/propertydevelopment/related/tropicana-miyu.png",
+    "description": "Brought to life by two committed partners, Tropicana and Temokin. Miyu welcomes the young and old. It is perfectly balanced between rich history and modern culture. Looking at the perfecting the art of life, it invites upgraders in any walk of life to a living space, where both the quality and convenience is readily available. Space here is not a luxury but a statement of value while able to find enjoyment in the comforts of a familiar location and environment.",
+    "value": "RM261 million",
+    "period": "September 2020 to ongoing",
+    "caption": "ENVISIONING ITSELF AS BEING A PERFECT HOME FOR INDIVIDUALS AND THEIR LOVED ONE.",
+    "middle": "/propertydevelopment/tropicana-middle.png",
+    "carousel": [
+      "/propertydevelopment/carousel/tropicana/1.png",
+      "/propertydevelopment/carousel/tropicana/2.png",
+      "/propertydevelopment/carousel/tropicana/3.png",
+      "/propertydevelopment/carousel/tropicana/4.png"
+    ],
+    "awards": [
+      {
+        "image": "tdba.png",
+        "description": "Honours The Distinctive Build Award in StarProperty Awards 2021: Real Estate Developer"
+      },
+      {
+        "image": "tdba.png",
+        "description": "Winner 2021-2022 in Asia Pacific Property Awards"
+      }
+    ],
+    "links": {
+      "project": "/tropicana",
+      "website": ""
+    },
+    "related": [
+      {
+        "image": "/propertydevelopment/related/diami.png",
+        "name": "DIAMI",
+        "path": "/property-development/diami"
+      },
+      {
+        "image": "/propertydevelopment/related/mahligai.png",
+        "name": "MAHLIGAI AT NUSA DAMAI",
+        "path": "/property-development/mahligai"
+      }
+    ]
+  }
+]

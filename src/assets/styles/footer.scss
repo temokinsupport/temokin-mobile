@@ -1,0 +1,141 @@
+/*
+*
+|  Page Name       : footer.scss
+|  Description     : scss for footer use
+|  Created by      : May Altamerano
+|  Date Created    : June 25 2021
+|  Last Update by  : May Altamerano
+|  Last update     : July 08 2021
+*
+*/
+
+.--footer {
+  padding: 3vw 0;
+  background-color: #ffffff;
+  z-index: 100;
+  position: relative;
+  border-top: 1px solid #4d569c;
+  opacity: 1 !important;
+  .--max {
+    max-width: 91% !important;
+    min-height: auto !important;
+    margin-top: 0 !important;
+  }
+  .--left-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    a {
+      &.--logo {
+        display: block;
+        img {
+          height: 48px;
+          width: 17vw;
+          object-fit: contain;
+          object-position: 0 0;
+          image-rendering: -webkit-optimize-contrast;
+          margin-top: 0.3vw;
+          margin-right: 30px;
+        }
+      }
+    }
+    .--address {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      width: 30vw;
+      span {
+        display: block;
+        p {
+          &:nth-child(1) {
+            margin-bottom: 8px;
+          }
+        }
+      }
+      p {
+        font-family: "gill sans medium", sans-serif;
+        font-weight: 400 !important;
+        margin-bottom: 0;
+        font-size: 1vw;
+        color: #4d569c;
+      }
+    }
+  }
+  .--right-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    p {
+      font-family: "gill sans medium", sans-serif;
+      font-weight: 400 !important;
+      margin-bottom: 10px;
+      font-size: 1.2vw;
+      color: #4d569c;
+    }
+    sub {
+      font-family: "gill sans medium", sans-serif;
+      font-weight: 400 !important;
+      margin-bottom: 0;
+      color: #4d569c !important;
+      margin-right: 1vw;
+      font-size: 0.8vw;
+      right: -4%;
+
+      a {
+        color: #4d569c !important;
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    padding: 45px 0 80px 0;
+    .--left-container {
+      align-items: flex-start;
+      flex-direction: column;
+      a {
+        &.--logo {
+          align-self: center;
+          img {
+            height: auto;
+            width: 200px;
+            margin-right: 0px !important;
+            margin-bottom: 5vh;
+          }
+        }
+      }
+      .--address {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 25px;
+        span {
+          p {
+            font-size: 1em;
+            &:nth-child(1) {
+              margin-bottom: 10px;
+            }
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+    .--right-container {
+      margin-top: 5vh;
+      align-items: center;
+      p {
+        font-size: 1em;
+      }
+      sub {
+        font-size: 0.75em;
+      }
+    }
+    .col,
+    .col-md-8 {
+      flex: 0 0 100%;
+      width: 100%;
+    }
+  }
+}

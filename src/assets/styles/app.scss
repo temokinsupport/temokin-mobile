@@ -1,0 +1,89 @@
+// @import "~bootstrap/scss/bootstrap";
+@import "./fonts.css";
+
+.social-med {
+  img {
+    width: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-logo {
+    display: block;
+    width: 5vh !important;
+  }
+  .web-logo {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .mobile-logo {
+    display: none;
+  }
+  .web-logo {
+    display: block;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  // overflow-x: hidden !important;
+}
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  width: 100%;
+}
+.ml-auto {
+  margin-left: auto;
+}
+* {
+  transition: padding 0.5s;
+  transition: margin 0.5s;
+  transition: width 0.5s;
+  transition: max-width 0.5s;
+  transition: min-width 0.5s;
+  transition: flex 0.5s;
+}
+.--pl3v {
+  padding-left: 3.2vw !important;
+  padding-right: 0 !important;
+}
+.--page,
+.--page > div {
+  overflow: unset !important;
+}
+
+.fade-enter {
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.hide {
+  display: none !important;
+}
+
+.--mobile-nav-text {
+  font-family: "gill sans light", sans-serif !important;
+  font-size: 12pt !important;
+}
+
+.c-scrollbar {
+  display: none !important;
+  &:last-child {
+    display: unset !important;
+  }
+}

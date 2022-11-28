@@ -1,0 +1,725 @@
+/*
+*
+|  Page Name       : awardsandachievements.scss
+|  Description     : scss for awards and achievements page use
+|  Created by      : May Altamerano
+|  Date Created    : July 2 2021
+|  Last Update by  : May Altamerano
+|  Last update     : July 2 2021
+*
+*/
+
+.--awards-and-achievements {
+  min-height: 100vh;
+  .--bg-1 {
+    min-height: 50vw;
+    // margin-top: -9.1vw;
+    width: 100%;
+    padding: 10vw 0 0vw 0;
+    .--title {
+      font-family: "gill sans", sans-serif !important;
+      letter-spacing: 0.5vw;
+      font-weight: 500 !important;
+      text-transform: uppercase;
+      line-height: 3.1vw;
+      font-size: 2.3vw;
+      color: #283a97;
+      margin: 10.3vw 0 3.4vw 0;
+      text-align: center;
+    }
+    .--desc {
+      font-family: "gill sans medium", sans-serif;
+      font-weight: 500 !important;
+      margin-bottom: 9.4vw;
+      font-size: 1vw;
+      color: #676ab0;
+      line-height: 1.9vw;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .--bg-2 {
+    display: flex;
+    align-items: center;
+    margin-top: -9vw;
+
+    width: 100%;
+    padding-top: 2vw;
+    height: 90vw;
+    position: relative;
+    z-index: 3 !important;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 16vw;
+      right: -7vw;
+      width: 43vw;
+      height: 11vw;
+      border: 1px solid #ffffff;
+      z-index: 10;
+      transform: rotate3d(1, 4, 1, 39deg);
+      @media (max-width: 900px) {
+        display: none !important;
+      }
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: -15vw;
+      left: 0;
+      width: 34vw;
+      height: 30vw;
+      background: url("../images/awards/awards-bg-1.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      // z-index: 10;
+      // transform: rotate3d(6, -7, 5, 39deg);
+      // border: 1px solid #ffffff;
+
+      @media (max-width: 900px) {
+        display: none !important;
+      }
+    }
+    .--max {
+      max-width: 75%;
+    }
+    .--awards {
+      width: 90%;
+      height: auto;
+      object-fit: contain;
+      object-position: 0 0;
+      image-rendering: pixelated;
+    }
+    .--text-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      flex-direction: column;
+      height: 100%;
+      position: relative;
+      right: unset;
+      left: unset;
+      bottom: 0;
+      .--title {
+        font-family: "gill sans", sans-serif !important;
+        letter-spacing: 0.4vw;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        line-height: 3.1vw;
+        font-size: 1.4vw;
+        color: #ffffff;
+        margin: 0 0 1.8vw 0;
+        text-align: left;
+      }
+      .--desc {
+        font-family: "gill sans", sans-serif;
+        font-weight: 500 !important;
+        margin-bottom: 0;
+        letter-spacing: 0.2vw;
+        font-size: 0.9vw;
+        color: #ffffff;
+        line-height: 2.5vw;
+        text-align: left;
+        text-transform: uppercase;
+      }
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none !important;
+    }
+    .carousel-inner {
+      height: 50vw;
+    }
+    .carousel-indicators {
+      bottom: -12vw;
+      li {
+        height: 24px;
+        width: 24px;
+        border-radius: 100px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        transition: background-color 0.5s;
+        margin: 0 2vw;
+        :hover {
+          background-color: #ffffff;
+          transition: background-color 0.5s;
+        }
+        &.active {
+          background-color: #ffffff;
+          transition: background-color 0.5s;
+        }
+      }
+    }
+  }
+  .--bg-3 {
+    width: 100%;
+    padding: 8.5vw 0 10vw 0;
+    height: 80vw;
+    z-index: -1 !important;
+    /* &::before {
+      position: absolute;
+      content: "";
+      top: -16vw;
+      left: -7vw;
+      width: 31vw;
+      height: 13vw;
+      background-color: rgba(40, 57, 150, 0.66);
+      z-index: 10;
+      transform: rotate3d(6, -7, 5, 39deg);
+    } */
+    .--max {
+      max-width: 73%;
+    }
+    h1.--title {
+      font-family: "gill sans", sans-serif !important;
+      letter-spacing: 0.5vw;
+      font-weight: 600 !important;
+      text-transform: uppercase;
+      line-height: 3.1vw;
+      font-size: 2.3vw;
+      color: #283a97;
+      margin: 0vw 0 11.4vw 0;
+      text-align: center;
+      transform: scale(0) !important;
+      transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+      &.is-reveal {
+        transform: scale(1) !important;
+        transition-delay: 0.3s;
+      }
+    }
+    .--testimonial {
+      width: 95%;
+      height: auto;
+      object-fit: contain;
+      object-position: 0 0;
+      image-rendering: pixelated;
+    }
+    .--text-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      position: relative;
+      right: unset;
+      left: unset;
+      bottom: 0;
+      padding-top: 0;
+      .--title {
+        font-family: "gill sans", sans-serif !important;
+        letter-spacing: 0.2vw;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        line-height: 2.5vw;
+        font-size: 1.7vw;
+        color: #283997;
+        margin: 10.5vw 0 3vw 0;
+        text-align: center;
+      }
+      hr {
+        background-color: #283997;
+        height: 7vw;
+        width: 2px;
+        opacity: 1;
+      }
+      .--desc {
+        font-family: "gill sans", sans-serif;
+        font-weight: 500 !important;
+        margin-bottom: 0;
+        margin-top: 1vw;
+        letter-spacing: 0.2vw;
+        font-size: 1vw;
+        color: #283997;
+        line-height: 2.5vw;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .header-bg {
+    /* background: url("../images/awardsandachievements/hero-bg.png") top -9vw right;
+    background-repeat: no-repeat;
+    background-size: 128vw auto !important;
+    transition: background 0.3s;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+    height: 116vw;
+    top: 0; */
+    /* background: url("../images/awardsandachievements/hero-bg.png");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    width: 100%;
+    // height: 100vh;
+    z-index: -1;
+  }
+  .header-shape {
+    /* background: url("../images/awardsandachievements/Awards_Shapes-01.png") top
+      11vw right -30vw; */
+    background-repeat: no-repeat;
+    background-size: 153vw auto !important;
+    // transition: background 0.3s;
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+    height: 43vw;
+    top: 0;
+  }
+  .winner-bg {
+    background: url("../images/awardsandachievements/Awards_BG-02.png") top 0vw
+      left -2vw;
+    background-repeat: no-repeat;
+    background-size: 108vw 100vw;
+    transition: background 0.3s;
+    width: 100%;
+    position: absolute;
+    height: 115vw;
+    top: 0vw;
+    z-index: -1;
+  }
+  .testimonial-bg {
+    background: url("../images/awardsandachievements/testimonials-bg.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 150%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+
+  .awards {
+    font-family: "gill sans", sans-serif !important;
+    color: white;
+  }
+  .award {
+    $spacing: 7vw;
+    gap: 4vw !important;
+    padding: 0 2vw;
+    text-transform: uppercase;
+
+    p {
+      margin: 0;
+    }
+
+    &:not(:nth-of-type(1)) {
+      margin-top: $spacing;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: -$spacing / 2;
+        left: 50%;
+        transform: translateX(-50%);
+
+        height: 1px;
+        width: 108%;
+        background: white;
+      }
+    }
+
+    &__image {
+      padding: 0 0.8em;
+      margin-bottom: 8%;
+    }
+
+    &__left {
+      font-size: 1.5vw;
+      padding: 0 1.8em;
+    }
+
+    &__right {
+      gap: 12% !important;
+      line-height: 2.2vw;
+    }
+
+    &__name {
+      text-align: center;
+    }
+
+    &__place {
+      font-size: 1.3vw;
+    }
+
+    &__description,
+    &__address {
+      font-size: 1.1vw;
+    }
+  }
+
+  .testimonials {
+    display: flex;
+  }
+  .testimonial {
+    $row-spacing: 9vw;
+
+    font-family: "gill sans", sans-serif !important;
+    color: #283a97;
+
+    height: 80%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 12vw 10vw;
+    column-gap: 17vw;
+    row-gap: $row-spacing;
+    text-transform: uppercase;
+
+    font-size: 1vw;
+
+    p,
+    h3,
+    h4,
+    h5 {
+      margin: 0;
+      //   font-size: 1em;
+    }
+
+    & > * {
+      padding: 0;
+    }
+
+    &__label {
+      font-size: 1.6em;
+      letter-spacing: 0.2em;
+    }
+
+    .client {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__content {
+        display: flex;
+        align-items: center;
+        gap: 2.5em;
+      }
+
+      &__image {
+        flex: 2;
+      }
+      &__name {
+        flex: 3;
+        font-size: 1.4em;
+        letter-spacing: 0.13em;
+        // padding: 0 1em;
+      }
+    }
+
+    .message {
+      font-size: 1.7em;
+      letter-spacing: 0.2em;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .scope {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -$row-spacing / 2;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #283a97;
+      }
+
+      &__content {
+        font-size: 1.3em;
+        letter-spacing: 0.2em;
+
+        span {
+          display: block;
+        }
+      }
+    }
+
+    .sender {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -$row-spacing / 2;
+        left: 0;
+        width: 20%;
+        height: 1px;
+        background: #283a97;
+      }
+
+      &__name {
+        font-size: 1.3em;
+        letter-spacing: 0.2em;
+      }
+
+      &__position {
+        font-size: 0.9em;
+        line-height: 1.7em;
+        letter-spacing: 0.1em;
+        margin-top: 5%;
+        width: 80%;
+
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+  .testimonial-bottom-shape {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .winner-bg {
+      background-repeat: no-repeat;
+      background-size: 181vw 161vw;
+      transition: background 0.3s;
+      width: 100%;
+      position: absolute;
+      height: 138vw;
+      top: 0vw;
+    }
+    .--bg-1 {
+      padding: 100px 0;
+      margin: 0 auto;
+      max-width: 100%;
+      min-height: 50vw;
+      .--title {
+        font-size: 5.2vw;
+        line-height: 1.6;
+      }
+      .--desc {
+        font-size: 3.1vw;
+        line-height: 1.6;
+        max-width: 85%;
+        margin: 0 auto;
+        br {
+          display: none;
+        }
+      }
+    }
+    .--bg-2 {
+      min-height: 100vw;
+      padding-bottom: 100px;
+      height: auto;
+      .col-md-7,
+      .col {
+        flex: 0 0 100%;
+        width: 100%;
+      }
+      .--max {
+        max-width: 90%;
+      }
+      .--awards {
+        margin: 0 auto;
+        display: block;
+        width: 65%;
+      }
+      .carousel-inner {
+        min-height: 90vw;
+        height: auto;
+      }
+      .--text-container {
+        justify-content: center;
+        align-items: center;
+        h6 {
+          &.--title {
+            font-size: 1.125em;
+            line-height: 1.6;
+            text-align: center;
+          }
+        }
+        p {
+          &.--desc {
+            font-size: 3vw;
+            line-height: 1.6;
+            text-align: center;
+          }
+        }
+      }
+      .carousel-indicators {
+        li {
+          height: 23px;
+          width: 23px;
+          margin: 0 5vw;
+        }
+      }
+    }
+    .--bg-3 {
+      padding: 37vw 0 100px 0;
+      height: auto;
+      min-height: 50vw;
+      position: relative;
+      z-index: 5 !important;
+      &::before {
+        display: none;
+        // position: absolute;
+        // top: -4vw;
+        // right: 0;
+        // bottom: 0;
+        // left: 0;
+        // content: "";
+        // background: url("../images/mobile/awardsandachievements/Awards_BG-02.png") top center;
+        // background-size: 100vw auto;
+        // background-repeat: no-repeat;
+        // background-attachment: scroll;
+        // z-index: -1;
+        // width: 100%;
+      }
+      .col-md-7,
+      .col {
+        flex: 0 0 100%;
+        width: 100%;
+      }
+      .--max {
+        max-width: 90%;
+      }
+      h1 {
+        &.--title {
+          font-size: 1.5em;
+        }
+      }
+      .--text-container {
+        h6 {
+          &.--title {
+            font-size: 1.375em;
+            line-height: 1.6;
+          }
+        }
+        p {
+          &.--desc {
+            font-size: 0.875em;
+            line-height: 1.6;
+          }
+        }
+      }
+      .--testimonial {
+        width: 65%;
+        height: auto;
+        object-fit: contain;
+        object-position: 0 0;
+        image-rendering: pixelated;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+  @media (max-width: 920px) {
+    .--bg-3 {
+      &::before {
+        top: -10vw;
+      }
+    }
+  }
+  @media (max-width: 860px) {
+    .--bg-3 {
+      &::before {
+        top: -15vw;
+      }
+    }
+  }
+  @media (max-width: 796px) {
+    background: url("../images/awardsandachievements/Awards_Shapes-01.png") top
+        11vw left -24vw,
+      url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 53vw
+        right -2vw,
+      url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
+      url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
+    background-size: 156vw auto, 100vw 170vw, 100vw auto, auto 90vw;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    .winner-bg,
+    .header-bg,
+    .header-shape,
+    .testimonial-bg {
+      display: none;
+    }
+    .--bg-2 {
+      min-height: 145vw;
+    }
+  }
+  @media (max-width: 796px) {
+    .--bg-2 {
+      min-height: 132vw;
+    }
+  }
+  @media (max-width: 680px) {
+    .--bg-3 {
+      padding: 140px 0 100px 0;
+      &::before {
+        top: -20vw;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    background: url("../images/awardsandachievements/Awards_Shapes-01.png") top
+        11vw left -24vw,
+      url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 65vw
+        right -2vw,
+      url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
+      url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
+    background-size: 156vw auto, 100vw 160vw, 100vw auto, auto 105vw;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+  }
+  @media (max-width: 569px) {
+    background: url("../images/awardsandachievements/Awards_Shapes-01.png") top
+        24vw left -24vw,
+      url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 90vw
+        right -2vw,
+      url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
+      url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
+    background-size: 156vw auto, 140vw 135vw, 100vw auto, auto 135vw;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    .--bg-1 {
+      height: 95vw;
+    }
+  }
+  @media (max-width: 500px) {
+    background: url("../images/awardsandachievements/Awards_Shapes-01.png") top
+        24vw left -40vw,
+      url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 70vw
+        right -2vw,
+      url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
+      url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
+    background-size: 190vw 93vw, 140vw 205vw, 100vw 400vw, auto 150vw;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    .--bg-3 {
+      &::before {
+        background-size: 120vw auto;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

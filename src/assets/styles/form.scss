@@ -1,0 +1,128 @@
+form {
+  margin-left: 5vw;
+  &.form--violet {
+    label,
+    .upload__message,
+    .terms {
+      color: #676ab1 !important;
+    }
+    input {
+      border: 1px solid #676ab1 !important;
+    }
+  }
+  &.form--white {
+    label {
+      color: white !important;
+    }
+    input {
+      border: 1px solid white !important;
+    }
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    /*  transform: scale(0) !important;
+    transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33); 
+    transform: scale(1) !important;
+    transition-delay: 0.3s;*/
+    /*  &.is-reveal {
+    } */
+  }
+  label {
+    font-family: "gill sans", sans-serif !important;
+    letter-spacing: 0.1vw;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-size: 0.8vw;
+    // color: #ffffff;
+    // margin: 0 0.5vw 0.5vw 0;
+    text-align: right;
+
+    ul {
+      font-size: 0.7em;
+      text-align: start;
+      //   padding: 0;
+    }
+  }
+  input {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    height: 4vw;
+    padding: 1vw;
+    background-color: transparent !important;
+    background: transparent !important;
+    font-family: "gill sans medium", sans-serif !important;
+    letter-spacing: 0.1vw;
+  }
+  textarea {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    height: 4vw;
+    padding: 1vw;
+    background-color: transparent !important;
+    background: transparent !important;
+    resize: none;
+    font-family: "gill sans medium", sans-serif !important;
+    letter-spacing: 0.1vw;
+  }
+
+  .form-check {
+    label {
+      margin-left: 1em;
+    }
+    /* input[type="checkbox"] {
+      border-radius: 100% !important;
+      padding: 0.6em;
+    } */
+  }
+  .upload {
+    &__message {
+      font-family: "gill sans", sans-serif !important;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      font-size: 0.9em;
+
+      & > * {
+        display: block;
+      }
+    }
+  }
+  .--btn-send {
+    background: url("../images/contactus/Contact_Button-01.png") top center;
+    background-repeat: no-repeat;
+    transition: background 0.3s;
+    image-rendering: -webkit-optimize-contrast;
+    width: 15vw;
+    height: 60px;
+    background-position: center;
+    background-size: contain;
+    border: 0 !important;
+    border-radius: 0 !important;
+    outline: 0 !important;
+    display: block;
+    margin: 5vw auto 0 11.7vw;
+    outline: 0 !important;
+    box-shadow: none !important;
+    /* transform: scale(0) !important;
+    transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+    &.is-reveal {
+      transform: scale(1) !important;
+      transition-delay: 0.3s;
+    } */
+    &:focus {
+      outline: 0 !important;
+    }
+  }
+}

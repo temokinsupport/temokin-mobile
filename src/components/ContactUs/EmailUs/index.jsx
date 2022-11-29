@@ -1,6 +1,6 @@
 import React, {} from "react";
 import Iframe from 'react-iframe';
-import { Container, Row, Col, Form, Button, Modal} from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Modal, Image} from 'react-bootstrap';
 import Footer from '../../Footer';
 import axios from "axios";
 import bgModalImg from '../../../assets/images/contactus/Tem_Prompt-Modal-BG.png';
@@ -116,10 +116,18 @@ export default class EmailUs extends React.Component {
 
         return (
             <div className="--bg-2" data-scroll-section>
+                <Image
+                    className="svg svg--1"
+                    src={
+                        require("../../../assets/images/contactus/Group_1093.svg").default
+                    }
+                />
+
                 <Container className="--max">
                 <Row>
                     <Col md={6}>
-                    <h3 className="--title" data-scroll>Let's Get This Conversation Started!</h3>
+                    <h3 className="--title" data-scroll>Let's Get This <br /> Conversation Started!</h3>
+                    
                     <Form>
                         <Form.Group as={Row} controlId="formPlaintextName" data-scroll>
                             <Form.Label column sm="3">
@@ -163,10 +171,27 @@ export default class EmailUs extends React.Component {
                     <Col md={6}>
                     <div className="--map-container" data-scroll>
                         <Iframe 
-                        width="100%" 
-                        height="100%" 
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Temokin%20Holdings%20Sdn%20Bhd,%20No,2,%20Jalan%2015/48a,%20Sentul%20Raya%20Boulevard,%2051000%20Kuala%20Lumpur,%20Federal%20Territory%20of%20Kuala%20Lumpur,%20Malaysia+(temokin%20holdings%20sdn%20bhd)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"/>
+                            width="100%" 
+                            height="100%" 
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                            src={
+                                require("../../../assets/images/contactus/Page-2-Map.png").default
+                            }
+                        />
+
+                        <Image
+                            className="svg svg--2"
+                            src={
+                                require("../../../assets/images/contactus/Path_239.png").default
+                            }
+                        />
+
+                        <Image
+                            className="svg svg--3"
+                            src={
+                                require("../../../assets/images/contactus/Group_1093.svg").default
+                            }
+                        />
                     </div>
                     </Col>
                 </Row>

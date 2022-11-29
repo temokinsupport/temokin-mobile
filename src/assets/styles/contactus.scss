@@ -15,10 +15,37 @@
 .--contact-us {
   position: relative;
 
+  .svg {
+    position: absolute;
+    z-index: 3;
+
+    &--1 {
+      top: -3%;
+      right: -90%; 
+
+      width: 150vw;
+    }
+
+    &--2 {
+      top: -65%;
+      left: -90%; 
+
+      width: 100vw;
+    }
+
+    &--3 {
+      bottom: -20%;
+      right: -90%; 
+
+      width: 100vw;
+    }
+  }
+
   .--bg-1 {
     padding: 10vw 0 0 0;
     min-height: 50vw;
     width: 100%;
+
     .--max {
       max-width: 86%;
       img {
@@ -204,7 +231,7 @@
       }
     }
     .--map-container {
-      width: 35vw;
+      width: 100vw;
       height: 30vw;
       padding-top: 2vw;
       position: relative;
@@ -221,6 +248,7 @@
         margin-left: -2.5vw;
         width: 37.5vw;
       }
+
     }
     .header-shapes {
       position: absolute;
@@ -391,7 +419,7 @@
         display: block;
         margin: 100px auto;
         iframe {
-          margin-left: 0;
+          margin-left: 3.5vw;
           width: 100%;
         }
       }
@@ -405,12 +433,26 @@
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
 
+    .--bg-2 {
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
+    }
+
     .--bg-1 {
       .--max {
         max-width: 86%;
         img {
           height: 25vw;
           width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 9.5%;
+          left: -45%;
+          position: absolute;
         }
       }
     }
@@ -426,12 +468,26 @@
       height: 195vw;
     }
 
+    .--bg-2 {
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
+    }
+
     .--bg-1 {
       .--max {
         max-width: 86%;
         img {
           height: 25vw;
           width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 9.5%;
+          left: -45%;
+          position: absolute;
         }
       }
     }
@@ -443,6 +499,14 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .--bg-2 {
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
+    }
+
     .--bg-1 {
       padding: 150px 0 100px 0;
       .header-shapes {
@@ -453,9 +517,21 @@
 
       .--max {
         max-width: 86%;
+
+        h1.--title {
+          font-size: 10px;
+        }
+
         img {
           height: 25vw;
           width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 9.5%;
+          left: -45%;
+          position: absolute;
         }
       }
     }
@@ -484,6 +560,11 @@
           text-align: left !important;
         }
       }
+
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
     }
 
     .--bg-1 {
@@ -492,6 +573,13 @@
         img {
           height: 25vw;
           width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 9.5%;
+          left: -45%;
+          position: absolute;
         }
       }
     }
@@ -513,6 +601,11 @@
           text-align: left !important;
         }
       }
+
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
     }
 
     .--bg-1 {
@@ -521,6 +614,13 @@
         img {
           height: 25vw;
           width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 9.5%;
+          left: -45%;
+          position: absolute;
         }
       }
     }
@@ -545,6 +645,11 @@
           margin: 5vw auto 0 auto;
         }
       }
+
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
     }
     .--bg-1 {
       .--max {
@@ -552,6 +657,13 @@
         img {
           height: 25vw;
           width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 9.5%;
+          left: -45%;
+          position: absolute;
         }
       }
     }
@@ -576,14 +688,27 @@
           margin: 5vw auto 0 auto;
         }
       }
+
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
     }
 
     .--bg-1 {
       .--max {
         max-width: 86%;
+
         img {
           height: 25vw;
           width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 9.5%;
+          left: -45%;
+          position: absolute;
         }
       }
     }

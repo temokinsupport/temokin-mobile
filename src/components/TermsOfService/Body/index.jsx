@@ -29,7 +29,7 @@ export default class EmailUs extends React.Component {
     this.hideModal = this.hideModal.bind(this);
     this.btnClick = this.btnClick.bind(this);
   }
-  btnClick(e) {
+  btnClick(e) {  
     e.preventDefault();
     const err = [];
     const data = Object.keys(this.state)
@@ -131,6 +131,12 @@ export default class EmailUs extends React.Component {
         <Image
           className="svg svg--1"
           src={
+            require("../../../assets/images/termsofservice/Group_1041.png").default
+          }
+        />
+        {/* <Image
+          className="svg svg--1"
+          src={
             require("../../../assets/images/termsofservice/svg-01.svg").default
           }
         />
@@ -151,88 +157,74 @@ export default class EmailUs extends React.Component {
           src={
             require("../../../assets/images/termsofservice/svg-02.svg").default
           }
-        />
+        /> */}
 
         <Container className="--max p-0">
           <Row className="justify-content-center textBody m-0">
             <div className="textBody-bg" />
             <Col md={8}>
               <div className="textBodyTitle" data-scroll>
-                The use of this website is subject to the following terms of
-                use:
+                The use of this website is subject to the <br />
+                following terms of use:
               </div>
 
               <div className="bodyContent">
-                The Content of the pages of this website is for your general
-                information and use only. <br /> and we reserve the rights to
-                and we reserve the rights to change, vary or modify any of the
-                information and terms <br />
-                contained herein without notice.
+                The Content of the pages of this website is for your <br />
+                general information and use only, and we reserve the <br /> 
+                rights to change, vary or modify any of the information <br />
+                and terms contained herein without notice.
+              </div>
+
+              <hr className="separator" />
+              <div className="bodyContent">
+                Neither we nor any third parties provide any warranty or <br />
+                guarantee as to the accuracy, timeliness, performance, <br />
+                completeness or suitability of the information and <br />
+                materials found or offered on this website for any <br />
+                particular purpose. You acknowledge that such information <br /> 
+                and materials may contain inaccuracies or errors and we <br /> 
+                expressly exclude liability for any such inaccuracies or <br />
+                errors to the fullest extent permitted by law.
               </div>
               <hr className="separator" />
               <div className="bodyContent">
-                Neither we nor any third parties provide any warranty or
-                guarantee as to the accuracy, <br />
-                timeliness, performance, completeness or suitability of the
-                information and materials
-                <br />
-                found or offered on this website for any particular purpose. You
-                acknowledge that such <br />
-                information and materials may contain inaccuracies or errors and
-                we expressly exclude <br />
-                liability for any such inaccuracies or errors to the fullest
-                extent permitted by law.
+                Your use of any information or materials on this website <br /> 
+                is entirely at your own risk, for which we shall not be <br />
+                liable. It shall be your own responsibility to ensure that <br />
+                any products, services or information available through <br />
+                this website meet your specific requirements.
               </div>
               <hr className="separator" />
               <div className="bodyContent">
-                Your use of any information or materials on this website is
-                entirely at your own risk, for
-                <br />
-                which we shall not be liable. It shall be your own
-                responsibility to ensure that any products,
-                <br />
-                services or information available through this website meet your
-                specific requirements.
+                This website contains material which is owned by or licensed <br /> 
+                to us. This material includes, but is not limited to, the, <br />
+                design layout, look, appearance and graphics. Reproduction is <br />
+                prohibited other than in accordance with the copyright <br />
+                notice, which forms part of these terms and conditions.
               </div>
               <hr className="separator" />
               <div className="bodyContent">
-                This website contains material which is owned by or licensed to
-                us. This material includes, <br />
-                but is not limited to, the design, layout, look, appearance and
-                graphics. Reproduction is
-                <br />
-                prohibited other than in accordance with the copyright notice,
-                which forms part of these <br />
-                terms and conditions.
+                All trademarks reproduced in this website which are <br />
+                not the property of, or licensed to, the operator is <br />
+                acknowledged on the website.
               </div>
               <hr className="separator" />
               <div className="bodyContent">
-                All trademarks reproduced in this website which are not the
-                property of, or licensed to, the <br />
-                operator is acknowledged on the website.
+                Unauthorized use of this website may give rise to  <br /> 
+                a claim for damages and/or be a criminal offense.
               </div>
               <hr className="separator" />
               <div className="bodyContent">
-                Unauthorized use of this website may give rise to a claim for
-                damages and/or be a <br />
-                criminal offense.
+                From time to time this website may also include links<br />
+                to other  websites. These links are provided for your <br />
+                convenience to provide further information.They do <br />
+                not signify that we endorse the website(s). We Have no <br />
+                responsibility for the content of the linked website(s).
               </div>
               <hr className="separator" />
               <div className="bodyContent">
-                From time to time this website may also include links to other
-                websites. These links are
-                <br />
-                provided for your convenience to provide further information.
-                They do not signify that we
-                <br />
-                endorse the website(s). We Have no responsibility for the
-                content of the linked website(s).
-              </div>
-              <hr className="separator" />
-              <div className="bodyContent">
-                Your use of this website and any dispute arising out of such use
-                of the website is <br />
-                subject to the laws of Malaysia.
+                Your use of this website and any dispute arising out of <br />
+                such use of the website is subject to the laws of Malaysia.
               </div>
             </Col>
           </Row>

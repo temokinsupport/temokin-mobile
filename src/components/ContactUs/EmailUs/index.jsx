@@ -182,7 +182,7 @@ export default class EmailUs extends React.Component {
             </Modal>
             </Container>
             <div className="form-bg" data-scroll data-scroll-speed="2"/>
-            <div className="header-shapes" data-scroll data-scroll-speed="1"/>
+            {/* <div className="header-shapes" data-scroll data-scroll-speed="1"/> */}
             <Footer/>
           </div>
         )

@@ -37,17 +37,18 @@ export default function Header() {
     <div className="--bg-1" data-scroll-section>
       <Navigation />
       <Container className="--max">
-        <Row>
+        <Col>
           <Col>
             <h1 className="--title" data-scroll id="header-text">
               Get In Touch
             </h1>
           </Col>
-        </Row>
-        <Row>
+        </Col>
+        <Col>
           <Col md={4}>
             <Image
               data-aos="zoom-in"
+              className="--image"
               src={
                 require("../../../assets/images/contactus/Contact_Icon-01.png")
                   .default
@@ -65,21 +66,23 @@ export default function Header() {
           <Col md={4}>
             <Image
               data-aos="zoom-in"
+              className="--image"
               src={
                 require("../../../assets/images/contactus/Contact_Icon-02.png")
                   .default
               }
             />
             <h3 data-aos="zoom-in" data-aos-duration="1000" className="--title">
-              Phone
+              Tel
             </h3>
             <p data-aos="zoom-in" data-aos-duration="1000" className="--desc">
-              Tel: +603-40441111 <br />
+              +603-40441111 <br />
             </p>
           </Col>
           <Col md={4}>
             <Image
               data-aos="zoom-in"
+              className="--image"
               src={
                 require("../../../assets/images/contactus/Contact_Icon-03.png")
                   .default
@@ -92,10 +95,10 @@ export default function Header() {
               temokin@temokin.com
             </p>
           </Col>
-        </Row>
+        </Col>
       </Container>
       <div className="header-bg" />
-      <div className="header-shapes" data-scroll data-scroll-speed="-1" />
+      {/* <div className="header-shapes" data-scroll data-scroll-speed="-1" /> */}
     </div>
   );
 }

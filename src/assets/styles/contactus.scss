@@ -404,6 +404,16 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .--bg-1 {
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
+        }
+      }
+    }
   }
   @media (max-width: 740px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
@@ -414,6 +424,16 @@
     image-rendering: -webkit-optimize-contrast;
     .form-bg {
       height: 195vw;
+    }
+
+    .--bg-1 {
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
+        }
+      }
     }
   }
   @media (max-width: 600px) {
@@ -428,6 +448,14 @@
       .header-shapes {
         &::before {
           top: 13vw;
+        }
+      }
+
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
         }
       }
     }
@@ -457,6 +485,16 @@
         }
       }
     }
+
+    .--bg-1 {
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
+        }
+      }
+    }
   }
   @media (max-width: 500px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
@@ -473,6 +511,16 @@
         margin: 0 auto;
         label {
           text-align: left !important;
+        }
+      }
+    }
+
+    .--bg-1 {
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
         }
       }
     }
@@ -498,9 +546,18 @@
         }
       }
     }
+    .--bg-1 {
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
+        }
+      }
+    }
   }
   @media (max-width: 400px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-01.png") top -20vw right;
     background-size: 280vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -517,6 +574,16 @@
         }
         .--btn-send {
           margin: 5vw auto 0 auto;
+        }
+      }
+    }
+
+    .--bg-1 {
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
         }
       }
     }

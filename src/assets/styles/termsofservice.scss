@@ -17,10 +17,11 @@
     z-index: 3;
 
     &--1 {
-      top: -1%;
-      left: 0;
+      top: 7%;
+      right: -32%; 
 
-      width: 40vw;
+      width: 80vw;
+      height: 150px;
     }
 
     &--2 {
@@ -535,16 +536,39 @@
   }
 
   @media (max-width: 920px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-new.png") top -8vw right;
     background-size: 165vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
+    }
   }
 
   @media (max-width: 740px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-new.png") top -8vw right;
     background-size: 180vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -554,10 +578,37 @@
     .form-bg {
       height: 195vw;
     }
+
+    .--subContent {
+      font-size: 14px;
+    }
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
+    }
   }
 
   @media (max-width: 600px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-new.png") top -8vw right;
     background-size: 200vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -573,10 +624,33 @@
       //   }
       // }
     }
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
+    }
   }
 
   @media (max-width: 566px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-new.png") top -8vw right;
     background-size: 220vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -592,7 +666,7 @@
     }
 
     .--bg-2 {
-      padding: 45.5vw 0 0 0;
+      padding: 10vw 0 0 0;
 
       form {
         margin-left: 0;
@@ -604,10 +678,33 @@
         }
       }
     }
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
+    }
   }
 
   @media (max-width: 500px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-new.png") top -8vw right;
     background-size: 235vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -615,7 +712,7 @@
     image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
-      padding: 45.5vw 0 0 0;
+      padding: 10vw 0 0 0;
 
       form {
         margin-left: 0;
@@ -626,11 +723,34 @@
           text-align: left !important;
         }
       }
+    }
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
     }
   }
 
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-new.png") top -8vw right;
     background-size: 280vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -638,7 +758,7 @@
     image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
-      padding: 45.5vw 0 0 0;
+      padding: 10vw 0 0 0;
 
       form {
         margin-left: 0;
@@ -654,10 +774,33 @@
         }
       }
     }
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
+    }
   }
 
   @media (max-width: 400px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    background: url("../images/contactus/Contact_BG-new.png") top -2vw right;
     background-size: 280vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -665,7 +808,7 @@
     image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
-      padding: 45.5vw 0 0 0;
+      padding: 10vw 0 0 0;
 
       form {
         margin-left: 0;
@@ -680,6 +823,29 @@
           margin: 5vw auto 0 auto;
         }
       }
+    }
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
     }
   }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "react-alias";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Vision() {
@@ -15,7 +16,7 @@ export default function Vision() {
               company that
             </p>
             <h1 className="--title" data-scroll data-scroll-speed="2">
-              WINS <br />
+              WINNING <br />
               YOUR TRUST <br />
               EVERY TIME
             </h1>
@@ -23,8 +24,16 @@ export default function Vision() {
         </Row>
       </Container>
       <div className="vision-bg" data-scroll />
-      <div className="overlay-shape--1" data-scroll data-scroll-speed="1" />
-      <div className="overlay-shape--2" data-scroll data-scroll-speed="1" />
+      <Image
+        className="svg svg--2"
+        src={require("../../../assets/images/aboutus/svg-1.svg").default}
+      />
+      <Image
+        className="svg svg--3"
+        src={require("../../../assets/images/aboutus/svg-2.svg").default}
+      />
+      {/* <div className="overlay-shape--1" data-scroll data-scroll-speed="1" />
+      <div className="overlay-shape--2" data-scroll data-scroll-speed="1" /> */}
     </section>
   );
 }

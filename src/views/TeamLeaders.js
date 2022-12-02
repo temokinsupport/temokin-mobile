@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import useLocoScroll from "../components/hooks/useLocoScroll";
 // import { useMediaQuery } from 'react-responsive';
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import "../assets/styles/teamleaders.scss";
 import Join from "../components/TeamLeaders/Join";
@@ -16,6 +16,7 @@ const TeamLeaders = () => {
   const [timer, setTimer] = useState(1);
 
   const id = useRef(null);
+  const history = useHistory();
 
   const clear = () => {
     window.clearInterval(id.current);
@@ -151,36 +152,31 @@ const TeamLeaders = () => {
           id="main-container"
           data-scroll-container
         >
-          <div className="--bg-1" data-scroll-section>
-            <div className="--shape-left">
-              <Image
-                src={
-                  require("../assets/images/teamleaders/Group 848.png").default
-                }
-              />
-            </div>
-            <div className="--shape-right-1">
-              <Image
-                src={
-                  require("../assets/images/teamleaders/Group 849.png").default
-                }
-              />
-            </div>
+          <div className="--bg-1 position-relative" data-scroll-section>
+            <Image
+              className="svg svg--1"
+              src={require("../assets/images/teamleaders/svg-1.svg").default}
+            />
+            <Image
+              className="svg svg--2"
+              src={require("../assets/images/teamleaders/svg-2.svg").default}
+            />
+
             <Navigation />
-            <Container>
+            <Container className="header">
               <Row>
-                <Col>
+                <Col className="text-center">
                   <h1 className="--title">Meet Our Leaders</h1>
                   <p className="--desc">
                     With a combined 55 years of experience in the construction
-                    and property industry, <br />
-                    our Board of Directors bring to the table a wide spectrum
-                    skill sets and visionary <br />
-                    ideas will keep the TEMOKIN ship steering in the right
-                    direction. Here you'll meet a <br />
-                    diverse group leaders, from highly-acclaimed and respected
-                    veterans to a new <br />
-                    generation of young powerhouses.
+                    <br />
+                    and property industry, our Board of Directors bring to the{" "}
+                    <br /> table a wide spectrum skill sets and visionary ideas
+                    will keep <br /> the TEMOKIN ship steering in the right
+                    direction. <br /> Here you'll meet a diverse group leaders,
+                    from highly- <br />
+                    acclaimed and respected veterans to a new generation of{" "}
+                    <br /> young powerhouses.
                   </p>
                 </Col>
               </Row>
@@ -188,44 +184,39 @@ const TeamLeaders = () => {
             <Container className="--max">
               <Row>
                 {teamLeaders.map((teamLeader) => (
-                  <Col md={4} key={teamLeader.id}>
-                    <Card
-                      className="bg-dark text-white teamLeaderBox"
-                      data-scroll
-                      data-scroll-speed="2"
+                  <Col
+                    className="team-leader__container"
+                    md={4}
+                    key={teamLeader.id}
+                  >
+                    <NavLink
+                      className="team-leader__link"
+                      to={teamLeader.pathLeader}
                     >
-                      <div className="teamLeaderBg">
-                        <span className="secondPosition">
-                          {teamLeader.secondPosition}
-                        </span>
-                        <div className="teamLeaderName">{teamLeader.name}</div>
-                        <hr className="teamHr"></hr>
-                        <div className="teamLeaderPosition">
+                      <Card
+                        className="text-white team-leader"
+                        data-scroll
+                        data-scroll-speed="2"
+                      >
+                        <div className="team-leader__name">
+                          {teamLeader.name}
+                        </div>
+                        <hr />
+                        <div className="team-leader__position">
                           {teamLeader.position}
                         </div>
-                        <div className="full-bio">FULL BIOGRAPHY</div>
-                        <div className="bottomAngle"></div>
-                        <div className="bottomAngle2"></div>
-                      </div>
-                      {/* <Card.Img src={teamLeader.img} alt={teamLeader.alt} />
-                      <Card.ImgOverlay>
-                        <Card.Img src={teamLeader.img2} alt={teamLeader.alt} />
-                      </Card.ImgOverlay> */}
-                      <NavLink to={teamLeader.pathLeader} />
-                    </Card>
+                        <span className="team-leader__sub-position">
+                          {teamLeader.secondPosition}
+                        </span>
+                      </Card>
+                    </NavLink>
                   </Col>
                 ))}
               </Row>
             </Container>
           </div>
           <div className="--bg-2" data-scroll-section>
-            <div className="--shape-right">
-              <Image
-                src={
-                  require("../assets/images/teamleaders/Group 89.png").default
-                }
-              />
-            </div>
+            <div className="--shape-right"></div>
             <Join />
             <Footer />
           </div>

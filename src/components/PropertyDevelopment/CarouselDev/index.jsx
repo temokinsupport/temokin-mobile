@@ -202,7 +202,7 @@ export default function CarouselDev() {
                       className="--btn-view-project"
                       to={item.links.website}
                     >
-                      View Website
+                      Visit Website
                     </NavLink>
                   ) : null}
                 </div>

@@ -14,7 +14,7 @@
     position: absolute;
     pointer-events: none;
 
-    &--1 {
+    &--1 { 
       bottom: 0;
       left: 0;
       width: 100%;
@@ -1299,6 +1299,7 @@
       height: 85vw;
       background-size: 120vw auto, auto 140vw;
       padding: 0;
+      max-width: 100%;
 
       .--title {
         font-size: 1.5em;
@@ -1308,11 +1309,16 @@
       }
 
       .--desc {
-        font-size: 0.875em;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 2.5;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #676AB1;
 
-        br {
-          display: none;
-        }
+        // br {
+        //   display: none;
+        // }
       }
 
       .--about-content {
@@ -1828,7 +1834,7 @@
     }
 
     .--header-container {
-      height: 100vw !important;
+      height: 38vh !important;
 
       button {
         &.carousel-control-next {
@@ -1851,7 +1857,7 @@
 
   @media (max-width: 700px) {
     .--header-container {
-      height: 120vw !important;
+      height: 38vh !important;
     }
 
     .parallax-bg {
@@ -1950,7 +1956,7 @@
 
   @media (max-width: 590px) {
     .--header-container {
-      height: 700px !important;
+      height: 50vh !important;
 
       .--build-project-list {
         figure {

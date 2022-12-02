@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3744299a.chunk.css",
-    "main.js": "/static/js/main.f657a3e4.chunk.js",
-    "main.js.map": "/static/js/main.f657a3e4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6f59fedf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6f59fedf.js.map",
+    "main.css": "/static/css/main.44488d0f.chunk.css",
+    "main.js": "/static/js/main.c1b433d3.chunk.js",
+    "main.js.map": "/static/js/main.c1b433d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4cad8c72.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4cad8c72.js.map",
     "static/css/2.ffd0fd5c.chunk.css": "/static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.24b54cec.chunk.js": "/static/js/2.24b54cec.chunk.js",
-    "static/js/2.24b54cec.chunk.js.map": "/static/js/2.24b54cec.chunk.js.map",
-    "static/js/3.92728e4d.chunk.js": "/static/js/3.92728e4d.chunk.js",
-    "static/js/3.92728e4d.chunk.js.map": "/static/js/3.92728e4d.chunk.js.map",
+    "static/js/2.852f2fef.chunk.js": "/static/js/2.852f2fef.chunk.js",
+    "static/js/2.852f2fef.chunk.js.map": "/static/js/2.852f2fef.chunk.js.map",
+    "static/js/3.5b723755.chunk.js": "/static/js/3.5b723755.chunk.js",
+    "static/js/3.5b723755.chunk.js.map": "/static/js/3.5b723755.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ffd0fd5c.chunk.css.map": "/static/css/2.ffd0fd5c.chunk.css.map",
-    "static/css/main.3744299a.chunk.css.map": "/static/css/main.3744299a.chunk.css.map",
-    "static/js/2.24b54cec.chunk.js.LICENSE.txt": "/static/js/2.24b54cec.chunk.js.LICENSE.txt",
-    "static/js/main.f657a3e4.chunk.js.LICENSE.txt": "/static/js/main.f657a3e4.chunk.js.LICENSE.txt",
+    "static/css/main.44488d0f.chunk.css.map": "/static/css/main.44488d0f.chunk.css.map",
+    "static/js/2.852f2fef.chunk.js.LICENSE.txt": "/static/js/2.852f2fef.chunk.js.LICENSE.txt",
+    "static/js/main.c1b433d3.chunk.js.LICENSE.txt": "/static/js/main.c1b433d3.chunk.js.LICENSE.txt",
     "static/media/1.png": "/static/media/1.c1f8ae6e.png",
     "static/media/1.svg": "/static/media/1.a52c1bbb.svg",
     "static/media/2.png": "/static/media/2.c386654d.png",
@@ -71,6 +71,7 @@
     "static/media/Awards_Shapes-03.png": "/static/media/Awards_Shapes-03.fb2275cd.png",
     "static/media/Button-FB.svg": "/static/media/Button-FB.8dd75661.svg",
     "static/media/Button-IG.svg": "/static/media/Button-IG.c2dd4d7f.svg",
+    "static/media/Button-LandAcquisition.svg": "/static/media/Button-LandAcquisition.8a21b773.svg",
     "static/media/civilengineering.scss": "/static/media/CivilEng_Shapes-02.0fa65c60.png",
     "static/media/CivilEng_BG-01-4.png": "/static/media/CivilEng_BG-01-4.38c40f9f.png",
     "static/media/CivilEng_BG-01.png": "/static/media/CivilEng_BG-01.419a2f9b.png",
@@ -309,10 +310,10 @@
     "static/media/wedig-bg.png": "/static/media/wedig-bg.d17e3b83.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f59fedf.js",
+    "static/js/runtime-main.4cad8c72.js",
     "static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.24b54cec.chunk.js",
-    "static/css/main.3744299a.chunk.css",
-    "static/js/main.f657a3e4.chunk.js"
+    "static/js/2.852f2fef.chunk.js",
+    "static/css/main.44488d0f.chunk.css",
+    "static/js/main.c1b433d3.chunk.js"
   ]
 }

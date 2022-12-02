@@ -134,7 +134,12 @@ export default function Featured() {
                   />
                 </div>
 
-                <Carousel fade className="--carousel-mb" ref={ref} loop={false}>
+                <Carousel
+                  interval={null}
+                  fade
+                  className="--carousel-mb"
+                  ref={ref}
+                >
                   <Carousel.Item>
                     <img
                       className="d-block"
@@ -173,18 +178,35 @@ export default function Featured() {
                       </NavLink>
                     </Carousel.Caption>
                   </Carousel.Item>
-                  {/* <Carousel.Item>
-                      <img
-                        className="d-block w-50"
-                        src={require('../../../assets/images/home/Mask Group 65.jpg').default}
-                        alt="First slide"
-                      />
-                      <Carousel.Caption>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-50"
+                      src={
+                        require("../../../assets/images/home/Mask Group 65.jpg")
+                          .default
+                      }
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
                       <h3>PROPERTY DEVELOPMENT</h3>
-                        <p> Temokin has a collective property development experience of over 50 years, having designed and built complex skycrapers, hospitals and vast modern retail spaces on behalf of our clients. Our current portfolio includes the building of high-quality duplex homes and the new Istana Negara (Malaysia's national palace).</p>
-                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
-                      </Carousel.Caption>
-                  </Carousel.Item> */}
+                      <p>
+                        {" "}
+                        Temokin has a collective property development experience
+                        of over 50 years, having designed and built complex
+                        skycrapers, hospitals and vast modern retail spaces on
+                        behalf of our clients. Our current portfolio includes
+                        the building of high-quality duplex homes and the new
+                        Istana Negara (Malaysia's national palace).
+                      </p>
+                      <NavLink
+                        to="/property-development"
+                        variant="light"
+                        className="--btn-check-our-work"
+                      >
+                        CHECK OUT OUR WORK
+                      </NavLink>
+                    </Carousel.Caption>
+                  </Carousel.Item>
                 </Carousel>
               </div>
             )}

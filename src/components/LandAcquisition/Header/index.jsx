@@ -68,33 +68,38 @@ export default function Header() {
             require("../../../assets/images/landacquisition/svg-5.svg").default
           }
         />
-        <Image
+        {/* <Image
           className="svg svg--6"
           src={
             require("../../../assets/images/landacquisition/svg-6.svg").default
           }
-        />
+        /> */}
         <Container className="--max land-acquisition__container">
           <Row>
             <Col>
               <h1 className="--title" data-scroll id="header-text">
-                LAND ACQUISITION
+                LAND
+              </h1>
+
+              <h1 className="--title" data-scroll id="header-text">
+                ACQUISITION
               </h1>
             </Col>
           </Row>
           <Row className="justify-content-center text-header pb-5 relative">
             <Col md="10" sm="12" className="pb-5 mb-5 header-text">
-              As part of our relentless pursuit to enhance quality of life, we
-              welcome you to
+              As part of our relentless pursuit to <br />
+              enhance quality of life, we welcome
               <br />
-              share with us any land opportunities, be it for residential,
-              commercial <br />
-              or industrial developments.
+              you to share with us any land <br />
+              opportunities, be it for residential, <br />
+              commercial or industrial <br />
+              developments.
             </Col>
             <Col md="12" sm="12" className="mb-4">
-              <Row className="row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                <Col md="3" className="text-end land-label__container">
-                  <Form.Label column className="land-label text-end">
+              {/* <Row className="row-cols-2 row-cols-lg-5 g-2 g-lg-3"> */}
+                <Col md="3" className="land-label__container">
+                  <Form.Label column className="land-label">
                     NAME
                   </Form.Label>
                 </Col>
@@ -133,37 +138,38 @@ export default function Header() {
                 <Col md="7">
                   <Form.Control className="land-form" plaintext />
                 </Col>
-                <Col md="3" className="text-end land-label__container">
-                  <Form.Label column className="land-label text-end">
+                <Col md="12" className="land-label__container">
+                  <Form.Label column className="land-label" style={{'font-size': '3vw', 'margin-top': '5vw'}}>
                     MODE OF COLLABORATION
                   </Form.Label>
                 </Col>
-                <Col md="7" className=" pt-1">
-                  <Row className="land-radio__row">
-                    <Col className="d-flex align-items-center">
+                <br /> <br /> <br />
+                <Col md="12" className=" pt-1">
+                  <Col className="land-radio__row">
+                    <Col className="d-flex" style={{'margin-top': '2vw'}}>
                       <Form.Check
                         type="radio"
                         label="JOINT VENUE"
                         className="land-radio"
                       />
                     </Col>
-                    <Col className="d-flex align-items-center">
+                    <Col className="d-flex" style={{'margin-top': '2vw'}}>
                       <Form.Check
                         type="radio"
                         label="OUTRIGHT SALE"
                         className="land-radio"
                       />
                     </Col>
-                    <Col className="d-flex align-items-center">
+                    <Col className="d-flex" style={{'margin-top': '2vw'}}>
                       <Form.Check
                         type="radio"
                         label="OTHERS"
                         className="land-radio"
                       />
                     </Col>
-                  </Row>
+                  </Col>
                 </Col>
-                <Col md="3" className="text-end land-label__container">
+                <Col md="3" className="text-end land-label__container" style={{'margin-top': '10vw'}}>
                   <Form.Label column className="land-label text-end">
                     SUPORTING DOCUMENTS <br />
                     <br />
@@ -179,11 +185,11 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Button className="land-upload">
+                  <Button className="land-upload" style={{'font-size': '3vw', 'padding-top': '1rem', 'padding-bottom': '1rem', 'margin-top' : '1rem'}}>
                     UPLOAD OR DROP AND DRAG <br /> YOUR FILES HERE
                   </Button>
                 </Col>
-                <Col md="3" className="text-end land-label__container">
+                <Col md="3" className="text-end land-label__container" style={{'margin-top': '1rem'}}>
                   <Form.Label column className="land-label text-end">
                     REMARKS
                   </Form.Label>
@@ -191,7 +197,7 @@ export default function Header() {
                 <Col md="7">
                   <Form.Control className="land-form land-remarks" plaintext />
                 </Col>
-                <Col md={{ span: 7, offset: 3 }}>
+                <Col md={{ span: 7, offset: 3 }} style={{'margin-top': '1rem', 'line-height': '2'}}>
                   <Form.Check
                     type="checkbox"
                     label="BY TICKING THIS BOX, I HEREBY CONFIRM THAT I UNDERSTAND & ACCEPT YOUR PRIVACY POLICY AND TERMS AND CONDITION OF USE OF THE WEBSITE. I HEREBY AGREE AND GIVE CONSENT TO TEMOKIN AND/OR SUBSIDIARY COMPANIES AND/OR ASSOCIATE COMPANIES WITHIN TEMOKIN GROUP OF COMPANIES TO COLLECT, PROCESS AND DISCLOSE MY PERSONAL DATA IN ACCORDANCE WITH THE PRIVACY POLICY."
@@ -199,12 +205,12 @@ export default function Header() {
                   />
                 </Col>
                 <Col
-                  md={{ span: 7, offset: 3 }}
-                  className="text-start mt-5 pt-5"
+                  md={{ span: 12, offset: 3 }}
+                  className="mt-5 pt-5"
                 >
                   <Button className="land-submit">SUBMIT</Button>
                 </Col>
-              </Row>
+              {/* </Row> */}
             </Col>
           </Row>
         </Container>

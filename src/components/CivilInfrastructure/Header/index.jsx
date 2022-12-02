@@ -22,12 +22,16 @@ export default function HeaderCivilInfrastructure() {
                         <h1 className="--title">Our Showcase</h1>
                     </Col>
                     <Col md={12}>
-                      <p className="--desc">
-                        As a builder, we are only as successful as the<br />
-                        milestones that we’ve built. <br />
-                        <br />
-                         Here, we would like to share with you some of the <br />
-                         work that proudly carry the TEMOKIN badge.
+                      <p className="--desc"> 
+                        As a builder, we are only as successful as the <br />
+                        milestones that we’ve built.
+
+                      </p>
+
+                      <p className="--desc"> 
+                        Here, we would like to share with you some <br />
+                        of the work that proudly carry the <br />
+                        TEMOKIN badge.
                       </p>
                     </Col>
                   </Row>

@@ -40,29 +40,37 @@
 
   .--right-3 {
     position: absolute;
-    top: 7vw;
+    top: 40vw;
+    left: -5vw;
     width: 22vw;
   }
 
   .--right-4 {
     position: absolute;
     right: 0;
-    top: -130px;
-    width: 23vw;
+    top: -135px;
+    width: 50vw;
   }
 
   .--right-5 {
     position: absolute;
     right: 0;
-    top: 85vw;
-    width: 14vw;
+    top: 70vw;
+    width: 18vw;
+  }
+
+  .--right-11 {
+    position: absolute;
+    right: 0;
+    top: 150vw;
+    width: 18vw;
   }
 
   .--right-6 {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 0;
-    width: 60vw;
+    width: 100vw;
   }
 
   .--bg-mid {
@@ -120,7 +128,7 @@
       font-weight: 600 !important;
       text-transform: uppercase;
       line-height: 3vw;
-      font-size: 2.3vw;
+      font-size: 1vw;
       color: #283a97;
       margin: 2.4vw 0 0 0;
       text-align: center;
@@ -222,14 +230,14 @@
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.2em;
       line-height: 1.7em;
-      font-size: 1.3rem;
+      font-size: 1em;
     }
 
     .header {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.15em;
       margin-top: 2.5em;
-      font-size: 1rem;
+      font-size: 1em;
     }
 
     .content {
@@ -237,7 +245,7 @@
       font-family: "gill sans light", sans-serif !important;
       letter-spacing: 0.15em;
       line-height: 1.2em;
-      font-size: 1rem;
+      font-size: 1em;
     }
   }
   .--container-2 {
@@ -1615,7 +1623,7 @@
   }
   @media (max-width: 590px) {
     .--header-container {
-      height: 700px !important;
+      height: 600px !important;
       .--build-project-list {
         figure {
           margin-right: 10px !important;
@@ -1630,6 +1638,20 @@
       }
       .--max {
         max-width: 85%;
+
+        .--titles {
+          font-size: 5vw;
+          margin-top: 5rem;
+          text-align: center;
+          text-transform: uppercase;
+          color: #283A97;
+          line-height: 200%;
+        }
+
+        .--desc {
+          text-transform: uppercase;
+          font-size: 3vw;
+        }
       }
     }
     .slideshow {

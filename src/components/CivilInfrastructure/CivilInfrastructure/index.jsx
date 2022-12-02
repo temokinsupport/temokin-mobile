@@ -5,7 +5,7 @@ export default function CivilInfrastructure() {
   return (
     <section className="--container-2 civilinfra" data-scroll-section>
       <Image
-        className="--right-3"
+        className="--right-3" 
         src={
           require("../../../assets/images/civilinfrastructure/right-3.svg")
             .default
@@ -22,14 +22,20 @@ export default function CivilInfrastructure() {
         <Row className="justify-content-center">
           <Col>
             <h2 className="--title" data-scroll data-scroll-speed="2">
-              CIVIL & INFRASTRUCTURE
+              CIVIL &
             </h2>
+            <br />
+            <h2 className="--title" data-scroll data-scroll-speed="2">
+              INFRASTRUCTURE
+            </h2>
+            <br /> <br /> 
             <hr />
-            <p className="--sub-title" data-scroll data-scroll-speed="2">
+            <p className="--sub-title" data-scroll data-scroll-speed="2" style={{'line-height' : '3', 'text-transform': 'uppercase', 'font-size' : '3vw'}}>
               Our expertise in engineering has seen <br />
-              us build many of the nation’s electricity <br />
-              substations, major underground sewage <br />
-              lines, complex bridges and major highways.
+              us build many of the nation’s  <br /> 
+              electricity substations, major <br /> 
+              underground sewage lines, <br />
+              complex bridges and major highways.
             </p>
           </Col>
         </Row>

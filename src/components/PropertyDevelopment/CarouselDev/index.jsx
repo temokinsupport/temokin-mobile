@@ -94,7 +94,7 @@ export default function CarouselDev() {
   }, [carouselIndex]);
 
   return (
-    <div className="--bg-2" data-scroll-section>
+    <div className="--bg-2" data-scroll-section> 
       <Image
         className="svg svg--1"
         src={
@@ -130,8 +130,10 @@ export default function CarouselDev() {
                 }
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3 className="--title">{item.name}</h3>
+              <Carousel.Caption style={{'margin-top': item.name == 'TROPICANA MIYU, PETALING JAYA' ? '5rem': '', 'margin-bottom': item.name == 'TROPICANA MIYU, PETALING JAYA' ? '5rem': ''}}>
+                <h3 className="--title" >
+                  {item.name}
+                </h3>
                 <p className="--desc">{item.description}</p>
                 <div className="--hr" />
                 <div className="--details">

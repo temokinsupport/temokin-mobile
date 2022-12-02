@@ -4,7 +4,7 @@ import "../../assets/styles/previewcarousel.scss";
 
 function PreviewCarousel({ slides }) {
   return (
-    <Carousel className="preview-carousel" indicators fade>
+    <Carousel interval={null} className="preview-carousel" indicators fade>
       {slides.map((item) => {
         return (
           <Carousel.Item>

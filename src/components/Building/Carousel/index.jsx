@@ -61,6 +61,7 @@ export default function CarouselIndex() {
         src={require("../../../assets/images/building/svg-9.svg").default}
       />
       <Carousel
+        interval={7000}
         className="overlay-carousel overlay-carousel--building"
         activeIndex={carouselIndex}
         onSelect={controlCarousel}
@@ -70,7 +71,7 @@ export default function CarouselIndex() {
         {carousel.map((item, index) => {
           return (
             <Carousel.Item
-              className={`${index} ${carouselIndex} ${index === carouselIndex}`}
+              className={`carousel-item--${index} ${index === carouselIndex}`}
             >
               <img
                 className="d-block w-100"

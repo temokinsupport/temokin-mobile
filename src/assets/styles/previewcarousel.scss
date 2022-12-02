@@ -7,7 +7,11 @@
   }
 
   .carousel-inner {
-    height: 50vw;
+    height: 70vw;
+  }
+
+  .carousel-item {
+    height: 100%;
   }
 
   .carousel-item img {
@@ -15,14 +19,14 @@
   }
 
   .carousel-indicators {
-    gap: 2%;
+    gap: 4vw;
     transform: translateY(100%);
-    bottom: -8%;
+    bottom: -15%;
 
     li {
       border-radius: 100px;
       aspect-ratio: 1/1;
-      width: 1.3vw;
+      width: 2vw;
       border: white 1px solid;
 
       &.active {

@@ -9,22 +9,30 @@
 *
 */
 .carousel.overlay-carousel {
-  min-height: 100vh;
+  // min-height: 70vh;
 
   &--building {
-    min-height: unset;
+    // min-height: unset;k
     .carousel-caption {
+      margin-top: -15%;
+
       .--bottom-detail {
         position: relative;
 
-        &:not(:last-child):after {
+        /*  &:not(:last-child):after {
           content: "";
           position: absolute;
           bottom: -17.5px;
-          left: 0;
+          left: 50%;
+          transform: translateX(-50%);
           width: 120%;
-          height: 1px;
+          height: 0.5px;
           background-color: #283997;
+        } */
+      }
+      .--desc {
+        &::after {
+          display: none;
         }
       }
     }
@@ -32,10 +40,29 @@
     .carousel-indicators {
       top: 5vw !important;
     }
+
+    .carousel-item {
+      min-height: 130vw;
+      &--0 {
+        img {
+          object-position: -22vw !important;
+        }
+      }
+    }
+  }
+
+  &--property-development {
+    .carousel-item {
+      min-height: 200vw;
+    }
+    .carousel-caption {
+      .--desc {
+        margin-top: 5vw;
+      }
+    }
   }
 
   .carousel-item {
-    height: 70vw;
     position: relative;
     display: flex;
 
@@ -51,8 +78,6 @@
     }
   }
   .carousel-inner {
-    height: 65vw;
-
     height: 100%;
 
     img {
@@ -66,6 +91,8 @@
       height: 100%;
       object-fit: cover;
       object-position: center;
+
+      opacity: 0.4;
     }
   }
   .carousel-control-prev,
@@ -75,7 +102,7 @@
   .carousel-indicators {
     bottom: 22vw;
     left: unset;
-    width: 45vw;
+    // width: 45vw;
     margin-left: unset;
     margin-right: unset;
     justify-content: flex-start;
@@ -91,15 +118,16 @@
 
     &.custom {
       display: flex;
+      gap: 5vw;
     }
     li {
-      height: 30px;
-      width: 30px;
+      height: 3vw;
+      width: 3vw;
       border-radius: 100px;
       border: 1px solid #283a97;
       background-color: transparent;
       transition: background-color 0.5s;
-      margin: 0 2.5vw 0 0;
+
       :hover {
         background-color: #283a97;
         transition: background-color 0.5s;
@@ -111,71 +139,61 @@
     }
   }
   .carousel-caption {
-    position: absolute;
-
     position: relative;
     right: 0;
     bottom: 0;
     left: unset;
     top: 0;
 
-    padding-top: 8vw;
-    padding-bottom: 17.3vw;
-
-    padding-top: 14vw;
-    padding-bottom: 14vw;
+    padding: 0 10vw;
 
     color: #fff;
     text-align: left;
-    width: 28vw;
-
-    margin-right: 12vw;
+    width: 100%;
 
     display: flex;
-    justify-content: flex-end;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 
     height: 100%;
     .--title {
       white-space: pre-line;
       font-family: "gill sans", sans-serif !important;
-      letter-spacing: 0.2vw;
+      letter-spacing: 0.2em;
       font-weight: 700 !important;
       text-transform: uppercase;
       line-height: 1.1;
-      font-size: 1.2vw;
+      font-size: 3.5vw;
       color: #283a97;
       margin: 0 0 0.8vw 0;
-      text-align: left;
+      text-align: center;
       //   padding-left: 5.7vw;
     }
     .--desc {
+      white-space: pre-line;
       font-family: "gill sans medium", sans-serif;
       font-weight: 500 !important;
       margin-bottom: 2.4vw;
-      font-size: 1.2vw;
+      // margin-top: 5vw;
       color: #283a97;
-      line-height: 1.4vw;
-      text-align: left;
-      //   padding-left: 5.7vw;
-      letter-spacing: 0.17vw;
+      line-height: 1.5em;
+      text-align: center;
       position: relative;
 
-      &::after {
-        content: "";
+      font-size: 2.8vw;
+      letter-spacing: 0.2em;
 
+      /* &::after {
         content: "";
-        height: 1px;
-        width: 27vw;
-        background-color: #283a97;
-        opacity: 1 !important;
-        margin-bottom: 2vw;
         position: absolute;
         bottom: -4vw;
-        left: 0;
-      }
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 0.5px;
+        background-color: #283997;
+      } */
     }
     .--hr {
       height: 1px;
@@ -187,15 +205,33 @@
     .--bottom-detail {
       letter-spacing: 0.2vw;
       color: #283a97;
-      text-align: left;
-      margin-bottom: 35px;
+      text-align: center;
+      margin-bottom: 10vw;
+      position: relative;
+
+      &:not(:last-child):after {
+        width: 60%;
+
+        content: "";
+        position: absolute;
+        bottom: -17.5px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 0.5px;
+        background-color: #283997;
+      }
+
+      &:last-child {
+        margin-bottom: 5vw;
+      }
 
       span.--title {
         font-family: "gill sans", sans-serif !important;
         font-weight: 700 !important;
         line-height: normal;
-        font-size: 1vw;
+        font-size: 3vw;
         text-transform: capitalize;
+        text-align: center;
         // padding-left: 5.7vw;
         margin-bottom: 0;
       }
@@ -204,12 +240,8 @@
         font-family: "gill sans medium", sans-serif !important;
         font-weight: 300 !important;
         line-height: normal;
-        font-size: 1.01vw;
-        // padding-left: 5.7vw;
-
-        &:last-child:not(:only-child) {
-          // margin-top: 1vw;
-        }
+        font-size: 3vw;
+        letter-spacing: 0.2em;
       }
     }
     .--buttons {
@@ -218,13 +250,13 @@
       flex-direction: column;
     }
     .--btn-view-project {
-      background-color: #ffffff !important;
+      background-color: #283997 !important;
       border: 0 !important;
       border-radius: 0 !important;
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.2em;
       font-size: 0.8rem;
-      color: #283997;
+      color: white;
       text-align: center;
       text-transform: uppercase;
       padding: 1em 4em;
@@ -252,27 +284,32 @@
     }
     .award {
       display: flex;
+      justify-content: center;
       //   justify-content: space-between;
       gap: 5%;
+      margin-top: 6vw;
 
       &__name {
         // flex: 6;
-        width: 60%;
+        width: 45%;
+        text-align: left;
+        white-space: pre-line;
       }
 
       &__image {
         // flex: 1;
         width: 20%;
         position: relative;
+        opacity: 1;
       }
 
-      &:last-child:not(:only-of-type) {
+      /* &:last-child:not(:only-of-type) {
         margin-top: 2vw;
-      }
+      } */
     }
   }
 
-  @media (max-width: 992px) {
+  /*  @media (max-width: 992px) {
     .carousel {
       height: 100vw;
 
@@ -468,5 +505,5 @@
         bottom: 50vw;
       }
     }
-  }
+  } */
 }

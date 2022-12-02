@@ -16,11 +16,11 @@
     margin-top: 14vw;
   }
   .hr-carousel {
-    width: 7vw;
+    width: 100%;
     opacity: 1;
   }
   .carousel {
-    width: 60vw;
+    width: 85vw;
     margin: 0 auto;
   }
 
@@ -70,7 +70,7 @@
     left: 0;
     z-index: -1;
     width: 100vw;
-    top: -17%;
+    top: 6%;
   }
   width: 100%;
   position: relative;
@@ -82,19 +82,19 @@
     font-family: "gill sans", sans-serif !important;
 
     hr {
-      margin: 2rem 0;
+      margin: 4vw 0;
     }
 
     h5 {
       letter-spacing: 0.3em;
-      font-size: 1.3rem;
-      margin-top: 1em;
+      font-size: 2.6vw;
+      margin: 5vw 0;
     }
     .header {
-      font-family: "gill sans medium", sans-serif !important;
+      // font-family: "gill sans medium", sans-serif !important;
       letter-spacing: 0.2em;
       margin: 0;
-      font-size: 1.1rem;
+      font-size: 2.7vw;
 
       & > * {
         padding: 0 !important;
@@ -103,12 +103,15 @@
     .content {
       letter-spacing: 0.2em;
       margin: 0;
-      font-size: 1.1rem;
+      font-size: 2.7vw;
 
       & > * {
         padding: 0 !important;
       }
     }
+  }
+  .carousel-row {
+    gap: 1vw;
   }
   .--header-container {
     .--title {
@@ -212,7 +215,7 @@
     height: 100%;
 
     hr {
-      margin: 2rem 0;
+      margin: 4vw 0;
     }
 
     .name {
@@ -346,15 +349,16 @@
       display: none;
     }
     .carousel-indicators {
-      bottom: unset;
-      top: 50vw;
-      gap: 3rem;
+      /* bottom: unset;
+      top: 50vw; */
+      bottom: -15%;
+      gap: 5vw;
 
       & > * {
         cursor: pointer;
 
         aspect-ratio: 1/1;
-        width: 15px;
+        width: 2.7vw;
 
         border: white 1px solid;
         border-radius: 100%;

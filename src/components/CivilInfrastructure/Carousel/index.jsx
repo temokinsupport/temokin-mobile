@@ -8,12 +8,12 @@ export default function CarouselIndex() {
       <Image
         className="--bg-mid"
         src={
-          require("../../../assets/images/civilinfrastructure/bg-mid.svg")
+          require("../../../assets/images/civilinfrastructure/bg-mid-mobile.svg")
             .default
         }
       />
       <Container>
-        <Carousel className="carousel">
+        <Carousel interval={null} className="carousel">
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -24,21 +24,32 @@ export default function CarouselIndex() {
               alt="First slide"
             />
             <Carousel.Caption className="carousel-caption">
-              <br />
-
               <h5>SEREMBAN MIDDLE RING ROAD (MRRS)</h5>
-              <hr className="hr-carousel" />
-              <Row className="header">
-                <Col md={6}>Client</Col>
-                <Col md={3}>Value</Col>
-                <Col md={3}>Period</Col>
-              </Row>
-              <Row className="content">
-                <Col md={6}>
-                  Public Works Department, <br /> Malaysia
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Client
                 </Col>
-                <Col md={3}>RM2.5 million</Col>
-                <Col md={3}>May 2004 to Nov 2017</Col>
+                <Col xs={12} className="content">
+                  Public Works Department, Malaysia
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Value
+                </Col>
+                <Col xs={12} className="content">
+                  RM2.5 million
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Period
+                </Col>
+                <Col xs={12} className="content">
+                  May 2004 to Nov 2017
+                </Col>
               </Row>
             </Carousel.Caption>
           </Carousel.Item>
@@ -53,21 +64,32 @@ export default function CarouselIndex() {
             />
 
             <Carousel.Caption className="carousel-caption">
-              <br />
-              <br />
               <h5>SUNGAI GOMBAK BRIDGE</h5>
-              <hr className="hr-carousel" />
-              <Row className="header">
-                <Col md={6}>Client</Col>
-                <Col md={3}>Value</Col>
-                <Col md={3}>Period</Col>
-              </Row>
-              <Row className="content">
-                <Col md={6}>
-                  Dewan Bandaraya, <br /> Kuala Lumpur (DBKL)
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Client
                 </Col>
-                <Col md={3}>RM10 million</Col>
-                <Col md={3}>Mar 2002 to Mar 2004</Col>
+                <Col xs={12} className="content">
+                  Dewan Bandaraya, Kuala Lumpur (DBKL)
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Value
+                </Col>
+                <Col xs={12} className="content">
+                  RM10 million
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Period
+                </Col>
+                <Col xs={12} className="content">
+                  Mar 2002 to Mar 2004
+                </Col>
               </Row>
             </Carousel.Caption>
           </Carousel.Item>
@@ -82,21 +104,32 @@ export default function CarouselIndex() {
             />
 
             <Carousel.Caption className="carousel-caption">
-              <br />
-              <br />
               <h5>EARTHWORK CONSTRUCTION, POWER STATION BANDAR BARU ARANG</h5>
-              <hr className="hr-carousel" />
-              <Row className="header">
-                <Col md={6}>Client</Col>
-                <Col md={3}>Value</Col>
-                <Col md={3}>Period</Col>
-              </Row>
-              <Row className="content">
-                <Col md={6}>
-                  Perbadanan Kemajuan Negeri, <br /> Selangor (PKNS)
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Client
                 </Col>
-                <Col md={3}>RM10 million</Col>
-                <Col md={3}>Jun 1993 to jun 1994</Col>
+                <Col xs={12} className="content">
+                  Perbadanan Kemajuan Negeri, Selangor (PKNS)
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Value
+                </Col>
+                <Col xs={12} className="content">
+                  RM10 million
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Period
+                </Col>
+                <Col xs={12} className="content">
+                  Jun 1993 to jun 1994
+                </Col>
               </Row>
             </Carousel.Caption>
           </Carousel.Item>
@@ -111,21 +144,32 @@ export default function CarouselIndex() {
             />
 
             <Carousel.Caption className="carousel-caption">
-              <br />
-              <br />
               <h5>TNB SUBSTATION 33/11kV</h5>
-              <hr className="hr-carousel" />
-              <Row className="header">
-                <Col md={6}>Client</Col>
-                <Col md={3}>Value</Col>
-                <Col md={3}>Period</Col>
-              </Row>
-              <Row className="content">
-                <Col md={6}>
-                  Tenaga Nasional Berhad, <br /> Shah Alam(TNB)
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Client
                 </Col>
-                <Col md={3}>RM4.1 million</Col>
-                <Col md={3}>Jul 1992 to Feb 1992</Col>
+                <Col xs={12} className="content">
+                  Tenaga Nasional Berhad, Shah Alam(TNB)
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Value
+                </Col>
+                <Col xs={12} className="content">
+                  RM4.1 million
+                </Col>
+              </Row>
+              <hr className="hr-carousel" />
+              <Row className="carousel-row">
+                <Col xs={12} className="header">
+                  Period
+                </Col>
+                <Col xs={12} className="content">
+                  Jul 1992 to Feb 1992
+                </Col>
               </Row>
             </Carousel.Caption>
           </Carousel.Item>

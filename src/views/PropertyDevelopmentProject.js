@@ -75,7 +75,7 @@ const PropertyDevelopmentProject = () => {
               id="previewCarouselClipPath"
               clipPathUnits="objectBoundingBox"
             >
-              <path d="m1,0 v0.689 l-0.435,0.311 H0 V0.166 L0.232,0"></path>
+              <path d="M0.451,0 h0.549 v0.667 l-0.605,0.333 H0 V0.248 L0.451,0"></path>
             </clipPath>
           </svg>
           <div className="--bg-1">

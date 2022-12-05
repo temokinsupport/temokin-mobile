@@ -23,13 +23,8 @@ export default function Testimonials() {
                   src={require("../../../assets/images/awards/jkr.png").default}
                 />
               </div>
-              <p className="client__name">Jabatan Kerha Raja Malaysia</p>
+              <p className="client__name">Jabatan Kerha {"\n"} Raja Malaysia</p>
             </div>
-          </div>
-          <div className="testimonial__message message">
-            <p className="message__content">
-              “GENERALLY THE OVERALL PERFORMANCE HAS BEEN EXCELLENT”
-            </p>
           </div>
           <div className="testimonial__scope scope">
             <h3 className="scope__label testimonial__label">
@@ -40,29 +35,33 @@ export default function Testimonials() {
               ROADWAYS AND BRIDGE CONSTRUCTION <span>(DESIGN & BUILT)</span>
             </p>
           </div>
+          <div className="testimonial__message message">
+            <p className="message__content">
+              “GENERALLY THE OVERALL PERFORMANCE HAS BEEN EXCELLENT”
+            </p>
+          </div>
+
           <div className="testimonial__sender sender">
             <h4 className="sender__name">IR. HJ. OTHMAN IBRAHIM</h4>
             <h5 className="sender__position">
               <span>
-                SENIOR GENERAL MANAGER OF CONSTRUCTION, SPECIAL PROJECT
+                SENIOR GENERAL MANAGER OF {"\n"} CONSTRUCTION, SPECIAL PROJECT
               </span>
               <span>
-                UNIT 1, ROADWORKS DIVISION, JKR HEADQUARTERS MALAYSIA.
+                UNIT 1, ROADWORKS DIVISION, JKR {"\n"} HEADQUARTERS MALAYSIA.
               </span>
             </h5>
           </div>
         </Row>
       </Container>
-      <div className="testimonial-bottom-shape">
-        <Image
-          className=""
-          fluid
-          src={
-            require("../../../assets/images/awardsandachievements/Awards_Shapes-03.png")
-              .default
-          }
-        />
-      </div>
+      <Image
+        className="svg svg--4"
+        fluid
+        src={
+          require("../../../assets/images/awardsandachievements/svg-4.svg")
+            .default
+        }
+      />
       <div className="testimonial-bg" />
     </div>
   );

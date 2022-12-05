@@ -6,6 +6,14 @@ export default function Header() {
   return (
     <div className="--bg-1" data-scroll-section>
       <Navigation />
+      <Image
+        className="svg svg--1"
+        fluid
+        src={
+          require("../../../assets/images/awardsandachievements/svg-1.svg")
+            .default
+        }
+      />
       <Container>
         <Row>
           <Col>
@@ -14,11 +22,9 @@ export default function Header() {
               Survey Forms
             </h1>
             <p className="--desc" data-scroll data-scroll-speed="1">
-              Our awards and recognitions <br />
-              are testament to our sterling <br />
-              reputation in always delivering
-              <br />
-              high-quality work on time.
+              Our awards and recognitions are <br /> testament to our sterling
+              reputation <br /> in always delivering high-quality <br /> work on
+              time.
             </p>
           </Col>
         </Row>

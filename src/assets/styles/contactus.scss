@@ -14,6 +14,7 @@
 }
 .--contact-us {
   position: relative;
+  overflow-x: hidden;
 
   .svg {
     position: absolute;
@@ -246,7 +247,7 @@
       }
       iframe {
         margin-left: -2.5vw;
-        width: 37.5vw;
+        width: 35vw;
       }
 
     }
@@ -419,7 +420,8 @@
         display: block;
         margin: 100px auto;
         iframe {
-          margin-left: 3.5vw;
+          padding-left: 7.5vw;
+          padding-right: 2.5vw;
           width: 100%;
         }
       }
@@ -627,7 +629,7 @@
   }
   @media (max-width: 420px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 280vw auto;
+    background-size: 400vw 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -669,8 +671,8 @@
     }
   }
   @media (max-width: 400px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -20vw right;
-    background-size: 280vw auto;
+    background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
+    background-size: 250vw 150vh;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -693,15 +695,15 @@
         font-size: 17px;
         line-height: 1.6;
       }
-    }
+    }    
 
     .--bg-1 {
       .--max {
-        max-width: 86%;
+        max-width: 100%;
 
         img {
-          height: 25vw;
-          width: 25vw;
+          height: 30vw;
+          width: 30vw;
         }
 
         .--image {
@@ -710,7 +712,14 @@
           left: -45%;
           position: absolute;
         }
+
+        h1.--title {
+          font-size: 6vw;
+          color: #283A97;
+          margin: -8vw 0 10.5vw 0;
+        }
       }
     }
+    
   }
 }

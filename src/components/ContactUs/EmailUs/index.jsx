@@ -171,7 +171,7 @@ export default class EmailUs extends React.Component {
                     <Col md={6}>
                     <div className="--map-container" data-scroll>
                         <Iframe 
-                            width="100%" 
+                            width="60%" 
                             height="100%" 
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
                             src={

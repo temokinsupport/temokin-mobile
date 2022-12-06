@@ -40,7 +40,6 @@ const LicensesAndRegistrations = () => {
           className="--licenses-and-registrations 
                     main-container"
           id="main-container"
-          data-scroll-container
         >
           <Header />
           <Licenses />

@@ -360,7 +360,7 @@
   .--bg-3 {
     position: relative;
 
-    &::before {
+    /* &::before {
       content: "";
       position: absolute;
 
@@ -373,7 +373,7 @@
       height: 120%;
       bottom: 0;
       left: 0;
-    }
+    } */
 
     .hero-container {
       width: 100vw;
@@ -426,11 +426,12 @@
     }
     h5 {
       &.--project-title {
-        font-family: "Myriad Pro", sans-serif !important;
-        letter-spacing: 0.2vw;
-        font-size: 1.1vw;
+        font-family: "gill sans", sans-serif !important;
+
+        letter-spacing: 0.15em;
+        font-size: 0.5vw;
         font-weight: 600;
-        margin-bottom: 10px;
+        margin-bottom: 1vw;
         text-align: center;
         color: #283a97;
         clip-path: inset(0% 0% 100% 0%);
@@ -443,7 +444,8 @@
     p {
       &.--desc {
         color: #676ab1;
-        font-family: "Myriad Pro", sans-serif !important;
+        font-family: "gill sans medium", sans-serif !important;
+
         font-size: 1.1vw;
         font-weight: 400;
         letter-spacing: 0.02vw;
@@ -581,7 +583,7 @@
       }
     }
     .--btn-im-interested {
-      font-family: "Myriad Pro", sans-serif !important;
+      font-family: "gill sans medium", sans-serif !important;
       letter-spacing: 0.3vw;
       font-size: 1.1vw;
       background-color: #283a97;
@@ -928,6 +930,8 @@
         }
       }
       .--btn-im-interested {
+        display: none;
+
         font-size: 0.875em !important;
         padding: 15px 4vw;
       }
@@ -978,9 +982,10 @@
         left: -27vh;
         bottom: 0;
         right: 0;
-        background: url("../images/mobile/home/Page3_BG.png") top left;
-        background-size: 197% 100%;
+        background: url("../images/mobile/home/Page3_BG.png");
+        background-size: auto 110%;
         background-repeat: no-repeat;
+        background-position: -45vw 5vw;
         background-attachment: scroll;
         padding: 100px 0;
         z-index: -1;
@@ -1001,13 +1006,13 @@
       }
       h5 {
         &.--project-title {
-          font-size: 1.1em;
+          font-size: 3vw;
           clip-path: none;
         }
       }
       p {
         &.--desc {
-          font-size: 0.875em;
+          font-size: 3vw;
           margin-bottom: 50px !important;
           clip-path: none;
         }
@@ -1142,6 +1147,7 @@
         .--desc-mobile {
           display: block;
           font-size: 3.3vw;
+          line-height: 2.5em;
         }
         .--desc {
           display: none;

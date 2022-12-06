@@ -61,7 +61,7 @@ function Footer() {
           <Col>
             <div className="--right-container">
               <p>© Temokin 2018</p>
-              <sub>
+              <div className="links d-flex justify-content-between">
                 <NavLink
                   exact
                   to="/land-acquisition"
@@ -85,7 +85,9 @@ function Footer() {
                 >
                   Privacy Policy
                 </NavLink>
-              </sub>
+              </div>
+              {/*               <sub>
+              </sub> */}
             </div>
           </Col>
         </Row>

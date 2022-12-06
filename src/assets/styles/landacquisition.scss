@@ -12,8 +12,9 @@
 .--landacquisition {
   position: relative;
   color: #283a97;
+  overflow-x: hidden;
 
-  .svg {
+  .svg { 
     position: absolute;
     display: block;
     z-index: 9;
@@ -26,7 +27,7 @@
     }
 
     &--2 {
-      top: 17%;
+      top: 15%;
       left: -5%;
       width: 30vw;
       height: 30vw;

@@ -74,7 +74,7 @@ export default function Header() {
             require("../../../assets/images/landacquisition/svg-6.svg").default
           }
         /> */}
-        <Container className="--max land-acquisition__container">
+        <Container className="--max land-acquisition__container" style={{ 'margin-top': '25vw'}}>
           <Row>
             <Col>
               <h1 className="--title" data-scroll id="header-text">

@@ -90,7 +90,8 @@ const PropertyDevelopmentProject = () => {
                 }
               />
               <Image
-                className="svg svg--2"
+                className="svg"
+                style={{ 'width': '30vw', 'height': '30vw', 'right': '-5%', 'z-index': '999', 'top': '-2%'}}
                 src={
                   require("../assets/images/propertydevelopment/svg-2.svg")
                     .default

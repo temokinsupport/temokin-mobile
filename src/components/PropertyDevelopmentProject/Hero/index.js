@@ -10,7 +10,7 @@ const Hero = ({ projectData }) => {
         <Col>
           <div className="--project-details">
             <Row className="justify-content-center">
-              <Col xs={10}>
+              <Col xs={12}>
                 {projectData.hero ? (
                   <Image
                     className="d-block"
@@ -24,14 +24,14 @@ const Hero = ({ projectData }) => {
               </Col>
             </Row>
             <div className="--about-content">
-              <Row className="justify-content-between">
-                <Col md={6}>
+              <Row className="justify-content-between"> 
+                <Col md={12}>
                   <Name>{projectData.title}</Name>
                   <Line />
                   <Description>{projectData.description}</Description>
                 </Col>
-                <Col md={5}>
-                  <TextContainer>
+                <Col md={12}>
+                  <TextContainer style={{ 'margin-top': '10vw', 'margin-bottom': '20vw'}}>
                     {projectData.client ? (
                       <>
                         <Label>Client</Label>

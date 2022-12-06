@@ -27,7 +27,7 @@
   .--bg-1 {
     min-height: 50vw;
     // padding: 15vw 0 0 0;
-    padding-top: 15vw;
+    // padding-top: 5vw;
     .--max {
       //   max-width: 80%;
       //   min-height: 75.5vw;
@@ -78,7 +78,7 @@
       height: 50%;
       margin-top: auto;
       //   padding-bottom: 5vw;
-      background-color: #00b7aa;
+      // background-color: #00b7aa;
 
       display: flex;
       justify-content: end;
@@ -95,12 +95,12 @@
   }
 
   .preview {
-    background-color: #00b7aa;
+    // background-color: #00b7aa;
     padding-bottom: 10vw;
   }
 
   .related {
-    background-color: #00b7aa;
+    // background-color: #00b7aa;
     padding: 25vw 0 13vw;
 
     .section-label {
@@ -119,7 +119,7 @@
   @media (max-width: 992px) {
     background-size: cover !important;
     .--bg-1 {
-      padding: 230px 0 0 0 !important;
+      // padding: 230px 0 0 0 !important;
       .--max {
         max-width: 90% !important;
         .col-md-7,

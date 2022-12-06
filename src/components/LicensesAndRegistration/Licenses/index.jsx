@@ -7,15 +7,15 @@ export default function Licenses() {
       image: "bpkud.png",
       descriptions: [
         {
-          content: "BAHAGIAN PEMBANGUNAN KONTRAKTOR DAN USAHAWAN",
+          content: "BAHAGIAN PEMBANGUNAN \n KONTRAKTOR DAN USAHAWAN",
           type: "name",
         },
         {
-          content: "(DAHULU DIKENALI SEBAGAI PUSAT KHIDMAT KONTRAKTOR)",
+          content: "(DAHULU DIKENALI SEBAGAI PUSAT \n KHIDMAT KONTRAKTOR)",
           type: "alt",
         },
         {
-          content: "BAHAGIAN PEMBANGUNAN KONTRAKTOR DAN USAHAWAN",
+          content: "KEMENTERIAN KERJA \n RAYA MALAYSIA",
           type: "name",
         },
       ],
@@ -24,11 +24,11 @@ export default function Licenses() {
       image: "bpkud.png",
       descriptions: [
         {
-          content: "KEMENTERIAN KEWANGAN MALAYSIA",
+          content: "KEMENTERIAN KEWANGAN \n MALAYSIA",
           type: "name",
         },
         {
-          content: "SIJIL AKUAN PENDAFTARAN SYARIKAT",
+          content: "SIJIL AKUAN PENDAFTARAN \n SYARIKAT",
           type: "alt",
         },
       ],
@@ -37,7 +37,7 @@ export default function Licenses() {
       image: "bakti-suci.png",
       descriptions: [
         {
-          content: "PERAKUAN PENDAFTARAN",
+          content: "PERAKUAN \n PENDAFTARAN",
           type: "name",
         },
       ],
@@ -46,11 +46,20 @@ export default function Licenses() {
       image: "bpkud.png",
       descriptions: [
         {
-          content: "SIJIL PEROLEHAN KERJA KERAJAAN",
+          content: "KEMENTERIAN KEWANGAN \n MALAYSIA",
           type: "name",
         },
         {
-          content: "SIJIL AKUAN PENDAFTARAN SYARIKAT",
+          content: "AKUAN PENDAFTARAN \n KONTRAKTOR",
+          type: "alt",
+        },
+      ],
+    },
+    {
+      image: "cidb.png",
+      descriptions: [
+        {
+          content: "PERAKUAN \n PENDAFTARAN",
           type: "name",
         },
       ],
@@ -59,16 +68,7 @@ export default function Licenses() {
       image: "cidb.png",
       descriptions: [
         {
-          content: "PERAKUAN PENDAFTARAN",
-          type: "name",
-        },
-      ],
-    },
-    {
-      image: "cidb.png",
-      descriptions: [
-        {
-          content: "SIJIL PEROLEHAN KERJA KERAJAAN",
+          content: "SIJIL PEROLEHAN \n KERJA KERAJAAN",
           type: "name",
         },
       ],
@@ -76,15 +76,15 @@ export default function Licenses() {
   ];
 
   return (
-    <div className="--bg-2" data-scroll-section>
+    <div className="--bg-2">
       <Container>
         <Row className="licenses ">
           {licenses.map((license) => {
             return (
               <Row className="license justify-content-center align-items-center">
-                <Col xs={2}>
+                <Col xs={12}>
                   <Image
-                    className="license__image me-2"
+                    className="license__image"
                     fluid
                     src={
                       require(`../../../assets/images/licensesandregistrations/${license.image}`)
@@ -92,7 +92,7 @@ export default function Licenses() {
                     }
                   />
                 </Col>
-                <Col xs={{span: 6, offset: 1}}>
+                <Col xs={12}>
                   <div className="license__content">
                     {license.descriptions.map((description) => {
                       if (description.type === "name") {

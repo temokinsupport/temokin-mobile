@@ -17,19 +17,38 @@ const OtherBusinessVentures = () => {
         >
           <Navigation />
           <section className=" hero">
+            <Image
+              className="svg svg--1"
+              fluid
+              src={
+                require("../assets/images/otherbusinessventures/svg-1.svg")
+                  .default
+              }
+            />
+            <Image
+              className="svg svg--2"
+              fluid
+              src={
+                require("../assets/images/otherbusinessventures/svg-2.svg")
+                  .default
+              }
+            />
             <div className="hero__content">
               <h1 className="hero__title">Other Business</h1>
               <h1 className="hero__title">Affiliates</h1>
 
               <p className="hero__desc">coming soon</p>
               <Image
-              className="--image"
-              src={require("../assets/images/otherbusinessventures/Group_1091.svg").default}
-            />
+                className="--image"
+                src={
+                  require("../assets/images/otherbusinessventures/Group_1091.svg")
+                    .default
+                }
+              />
             </div>
           </section>
-            
-          <Footer /> 
+
+          <Footer />
         </div>
       }
     </>

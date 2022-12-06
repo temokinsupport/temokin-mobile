@@ -75,17 +75,21 @@
       font-size: 1.2vw;
       color: #4d569c;
     }
-    sub {
+    .links {
       font-family: "gill sans medium", sans-serif;
       font-weight: 400 !important;
       margin-bottom: 0;
       color: #4d569c !important;
       margin-right: 1vw;
-      font-size: 0.8vw;
       right: -4%;
+
+      width: 95%;
+      display: flex;
+      justify-content: space-between;
 
       a {
         color: #4d569c !important;
+        font-size: 3.6vw;
       }
     }
   }
@@ -128,7 +132,7 @@
       p {
         font-size: 1em;
       }
-      sub {
+      .links {
         font-size: 0.75em;
       }
     }

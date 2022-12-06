@@ -38,21 +38,13 @@ export default function useLocoScroll(start) {
   }, [start]);
 
   useEffect(() => {
-    console.log(!!locoScroll.current);
+    console.log(!!locoScroll.current, location);
 
-    if (!!locoScroll.current) {
-      locoScroll.current.scrollTo("top", {
-        offset: 0,
-        duration: 600,
-        easing: [0.25, 0.0, 0.35, 1.0],
-        disableLerp: true,
-      });
-    }
+    window.scrollTo(0, 0);
   }, [location]);
 
   useEffect(() => {
     return () => {
-      console.log(location.pathname);
       if (
         location.pathname.includes("/building/") ||
         location.pathname.includes("/property-development/")

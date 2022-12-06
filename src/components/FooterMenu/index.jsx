@@ -118,7 +118,7 @@ export default function FooterMenu() {
           <Col>
             <div className="--right-container">
               <p>© Temokin 2018</p>
-              <sub>
+              <div className="links d-flex justify-content-between">
                 <NavLink
                   exact
                   to="/land-acquisition"
@@ -142,7 +142,7 @@ export default function FooterMenu() {
                 >
                   Privacy Policy
                 </NavLink>
-              </sub>
+              </div>
             </div>
           </Col>
         </Row>

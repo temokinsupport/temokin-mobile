@@ -1,13 +1,35 @@
 .ventures {
+  overflow-x: hidden;
+
+  .svg {
+    position: absolute;
+
+    &--1 {
+      left: 0;
+      top: 33%;
+      width: 30vw;
+    }
+
+    &--2 {
+      top: 50%;
+      right: 0;
+      width: 40vw;
+      // transform: translateX(-100%);
+    }
+  }
+
   .hero {
     height: 100vh;
     background: url("../images/otherbusinessventures/hero-bg.png");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background-position: -100vw center;
 
     display: grid;
     place-content: center;
+
+    overflow: hidden;
 
     &__content {
       font-family: "gill sans", sans-serif !important;
@@ -46,23 +68,23 @@
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 769px) {
     .hero {
       height: 75vh;
       place-content: center;
-      
+
       &__content {
         font-family: "gill sans", sans-serif !important;
-  
+
         width: 100vw;
         margin-top: -40vw;
-  
+
         p,
         h1 {
           margin: 0;
         }
       }
-  
+
       &__title {
         font-size: 5vw;
         line-height: 200%;
@@ -72,20 +94,20 @@
 
       &__desc {
         padding-top: 10vw;
-        
+
         font-size: 3vw;
       }
 
-      .--image{
+      .--image {
         width: 140vw;
         height: 70vw;
         position: absolute;
         // margin-top: 80vh;
         // margin-left: -20%;
-        bottom: -38vw;
+        bottom: -43vw;
         left: -25vw;
+        mix-blend-mode: multiply;
       }
-        
     }
   }
 }

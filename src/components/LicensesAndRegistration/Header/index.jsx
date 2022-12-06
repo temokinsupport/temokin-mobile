@@ -4,19 +4,36 @@ import Navigation from "../../Navigation";
 
 export default function Header() {
   return (
-    <div className="--bg-1" data-scroll-section>
+    <div className="--bg-1">
+      <Image
+        className="svg svg--1"
+        fluid
+        src={
+          require("../../../assets/images/licensesandregistrations/svg-1.svg")
+            .default
+        }
+      />
+      <Image
+        className="svg svg--2"
+        fluid
+        src={
+          require("../../../assets/images/licensesandregistrations/svg-2.svg")
+            .default
+        }
+      />
       <Navigation />
       <Container>
         <Row>
           <Col>
-            <h1 data-scroll className="--title">
-              Licenses <br /> and Registrations
+            <h1 className="--title">
+              Licenses and <br /> Registrations
             </h1>
-            <p data-scroll className="--desc">
-              These licenses and certifications specify <br />
-              the range of our capabilities, allowing us <br />
-              to take on large-scale, complex projects <br />
-              with the approval of the authorities.
+            <p className="--desc">
+              These licenses and certifications
+              <br /> specify the range of our capabilities, <br /> allowing us
+              to take on large-scale,
+              <br /> complex projects with the approval of <br />
+              the authorities.
             </p>
           </Col>
         </Row>

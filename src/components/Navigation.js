@@ -274,7 +274,7 @@ function Navigation() {
                   aria-expanded={open}
                   className="dynamic_nav --mobile-nav-text"
                 >
-                  Civil Engineering
+                  Civil & Infrastructure
                 </NavLink>
               </li>
             </div>

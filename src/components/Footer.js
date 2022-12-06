@@ -60,7 +60,7 @@ function Footer() {
           </Col>
           <Col>
             <div className="--right-container">
-              <p>© Temokin 2018</p>
+              <p>© Temokin 2022</p>
               <div className="links d-flex justify-content-between">
                 <NavLink
                   exact

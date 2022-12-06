@@ -52,7 +52,7 @@ export default function Header() {
         />
         <Image
           className="svg svg--3"
-          src={
+          src={ 
             require("../../../assets/images/landacquisition/svg-3.svg").default
           }
         />
@@ -77,11 +77,11 @@ export default function Header() {
         <Container className="--max land-acquisition__container" style={{ 'margin-top': '25vw'}}>
           <Row>
             <Col>
-              <h1 className="--title" data-scroll id="header-text">
+              <h1 className="--title" data-scroll id="">
                 LAND
               </h1>
 
-              <h1 className="--title" data-scroll id="header-text">
+              <h1 className="--title" data-scroll id="">
                 ACQUISITION
               </h1>
             </Col>
@@ -200,7 +200,8 @@ export default function Header() {
                 <Col md={{ span: 7, offset: 3 }} style={{'margin-top': '1rem', 'line-height': '2'}}>
                   <Form.Check
                     type="checkbox"
-                    label="BY TICKING THIS BOX, I HEREBY CONFIRM THAT I UNDERSTAND & ACCEPT YOUR PRIVACY POLICY AND TERMS AND CONDITION OF USE OF THE WEBSITE. I HEREBY AGREE AND GIVE CONSENT TO TEMOKIN AND/OR SUBSIDIARY COMPANIES AND/OR ASSOCIATE COMPANIES WITHIN TEMOKIN GROUP OF COMPANIES TO COLLECT, PROCESS AND DISCLOSE MY PERSONAL DATA IN ACCORDANCE WITH THE PRIVACY POLICY."
+                    style={{'white-space': 'pre-line'}}
+                    label={`BY TICKING THIS BOX, I HEREBY CONFIRM THAT I UNDERSTAND \n & ACCEPT YOUR PRIVACY POLICY AND TERMS AND \n CONDITION OF USE OF THE WEBSITE. I HEREBY AGREE AND GIVE CONSENT TO TEMOKIN AND/OR SUBSIDIARY COMPANIES AND/OR ASSOCIATE COMPANIES  WITHIN TEMOKIN GROUP OF \n  COMPANIES TO COLLECT, PROCESS AND DISCLOSE MY \n  PERSONAL DATA IN ACCORDANCE WITH THE PRIVACY POLICY.` }
                     className="land-radio text-start land-check"
                   />
                 </Col>

@@ -116,6 +116,7 @@ export default function CarouselDev() {
         onSelect={controlCarousel}
         onSlide={controlCarousel}
         fade
+        
       >
         {carousel.map((item, index) => {
           return (
@@ -124,8 +125,9 @@ export default function CarouselDev() {
             >
               <img
                 className="d-block w-100"
+                style={{'height': item.name == 'TROPICANA MIYU, PETALING JAYA' ? '100%': '120%' }}
                 src={
-                  require(`../../../assets/images/propertydevelopment/${item.background}`)
+                  require(`../../../assets/images/propertydevelopment/${item.background}`) 
                     .default
                 }
                 alt="First slide"

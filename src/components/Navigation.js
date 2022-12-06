@@ -268,7 +268,7 @@ function Navigation() {
               <li>
                 <NavLink
                   exact
-                  to="/civil-engineering"
+                  to="/civil-infrastructure"
                   onClick={() => setOpen(!open)}
                   aria-controls="basic-navbar-nav"
                   aria-expanded={open}

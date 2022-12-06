@@ -210,7 +210,7 @@
       position: relative;
 
       &:not(:last-child):after {
-        width: 60%;
+        width: 58vw;
 
         content: "";
         position: absolute;
@@ -218,7 +218,8 @@
         left: 50%;
         transform: translateX(-50%);
         height: 0.5px;
-        background-color: #283997;
+        background-color: #676AB1;
+        opacity: .9;
       }
 
       &:last-child {

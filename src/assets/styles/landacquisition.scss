@@ -66,6 +66,7 @@
     font-size: 15px;
     // margin-top: 1vh;
     float: left;
+    color: #676AB1 !important;
   }
   .land-label__container {
     // display: fl;
@@ -105,24 +106,27 @@
       letter-spacing: 0.2em;
       width: 80%;
       flex: 1;
+      white-space: pre-line !important;
     }
   }
 
   .land-check {
-
+    margin-left: -3vw;
     .form-check-label {
-      font-size: 8px;
+      font-size: 2vw;
       margin-top: 1vw;
-      letter-spacing: 0.2em;
+      letter-spacing: 0.1em;
+      line-height: 2.5;
       width: 80%;
       flex: 1;
+      color: #676AB1 !important;
     }
   }
   
   .land-radio__row .land-check {
     font-size: 8pt;
     align-items: flex-start;
-    
+    color: #676AB1 !important;
   }
   .land-submit {
     width: 60%;
@@ -182,6 +186,7 @@
         font-weight: 300;
         line-height: 300%;
         letter-spacing: 1px;
+        color: #676AB1 !important;
       }
       // img {
       //   margin: 0 auto 3vw auto;
@@ -485,12 +490,12 @@
   }
 
   @media (max-width: 1024px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 155vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 155vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
 
     .header-bg {
       display: none;
@@ -610,21 +615,21 @@
   }
 
   @media (max-width: 920px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 165vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 165vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
   }
 
   @media (max-width: 740px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 180vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 180vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
 
     .form-bg {
       height: 195vw;
@@ -632,12 +637,12 @@
   }
 
   @media (max-width: 600px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 200vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 200vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
 
     .--bg-1 {
       padding: 0 0 0 0;
@@ -651,12 +656,12 @@
   }
 
   @media (max-width: 566px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 220vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 220vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
 
     .form-bg {
       background-size: 350vw 370vw !important;
@@ -682,12 +687,12 @@
   }
 
   @media (max-width: 500px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 235vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 235vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
       padding: 45.5vw 0 0 0;
@@ -705,12 +710,12 @@
   }
 
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 280vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 280vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
       padding: 45.5vw 0 0 0;
@@ -732,12 +737,12 @@
   }
 
   @media (max-width: 400px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 280vw auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    // background-size: 280vw auto;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
       padding: 45.5vw 0 0 0;

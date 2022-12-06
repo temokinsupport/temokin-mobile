@@ -203,7 +203,7 @@ export default function Featured() {
                         variant="light"
                         className="--btn-check-our-work"
                       >
-                        CHECK OUT OUR WORK
+                        VIEW MORE
                       </NavLink>
                     </Carousel.Caption>
                   </Carousel.Item>

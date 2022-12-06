@@ -222,6 +222,7 @@
     padding-top: 25vw;
     padding-bottom: 30vw;
     height: 100%;
+    font-family: "gill sans", sans-serif !important;
 
     hr {
       margin: 4vw 0;
@@ -1713,5 +1714,9 @@
       height: 650px;
       background-size: 100vw 650px;
     }
+  }
+
+  .--light {
+    font-family: "gill sans light", sans-serif !important;
   }
 }

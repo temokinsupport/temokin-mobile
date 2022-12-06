@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="995.957" height="284.359" viewBox="0 0 995.957 284.359">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="946.52" height="268.845" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_103" data-name="Path 103" d="M212.129,746.507-3.617,692.821l.634-141.379,215.112,35.935Z" transform="translate(3.617 -551.443)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Shapes-1" transform="translate(112.523 -0.413)">
+    <g id="Shapes" transform="translate(-63.086 0.413)">
+      <g id="Group_96" data-name="Group 96" clip-path="url(#clip-path)">
+        <g id="Group_95" data-name="Group 95" transform="translate(-162.916 147.791)">
+          <path id="Path_97" data-name="Path 97" d="M-261.016,825.6-673.6,700.215l63.687-90.256,412.585,125.385Z" transform="translate(673.601 -609.959)" fill="#283a97" opacity="0.62" style="mix-blend-mode: darken;isolation: isolate"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_98" data-name="Group 98" transform="translate(-112.523 89.708)">
+      <g id="Group_104" data-name="Group 104" transform="translate(0)" clip-path="url(#clip-path-2)">
+        <path id="Path_102" data-name="Path 102" d="M-77.705,700.295-365.937,612.7l44.492-63.053,288.232,87.594Z" transform="translate(205.248 -550.444)" fill="#283a97" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

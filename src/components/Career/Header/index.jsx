@@ -47,7 +47,7 @@ export default function Header() {
         <Image
           className="svg svg--2"
           src={
-            require("../../../assets/images/landacquisition/svg-2.svg").default
+            require("../../../assets/images/career/1041.svg").default
           }
         />
         <Image
@@ -69,60 +69,65 @@ export default function Header() {
           }
         />
         <Image
-          className="svg svg--6"
+          className="svg"
+          style={{'width' : '90vw', 'height': '40vw', 'bottom': '-1%', 'left': '-15%'}}
           src={
-            require("../../../assets/images/landacquisition/svg-6.svg").default
+            require("../../../assets/images/career/Shapes-1.png").default
           }
         />
         <Container className="--max">
           <Row>
             <Col>
               <h1 className="--title" data-scroll id="header-text">
-                JOIN OUR TEAM
+                JOIN OUR
+              </h1>
+
+              <h1 className="--title" data-scroll id="header-text">
+                TEAM
               </h1>
             </Col>
           </Row>
           <Row className="justify-content-center text-header">
             <Col md="8" sm="12" className="pb-5 mb-5 text-header__desc">
-              From our humble start, we have grown tremendously and now we are
-              looking to go <br />
-              next level. We have a no-discrimination policy and believe in
-              attitude, not so much <br />
-              aptitude. Of course, hard work is rewarded, and excellence is our
-              lifestyle. If <br />
-              you're energetic, eager to learn and a team player, send us your
-              resume and you <br /> could be on your way to a creer with
-              Temokin.
+              From our humble start, we have grown <br />
+              tremendously and now we are looking to <br />
+              go  next level. We have a no-discrimination <br />
+              policy and believe in attitude, not so much <br />
+              aptitude. Of course, hard work is rewarded, <br /> 
+              and excellence is our lifestyle. If you're <br />
+              energetic, eager to learn and a team player, <br /> 
+              send us your resume and you  could be on <br />
+              your way to a creer with Temokin.
             </Col>
-            <Col md="12" sm="12" className="mb-4">
-              <Row className="row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                <Col md="3" className="text-end">
-                  <Form.Label column className="land-label text-end">
+            <Col md="12" sm="12" className="mb-4" style={{'margin-top': '10vw'}}>
+              
+                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
+                  <Form.Label >
                     NAME
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" value="" plaintext  style={{ 'height' : '10vw'}}/>
                 </Col>
-                <Col md="3" className="text-end">
-                  <Form.Label column className="land-label text-end">
+                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
+                  <Form.Label>
                     CONTACT NUMBER
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" value="" plaintext  style={{ 'height' : '10vw'}}/>
                 </Col>
-                <Col md="3" className="text-end">
-                  <Form.Label column className="land-label text-end">
+                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
+                  <Form.Label>
                     EMAIL ADDRESS
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" value="" plaintext style={{ 'height' : '10vw'}} />
                 </Col>
 
-                <Col md="3" className="text-end">
-                  <Form.Label column className="land-label text-end">
+                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
+                  <Form.Label>
                     MESSAGE
                   </Form.Label>
                 </Col>
@@ -130,14 +135,15 @@ export default function Header() {
                   <Form.Control
                     className="career-form-textarea"
                     value=""
+                    style={{ 'height' : '30vw'}}
                     as="textarea"
                     rows={10}
                     cols={10}
                   />
                 </Col>
 
-                <Col md="3" className="text-end d-flex align-items-center">
-                  <Form.Label column className="land-label text-end">
+                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
+                  <Form.Label column>
                     UPLOAD RESUME
                   </Form.Label>
                 </Col>
@@ -145,7 +151,7 @@ export default function Header() {
                   <div className="text-start">
                     <Button className="career-choosefile-button">
                       CHOOSE FILE
-                    </Button>
+                    </Button><br />
                     <span className="career-choosefile-text">
                       *PDF FORMAT ONLY, MAXIMUM FILE SIZE IS 10MB
                     </span>
@@ -153,11 +159,12 @@ export default function Header() {
                 </Col>
                 <Col
                   md={{ span: 7, offset: 3 }}
-                  className="text-start mt-5 pt-5 land-submit__container"
+                  className="text-start pt-5 land-submit__container"
+                  style={{'margin-bottom': '25vw'}}
                 >
                   <Button className="land-submit">SUBMIT</Button>
                 </Col>
-              </Row>
+              
             </Col>
           </Row>
         </Container>

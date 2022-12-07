@@ -180,6 +180,7 @@ const Description = styled.p`
   white-space: pre-line;
 
   @supports (-webkit-touch-callout: none) {
+    font-size: 2.7vw;
     letter-spacing: 0em;
   }
 `;

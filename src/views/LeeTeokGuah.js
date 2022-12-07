@@ -201,9 +201,11 @@ const Description = styled.p`
   white-space: pre-line;
 
   @supports (-webkit-touch-callout: none) {
+    font-size: 2.7vw;
     letter-spacing: 0em;
   }
 `;
+
 const Qoute = styled.p`
   font-weight: 600 !important;
   line-height: 1.8;

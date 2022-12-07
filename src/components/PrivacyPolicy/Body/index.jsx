@@ -134,7 +134,7 @@ export default class EmailUs extends React.Component {
             require("../../../assets/images/privacypolicy/svg-7.svg").default
           }
         />
-        <Image
+        {/* <Image
           className="svg svg--2"
           src={
             require("../../../assets/images/privacypolicy/svg-1.svg").default
@@ -162,6 +162,42 @@ export default class EmailUs extends React.Component {
           className="svg svg--6"
           src={
             require("../../../assets/images/privacypolicy/svg-4.svg").default
+          }
+        /> */}
+        <Image
+          className="svg svg--7"
+          src={
+            require("../../../assets/images/privacypolicy/svg-8.svg").default
+          }
+        />
+        <Image
+          className="svg svg--8"
+          src={
+            require("../../../assets/images/privacypolicy/svg-9.svg").default
+          }
+        />
+        <Image
+          className="svg svg--9"
+          src={
+            require("../../../assets/images/privacypolicy/svg-10.svg").default
+          }
+        />
+        <Image
+          className="svg svg--10"
+          src={
+            require("../../../assets/images/privacypolicy/svg-11.svg").default
+          }
+        />
+        <Image
+          className="svg svg--11"
+          src={
+            require("../../../assets/images/privacypolicy/svg-12.svg").default
+          }
+        />
+        <Image
+          className="svg svg--12"
+          src={
+            require("../../../assets/images/privacypolicy/svg-13.svg").default
           }
         />
         <Container className="--max">

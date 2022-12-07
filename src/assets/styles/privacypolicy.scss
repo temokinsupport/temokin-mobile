@@ -21,7 +21,7 @@
       width: 15vw;
     }
 
-    &--2 {
+    /* &--2 {
       top: -2.5%;
       right: 0;
       width: 30vw;
@@ -53,6 +53,43 @@
       right: 0;
 
       width: 18vw;
+    } */
+
+    &--7 {
+      top: -1%;
+      left: 0;
+
+      width: 27vw;
+    }
+
+    &--8 {
+      top: 11.2%;
+      right: 0;
+      width: 35vw;
+    }
+
+    &--9 {
+      top: 36%;
+      left: 0;
+      width: 10vw;
+    }
+
+    &--10 {
+      bottom: 48%;
+      right: 0;
+      width: 23vw;
+    }
+
+    &--11 {
+      bottom: 33%;
+      left: 0;
+      width: 10vw;
+    }
+
+    &--12 {
+      bottom: 11%;
+      right: 0;
+      width: 28vw;
     }
   }
   .gnopopd {
@@ -83,7 +120,7 @@
   }
 
   .textBody {
-    width: 85%;
+    width: 82vw;
   }
 
   .textBodyPP {
@@ -91,7 +128,7 @@
     letter-spacing: 0.2vw;
     font-family: "gill sans medium", sans-serif !important;
     padding-top: 6vw;
-    padding-bottom: 25vw;
+    padding-bottom: 45vw;
     background-color: #283a97;
     white-space: pre-line;
 
@@ -131,6 +168,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left bottom;
+        transform: translateY(1px);
       }
     }
   }

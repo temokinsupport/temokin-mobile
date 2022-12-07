@@ -199,6 +199,11 @@ const Description = styled.p`
   text-align: center;
   letter-spacing: 0.1em;
   white-space: pre-line;
+
+  @supports (-webkit-touch-callout: none) {
+    font-size: 2.7vw;
+    letter-spacing: 0em;
+  }
 `;
 
 const Qoute = styled.p`

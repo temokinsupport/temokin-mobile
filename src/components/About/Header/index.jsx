@@ -47,7 +47,7 @@ export default function AboutTemokin() {
       <h1 className="section-title">Our Story</h1>
       <div className="our-story">
         <Carousel
-          interval={null}
+          interval={7000}
           activeIndex={carouselIndex}
           onSelect={controlCarousel}
           onSlide={controlCarousel}

@@ -13,7 +13,7 @@ export default function CarouselIndex() {
         }
       />
       <Container>
-        <Carousel interval={null} className="carousel">
+        <Carousel interval={7000} className="carousel">
           <Carousel.Item>
             <img
               className="d-block w-100"

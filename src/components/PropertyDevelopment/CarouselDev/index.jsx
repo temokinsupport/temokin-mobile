@@ -94,7 +94,7 @@ export default function CarouselDev() {
   }, [carouselIndex]);
 
   return (
-    <div className="--bg-2" data-scroll-section> 
+    <div className="--bg-2" data-scroll-section>
       <Image
         className="svg svg--1"
         src={
@@ -110,13 +110,12 @@ export default function CarouselDev() {
         }
       />
       <Carousel
-        interval={null}
+        interval={7000}
         className="overlay-carousel overlay-carousel--property-development"
         activeIndex={carouselIndex}
         onSelect={controlCarousel}
         onSlide={controlCarousel}
         fade
-        
       >
         {carousel.map((item, index) => {
           return (
@@ -125,17 +124,27 @@ export default function CarouselDev() {
             >
               <img
                 className="d-block w-100"
-                style={{'height': item.name == 'TROPICANA MIYU, PETALING JAYA' ? '100%': '120%' }}
+                style={{
+                  height:
+                    item.name == "TROPICANA MIYU, PETALING JAYA"
+                      ? "100%"
+                      : "120%",
+                }}
                 src={
-                  require(`../../../assets/images/propertydevelopment/${item.background}`) 
+                  require(`../../../assets/images/propertydevelopment/${item.background}`)
                     .default
                 }
                 alt="First slide"
               />
-              <Carousel.Caption style={{'margin-top': item.name == 'TROPICANA MIYU, PETALING JAYA' ? '5rem': '', 'margin-bottom': item.name == 'TROPICANA MIYU, PETALING JAYA' ? '5rem': ''}}>
-                <h3 className="--title" >
-                  {item.name}
-                </h3>
+              <Carousel.Caption
+                style={{
+                  "margin-top":
+                    item.name == "TROPICANA MIYU, PETALING JAYA" ? "5rem" : "",
+                  "margin-bottom":
+                    item.name == "TROPICANA MIYU, PETALING JAYA" ? "5rem" : "",
+                }}
+              >
+                <h3 className="--title">{item.name}</h3>
                 <p className="--desc">{item.description}</p>
                 <div className="--hr" />
                 <div className="--details">

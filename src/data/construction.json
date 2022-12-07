@@ -4,7 +4,7 @@
     "title": "TROPICANA CENANG",
     "background": "carousel/diami.png",
     "hero": "/building/tropicana-cenang.png",
-    "description": "A natural paradise, Langkawi is perhaps unmatched anywhere else in Southeast Asia. Its beautiful geological heritage of stunning landscapes and unique rock formations earns Langkawi an UNESCO Geopark status. Fine beaches, pure emerald waters and rich marine life offers sun-and-fun-filled holidays.",
+    "description": "A natural paradise, Langkawi is perhaps unmatched anywhere \n else in Southeast Asia. Its beautiful geological heritage of \n stunning landscapes and unique rock formations earns \n Langkawi an UNESCO Geopark status. Fine beaches, pure \n emerald waters and rich marine life offers sun-and- \n fun-filled holidays.",
     "client": "Tropicana Corporation Berhad",
     "value": "",
     "period": "Ongoing",
@@ -19,7 +19,7 @@
       },
       {
         "image": "/building/mahligai.png",
-        "name": "MAHLIGAI AT NUSA DAMAI",
+        "name": "MAHLIGAI AT NUSA DAMAI", 
         "path": "/building/mahligai"
       }
     ]

@@ -11,6 +11,7 @@
 
 .--career {
   position: relative;
+  overflow-x: hidden;
 
   .svg {
     position: absolute;
@@ -71,9 +72,9 @@
     height: 3rem;
   }
   .career-choosefile-text {
-    font-size: 10pt;
+    font-size: 3.5vw;
     letter-spacing: normal;
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .career-choosefile-button:hover {
@@ -787,7 +788,7 @@
       }
 
       .text-header__desc {
-        font-size: 12px;
+        font-size: 3vw;
         text-transform: uppercase;
         line-height: 2;
         letter-spacing: 0.4px;

@@ -69,17 +69,19 @@
         max-width: 100%;
         margin: 30px auto !important;
         h3 {
-          font-size: 1.125em !important;
+          // font-size: 1.125em !important;
           text-align: center !important;
           br {
             display: none;
           }
         }
         hr {
-          width: 100%;
+          width: 50%;
+          margin-left: 25%;
+          height: 1px;
         }
         p {
-          font-size: 0.875em !important;
+          // font-size: 0.875em !important;
           text-align: center !important;
           br {
             display: none;
@@ -91,11 +93,11 @@
             margin-top: 50px;
             h3 {
               text-align: left !important;
-              font-size: 0.875em !important;
+              // font-size: 0.875em !important;
             }
             p {
               text-align: left !important;
-              font-size: 0.875em !important;
+              // font-size: 0.875em !important;
               br {
                 display: none;
               }

@@ -71,7 +71,7 @@ const ChanYoonSang = () => {
                           <Line />
                           <Position>
                             <div className="leader-position">
-                              CONTRACTS DIRECTOR
+                              PROJECT DIRECTOR
                             </div>
                           </Position>
                         </Col>

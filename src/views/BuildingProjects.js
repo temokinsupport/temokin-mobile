@@ -134,7 +134,7 @@ const BuildingProject = () => {
               />
               <Image
                 className="svg svg--2"
-                src={require("../assets/images/building/svg-2.svg").default}
+                src={require("../assets/images/building/svg-2.svg").default} 
               />
               {projectData.name === "natl-camp" ? (
                 <>
@@ -198,7 +198,7 @@ const BuildingProject = () => {
                     }
                   />
                 </div>
-                <div className="middle__caption">
+                <div className="middle__caption" style={{ 'margin-top': '7.5vw'}}>
                   <p>{projectData.caption}</p>
                 </div>
               </section>

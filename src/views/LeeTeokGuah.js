@@ -80,35 +80,43 @@ const LeeTeokGuah = () => {
                         </Col>
                         <Col md={7}>
                           <Description>
-                            Edward possess more than 28 years of experience in
-                            property development and project management. He has
-                            extensive experience in township master planning and
-                            condominium projects as well as strata property
+                            Edward possess more than 28 years of experience in{" "}
+                            {"\n"}
+                            property development and project management. He has{" "}
+                            {"\n"}
+                            extensive experience in township master planning and{" "}
+                            {"\n"}
+                            condominium projects as well as strata property{" "}
+                            {"\n"}
                             management.
                             <br />
                             <br />
                             He was the Project General Manager of Scientex Bhd
-                            leading the Central Project Team, in charge of their
-                            Ipoh, Rawang, Kundang and Cheras project.
+                            leading {"\n"} the Central Project Team, in charge
+                            of their Ipoh, Rawang, {"\n"} Kundang and Cheras
+                            project.
                             <br />
                             <br />
                             Prior to that, he was the General Manager of TAHPS
-                            Group Bhd (now known as Ayer Holdings Bhd),
-                            developer of a I, 200 acre of Integrated Township
-                            called Bandar Bukit Puchong, responsible for Project
-                            Management, Sales & Marketing, Sales Admin, Township
-                            Maintenance & Customer Care and also overseeing the
-                            Finance & HR Department.
+                            Group {"\n"} Bhd (now known as Ayer Holdings Bhd),
+                            developer of a {"\n"} I, 200 acre of Integrated
+                            Township called Bandar Bukit {"\n"} Puchong,
+                            responsible for Project Management, Sales & {"\n"}{" "}
+                            Marketing, Sales Admin, Township Maintenance &
+                            Customer {"\n"}Care and also overseeing the Finance
+                            & HR Department.
                             <br />
                             <br />
-                            Edward started his career in 1992 with MBf Property
-                            Services Sdn Bhd, thereafter he joined YTL Land &
+                            Edward started his career in 1992 with MBf Property{" "}
+                            {"\n"}
+                            Services Sdn Bhd, thereafter he joined YTL Land &{" "}
+                            {"\n"}
                             Development Bhd for 13 years, starting as Project
-                            Manager until he reached the position of General
-                            Manager. His projects include the urban renewal
-                            project of Sentul East & West, Lake Edge, Pantai
-                            Hillpark, Lake Fields and Housing project at Ipoh
-                            and Pasir Gudang.
+                            Manager {"\n"} until he reached the position of
+                            General Manager. His {"\n"} projects include the
+                            urban renewal project of Sentul East & {"\n"}West,
+                            Lake Edge, Pantai Hillpark, Lake Fields and Housing{" "}
+                            {"\n"}project at Ipoh and Pasir Gudang.
                           </Description>
                         </Col>
                       </Row>
@@ -182,14 +190,15 @@ const Position = styled.h6`
 
 const Description = styled.p`
   font-weight: 600 !important;
-  line-height: 1.8;
-  font-size: 2.5vw;
+  line-height: 2em;
+  font-size: 2.7vw;
   font-family: "gill sans light", sans-serif !important;
   color: #676ab1;
   margin: 10vw auto 0;
   width: 80vw;
   text-align: center;
   letter-spacing: 0.1em;
+  white-space: pre-line;
 `;
 
 const Qoute = styled.p`

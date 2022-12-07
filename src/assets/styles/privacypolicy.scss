@@ -22,10 +22,9 @@
     }
 
     &--2 {
-      top: 0%;
+      top: -2.5%;
       right: 0;
-
-      width: 18vw;
+      width: 30vw;
     }
 
     &--3 {
@@ -78,15 +77,23 @@
     font-size: 1.4rem;
     font-family: "gill sans medium", sans-serif !important;
     color: #676ab1 !important;
+    text-transform: uppercase;
+
+    font-size: 2.5vw;
+  }
+
+  .textBody {
+    width: 85%;
   }
 
   .textBodyPP {
-    width: 100%;
     color: white;
     letter-spacing: 0.2vw;
     font-family: "gill sans medium", sans-serif !important;
     padding-top: 6vw;
     padding-bottom: 25vw;
+    background-color: #283a97;
+    white-space: pre-line;
 
     &::after {
       content: "";
@@ -103,14 +110,14 @@
     }
 
     &-bg {
-      position: absolute;
+      /* position: absolute;
       width: 100vw;
       height: 97%;
       bottom: 0;
       left: 0;
       z-index: -1;
 
-      background-color: #283a97;
+      background-color: #283a97; */
 
       &::before {
         content: "";
@@ -130,28 +137,28 @@
 
   .textBodyTitle {
     text-align: left;
-    font-size: 16pt !important;
-    margin-bottom: 7vh;
-    margin-top: 7vh;
+    font-size: 2.8vw !important;
+    margin: 5vw 0;
     font-family: "gill sans", sans-serif !important;
   }
 
   .bodyContent {
     line-height: 3;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.05em;
+    font-size: 2.8vw;
+    line-height: 1.8em;
   }
 
   .separator {
-    margin-top: 7vh;
-    margin-bottom: 7vh;
+    margin: 5vw 0;
   }
 
   .--subContent {
     width: 100%;
     text-align: center;
     margin-top: 10vh;
-    line-height: 2;
-    letter-spacing: 0.2vw;
+    line-height: 2.6em;
+    letter-spacing: 0.1em;
     color: #676ab1;
   }
 
@@ -185,10 +192,11 @@
       letter-spacing: 0.4vw;
       font-weight: 600 !important;
       text-transform: uppercase;
-      line-height: 1;
+      line-height: 2em;
       font-size: 2vw;
       color: #283a97;
       text-align: center;
+      white-space: pre-line;
     }
 
     h3.--title {
@@ -252,7 +260,7 @@
   }
 
   .--bg-2 {
-    padding: 20vw 0 0 0;
+    padding: 20vw 0;
     min-height: 80vw;
     width: 100%;
     position: relative;
@@ -428,14 +436,15 @@
   }
 
   .header-bg {
-    background: url("../images/termsofservice/Image-85.png") top -8vw center;
-    background-size: 105vw auto !important;
+    background: url("../images/privacypolicy/header-bg.png");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-size: auto 245vw !important;
+    background-position: -100vw top;
+
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
     position: absolute;
-    height: 80vw;
+    height: 250vw;
     width: 100%;
     top: 0;
     z-index: -3;
@@ -463,16 +472,16 @@
   }
 
   @media (max-width: 1024px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 155vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
-    .header-bg {
+    /* .header-bg {
       display: none;
-    }
+    } */
 
     .form-bg {
       background-size: 193vw 194vw !important;
@@ -495,7 +504,8 @@
       }
 
       h1.--title {
-        font-size: 1.5em;
+        font-size: 4.5vw;
+        letter-spacing: 0.25em;
       }
 
       img {
@@ -531,7 +541,7 @@
       }
     }
 
-    .--bg-2 {
+    /* .--bg-2 {
       padding: 30.5vw 0 0 0;
 
       .--max {
@@ -584,25 +594,25 @@
           width: 100%;
         }
       }
-    }
+    } */
   }
 
   @media (max-width: 920px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 165vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
   }
 
   @media (max-width: 740px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 180vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .form-bg {
       height: 195vw;
@@ -610,12 +620,12 @@
   }
 
   @media (max-width: 600px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 200vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .--bg-1 {
       padding: 150px 0 100px 0;
@@ -629,12 +639,12 @@
   }
 
   @media (max-width: 566px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 220vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .form-bg {
       background-size: 350vw 370vw !important;
@@ -644,7 +654,7 @@
       // top: -44vw;
     }
 
-    .--bg-2 {
+    /* .--bg-2 {
       padding: 45.5vw 0 0 0;
 
       form {
@@ -656,18 +666,18 @@
           text-align: left !important;
         }
       }
-    }
+    } */
   }
 
   @media (max-width: 500px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 235vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
-    .--bg-2 {
+    /* .--bg-2 {
       padding: 45.5vw 0 0 0;
 
       form {
@@ -679,18 +689,18 @@
           text-align: left !important;
         }
       }
-    }
+    } */
   }
 
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 280vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
-    .--bg-2 {
+    /* .--bg-2 {
       padding: 45.5vw 0 0 0;
 
       form {
@@ -706,18 +716,18 @@
           margin: 5vw auto 0 auto;
         }
       }
-    }
+    } */
   }
 
   @media (max-width: 400px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 280vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
-    .--bg-2 {
+    /* .--bg-2 {
       padding: 45.5vw 0 0 0;
 
       form {
@@ -733,6 +743,6 @@
           margin: 5vw auto 0 auto;
         }
       }
-    }
+    } */
   }
 }

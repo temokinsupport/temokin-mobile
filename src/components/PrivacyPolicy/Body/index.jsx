@@ -167,18 +167,19 @@ export default class EmailUs extends React.Component {
         <Container className="--max">
           <Row className="justify-content-center textBodyPP">
             <div className="textBodyPP-bg" />
-            <Col md={8}>
+            <Col md={8} className="textBody">
               <div className="textBodyTitle" data-scroll>
                 I. WHY WE COLLECT DATA
               </div>
 
               <div className="bodyContent">
-                We collect your personal information for use in connection with
-                our business process, execution, including deliver of notices,
-                services and/or products, client relationship management,
-                planning purposes in connection with future products, new
-                product launches and events including promotional events with
-                business partners within our project/townships.
+                We collect your personal information for use in {"\n"}connection
+                with our business process, execution, {"\n"}including deliver of
+                notices, services and/or products,{"\n"}client relationship
+                management, planning purposes in {"\n"}connection with future
+                products, new product launches {"\n"}and events including
+                promotional events with business {"\n"}partners within our
+                project/townships.
               </div>
               <hr className="separator" />
               <div className="textBodyTitle" data-scroll>
@@ -196,17 +197,18 @@ export default class EmailUs extends React.Component {
                   <li>children's basic details</li>
                   <li>marital status, occupation</li>
                   <li>income range</li>
-                  <li>contract information</li>
+                  <li>contrat information</li>
                   <li>email address</li>
                   <li>employer</li>
                   <li>ethnic origin</li>
                   <li>nationality</li>
                   <li>
-                    type of loans applied for in relation to the purchase of
-                    property
+                    type of loans applied for in relation to the <br /> purchase
+                    of property
                   </li>
                   <li>
-                    introducers' names, addresses and identity card numbers
+                    introducers' names, addresses and identity card <br />
+                    numbers
                   </li>
                 </ul>
                 <br />
@@ -220,32 +222,32 @@ export default class EmailUs extends React.Component {
                 3. PURPOSES OF COLLECTING PERSONAL DATA
               </div>
               <div className="bodyContent">
-                Personal Data you provide will be collected, used and otherwise
-                processed by us for, amongst others, the following purposes:
+                Personal Data you provide will be collected, used and {"\n"}{" "}
+                otherwise processed by us for, amongst others, the following{" "}
+                {"\n"} purposes:
                 <br />
-                <br />
-                * for the delivery of notices, services or products and the
-                marketing of such services or products whether present or
+                <br />* for the delivery of notices, services or products and
+                the{"\n"}
+                marketing of such services or products whether present or{"\n"}
                 future, to you:
                 <br />
-                <br />
-                * for you to enter into the necessary agreement and/or contract
-                to purchase or rent the products and/or properties from us (for
-                real estate customer only);
+                <br />* for you to enter into the necessary agreement and/or{" "}
+                {"\n"} contract to purchase or rent the products and/or
+                properties {"\n"} from us (for real estate customer only);
                 <br />
                 <br />
                 * for user or customer relationship management procedures;
                 <br />
-                <br />
-                * for those purpose specifically provided for in any particular
+                <br />* for those purpose specifically provided for in any
+                particular{"\n"}
                 service or product offered by us;
                 <br />
-                <br />
-                * for our conducting marketing and client profiling activities
+                <br />* for our conducting marketing and client profiling
+                activities {"\n"}
                 in connection with our services and related products;
                 <br />
-                <br />
-                * for our credit assessments and other background checks of
+                <br />* for our credit assessments and other background checks
+                of {"\n"}
                 users as we may determine to be necessary or appropriate;
                 <br />
                 <br />
@@ -254,34 +256,37 @@ export default class EmailUs extends React.Component {
                 <br />
                 * for collection of outstanding payments from clients;
                 <br />
-                <br />
-                * for prevention, detection or prosecution of crime, and
+                <br />* for prevention, detection or prosecution of crime, and{" "}
+                {"\n"}
                 compliance of legal and regulatory obligations;
                 <br />
+                <br />* meeting any legal or regulatory requirements relating to{" "}
+                {"\n"} our provision of services and products and to make {"\n"}{" "}
+                disclosure under the requirements of any applicable law, {"\n"}
+                regulation, direction, court order, by-law, guideline, circular,{" "}
+                {"\n"} code applicable to us or any member companies of {"\n"}{" "}
+                TEMOKIN;
                 <br />
-                * meeting any legal or regulatory requirements relating to our
-                provision of services and products and to make disclosure under
-                the requirements of any applicable law, regulation, direction,
-                court order, by-law, guideline, circular, code applicable to us
-                or any member companies of TEMOKIN;
-                <br />
-                <br />
-                * for purposes relating to any of the above (including but not
+                <br />* for purposes relating to any of the above (including but
+                not {"\n"}
                 limited to research, benchmarking and statistical analysis);
                 <br />
+                <br />* to enable us to send you information by e-mail, {"\n"}
+                telecommunication means (telephone cell or text messages) {
+                  "\n"
+                }{" "}
+                or social media about products and services offered by {"\n"}{" "}
+                selected third parties that we think may interest you but in{" "}
+                {"\n"} doing so we maintain control over your Personal Data and{" "}
+                {"\n"} we will not disclose you Personal Data to such third
+                parties {"\n"} without your prior consent;
                 <br />
-                * to enable us to send you information by e-mail,
-                telecommunication means (telephone cell or text messages) or
-                social media about products and services offered by selected
-                third parties that we think may interest you but in doing so we
-                maintain control over your Personal Data and we will not
-                disclose you Personal Data to such third parties without your
-                prior consent;
-                <br />
-                <br />
-                * in relation to the property, for delivery of vacant
-                possession, keys handover, property/estate management, customer
-                care and/or defect rectification works; and/or
+                <br />* in relation to the property, for delivery of vacant{" "}
+                {"\n"}
+                possession, keys handover, property/estate management, {
+                  "\n"
+                }{" "}
+                customer care and/or defect rectification works; and/or
                 <br />
                 <br />* for post vacant possession services.
               </div>
@@ -290,38 +295,43 @@ export default class EmailUs extends React.Component {
                 4. DISCLOSURE OF PERSONAL DATA
               </div>
               <div className="bodyContent">
-                Personal Data provided to us will generally be kept confidential
-                but you hereby consent and authorize us to provide or disclose
-                your Personal Data to the following categories of parties:
+                Personal Data provided to us will generally be kept {"\n"}{" "}
+                confidential but you hereby consent and authorize us to {"\n"}{" "}
+                provide or disclose your Personal Data to the following {"\n"}{" "}
+                categories of parties:
                 <br />
+                <br />* any person to whom we are compelled or required to do{" "}
+                {"\n"} so under law or {"\n"} in response to be a competent or
+                government agency:
                 <br />
-                * any person to whom we are compelled or required to do so under
-                law or in response to be a competent or government agency:
+                <br />* any other company within the TEMOKIN, {"\n"} including
+                those established in the future;
                 <br />
+                <br />* our business partners and online affiliates that {
+                  "\n"
+                }{" "}
+                provide related services or products in {"\n"} connection with
+                our business;
                 <br />
-                * any other company within the TEMOKIN, including those
-                established in the future;
+                <br />* government agencies, statutory authorities and {
+                  "\n"
+                }{" "}
+                industry regulators;
                 <br />
+                <br />* our auditors, consultants, accountants, lawyers {
+                  "\n"
+                }{" "}
+                or other financial or professional advisers;
                 <br />
-                * our business partners and online affiliates that provide
-                related services or products in connection with our business;
+                <br />* our contractors, sub-contractors or third party {
+                  "\n"
+                }{" "}
+                service or product providers as we may determine {"\n"} to be
+                necessary or appropriate: and/or;
                 <br />
-                <br />
-                * government agencies, statutory authorities and industry
-                regulators;
-                <br />
-                <br />
-                * our auditors, consultants, accountants, lawyers or other
-                financial or professional advisers;
-                <br />
-                <br />
-                * our contractors, sub-contractors or third party service or
-                product providers as w may determine to be necessary or
-                appropriate: and/or;
-                <br />
-                <br />* third party property management companies/entities in
-                respect of the management of property that customers have
-                purchased or are occupying.
+                <br />* third party property management companies/ {"\n"}
+                entities in respect of the management of property {"\n"} that
+                customers have purchased or are occupying.
               </div>
               <div className="textBodyTitle" data-scroll>
                 5. SAFEGUARDING YOUR PERSONAL DATA
@@ -338,34 +348,36 @@ export default class EmailUs extends React.Component {
                 6. DATA TRANSFER & SHARING
               </div>
               <div className="bodyContent">
-                Where we consider it necessary or appropriate for the purpose of
-                data storage or processing or providing any service or product
-                on our behalf to you, we may transfer your Personal Data to
-                other members of TEMOKIN or to any third-party service or
-                product providers [within or outside the country] which we have
-                established similar conditions of confidentiality and levels of
-                security safeguards.
+                Where we consider it necessary or appropriate {"\n"} for the
+                purpose of data storage or processing or {"\n"} providing any
+                service or product on our behalf to {"\n"} you, we may transfer
+                your Personal Data to other {"\n"} members of TEMOKIN or to any
+                third-party {"\n"} service or product providers [within or
+                outside {"\n"} the country] which we have established similar{" "}
+                {"\n"} conditions of confidentiality and levels of security{" "}
+                {"\n"} safeguards.
               </div>
               <div className="textBodyTitle" data-scroll>
                 7. YOUR RIGHTS TO ACCESS AND CORRECTION
               </div>
               <div className="bodyContent">
-                You may request for access to, correction or deletion or not to
-                disclose your personal information or limit the processing
-                thereof (including personal data of others provided by you) at
-                any time hereafter by emailing us your written instruction to us
-                at the email address provided below.
+                You may request for access to, correction or deletion or {"\n"}{" "}
+                not to disclose your personal {"\n"} information or limit the
+                processing thereof {"\n"} (including personal data of others
+                provided by {"\n"} you) at any time hereafter by emailing us
+                your {"\n"} written instruction to us at the email address{" "}
+                {"\n"} provided below.
                 <br />
                 <br />
-                Any inquiries or complaints with respect to your personal
-                information may also be channelled to us by submitting such
-                request to us via post. email or facsimile transmission to the
-                following: -
+                Any inquiries or complaints with respect to your {"\n"} personal
+                information may also be channelled to us {"\n"} by submitting
+                such request to us via post. email or {"\n"} facsimile
+                transmission to the following: -
                 <br />
                 <br />
                 <b>Sales & Marketing Department</b>
                 <br />
-                Tel No: 03-044 1111 <br />
+                Tel No: 03-4044 1111 <br />
                 Email address: sales.admin@temokin.com <br />
                 Address : No. 2, Jalan 15/48A, Sentul Raya Boulevard, 51000
                 Kuala Lumpur, MALAYSIA

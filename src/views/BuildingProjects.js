@@ -79,7 +79,7 @@ const BuildingProject = () => {
           />
         </div>
         <div className="middle__caption">
-          <p>{projectData.caption}</p>
+          <p className="--caption">{projectData.caption}</p>
         </div>
       </section>
     ) : null;
@@ -135,6 +135,7 @@ const BuildingProject = () => {
               <Image
                 className="svg svg--2"
                 src={require("../assets/images/building/svg-2.svg").default} 
+                style={{'z-index': '999'}}
               />
               {projectData.name === "natl-camp" ? (
                 <>
@@ -198,8 +199,10 @@ const BuildingProject = () => {
                     }
                   />
                 </div>
-                <div className="middle__caption" style={{ 'margin-top': '7.5vw'}}>
-                  <p>{projectData.caption}</p>
+                <div className="middle__caption" >
+                  <p style={{ 'transform': 'translateY(20%)'}}>
+                    {projectData.caption}
+                  </p>
                 </div>
               </section>
             ) : (

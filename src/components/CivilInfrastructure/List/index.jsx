@@ -88,7 +88,7 @@ export default function CivilInfrastructure() {
                       style={{
                         "font-size": "3.2vw",
                         "font-weight": "700",
-                        "margin-top": "3vw",
+                        "margin-top": "3vw", 
                         "letter-spacing": '.1em'
                       }}
                     >
@@ -107,7 +107,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" /> 
 
               <Row
                 className="item"
@@ -196,7 +196,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -292,7 +292,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -379,7 +379,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -480,7 +480,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -568,7 +568,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -756,7 +756,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -858,7 +858,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -948,7 +948,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -1049,7 +1049,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="opacity-100" />
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"

@@ -88,6 +88,7 @@ const PropertyDevelopmentProject = () => {
                   require("../assets/images/propertydevelopment/svg-1.svg")
                     .default
                 }
+                style={{'z-index': '999'}}
               />
               <Image
                 className="svg"
@@ -123,7 +124,7 @@ const PropertyDevelopmentProject = () => {
                   />
                 </div>
                 <div className="middle__caption">
-                  <p>{projectData.caption}</p>
+                  <p className="--caption">{projectData.caption}</p>
                 </div>
               </section>
             ) : null}

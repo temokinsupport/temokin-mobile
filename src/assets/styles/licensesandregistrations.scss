@@ -49,7 +49,7 @@
       font-family: "gill sans medium", sans-serif;
       font-weight: 500 !important;
       margin-bottom: 9.4vw;
-      font-size: 2.4vw;
+      font-size: 2.8vw;
       color: #676ab0;
       line-height: 2em;
       letter-spacing: 0.05em;
@@ -419,6 +419,8 @@
       }
     }
 
+    
+
     h4,
     h5 {
       margin: 0;
@@ -497,6 +499,13 @@
     padding: 15vw 0;
 
     font-size: 1vw;
+
+    &:nth-child(4) {
+      .qa__image {
+        width: 60vw;
+        height: 18vw;
+      }
+    }
 
     h4,
     h5 {

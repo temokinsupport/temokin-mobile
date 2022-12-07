@@ -190,11 +190,7 @@ const Description = styled.p`
   width: 80vw;
   text-align: center;
   letter-spacing: 0.1em;
-<<<<<<< Updated upstream
-`;
-=======
   white-space: pre-line;
->>>>>>> Stashed changes
 
   @supports (-webkit-touch-callout: none) {
     letter-spacing: 0em;

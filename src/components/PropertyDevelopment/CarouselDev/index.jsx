@@ -124,15 +124,12 @@ export default function CarouselDev() {
             >
               <img
                 className="d-block w-100"
-<<<<<<< Updated upstream
-=======
                 style={{
                   height:
                     item.name == "TROPICANA MIYU, PETALING JAYA"
                       ? "100%"
                       : "120%",
                 }}
->>>>>>> Stashed changes
                 src={
                   require(`../../../assets/images/propertydevelopment/${item.background}`)
                     .default

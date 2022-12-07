@@ -14,7 +14,7 @@
     position: absolute;
     pointer-events: none;
 
-    &--1 { 
+    &--1 {
       bottom: 0;
       left: 0;
       width: 100%;
@@ -859,13 +859,6 @@
       color: #283a97;
       margin: 8vw 0 0 0;
       text-align: center;
-      transform: scale(0) !important;
-      transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-
-      &.is-reveal {
-        transform: scale(1) !important;
-        transition-delay: 0.3s;
-      }
     }
 
     .--desc {
@@ -878,13 +871,6 @@
       color: #283a97;
       margin: 6vw 0 0 0;
       text-align: center;
-      transform: scale(0) !important;
-      transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-
-      &.is-reveal {
-        transform: scale(1) !important;
-        transition-delay: 0.3s;
-      }
     }
   }
 
@@ -1314,7 +1300,7 @@
         line-height: 2.5;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #676AB1;
+        color: #676ab1;
 
         // br {
         //   display: none;

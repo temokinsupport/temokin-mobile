@@ -697,12 +697,6 @@
       color: #283a97;
       margin: 8vw 0 0 0;
       text-align: center;
-      transform: scale(0) !important;
-      transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-      &.is-reveal {
-        transform: scale(1) !important;
-        transition-delay: 0.3s;
-      }
     }
     .--desc {
       font-family: "gill sans", sans-serif !important;
@@ -714,12 +708,6 @@
       color: #283a97;
       margin: 6vw 0 0 0;
       text-align: center;
-      transform: scale(0) !important;
-      transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-      &.is-reveal {
-        transform: scale(1) !important;
-        transition-delay: 0.3s;
-      }
     }
   }
   .overlay-shape1 {

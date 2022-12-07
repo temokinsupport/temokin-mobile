@@ -30,7 +30,7 @@ export default function CarouselIndex() {
                   Client
                 </Col>
                 <Col xs={12} className="content">
-                  Public Works Department, Malaysia
+                  Public Works Department, Malaysia (JKR)
                 </Col>
               </Row>
               <hr className="hr-carousel" />
@@ -128,7 +128,7 @@ export default function CarouselIndex() {
                   Period
                 </Col>
                 <Col xs={12} className="content">
-                  Jun 1993 to jun 1994
+                  Jun 1993 to Jun 1994
                 </Col>
               </Row>
             </Carousel.Caption>

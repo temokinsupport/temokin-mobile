@@ -79,28 +79,23 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                         <Col md={7}>
                           <Description>
                             Dato’ Robert is responsible for the overall
-                            strategic direction of Temokin and leads our
-                            business development, technical and investment arms.
-                            <br />
-                            <br />
-                            A chartered engineer (UK) by training, he graduated
-                            with a Master in Civil Engineering (Hons.) degree
-                            from University Malaya, Malaysia, and has worked 40
-                            years in the construction industry. He is well
-                            respected among his peers for his technical
-                            capabilities which have helped in the construction
-                            of key infrastructural and development projects in
-                            Malaysia.
-                            <br />
-                            <br />
-                            He holds positions in the Klang Chinese Chamber of
-                            Commerce, Master Builders Association Malaysia,
-                            Construction Industry Development Board, Board of
-                            Engineers Malaysia and Institute of Civil Engineers
-                            (Malaysia and UK). He is also passionately involved
-                            in charities and NGOs, including Dignity for
-                            Children and the Little Sisters of the Poor Home for
-                            the Aged.
+                            strategic {"\n"} direction of TEMOKIN and leads our
+                            business development, {"\n"} technical and
+                            investment arms. A chartered Engineer (UK) {"\n"}{" "}
+                            and a Professional Engineer (PE), bachelor in Civil{" "}
+                            {"\n"} Engineering (Hons.) degree from University
+                            Malaya, Malaysia, {"\n"} and has worked 47 years in
+                            the construction industry. He is {"\n"}
+                            well respected in the construction of key
+                            infrastructural and {"\n"} development projects in
+                            Malaysia. {"\n"} He previously holds position in the
+                            Klang Chinese Chamber {"\n"} of Commerce, Master
+                            Builders Association Malaysia, SIRIM {"\n"} Standard
+                            Committee, Council Member Of Institute Of {"\n"}{" "}
+                            Engineer, Malaysia (IEM). He is also passionately
+                            involved in {"\n"} charities and NGOs, including
+                            Dignity for Children and the {"\n"}
+                            Little Sisters of the Poor Home for the Aged.
                           </Description>
                           <Line />
                           <Qoute>
@@ -182,8 +177,8 @@ const Position = styled.h6`
 
 const Description = styled.p`
   font-weight: 600 !important;
-  line-height: 1.8;
-  font-size: 2.5vw;
+  line-height: 2em;
+  font-size: 2.7vw;
   font-family: "gill sans light", sans-serif !important;
   color: #676ab1;
   margin: 10vw auto 0;

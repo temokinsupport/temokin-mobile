@@ -268,13 +268,13 @@ function Navigation() {
               <li>
                 <NavLink
                   exact
-                  to="/civil-engineering"
+                  to="/civil-infrastructure"
                   onClick={() => setOpen(!open)}
                   aria-controls="basic-navbar-nav"
                   aria-expanded={open}
                   className="dynamic_nav --mobile-nav-text"
                 >
-                  Civil Engineering
+                  Civil & Infrastructure
                 </NavLink>
               </li>
             </div>

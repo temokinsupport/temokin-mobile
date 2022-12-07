@@ -628,8 +628,8 @@
     }
   }
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 400vw 100%;
+    background: url("../images/contactus/Contact_BG-01.png") top 0 right -38vw;
+    background-size: 400vw 50%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -667,7 +667,15 @@
           left: -45%;
           position: absolute;
         }
+
+        h1.--title {
+          font-size: 6vw;
+          color: #283A97;
+          margin: -8vw 0 10.5vw 0;
+        }
       }
+
+      
     }
   }
   @media (max-width: 400px) {

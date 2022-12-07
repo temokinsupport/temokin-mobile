@@ -23,7 +23,7 @@ export default function HeaderCivilInfrastructure() {
                     </Col>
                     <Col md={12}>
                       <p className="--desc"> 
-                        As a builder, we are only as successful as the
+                        As a builder, we are only as successful as the <br />
                         milestones that we’ve built.
 
                       </p>

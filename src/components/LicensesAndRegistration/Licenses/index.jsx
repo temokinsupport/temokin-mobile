@@ -22,7 +22,7 @@ export default function Licenses() {
     },
     {
       image: "bpkud.png",
-      descriptions: [
+      descriptions: [ 
         {
           content: "KEMENTERIAN KEWANGAN \n MALAYSIA",
           type: "name",

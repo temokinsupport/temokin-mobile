@@ -10,8 +10,12 @@
 */
 
 .--awards-and-achievements {
+  position: relative;
+  overflow-x: hidden !important;
+
   .svg {
     position: absolute;
+    
 
     &--1 {
       right: 0;
@@ -47,6 +51,7 @@
 
   min-height: 100vh;
   .--bg-1 {
+    overflow-x: hidden;
     /* min-height: 50vw; */
     height: 110vw;
     // margin-top: -9.1vw;
@@ -300,6 +305,14 @@
   .awards {
     font-family: "gill sans", sans-serif !important;
     color: white;
+
+    .award__name {
+      font-size: 2.8vw ;
+    }
+
+    .award__place {
+      font-size: 4vw ;
+    }
   }
   .award {
     $spacing: 20vw;
@@ -404,6 +417,21 @@
     h5 {
       margin: 0;
       //   font-size: 1em;
+    }
+
+    .testimonial__client {
+      .client__content {
+        .client__name {
+          font-size: 2.8vw;
+        }
+        
+      }
+    }
+
+    .testimonial__scope {
+      .scope__label {
+        font-size: 3vw;
+      }
     }
 
     & > * {

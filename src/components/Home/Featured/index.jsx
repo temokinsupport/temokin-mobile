@@ -8,6 +8,7 @@ export default function Featured() {
   // DESKTOP, TABLET & MOBILE
   const isTablet = useMediaQuery({ query: "(min-width: 992px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 992px)" });
+  const [carouselIndex, setCarouselIndex] = useState(0);
 
   // MOBILE CAROUSEL
   const ref = useRef(null);
@@ -20,6 +21,10 @@ export default function Featured() {
     ref.current.next();
     setRightActive(!isRightActive);
     setLeftActive(!isLeftActive);
+  };
+
+  const controlCarousel = (index) => {
+    setCarouselIndex(index);
   };
 
   // TOGGLE CLASS
@@ -135,12 +140,16 @@ export default function Featured() {
                 </div>
 
                 <Carousel
-                  interval={null}
+                  interval={7000}
                   fade
                   className="--carousel-mb"
-                  ref={ref}
+                  activeIndex={carouselIndex}
+                  onSelect={controlCarousel}
+                  onSlide={controlCarousel}
                 >
-                  <Carousel.Item>
+                  <Carousel.Item
+                    className={`carousel-item--0 ${0 === carouselIndex}`}
+                  >
                     <img
                       className="d-block"
                       src={
@@ -178,7 +187,9 @@ export default function Featured() {
                       </NavLink>
                     </Carousel.Caption>
                   </Carousel.Item>
-                  <Carousel.Item>
+                  <Carousel.Item
+                    className={`carousel-item--1 ${1 === carouselIndex}`}
+                  >
                     <img
                       className="d-block w-50"
                       src={
@@ -203,7 +214,7 @@ export default function Featured() {
                         variant="light"
                         className="--btn-check-our-work"
                       >
-                        CHECK OUT OUR WORK
+                        VIEW MORE
                       </NavLink>
                     </Carousel.Caption>
                   </Carousel.Item>

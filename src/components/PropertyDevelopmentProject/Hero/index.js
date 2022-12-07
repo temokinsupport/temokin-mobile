@@ -27,8 +27,9 @@ const Hero = ({ projectData }) => {
               <Row className="justify-content-between"> 
                 <Col md={12}>
                   <Name>{projectData.title}</Name>
+                  
+                  <Description>{projectData.description}</Description> 
                   <Line />
-                  <Description>{projectData.description}</Description>
                 </Col>
                 <Col md={12}>
                   <TextContainer style={{ 'margin-top': '10vw', 'margin-bottom': '20vw'}}>
@@ -68,7 +69,7 @@ const Hero = ({ projectData }) => {
           </div>
         </Col>
       </Row>
-    </Container>
+    </Container> 
   );
 };
 
@@ -76,12 +77,13 @@ const Name = styled.h3`
   letter-spacing: 0.19vw;
   text-transform: uppercase;
   line-height: 1.4;
-  font-size: 1.1vw;
+  font-size: 1vw;
   font-family: "gill sans medium", sans-serif !important;
   color: #283a97;
   margin: 0;
   text-align: left;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
+  letter-spacing: .2em;
 `;
 
 const Line = styled.hr`
@@ -89,40 +91,42 @@ const Line = styled.hr`
   height: 2px !important;
   width: 18vw;
   opacity: 1;
-  margin: 3vw 0 2.5vw 0;
+  margin: 6vw 0 2.5vw 0;
 `;
 
-const Description = styled.p`
+const Description = styled.h4`
   font-weight: 600 !important;
-  line-height: 1.3;
-  font-size: 1.12vw;
-  font-family: "gill sans light", sans-serif !important;
+  line-height: 2.5;
+  font-size: 2.8vw !important;
+  font-family: "gill sans light", sans-serif !important; 
   color: #283a97;
   margin: 0;
-  text-align: left;
-  letter-spacing: 0.15vw;
+  text-align: center;
+  letter-spacing: .1em;
+  margin-top: 5vw;
+  white-space: pre-line;
 `;
 const TextContainer = styled.div``;
 
-const Label = styled.h3`
+const Label = styled.h2`
   letter-spacing: 0.19vw;
   line-height: 1.4;
-  font-size: 1.1vw;
+  font-size: 3vw;
   font-family: "gill sans medium", sans-serif !important;
   color: #283a97;
   margin: 0;
-  text-align: left;
+  text-align: center;
   font-weight: 800 !important;
 `;
 
-const Text = styled.p`
+const Text = styled.h2`
   font-weight: 600 !important;
   line-height: 1.8;
-  font-size: 1.15vw;
+  font-size: 3vw;
   font-family: "gill sans light", sans-serif !important;
   color: #283a97;
   margin: 0 0 1.5vw 0;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.18vw;
 `;
 

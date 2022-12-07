@@ -3,18 +3,6 @@ import { Image, Carousel } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 export default function CarouselIndex() {
-  const splideRef = useRef();
-
-  const [slide, setSlide] = useState(0);
-
-  const onMove = useCallback((e) => {
-    // handler()
-    console.log(e);
-    setSlide(e.index);
-  }, []);
-
-  const [isRightActive, setRightActive] = useState(false);
-  const [isLeftActive, setLeftActive] = useState(false);
   const [carouselIndex, setCarouselIndex] = useState(0);
 
   const controlCarousel = (index) => {
@@ -85,7 +73,16 @@ export default function CarouselIndex() {
                 <h3 className="--title">{item.name}</h3>
                 <p className="--desc">{item.description}</p>
                 <div className="--details">
-                  {item.client ? (
+                  {item.client && item.name == "TROPICANA CENANG" ? (
+                    <p className="--bottom-detail client">
+                      <span className="--title">Client</span>
+                      <span>
+                        Tropicana Corporation <br /> Berhad
+                      </span>
+                    </p>
+                  ) : null}
+
+                  {item.client && item.name != "TROPICANA CENANG" ? (
                     <p className="--bottom-detail client">
                       <span className="--title">Client</span>
                       <span>{item.client}</span>
@@ -97,7 +94,21 @@ export default function CarouselIndex() {
                       <span>{item.value}</span>
                     </p>
                   ) : null}
-                  {item.period ? (
+                  {item.period &&
+                  item.name ==
+                    "NATIONAL CAMP AND SERVICES (NORTHERN REGIONS)" ? (
+                    <p className="--bottom-detail period">
+                      <span className="--title">Period</span>
+                      <span>
+                        September 2004 to <br />
+                        December 2004
+                      </span>
+                    </p>
+                  ) : null}
+
+                  {item.period &&
+                  item.name !=
+                    "NATIONAL CAMP AND SERVICES (NORTHERN REGIONS)" ? (
                     <p className="--bottom-detail period">
                       <span className="--title">Period</span>
                       <span>{item.period}</span>

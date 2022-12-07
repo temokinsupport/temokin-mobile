@@ -7,7 +7,7 @@ export default function Header() {
     <div className="--bg-1" data-scroll-section>
       <Navigation />
       <Container>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center" style={{'margin-top': '15vw'}}>
           <Col xs={12}>
             <h1 className="--title">Property <br /> Development</h1>
             

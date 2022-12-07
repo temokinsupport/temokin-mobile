@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     .--title {
-      font-family: "gill sans", sans-serif !important;
+      font-family: "gill sans", sans-serif !important; 
       letter-spacing: 0.4vw;
       font-weight: 600 !important;
       text-transform: uppercase;
@@ -61,10 +61,11 @@
       text-align: center;
       margin-top: 5vh;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 10px;
       width: 100%;
       line-height: 7vw;
       letter-spacing: 0.25vw;
+      font-family: "gill sans", sans-serif !important;
     }
   }
   

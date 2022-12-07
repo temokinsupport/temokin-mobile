@@ -19,7 +19,7 @@ export default function QualityAssurance() {
       descriptions: [
         {
           sub: "PERAKUAN PENDAFTARAN",
-          name: "DAERAH: KLANG | TARIKH MULA BERDAFTAR: 26/06/2018",
+          name: "DAERAH: KLANG | TARIKH \n MULA BERDAFTAR: 26/06/2018",
         },
       ],
     },
@@ -43,7 +43,7 @@ export default function QualityAssurance() {
       descriptions: [
         {
           sub: "SIJIL KONTRAKTOR JOHOR",
-          name: "TARIKH MULA BERKUATKUASA: 01 JULAI 2021 TARIKH TAMAT TEMPOH PERAKUAN: 31 DISEMBER 2023",
+          name: "TARIKH MULA \n BERKUATKUASA: 01 JULAI 2021 \n TARIKH TAMAT TEMPOH \n PERAKUAN: \n 31 DISEMBER 2023",
         },
       ],
     },

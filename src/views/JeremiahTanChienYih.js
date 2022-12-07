@@ -79,28 +79,32 @@ const TanChienWen = () => {
                         <Col md={7}>
                           <Description>
                             Jeremiah is responsible for Temokin’s business
-                            development, opening new markets while creating
-                            venues for expansion in existing ventures.
+                            development, {"\n"} opening new markets while
+                            creating venues for expansion in {"\n"} existing
+                            ventures.
                             <br />
                             <br />
-                            He graduated with a Bachelor of Science in Economics
-                            (Hons.) degree from the SOAS University of London,
+                            He graduated with a Bachelor of Science in Economics{" "}
+                            {"\n"}
+                            (Hons.) degree from the SOAS University of London,{" "}
+                            {"\n"}
                             England, and previously worked with YTL
-                            Communications as an Operations and Marketing
-                            Manager, generating widespread visibility for YES
-                            4G, its anchor brand, while concurrently acting as
-                            the Executive Director of Autodome, the F&B arm of
-                            YTL Land, revitalising older assets into profitable
-                            world-class restaurants and bars. Soon after, he was
-                            promoted to Vice President of YTL Hotels, overseeing
+                            Communications {"\n"} as an Operations and Marketing
+                            Manager, generating {"\n"} widespread visibility for
+                            YES 4G, its anchor brand, while {"\n"} concurrently
+                            acting as the Executive Director of Autodome, {"\n"}{" "}
+                            the F&B arm of YTL Land, revitalising older assets
+                            into {"\n"} profitable world-class restaurants and
+                            bars. Soon after, he {"\n"} was promoted to Vice
+                            President of YTL Hotels, overseeing {"\n"}
                             the Malaysian portfolio while assisting in the
-                            acquisition of new assets overseas.
+                            acquisition of {"\n"} new assets overseas.
                             <br />
                             <br />
                             He is also passionately involved in the development
-                            of lifestyle brands and has co- founded several
-                            health and fitness companies, including Fort Gyms
-                            and PWRHOUSE.
+                            of {"\n"} lifestyle brands and has co- founded
+                            several health and fitness {"\n"}companies,
+                            including Fort Gyms and PWRHOUSE.
                           </Description>
                         </Col>
                       </Row>
@@ -174,8 +178,8 @@ const Position = styled.h6`
 
 const Description = styled.p`
   font-weight: 600 !important;
-  line-height: 1.8;
-  font-size: 2.5vw;
+  line-height: 2em;
+  font-size: 2.7vw;
   font-family: "gill sans light", sans-serif !important;
   color: #676ab1;
   margin: 10vw auto 0;

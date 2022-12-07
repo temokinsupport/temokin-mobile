@@ -71,28 +71,31 @@ const ChanYoonSang = () => {
                           <Line />
                           <Position>
                             <div className="leader-position">
-                              CONTRACTS DIRECTOR
+                              PROJECT DIRECTOR
                             </div>
                           </Position>
                         </Col>
                         <Col md={7}>
                           <Description>
                             Yoon Sang is responsible for securing and
-                            implementing project contracts for Temokin. He led
-                            in the massive RM2.5 billion Seremban Middle Ring
-                            Road project, successfully executing its seven
-                            contract packages from conceptual design and pricing
-                            negotiation up to implementation and completion.
+                            implementing {"\n"} project contracts for Temokin.
+                            He led in the massive RM2.5 {"\n"} billion Seremban
+                            Middle Ring Road project, successfully {"\n"}{" "}
+                            executing its seven contract packages from
+                            conceptual {"\n"} design and pricing negotiation up
+                            to implementation {"\n"} and completion.
                             <br />
                             <br />
-                            He graduated with an Architecture Certificate and a
+                            He graduated with an Architecture Certificate and a{" "}
+                            {"\n"}
                             Diploma in Building Technology from Tunku Abdul
-                            Rahman University College, Malaysia, and started his
-                            career as a project co-ordinator and quantity
-                            surveyor in Sima Construction. He later joined
-                            Comtrac Sdn. Bhd., a subsidiary of DRB-HICOM, where
-                            he sharpened his skills in contract implementation
-                            through exposure to various fast-track turnkey
+                            Rahman {"\n"} University College, Malaysia, and
+                            started his career as a {"\n"} project co-ordinator
+                            and quantity surveyor in Sima {"\n"} Construction.
+                            He later joined Comtrac Sdn. Bhd., a {"\n"}{" "}
+                            subsidiary of DRB-HICOM, where he sharpened his
+                            skills in {"\n"} contract implementation through
+                            exposure to various fast- {"\n"}track turnkey
                             projects.
                           </Description>
                         </Col>
@@ -167,8 +170,8 @@ const Position = styled.h6`
 
 const Description = styled.p`
   font-weight: 600 !important;
-  line-height: 1.8;
-  font-size: 2.5vw;
+  line-height: 2em;
+  font-size: 2.7vw;
   font-family: "gill sans light", sans-serif !important;
   color: #676ab1;
   margin: 10vw auto 0;

@@ -79,23 +79,23 @@ const TanChienChyi = () => {
                         <Col md={7}>
                           <Description>
                             Chien Chyi founded the development arm of TEMOKIN,
-                            and he’s largely responsible for implementing
-                            development strategies to drive growth in our
-                            property development division by selectively
-                            choosing projects and areas that are profitable and
-                            fit TEMOKIN’s portfolio.
+                            and {"\n"} he’s largely responsible for implementing
+                            development {"\n"} strategies to drive growth in our
+                            property development {"\n"} division by selectively
+                            choosing projects and areas that are {"\n"}{" "}
+                            profitable and fit TEMOKIN’s portfolio.
                             <br />
                             <br />
                             On a day-to-day basis, he’s in charge of ensuring
-                            that operations across all TEMOKIN divisions are
-                            running smoothly and efficiently. <br />
+                            that {"\n"} operations across all TEMOKIN divisions
+                            are running {"\n"} smoothly and efficiently. <br />
                             <br />
                             He graduated with a Bachelor in Civil Engineering
-                            (Hons.) degree from University College London,
-                            England, and previously interned with BNP Paribas
-                            and YTL Power where he was exposed to financial
-                            modelling, merger & acquisitions, and operations
-                            management.
+                            (Hons.) {"\n"} degree from University College
+                            London, England, and {"\n"} previously interned with
+                            BNP Paribas and YTL Power {"\n"} where he was
+                            exposed to financial modelling, merger & {"\n"}
+                            acquisitions, and operations management.
                           </Description>
                         </Col>
                       </Row>
@@ -169,8 +169,8 @@ const Position = styled.h6`
 
 const Description = styled.p`
   font-weight: 600 !important;
-  line-height: 1.8;
-  font-size: 2.5vw;
+  line-height: 2em;
+  font-size: 2.7vw;
   font-family: "gill sans light", sans-serif !important;
   color: #676ab1;
   margin: 10vw auto 0;

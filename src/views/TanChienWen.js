@@ -80,20 +80,21 @@ const TanChienWen = () => {
                         <Col md={7}>
                           <Description>
                             Since joining Temokin, Chien Wen has introduced
-                            several corporate initiatives to streamline our
-                            operations for improved efficiency and
-                            effectiveness, and has taken the lead in several
-                            large-scale projects.
+                            several{"\n"} corporate initiatives to streamline
+                            our operations for{"\n"} improved efficiency and
+                            effectiveness, and has taken{"\n"} the lead in
+                            several large-scale projects.
                             <br />
                             <br />
                             He graduated with a Bachelor in Civil Engineering
-                            (Hons.) degree from the University of Manchester,
-                            England, and previously worked in Wessex Water, an
-                            award-winning utilities company in the United
-                            Kingdom, where he was involved in supporting capital
-                            programmes Wessex Water, which is United Kingdom’s
-                            preeminent awardwinning utilities company that
-                            serves over 1.3 million people every day.
+                            (Hons.){"\n"} degree from the University of
+                            Manchester, England,{"\n"} and previously worked in
+                            Wessex Water, an award-winning {"\n"}utilities
+                            company in the United Kingdom, where he was{"\n"}{" "}
+                            involved in supporting capital programmes Wessex
+                            Water,{"\n"} which is United Kingdom’s preeminent
+                            awardwinning{"\n"} utilities company that serves
+                            over 1.3 million people{"\n"} every day.
                           </Description>
                         </Col>
                       </Row>
@@ -167,8 +168,8 @@ const Position = styled.h6`
 
 const Description = styled.p`
   font-weight: 600 !important;
-  line-height: 1.8;
-  font-size: 2.5vw;
+  line-height: 2em;
+  font-size: 2.7vw;
   font-family: "gill sans light", sans-serif !important;
   color: #676ab1;
   margin: 10vw auto 0;

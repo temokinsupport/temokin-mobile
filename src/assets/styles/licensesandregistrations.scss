@@ -301,6 +301,12 @@
         left: 0;
       }
     }
+
+    .qas {
+      .qa__descriptions {
+        white-space: pre-line;
+      }
+    }
   }
 
   .header-bg {
@@ -406,6 +412,12 @@
     padding: 13vw 0;
 
     position: relative;
+
+    &:nth-child(3) {
+      .license__image {
+        width: 40vw;
+      }
+    }
 
     h4,
     h5 {

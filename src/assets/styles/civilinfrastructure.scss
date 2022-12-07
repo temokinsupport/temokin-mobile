@@ -12,6 +12,8 @@
 .--civil-infrastructure {
   overflow-x: hidden;
   .--header-civil {
+    font-family: "gill sans", sans-serif !important;
+
     position: relative;
     width: 100%;
     margin-top: 14vw;
@@ -49,7 +51,7 @@
   .--right-4 {
     position: absolute;
     right: 0;
-    top: -135px;
+    top: -28vw;
     width: 50vw;
   }
 
@@ -1646,7 +1648,7 @@
           margin-top: 5rem;
           text-align: center;
           text-transform: uppercase;
-          color: #283A97;
+          color: #283a97;
           line-height: 200%;
           letter-spacing: 2px;
           font-weight: 600 !important;
@@ -1718,6 +1720,6 @@
 
   .--light {
     font-family: "gill sans light", sans-serif !important;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
 }

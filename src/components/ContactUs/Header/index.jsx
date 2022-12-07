@@ -40,7 +40,7 @@ export default function Header() {
       <Container className="--max">
         <Col>
           <Col>
-            <h1 className="--title" data-scroll id="header-text"> 
+            <h1 className="--title" data-scroll id="header-text">  
               Get In Touch
             </h1>
           </Col>

@@ -78,7 +78,8 @@
         hr {
           width: 50%;
           margin-left: 25%;
-          height: 1px;
+          height: 1px !important;
+          opacity: 0.7;
         }
         p {
           // font-size: 0.875em !important;

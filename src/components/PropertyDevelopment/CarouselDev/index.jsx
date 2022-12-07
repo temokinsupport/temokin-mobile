@@ -211,7 +211,7 @@ export default function CarouselDev() {
                   {item.links.website ? (
                     <NavLink
                       className="--btn-view-project"
-                      to={item.links.website}
+                      to={{pathname: "https://www.mahligai.my/"}} target="_blank"
                     >
                       Visit Website
                     </NavLink>

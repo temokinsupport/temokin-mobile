@@ -109,7 +109,7 @@ const Description = styled.h4`
 const TextContainer = styled.div``;
 
 const Label = styled.h2`
-  letter-spacing: 0.19vw;
+  letter-spacing: .1em;
   line-height: 1.4;
   font-size: 3vw;
   font-family: "gill sans medium", sans-serif !important;
@@ -127,7 +127,7 @@ const Text = styled.h2`
   color: #283a97;
   margin: 0 0 1.5vw 0;
   text-align: center;
-  letter-spacing: 0.18vw;
+  letter-spacing: .1em;
 `;
 
 export default Hero;

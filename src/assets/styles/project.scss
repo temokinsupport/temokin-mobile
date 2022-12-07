@@ -104,6 +104,11 @@
 
     .middle__caption {
       background-color: #cc833d !important;
+      
+      .--caption {
+        // margin-top: 100vw;
+        transform: translateY(20%);
+      }
     }
 
     .related {
@@ -118,6 +123,11 @@
 
     .middle__caption {
       background-color: #00b7aa !important;
+
+      .--caption {
+        // margin-top: 100vw;
+        transform: translateY(20%);
+      }
     }
 
     .related {

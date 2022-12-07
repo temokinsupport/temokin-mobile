@@ -18,7 +18,7 @@ const Home = () => {
   const clear = () => {
     window.clearInterval(id.current);
     setPreloader(false);
-  };
+  }; 
 
   useEffect(() => {
     id.current = window.setInterval(() => {

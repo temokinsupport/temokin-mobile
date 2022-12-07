@@ -12,7 +12,7 @@ export default function Winner() {
     },
     {
       name: "Jabatan kerja \n raya malaysia",
-      place: "first-runner-up",
+      place: "first runner up",
       description:
         "Excellent contractor award 2015 \n for infrastructure project costing \n more than rm50 million",
       address: "Middle ring road seremban, negeri \n sembilan phase 2b",

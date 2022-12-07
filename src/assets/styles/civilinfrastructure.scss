@@ -1656,6 +1656,7 @@
           line-height: 200%;
           letter-spacing: 2px;
           font-weight: 600 !important;
+          font-family: "gill sans", sans-serif !important;
         }
 
         .--desc {
@@ -1709,7 +1710,7 @@
       height: 700px;
     }
     .parallax-bg {
-      background-size: auto 135vh;
+      background-size: 400vw 140%;
       background-position: -70vw -50vw !important;
     }
     .--container-5 {

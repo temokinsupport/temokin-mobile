@@ -816,6 +816,22 @@
             }
           }
         }
+<<<<<<< Updated upstream
+=======
+        .carousel-item {
+          opacity: 0;
+          transform: 0;
+
+          transition: opacity 0.2s ease-in-out;
+          height: 190vw;
+
+          &.true {
+            opacity: 1;
+
+            // height: 100%;
+          }
+        }
+>>>>>>> Stashed changes
         a.carousel-control-next,
         a.carousel-control-prev {
           display: none;

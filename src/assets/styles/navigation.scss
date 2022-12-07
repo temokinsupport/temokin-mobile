@@ -165,7 +165,7 @@
     background-repeat: no-repeat;
     height: 15px;
     width: 15px;
-    margin-bottom: 16px;
+    transform: translateY(35%);
     cursor: pointer;
     span {
       display: none;
@@ -179,7 +179,7 @@
     background-repeat: no-repeat;
     height: 15px;
     width: 15px;
-    margin-bottom: 16px;
+    transform: translateY(35%);
     cursor: pointer;
 
     span {
@@ -273,7 +273,6 @@
       }
     }
     a {
-      
       &.--logo {
         margin: 2.6vw 0 0 5.4vw !important;
         img {
@@ -283,15 +282,14 @@
     }
   }
 
-  @media (max-width: 428px) 
-  {
+  @media (max-width: 428px) {
     .static_nav {
       text-align: left;
       width: 100%;
       padding-top: 20px;
       font-family: "gill sans light", sans-serif;
     }
-    
+
     .navbar-nav {
       li {
         a {

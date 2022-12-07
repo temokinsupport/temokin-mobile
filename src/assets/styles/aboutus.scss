@@ -40,6 +40,8 @@
     }
 
     &--5 {
+      mix-blend-mode: multiply;
+
       &:nth-of-type(1) {
         top: 0;
         right: 0;
@@ -66,14 +68,11 @@
       width: 100%;
       img {
         // width: 66%;
-        width: 90%;
+        width: 80vw;
         aspect-ratio: 1/1;
         // height: 40vw;
         object-fit: cover;
         object-position: center;
-        @media not all and (min-resolution: 0.001dpcm) {
-          width: 50vw;
-        }
       }
       .splide__list {
         width: 100%;

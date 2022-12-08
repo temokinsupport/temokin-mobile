@@ -39,7 +39,7 @@ export default function CarouselIndex() {
                   Value
                 </Col>
                 <Col xs={12} className="content">
-                  RM2.5 million
+                  RM2.5 billion
                 </Col>
               </Row>
               <hr className="hr-carousel" />

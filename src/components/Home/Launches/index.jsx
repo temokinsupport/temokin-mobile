@@ -56,9 +56,9 @@ export default function Launches() {
               href="https://www.mahligai.my/"
               target="_blank"
               rel="noreferrer"
-              className="--btn-im-interested"
+              className="--btn-im-interested" 
             >
-              IM INTERESTED
+              I'M INTERESTED
             </a>
           </Col>
         </Row>

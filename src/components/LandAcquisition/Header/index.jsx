@@ -149,7 +149,7 @@ export default function Header() {
                     <Col className="d-flex" style={{'margin-top': '2vw'}}>
                       <Form.Check
                         type="radio"
-                        label="JOINT VENUE"
+                        label="JOINT VENTURE"
                         className="land-radio"
                       />
                     </Col>

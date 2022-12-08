@@ -97,7 +97,7 @@ export default function Header() {
               and excellence is our lifestyle. If you're <br />
               energetic, eager to learn and a team player, <br /> 
               send us your resume and you  could be on <br />
-              your way to a creer with Temokin.
+              your way to a career with Temokin.
             </Col>
             <Col md="12" sm="12" className="mb-4" style={{'margin-top': '10vw'}}>
               

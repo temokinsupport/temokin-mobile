@@ -68,14 +68,14 @@ export default function AboutTemokin() {
                 BEGINNING AND OURS IS NO EXCEPTION. {" \n"}
                 ESTABLISHED IN 1989, WE SECURED OUR FIRST {" \n"}
                 CONTRACT IN INFRASTRUCTURE AND BUILDINGS {" \n"}
-                WORKS IN EARLY 1990. THEN IN 1993, WE GREW IN {" \n"}
-                OUR JOURNEY DELIVERING HIGH QUALITY PIPE {" \n"}
-                JACKING AND EARTH WORKS WITH PROMINENT {" \n"}
-                CLIENTS BY DELIVERING AHEAD OF TIME AND WITH
+                WORK IN EARLY 1990. THEN IN 1993, WE GREW IN {" \n"}
+                OUR JOURNEY DELIVERING HIGH-QUALITY PIPE {" \n"}
+                JACKING AND EARTHWORKS WITH PROMINENT {" \n"}
+                CLIENTS BY DELIVERING AHEAD OF TIME WITH
                 {" \n"}
                 QUALITY AS OUR FIRST PRIORITY. IN 1997, WE
                 {" \n"}
-                DELIVERED MALAYSIA’S FIRST EVER MICRO-
+                DELIVERED MALAYSIA’S FIRST-EVER MICRO-
                 {" \n"}
                 TUNNELLING PROJECT THAT MANAGED TO GAIN {" \n"}
                 RECOGNITION THROUGHOUT THE INDUSTRY FROM {" \n"}
@@ -110,8 +110,7 @@ export default function AboutTemokin() {
             />
             <Carousel.Caption>
               <p className="description">
-                FROM A SOLID FOUNDATION, WE EXPANDED TO {"\n"}BECOME THE PRE-
-                EMINENT TURKEY CIVIL{"\n"} ENGINEERING AND PROPERTY conglomerate
+                FROM A SOLID FOUNDATION, WE EXPANDED TO {"\n"}BECOME THE PRE-EMINENT TURKEY CIVIL{"\n"} ENGINEERING AND PROPERTY conglomerate
                 that{"\n"} the nation and the world have come to know{"\n"} and
                 trust today.
               </p>

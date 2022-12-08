@@ -167,7 +167,7 @@ export default function Featured() {
                         {"\n"}
                         expanded into the building of electricity substations,
                         {"\n"}
-                        major underground sewage lines, complex bridges{"\n"}
+                        major underground sewage lines, complex bridges,{"\n"}
                         and major highways.
                       </p>
                       <NavLink
@@ -204,7 +204,7 @@ export default function Featured() {
                         {" "}
                         Temokin has a collective property development experience
                         of over 50 years, having designed and built complex
-                        skycrapers, hospitals and vast modern retail spaces on
+                        skyscrapers, hospitals, and vast modern retail spaces on
                         behalf of our clients. Our current portfolio includes
                         the building of high-quality duplex homes and the new
                         Istana Negara (Malaysia's national palace).

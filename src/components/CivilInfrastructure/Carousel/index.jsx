@@ -110,7 +110,7 @@ export default function CarouselIndex() {
                   Client
                 </Col>
                 <Col xs={12} className="content">
-                  Perbadanan Kemajuan Negeri, Selangor (PKNS)
+                  Perbadanan Kemajuan Negeri Selangor (PKNS)
                 </Col>
               </Row>
               <hr className="hr-carousel" />

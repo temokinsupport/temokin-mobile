@@ -127,7 +127,16 @@
     font-size: 8pt;
     align-items: flex-start;
     color: #676ab1 !important;
+
+    
   }
+
+  .land-radio__row {
+    .form-check-label {
+      color: #676ab1 !important;
+    }
+  }
+
   .land-submit {
     width: 60%;
     height: 100%;
@@ -141,10 +150,10 @@
   .land-upload {
     width: 100%;
     height: 100%;
-    border: 1px solid #283a97;
+    border: 1px solid #676AB1;
     border-radius: 0;
     background-color: white;
-    color: #283a97;
+    color: #676AB1;
     letter-spacing: 0.25em;
   }
   .land-formgroup {

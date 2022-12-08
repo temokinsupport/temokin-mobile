@@ -23,7 +23,7 @@ export default function Header() {
             <p className="--content">
               As a people developer, we are only as successful <br />
               as the developments we weave in with trust,<br />
-              passion and love.
+              passion, and love.
             </p>
 
             <p className="--content">

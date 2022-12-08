@@ -4,7 +4,7 @@
     "title": "TROPICANA CENANG",
     "background": "carousel/diami.png",
     "hero": "/building/tropicana-cenang.png",
-    "description": "A natural paradise, Langkawi is perhaps unmatched anywhere \n else in Southeast Asia. Its beautiful geological heritage of \n stunning landscapes and unique rock formations earns \n Langkawi an UNESCO Geopark status. Fine beaches, pure \n emerald waters and rich marine life offers sun-and- \n fun-filled holidays.",
+    "description": "A natural paradise, Langkawi is perhaps unmatched anywhere \n else in Southeast Asia. Its beautiful geological heritage of \n stunning landscapes and unique rock formations earns \n Langkawi an UNESCO Geopark status. Fine beaches, pure \n emerald waters, and rich marine life offers sun-and- \n fun-filled holidays.",
     "client": "Tropicana Corporation Berhad",
     "value": "",
     "period": "Ongoing",
@@ -26,7 +26,7 @@
   },
   {
     "name": "natl-camp",
-    "title": "NATIONAL CAMP AND SERVICES \n (NORTHERN REGIONS)",
+    "title": "NATIONAL CAMP AND SERVICES \n (NORTHERN REGIONS)", 
     "background": "carousel/mahligai.png",
     "hero": "/building/natl-camp.png",
 

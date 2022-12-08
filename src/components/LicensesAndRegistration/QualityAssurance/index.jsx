@@ -29,7 +29,7 @@ export default function QualityAssurance() {
       descriptions: [
         {
           sub: "JENIS PERMIT",
-          name: "PERMIT IPA JENIS C1 (PEMBETUNGAN) - SEMENANJUNG MALAYSIA, WILAYAH-WILAYAH PERSEKUTUAN PUTRAJAYA DAN LABUAN",
+          name: "PERMIT IPA JENIS C1 \n (PEMBETUNGAN) - SEMENANJUNG \n MALAYSIA, WILAYAH-WILAYAH PERSEKUTUAN \n PUTRAJAYA DAN LABUAN",
         },
         {
           sub: "TEMPOH PERMIT",

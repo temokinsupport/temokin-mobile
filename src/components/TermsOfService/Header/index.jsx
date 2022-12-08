@@ -56,7 +56,7 @@ export default function Header() {
               to comply with and be bound by <br />
               the following terms and condition of use, <br />
               set out below. <br /><br />
-              The term "TEMOKIN","us" or "we" refers to <br />
+              The term "TEMOKIN", "us" or "we" refers to <br />
               TEMOKIN Group of Companies, the owner of  <br />
               the website, whose registered office is No 2, <br />
               Jalan 15/48A, Sentul Raya Boulevard, 51000 <br />

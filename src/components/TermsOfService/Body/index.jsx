@@ -179,7 +179,7 @@ export default class EmailUs extends React.Component {
               <div className="bodyContent">
                 Neither we nor any third parties provide any warranty or <br />
                 guarantee as to the accuracy, timeliness, performance, <br />
-                completeness or suitability of the information and <br />
+                completeness, or suitability of the information and <br />
                 materials found or offered on this website for any <br />
                 particular purpose. You acknowledge that such information <br /> 
                 and materials may contain inaccuracies or errors and we <br /> 

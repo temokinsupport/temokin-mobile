@@ -30,17 +30,17 @@ export default function CarouselDev() {
 
   const carousel = [
     {
-      name: "MAHILGAI AT NUSA DAMAI \n 2 & 2.5 STOREY HOUSING, JOHOR",
+      name: "MAHLIGAI AT NUSA DAMAI \n 2 & 2.5 STOREY HOUSING, JOHOR",
       background: "carousel/mahligai.png",
       description:
-        "Mahilgai at Nusa Damai consists \n of 163 landed houses in the \n already-mature neighborhood of \n Masai in Johor",
+        "Mahligai at Nusa Damai consists \n of 163 landed houses in the \n already-mature neighborhood of \n Masai in Johor",
       value: "RM100 million ",
       period: "Feb 2017 to ongoing",
       awards: [
         {
           image: "apa.png",
           description:
-            "Highly Commended \n for Best High End \n Landed \n Development \n (Southern)",
+            "Highly Commended \n for Best High-End \n Landed \n Development \n (Southern)",
         },
       ],
       links: {

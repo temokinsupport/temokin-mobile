@@ -211,7 +211,7 @@ export default class EmailUs extends React.Component {
               <div className="bodyContent">
                 We collect your personal information for use in {"\n"}connection
                 with our business process, execution, {"\n"}including deliver of
-                notices, services and/or products,{"\n"}client relationship
+                notices, services, and/or products,{"\n"}client relationship
                 management, planning purposes in {"\n"}connection with future
                 products, new product launches {"\n"}and events including
                 promotional events with business {"\n"}partners within our
@@ -233,7 +233,7 @@ export default class EmailUs extends React.Component {
                   <li>children's basic details</li>
                   <li>marital status, occupation</li>
                   <li>income range</li>
-                  <li>contrat information</li>
+                  <li>contact information</li>
                   <li>email address</li>
                   <li>employer</li>
                   <li>ethnic origin</li>
@@ -243,7 +243,7 @@ export default class EmailUs extends React.Component {
                     of property
                   </li>
                   <li>
-                    introducers' names, addresses and identity card <br />
+                    introducers' names, addresses, and identity card <br />
                     numbers
                   </li>
                 </ul>
@@ -262,7 +262,7 @@ export default class EmailUs extends React.Component {
                 otherwise processed by us for, amongst others, the following{" "}
                 {"\n"} purposes:
                 <br />
-                <br />* for the delivery of notices, services or products and
+                <br />* for the delivery of notices, services, or products and
                 the{"\n"}
                 marketing of such services or products whether present or{"\n"}
                 future, to you:
@@ -292,7 +292,7 @@ export default class EmailUs extends React.Component {
                 <br />
                 * for collection of outstanding payments from clients;
                 <br />
-                <br />* for prevention, detection or prosecution of crime, and{" "}
+                <br />* for prevention, detection, or prosecution of crime, and{" "}
                 {"\n"}
                 compliance of legal and regulatory obligations;
                 <br />
@@ -305,7 +305,7 @@ export default class EmailUs extends React.Component {
                 <br />
                 <br />* for purposes relating to any of the above (including but
                 not {"\n"}
-                limited to research, benchmarking and statistical analysis);
+                limited to research, benchmarking, and statistical analysis);
                 <br />
                 <br />* to enable us to send you information by e-mail, {"\n"}
                 telecommunication means (telephone cell or text messages) {
@@ -359,7 +359,7 @@ export default class EmailUs extends React.Component {
                 }{" "}
                 or other financial or professional advisers;
                 <br />
-                <br />* our contractors, sub-contractors or third party {
+                <br />* our contractors, sub-contractors, or third party {
                   "\n"
                 }{" "}
                 service or product providers as we may determine {"\n"} to be
@@ -413,8 +413,8 @@ export default class EmailUs extends React.Component {
                 <br />
                 <b>Sales & Marketing Department</b>
                 <br />
-                Tel No: 03-4044 1111 <br />
-                Email address: sales.admin@temokin.com <br />
+                Tel No : 03-4044 1111 <br />
+                Email address : sales.admin@temokin.com <br />
                 Address : No. 2, Jalan 15/48A, Sentul Raya Boulevard, 51000
                 Kuala Lumpur, MALAYSIA
                 <br />

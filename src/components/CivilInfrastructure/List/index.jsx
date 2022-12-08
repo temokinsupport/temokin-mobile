@@ -1074,7 +1074,7 @@ export default function CivilInfrastructure() {
                   {" "}
                   GRADE SEPARATED INTERCHANGE AND <br />
                   ASSOCIATE WORKS, TMN MOUNT AUSTIN, <br />
-                  JOHOR BAHRU- KOTA TINGGI ROAD{" "}
+                  JOHOR BAHRU-KOTA TINGGI ROAD{" "}
                 </Col>
                 <Row>
                   <Col md={4}>

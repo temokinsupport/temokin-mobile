@@ -18,7 +18,7 @@ export default function WeDig() {
             <h1 className="--title">We Dig</h1>
             <p className="--desc">
               More than just our values, we dig is a tribute <br />
-              from our early pipe jacking and earthworks days,
+              to our early pipe jacking and earthworks days,
               <br />
               and it serves as a constant reminder of how <br />
               even the toughest journeys can lead to the <br />

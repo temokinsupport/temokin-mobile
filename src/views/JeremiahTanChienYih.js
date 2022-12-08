@@ -93,7 +93,7 @@ const TanChienWen = () => {
                             Manager, generating {"\n"} widespread visibility for
                             YES 4G, its anchor brand, while {"\n"} concurrently
                             acting as the Executive Director of Autodome, {"\n"}{" "}
-                            the F&B arm of YTL Land, revitalising older assets
+                            the F&B arm of YTL Land, revitalizing older assets
                             into {"\n"} profitable world-class restaurants and
                             bars. Soon after, he {"\n"} was promoted to Vice
                             President of YTL Hotels, overseeing {"\n"}
@@ -102,7 +102,7 @@ const TanChienWen = () => {
                             <br />
                             <br />
                             He is also passionately involved in the development
-                            of {"\n"} lifestyle brands and has co- founded
+                            of {"\n"} lifestyle brands and has co-founded
                             several health and fitness {"\n"}companies,
                             including Fort Gyms and PWRHOUSE.
                           </Description>

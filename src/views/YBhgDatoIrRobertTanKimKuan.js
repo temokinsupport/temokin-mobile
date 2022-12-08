@@ -45,7 +45,7 @@ const YBhgDatoIrRobertTanKimKuan = () => {
         >
           <Image
             className="svg svg--1"
-            src={require("../assets/images/leaders/svg-1.svg").default}
+            src={require("../assets/images/leaders/svg-1.svg").default} 
             alt="First slide"
           />
           <Image

@@ -82,7 +82,7 @@ const TanChienWen = () => {
                             Since joining Temokin, Chien Wen has introduced
                             several{"\n"} corporate initiatives to streamline
                             our operations for{"\n"} improved efficiency and
-                            effectiveness, and has taken{"\n"} the lead in
+                            effectiveness and has taken{"\n"} the lead in
                             several large-scale projects.
                             <br />
                             <br />
@@ -93,7 +93,7 @@ const TanChienWen = () => {
                             company in the United Kingdom, where he was{"\n"}{" "}
                             involved in supporting capital programmes Wessex
                             Water,{"\n"} which is United Kingdom’s preeminent
-                            awardwinning{"\n"} utilities company that serves
+                            award-winning{"\n"} utilities company that serves
                             over 1.3 million people{"\n"} every day.
                           </Description>
                         </Col>

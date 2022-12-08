@@ -93,13 +93,13 @@ const LeeTeokGuah = () => {
                             <br />
                             He was the Project General Manager of Scientex Bhd
                             leading {"\n"} the Central Project Team, in charge
-                            of their Ipoh, Rawang, {"\n"} Kundang and Cheras
+                            of their Ipoh, Rawang, {"\n"} Kundang, and Cheras
                             project.
                             <br />
                             <br />
                             Prior to that, he was the General Manager of TAHPS
                             Group {"\n"} Bhd (now known as Ayer Holdings Bhd),
-                            developer of a {"\n"} I, 200 acre of Integrated
+                            developer of a {"\n"} 1,200 acre of Integrated
                             Township called Bandar Bukit {"\n"} Puchong,
                             responsible for Project Management, Sales & {"\n"}{" "}
                             Marketing, Sales Admin, Township Maintenance &
@@ -115,7 +115,7 @@ const LeeTeokGuah = () => {
                             Manager {"\n"} until he reached the position of
                             General Manager. His {"\n"} projects include the
                             urban renewal project of Sentul East & {"\n"}West,
-                            Lake Edge, Pantai Hillpark, Lake Fields and Housing{" "}
+                            Lake Edge, Pantai Hillpark, Lake Fields, and Housing{" "}
                             {"\n"}project at Ipoh and Pasir Gudang.
                           </Description>
                         </Col>

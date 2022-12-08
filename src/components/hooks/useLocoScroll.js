@@ -13,20 +13,20 @@ export default function useLocoScroll(start) {
   useEffect(() => {
     if (!start) return;
 
-    const scrollEl = document.querySelector("#main-container");
-    locoScroll.current = new locomotiveScroll({
+    // const scrollEl = document.querySelector("#main-container");
+    /* locoScroll.current = new locomotiveScroll({
       el: scrollEl,
       smooth: true,
       multiplier: 1,
       class: "is-reveal",
       repeat: true,
-    });
+    }); */
 
-    gsap.registerPlugin(ScrollTrigger);
+    // gsap.registerPlugin(ScrollTrigger);
 
-    locoScroll.current.on("scroll", ScrollTrigger.update);
+    // locoScroll.current.on("scroll", ScrollTrigger.update);
 
-    ScrollTrigger.create({
+    /* ScrollTrigger.create({
       trigger: ".header-bg",
       scroller: ".container",
       start: "top+=30% 50%",
@@ -34,13 +34,14 @@ export default function useLocoScroll(start) {
       animation: gsap.to(".header-bg", { backgroundSize: "120%" }),
       scrub: 2,
       // markers: true
-    });
+    }); */
   }, [start]);
 
   useEffect(() => {
-    console.log(!!locoScroll.current, location);
-
+    console.log("scroll to top");
     window.scrollTo(0, 0);
+    if (!!locoScroll.current) {
+    }
   }, [location]);
 
   useEffect(() => {

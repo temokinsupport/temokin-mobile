@@ -49,7 +49,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -69,7 +69,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -88,8 +88,8 @@ export default function CivilInfrastructure() {
                       style={{
                         "font-size": "3.2vw",
                         "font-weight": "700",
-                        "margin-top": "3vw", 
-                        "letter-spacing": '.1em'
+                        "margin-top": "3vw",
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -107,7 +107,7 @@ export default function CivilInfrastructure() {
                 <br />
                 <br />
               </Row>
-              <hr className="--opacitycv" /> 
+              <hr className="--opacitycv" />
 
               <Row
                 className="item"
@@ -139,7 +139,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -159,7 +159,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -179,7 +179,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -210,7 +210,7 @@ export default function CivilInfrastructure() {
                 <Image
                   style={{
                     position: "absolute",
-                    top: "23%",
+                    top: "33vw",
                     right: "-65%",
                     width: "100vw",
                   }}
@@ -241,14 +241,16 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
-                      
                     >
                       Client
                     </Col>
 
-                    <Col style={{ "font-size": "3.2vw", "margin-top": "3vw" }} className="--light">
+                    <Col
+                      style={{ "font-size": "3.2vw", "margin-top": "3vw" }}
+                      className="--light"
+                    >
                       Active Review Sdn Bhd
                     </Col>
                   </Col>
@@ -259,14 +261,16 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
-                      
                     >
                       Value
                     </Col>
 
-                    <Col style={{ "font-size": "3.2vw", "margin-top": "3vw" }} className="--light">
+                    <Col
+                      style={{ "font-size": "3.2vw", "margin-top": "3vw" }}
+                      className="--light"
+                    >
                       RM10 million
                     </Col>
                   </Col>
@@ -277,14 +281,16 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
-                      
                     >
                       Period
                     </Col>
 
-                    <Col style={{ "font-size": "3.2vw", "margin-top": "3vw" }} className="--light">
+                    <Col
+                      style={{ "font-size": "3.2vw", "margin-top": "3vw" }}
+                      className="--light"
+                    >
                       May 1994 to Oct 1994
                     </Col>
                   </Col>
@@ -322,7 +328,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -342,7 +348,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -362,7 +368,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -393,12 +399,12 @@ export default function CivilInfrastructure() {
                 <Image
                   style={{
                     position: "absolute",
-                    top: "37%",
-                    right: "-43%",
-                    width: "75%",
+                    top: "25vw",
+                    right: "-13%",
+                    width: "39vw",
                   }}
                   src={
-                    require("../../../assets/images/civilinfrastructure/350.svg")
+                    require("../../../assets/images/civilinfrastructure/svg-1.svg")
                       .default
                   }
                 />
@@ -423,7 +429,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -443,7 +449,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -463,7 +469,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -511,7 +517,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -531,7 +537,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -551,7 +557,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -612,7 +618,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -632,7 +638,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -652,7 +658,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -699,7 +705,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -719,7 +725,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -739,7 +745,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -801,7 +807,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -821,7 +827,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -841,7 +847,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -891,7 +897,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -911,7 +917,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -931,7 +937,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -992,7 +998,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -1012,7 +1018,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -1032,7 +1038,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period
@@ -1077,7 +1083,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Client
@@ -1097,7 +1103,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Value
@@ -1117,7 +1123,7 @@ export default function CivilInfrastructure() {
                         "font-size": "3.2vw",
                         "font-weight": "700",
                         "margin-top": "3vw",
-                        "letter-spacing": '.1em'
+                        "letter-spacing": ".1em",
                       }}
                     >
                       Period

@@ -22,21 +22,21 @@
 
     &--1 {
       top: -3%;
-      right: -90%; 
+      right: -90%;
 
       width: 150vw;
     }
 
     &--2 {
       top: -65%;
-      left: -90%; 
+      left: -90%;
 
       width: 100vw;
     }
 
     &--3 {
       bottom: -20%;
-      right: -90%; 
+      right: -90%;
 
       width: 100vw;
     }
@@ -145,12 +145,6 @@
       color: #ffffff;
       margin: 0 0 3.5vw 0;
       text-align: center;
-      transform: scale(0) !important;
-      transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-      &.is-reveal {
-        transform: scale(1) !important;
-        transition-delay: 0.3s;
-      }
     }
     form {
       margin-left: 5vw;
@@ -159,12 +153,6 @@
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 20px;
-        transform: scale(0) !important;
-        transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-        &.is-reveal {
-          transform: scale(1) !important;
-          transition-delay: 0.3s;
-        }
       }
       label {
         font-family: "gill sans", sans-serif !important;
@@ -220,12 +208,7 @@
         margin: 5vw auto 0 11.7vw;
         outline: 0 !important;
         box-shadow: none !important;
-        transform: scale(0) !important;
-        transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-        &.is-reveal {
-          transform: scale(1) !important;
-          transition-delay: 0.3s;
-        }
+
         &:focus {
           outline: 0 !important;
         }
@@ -236,20 +219,10 @@
       height: 30vw;
       padding-top: 2vw;
       position: relative;
-      transform: scale(0) !important;
-      transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-      pointer-events: none;
-
-      &.is-reveal {
-        transform: scale(1) !important;
-        transition-delay: 0.3s;
-        position: all;
-      }
       iframe {
         margin-left: -2.5vw;
         width: 35vw;
       }
-
     }
     .header-shapes {
       position: absolute;
@@ -670,12 +643,10 @@
 
         h1.--title {
           font-size: 6vw;
-          color: #283A97;
+          color: #283a97;
           margin: -8vw 0 10.5vw 0;
         }
       }
-
-      
     }
   }
   @media (max-width: 400px) {
@@ -703,7 +674,7 @@
         font-size: 17px;
         line-height: 1.6;
       }
-    }    
+    }
 
     .--bg-1 {
       .--max {
@@ -723,11 +694,10 @@
 
         h1.--title {
           font-size: 6vw;
-          color: #283A97;
+          color: #283a97;
           margin: -8vw 0 10.5vw 0;
         }
       }
     }
-    
   }
 }

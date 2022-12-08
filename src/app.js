@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
 import "./assets/styles/app.scss";
 import Home from "./views/Home";
 import AboutTemokin from "./views/AboutTemokin";
@@ -50,7 +49,6 @@ export default function App() {
         render={({ location }) => {
           return (
             <div>
-              <ScrollToTop />
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about-temokin" component={AboutTemokin} />

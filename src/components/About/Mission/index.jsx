@@ -33,7 +33,7 @@ export default function Mission() {
               className="--sub-title"
             >
               To deliver outstanding work <br />
-              consistently, <br /> punctually and with <br />
+              consistently, <br /> punctually, and with <br />
               absolute integrity.
             </p>
           </Col>

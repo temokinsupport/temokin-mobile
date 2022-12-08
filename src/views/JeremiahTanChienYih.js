@@ -103,7 +103,7 @@ const TanChienWen = () => {
                             <br />
                             He is also passionately involved in the development
                             of {"\n"} lifestyle brands and has co-founded
-                            several health and fitness {"\n"}companies,
+                            several health and {"\n"} fitness companies,
                             including Fort Gyms and PWRHOUSE.
                           </Description>
                         </Col>

@@ -33,7 +33,7 @@ export default function CarouselDev() {
       name: "MAHLIGAI AT NUSA DAMAI \n 2 & 2.5 STOREY HOUSING, JOHOR",
       background: "carousel/mahligai.png",
       description:
-        "Mahligai at Nusa Damai consists \n of 163 landed houses in the \n already-mature neighborhood of \n Masai in Johor",
+        "Mahligai at Nusa Damai consists \n of 163 landed houses in the \n already-mature neighbuorhood of \n Masai in Johor",
       value: "RM100 million ",
       period: "Feb 2017 to ongoing",
       awards: [

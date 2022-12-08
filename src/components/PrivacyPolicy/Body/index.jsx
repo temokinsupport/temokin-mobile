@@ -259,8 +259,7 @@ export default class EmailUs extends React.Component {
               </div>
               <div className="bodyContent">
                 Personal Data you provide will be collected, used and {"\n"}{" "}
-                otherwise processed by us for, amongst others, the following{" "}
-                {"\n"} purposes:
+                otherwise processed by us for, amongst others, the following{" "}purposes:
                 <br />
                 <br />* for the delivery of notices, services, or products and
                 the{"\n"}
@@ -269,22 +268,19 @@ export default class EmailUs extends React.Component {
                 <br />
                 <br />* for you to enter into the necessary agreement and/or{" "}
                 {"\n"} contract to purchase or rent the products and/or
-                properties {"\n"} from us (for real estate customer only);
+                properties from us (for real estate customer only);
                 <br />
                 <br />
                 * for user or customer relationship management procedures;
                 <br />
                 <br />* for those purpose specifically provided for in any
-                particular{"\n"}
-                service or product offered by us;
+                particular service or product offered by us;
                 <br />
                 <br />* for our conducting marketing and client profiling
-                activities {"\n"}
-                in connection with our services and related products;
+                activities in connection with our services and {"\n"} related products;
                 <br />
                 <br />* for our credit assessments and other background checks
-                of {"\n"}
-                users as we may determine to be necessary or appropriate;
+                of users as we may determine to be necessary or {"\n"} appropriate;
                 <br />
                 <br />
                 * for our internal record keeping;
@@ -300,12 +296,11 @@ export default class EmailUs extends React.Component {
                 {"\n"} our provision of services and products and to make {"\n"}{" "}
                 disclosure under the requirements of any applicable law, {"\n"}
                 regulation, direction, court order, by-law, guideline, circular,{" "}
-                {"\n"} code applicable to us or any member companies of {"\n"}{" "}
-                TEMOKIN;
+                code applicable to us or any member companies {"\n"} 
+                of TEMOKIN;
                 <br />
                 <br />* for purposes relating to any of the above (including but
-                not {"\n"}
-                limited to research, benchmarking, and statistical analysis);
+                not limited to research, benchmarking, and statistical analysis);
                 <br />
                 <br />* to enable us to send you information by e-mail, {"\n"}
                 telecommunication means (telephone cell or text messages) {
@@ -315,7 +310,7 @@ export default class EmailUs extends React.Component {
                 selected third parties that we think may interest you but in{" "}
                 {"\n"} doing so we maintain control over your Personal Data and{" "}
                 {"\n"} we will not disclose you Personal Data to such third
-                parties {"\n"} without your prior consent;
+                parties without your prior consent;
                 <br />
                 <br />* in relation to the property, for delivery of vacant{" "}
                 {"\n"}
@@ -337,10 +332,10 @@ export default class EmailUs extends React.Component {
                 categories of parties:
                 <br />
                 <br />* any person to whom we are compelled or required to do{" "}
-                {"\n"} so under law or {"\n"} in response to be a competent or
+                {"\n"} so under law or in response to be a competent or {"\n"}
                 government agency:
                 <br />
-                <br />* any other company within the TEMOKIN, {"\n"} including
+                <br />* any other company within the TEMOKIN, including {"\n"}
                 those established in the future;
                 <br />
                 <br />* our business partners and online affiliates that {

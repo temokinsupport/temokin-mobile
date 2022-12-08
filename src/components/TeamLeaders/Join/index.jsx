@@ -39,9 +39,9 @@ export default function Join() {
           </h6>
           <p data-scroll data-scroll-speed="2" className="--desc">
             From our humble start, we have grown tremendously and <br />
-            now we are looking to go next level. We have <br />a no-
-            discrimination policy and believe in attitude, not so <br /> much
-            aptitude. Of course, hard work is rewarded, and <br />
+            now we are looking to go next level. We have <br />
+            a no-discrimination policy and believe in attitude, not so <br /> 
+            much aptitude. Of course, hard work is rewarded, and <br />
             excellence is our lifestyle. If you're energetic, eager to learn{" "}
             <br />
             and a team player, send us your resume and you could be on

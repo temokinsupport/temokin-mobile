@@ -67,7 +67,7 @@ function Footer() {
                   to="/land-acquisition"
                   className="text-decoration-none colorPrimary"
                 >
-                  Land Acquisition
+                  Collaboration & Land Opportunity
                 </NavLink>
                 &nbsp; | &nbsp;
                 <NavLink

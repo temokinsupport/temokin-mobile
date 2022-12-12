@@ -14,20 +14,25 @@ export default function HeaderBuilding() {
         <div className="content">
           <div className="--header-building">
             <Image
-              style={{ 'position': 'absolute', 'width' : '25vw', 'left': '-15%', 'top': '18%' }}
+              style={{
+                position: "absolute",
+                width: "25vw",
+                left: "-15%",
+                top: "18%",
+              }}
               src={require("../../../assets/images/building/left.png").default}
             />
-            <Container className="--max" style={{ 'margin-top': '15vw'}}>
+            <Container className="--max" style={{ "margin-top": "15vw" }}>
               <Row>
                 <Col md={12}>
                   <h1 className="--title">BUILDING</h1>
                 </Col>
                 <Col md={12}>
                   <p className="--desc">
-                    As a builder, we are only as successful as the <br />
-                    milestones that we’ve built. <br />
-                    Here, we would like to share with you some <br />
-                    of the work that proudly carry the <br />
+                    As a builder, we are only as successful as the {"\n"}
+                    milestones that we’ve built. {"\n"}
+                    Here, we would like to share with you some {"\n"}
+                    of the work that proudly carry the {"\n"}
                     TEMOKIN badge.
                   </p>
                 </Col>

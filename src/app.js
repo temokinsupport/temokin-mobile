@@ -43,6 +43,14 @@ export default function App() {
   var AOS = require("aos");
   AOS.init();
 
+  window.addEventListener("resize", () => {
+    let width = parseInt(window.innerWidth);
+
+    if (width > 420) {
+      window.location.replace("https://temokin.hirayamnl.com/");
+    }
+  });
+
   return (
     <BrowserRouter>
       <Route

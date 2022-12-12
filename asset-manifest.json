@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.88a5664b.chunk.css",
-    "main.js": "/static/js/main.b0acbc97.chunk.js",
-    "main.js.map": "/static/js/main.b0acbc97.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e8bfa4ee.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e8bfa4ee.js.map",
+    "main.css": "/static/css/main.dfbfcdfe.chunk.css",
+    "main.js": "/static/js/main.8d4cf32e.chunk.js",
+    "main.js.map": "/static/js/main.8d4cf32e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.46fff94e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.46fff94e.js.map",
     "static/css/2.ffd0fd5c.chunk.css": "/static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.e74ea65d.chunk.js": "/static/js/2.e74ea65d.chunk.js",
-    "static/js/2.e74ea65d.chunk.js.map": "/static/js/2.e74ea65d.chunk.js.map",
-    "static/js/3.82ce1dae.chunk.js": "/static/js/3.82ce1dae.chunk.js",
-    "static/js/3.82ce1dae.chunk.js.map": "/static/js/3.82ce1dae.chunk.js.map",
+    "static/js/2.3f6f8da5.chunk.js": "/static/js/2.3f6f8da5.chunk.js",
+    "static/js/2.3f6f8da5.chunk.js.map": "/static/js/2.3f6f8da5.chunk.js.map",
+    "static/js/3.801180e0.chunk.js": "/static/js/3.801180e0.chunk.js",
+    "static/js/3.801180e0.chunk.js.map": "/static/js/3.801180e0.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ffd0fd5c.chunk.css.map": "/static/css/2.ffd0fd5c.chunk.css.map",
-    "static/css/main.88a5664b.chunk.css.map": "/static/css/main.88a5664b.chunk.css.map",
-    "static/js/2.e74ea65d.chunk.js.LICENSE.txt": "/static/js/2.e74ea65d.chunk.js.LICENSE.txt",
-    "static/js/main.b0acbc97.chunk.js.LICENSE.txt": "/static/js/main.b0acbc97.chunk.js.LICENSE.txt",
+    "static/css/main.dfbfcdfe.chunk.css.map": "/static/css/main.dfbfcdfe.chunk.css.map",
+    "static/js/2.3f6f8da5.chunk.js.LICENSE.txt": "/static/js/2.3f6f8da5.chunk.js.LICENSE.txt",
+    "static/js/main.8d4cf32e.chunk.js.LICENSE.txt": "/static/js/main.8d4cf32e.chunk.js.LICENSE.txt",
     "static/media/01.svg": "/static/media/01.fa8ec035.svg",
     "static/media/1.png": "/static/media/1.c1f8ae6e.png",
     "static/media/1.svg": "/static/media/1.a52c1bbb.svg",
@@ -326,10 +326,10 @@
     "static/media/wedig-bg.png": "/static/media/wedig-bg.d17e3b83.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8bfa4ee.js",
+    "static/js/runtime-main.46fff94e.js",
     "static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.e74ea65d.chunk.js",
-    "static/css/main.88a5664b.chunk.css",
-    "static/js/main.b0acbc97.chunk.js"
+    "static/js/2.3f6f8da5.chunk.js",
+    "static/css/main.dfbfcdfe.chunk.css",
+    "static/js/main.8d4cf32e.chunk.js"
   ]
 }

@@ -50,7 +50,7 @@ export default function Header() {
             <Image
               data-aos="zoom-in"
               src={
-                require("../../../assets/images/contactus/Contact_Icon-01.png")
+                require("../../../assets/images/contactus/icon1.svg")
                   .default
               }
             />
@@ -77,7 +77,7 @@ export default function Header() {
             <Image
               data-aos="zoom-in"
               src={
-                require("../../../assets/images/contactus/Contact_Icon-02.png")
+                require("../../../assets/images/contactus/icon2.svg")
                   .default
               }
             />
@@ -92,7 +92,7 @@ export default function Header() {
             <Image
               data-aos="zoom-in"
               src={
-                require("../../../assets/images/contactus/Contact_Icon-03.png")
+                require("../../../assets/images/contactus/icon3.svg")
                   .default
               }
             />

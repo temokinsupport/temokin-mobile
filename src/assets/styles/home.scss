@@ -257,7 +257,7 @@
               margin-bottom: 25px;
             }
             p {
-              font-family: "gill sans medium", sans-serif !important;
+              font-family: "gill sans", sans-serif !important;
               font-size: 0.85vw;
               min-height: 19vw;
               font-weight: 400 !important;
@@ -750,7 +750,7 @@
             p {
               font-size: 0.875em;
               letter-spacing: 0.1vw !important;
-              font-family: "gill sans medium", sans-serif;
+              font-family: "gill sans", sans-serif;
               br {
                 display: none;
               }
@@ -991,6 +991,7 @@
       text-align: center;
       margin: 0 !important;
       padding-top: 15vh;
+      z-index: -1;
       li {
         height: 20px;
         width: 20px;
@@ -1187,7 +1188,7 @@
       letter-spacing: 0.3vw;
       font-size: 0.875em;
       color: #283a97;
-      font-weight: 600;
+      // font-weight: 600;
       padding: 3vw 1.5vw;
       border-radius: 0;
       width: 75% !important;
@@ -1205,7 +1206,7 @@
       letter-spacing: 0.3vw;
       font-size: 0.875em;
       color: #283a97;
-      font-weight: 600;
+      // font-weight: 600;
       padding: 3vw 1.5vw;
       border-radius: 0;
       margin: 0 auto;

@@ -193,7 +193,7 @@ export default function Featured() {
                     <img
                       className="d-block w-50"
                       src={
-                        require("../../../assets/images/home/Mask Group 65.jpg")
+                        require("../../../assets/images/home/Mahligai_Aerial View@2x.png")
                           .default
                       }
                       alt="First slide"

@@ -45,7 +45,7 @@ const YBhgDatoIrRobertTanKimKuan = () => {
         >
           <Image
             className="svg svg--1"
-            src={require("../assets/images/leaders/svg-1.svg").default} 
+            src={require("../assets/images/leaders/svg-1.svg").default}
             alt="First slide"
           />
           <Image
@@ -178,7 +178,7 @@ const Position = styled.h6`
 const Description = styled.p`
   font-weight: 600 !important;
   line-height: 2em;
-  font-size: 2.7vw;
+  font-size: 2.6vw;
   font-family: "gill sans light", sans-serif !important;
   color: #676ab1;
   margin: 10vw auto 0;
@@ -188,7 +188,7 @@ const Description = styled.p`
   white-space: pre-line;
 
   @supports (-webkit-touch-callout: none) {
-    font-size: 2.7vw;
+    font-size: 2.6vw;
     letter-spacing: 0em;
   }
 `;

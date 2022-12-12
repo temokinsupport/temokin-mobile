@@ -90,7 +90,7 @@ export default function CarouselDev() {
               <p className="--desc">
                 Mahligai at Nusa Damai consists of 163 <br />
                 landed houses in the already-mature <br />
-                neighbourhood of Masai in Johor.
+                neighborhood of Masai in Johor.
               </p>
               <div className="--hr" />
               <p className="--bottom-detail">
@@ -281,7 +281,7 @@ export default function CarouselDev() {
                 <p className="--desc">
                   Mahligai at Nusa Damai consists of 163 <br />
                   landed houses in the already-mature <br />
-                  neighbourhood of Masai in Johor.
+                  neighborhood of Masai in Johor.
                 </p>
                 <div className="--hr" />
                 <p className="--bottom-detail">

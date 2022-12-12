@@ -70,7 +70,7 @@ const Mahligai = () => {
                           <Description>
                             Mahligai at Nusa Damai consists of 163 <br />
                             landed houses in the already-mature <br />
-                            neighbourhood of Masai in Johor.
+                            neighborhood of Masai in Johor.
                           </Description>
                         </Col>
                         <Col md={6}>

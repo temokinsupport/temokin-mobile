@@ -34,7 +34,7 @@ function Navigation() {
     },
     {
       id: 5,
-      linkname: "Land Acquisition",
+      linkname: "Collaboration and Land Opportunity",
       linkpath: "/land-acquisition",
     },
   ];
@@ -230,7 +230,7 @@ function Navigation() {
                   aria-expanded={open}
                   className="dynamic_nav --mobile-nav-text"
                 >
-                  Land Acquisition
+                  Collaboration and Land Opportunity
                 </NavLink>
               </li>
             </div>

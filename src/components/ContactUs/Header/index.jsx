@@ -89,13 +89,13 @@ export default function Header() {
             </p>
           </Col>
           <Col md={4} style={{'margin-bottom': '10vw'}}>
-            <Image
+            {/* <Image
               data-aos="zoom-in"
               src={
                 require("../../../assets/images/contactus/icon3.svg")
                   .default
               }
-            />
+            /> */}
             <h3 data-aos="zoom-in" data-aos-duration="1000" className="--title" style={{'margin-top': '5vw'}}>
               Email
             </h3>

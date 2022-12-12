@@ -170,9 +170,9 @@ export default class EmailUs extends React.Component {
                     </Col>
                     <Col md={6}>
                     <div className="--map-container" data-scroll>
-                        <Iframe 
-                            width="60%" 
-                            height="100%" 
+                        <Image 
+                            width="100%" 
+                            height="100%"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
                             src={
                                 require("../../../assets/images/contactus/Page-2-Map.png").default

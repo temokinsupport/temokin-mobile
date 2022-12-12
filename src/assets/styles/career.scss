@@ -96,6 +96,12 @@
   .land-form {
     border: 1px solid #676ab1;
     height: 3.5vw;
+
+    &:focus {
+      outline-color: #283a97;
+      outline-width: 2px;
+      outline-style: solid;
+    }
   }
 
   .land-supporting {

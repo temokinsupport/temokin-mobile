@@ -73,7 +73,7 @@ function Footer() {
                 <NavLink
                   exact
                   to="/terms-of-service"
-                  className="text-decoration-none colorPrimary"
+                  className="text-decoration-none colorPrimary --ml-5"
                 >
                   Terms of Service
                 </NavLink>
@@ -81,7 +81,7 @@ function Footer() {
                 <NavLink
                   exact
                   to="/privacy-policy"
-                  className="text-decoration-none colorPrimary"
+                  className="text-decoration-none colorPrimary --ml-5"
                 >
                   Privacy Policy
                 </NavLink>

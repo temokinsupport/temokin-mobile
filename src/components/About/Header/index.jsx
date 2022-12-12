@@ -83,7 +83,7 @@ export default function AboutTemokin() {
                 {" \n"} RING ROAD SEREMBAN PROJECT FROM 2002 TO 2017.
               </p>
               <NavLink
-                to="/contact-us"
+                to="/land-acquisition" 
                 variant="light"
                 className="grow-with-us"
               >

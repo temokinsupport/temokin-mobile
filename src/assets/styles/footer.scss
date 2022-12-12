@@ -86,10 +86,11 @@
       width: 95%;
       display: flex;
       justify-content: space-between;
+      align-items: center;
 
       a {
         color: #4d569c !important;
-        font-size: 3.6vw;
+        font-size: 2.6vw;
       }
     }
   }
@@ -141,5 +142,9 @@
       flex: 0 0 100%;
       width: 100%;
     }
+  }
+
+  .--ml-5 {
+    // transform: translateX(-15%);
   }
 }

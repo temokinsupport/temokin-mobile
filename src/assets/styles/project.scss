@@ -25,14 +25,15 @@
     position: absolute;
 
     &--1 {
-      top: 5%;
+      top: 14%;
       left: 0;
       width: 14%;
+      z-index: 1;
     }
     &--2 {
-      top: 10%;
+      top: -5%;
       right: 0;
-      width: 14%;
+      width: 21%;
     }
     &--3 {
       top: 9%;

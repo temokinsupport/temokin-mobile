@@ -86,6 +86,7 @@ const Name = styled.h3`
   text-align: left;
   font-weight: 600 !important;
   letter-spacing: 0.2em;
+  white-space: pre-line;
 `;
 
 const Line = styled.hr`
@@ -99,7 +100,7 @@ const Line = styled.hr`
 const Description = styled.h4`
   font-weight: 600 !important;
   line-height: 2.5;
-  font-size: 2.8vw !important;
+  font-size: 2.7vw !important;
   font-family: "gill sans light", sans-serif !important;
   color: #283a97;
   margin: 0;

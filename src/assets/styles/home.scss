@@ -125,7 +125,7 @@
 
       h1 {
         position: absolute;
-        left: 50.1%;
+        left: 50.2%;
         top: 35%;
         transform: translate(-50%, -100%);
 
@@ -654,7 +654,7 @@
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 992px) { 
     margin-top: 0;
     transition: margin-top 0.5s;
     image-rendering: pixelated;

@@ -769,13 +769,13 @@
       align-items: center;
       h2 {
         &.--title {
-          font-size: 4.8vw;
+          font-size: 5.5vw;
           margin-top: 0;
         }
       }
       p {
         &.--sub-title {
-          font-size: 4.8vw;
+          font-size: 5.5vw;
           line-height: 1.2;
           margin: 50px 0 0 0;
         }
@@ -783,7 +783,8 @@
       h1 {
         &.--title {
           margin: 50px 0 0 0;
-          font-size: 4.8vw;
+          font-size: 7vw;
+          letter-spacing: 0.1em;
         }
       }
     }

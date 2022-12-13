@@ -125,7 +125,7 @@
 
       h1 {
         position: absolute;
-        left: 50%;
+        left: 50.1%;
         top: 35%;
         transform: translate(-50%, -100%);
 
@@ -893,7 +893,7 @@
   }
   @media (max-width: 769px) {
     margin-top: 0;
-    transition: margin-top 0.5s;
+    transition: margin-top 0.5s; 
     image-rendering: pixelated;
     .header-bg {
       height: 120vw;
@@ -1130,6 +1130,12 @@
   @media (max-width: 428px) {
     .--header {
       min-height: 100vh !important;
+
+      .hero {
+        h1 {
+          text-align: center;
+        }
+      }
     }
     .--bg-2 {
       .--container-2 {

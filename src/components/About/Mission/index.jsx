@@ -18,7 +18,7 @@ export default function Mission() {
               src={
                 require("../../../assets/images/aboutus/vision-bg.png").default
               }
-              className="vision-bg"
+              className="vision-bg" 
             />
             <h2
               data-scroll

@@ -44,7 +44,7 @@ export default function OperatingPrinciples() {
                       .default
                   }
                 />
-                <div className="--right-container">
+                <div className="--right-container"> 
                   <h5 className="--title">People</h5>
                   <hr />
                   <p className="--desc">

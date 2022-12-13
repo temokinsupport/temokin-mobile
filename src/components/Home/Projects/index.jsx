@@ -14,7 +14,10 @@ export default function Projects() {
                 <Row>
                     <Col md={4}>
                         <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Page03-IMG3.png').default} roundedCircle />
-                        <h5 className="--project-title font-weight-bold" data-scroll>CONSTRUCTION - <br/> BUILDING</h5>
+                        <h5 className="--project-title font-weight-bold" data-scroll>
+                            <span style={{ 'margin-left': '1vw'}}> CONSTRUCTION </span> - <br/> 
+                            BUILDING
+                        </h5>
                         <p className="--desc" data-scroll>Tropicana Cenang</p>
                     </Col>
                     <Col md={4}>

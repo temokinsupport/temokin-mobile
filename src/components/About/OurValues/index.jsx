@@ -88,8 +88,8 @@ export default function OurValues() {
                 <div className="--right-container">
                   <h5 className="--title">Integrity</h5>
                   <hr />
-                  <p className="--desc">
-                    We endorse transparency and honesty in all that we do
+                  <p className="--desc"> 
+                    We endorse transparency {"\n"} and honesty {"\n"} in all that we do
                   </p>
                 </div>
               </SplideSlide>

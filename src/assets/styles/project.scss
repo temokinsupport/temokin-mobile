@@ -99,7 +99,7 @@
 
   &--building {
     .svg--5 {
-      top: 22% !important;
+      top: 3% !important;
     }
 
     .preview {
@@ -128,6 +128,10 @@
   }
 
   &--property-development {
+    .svg--5 {
+      top: 4% !important;
+    }
+
     .preview {
       background-color: #00b7aa !important;
       margin-top: 20vw !important;
@@ -207,7 +211,7 @@
         margin-top: unset;
 
         .middle__caption {
-          height: 100% !important;
+          height: 80% !important;
         }
       }
 
@@ -254,6 +258,7 @@
 
       p {
         width: 50%;
+        height: 20vw;
         font-size: 2.7vw;
         color: white;
         letter-spacing: 0.2em;
@@ -273,7 +278,7 @@
     &::before {
       content: "";
       position: absolute;
-      bottom: 100%;
+      bottom: 99%;
       width: 100%;
       height: 16vw;
       z-index: -1;
@@ -340,6 +345,11 @@
         h3 {
           font-size: 3.6vw !important;
           text-align: center !important;
+          @supports (-webkit-touch-callout: none) {
+            letter-spacing: 0.15em;
+            font-size: 3.5vw !important;
+          }
+
           br {
             display: none;
           }

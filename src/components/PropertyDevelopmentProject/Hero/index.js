@@ -110,6 +110,7 @@ const Description = styled.h4`
 
   @supports (-webkit-touch-callout: none) {
     letter-spacing: 0em;
+    font-size: 2.7vw !important;
   }
 `;
 const TextContainer = styled.div``;

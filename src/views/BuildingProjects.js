@@ -50,7 +50,6 @@ const BuildingProject = () => {
   useEffect(() => {
     setProjectData(
       projects.find((project) => {
-        console.log(project.name, name);
         return project.name === name;
       })
     );

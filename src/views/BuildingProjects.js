@@ -121,7 +121,7 @@ const BuildingProject = () => {
               id="previewCarouselClipPath"
               clipPathUnits="objectBoundingBox"
             >
-              <path d="M0.451,0 h0.549 v0.667 l-0.605,0.333 H0 V0.248 L0.451,0"></path>
+              <path d="M0.621,0 H1 V0.691 L0.379,1 H0 V0.309 L0.621,0"></path>
             </clipPath>
           </svg>{" "}
           <div className="--bg-1">
@@ -134,8 +134,8 @@ const BuildingProject = () => {
               />
               <Image
                 className="svg svg--2"
-                src={require("../assets/images/building/svg-2.svg").default} 
-                style={{'z-index': '999'}}
+                src={require("../assets/images/building/svg-2.svg").default}
+                style={{ "z-index": "999" }}
               />
               {projectData.name === "natl-camp" ? (
                 <>
@@ -199,8 +199,8 @@ const BuildingProject = () => {
                     }
                   />
                 </div>
-                <div className="middle__caption" >
-                  <p style={{ 'transform': 'translateY(20%)'}}>
+                <div className="middle__caption">
+                  <p style={{ transform: "translateY(20%)" }}>
                     {projectData.caption}
                   </p>
                 </div>

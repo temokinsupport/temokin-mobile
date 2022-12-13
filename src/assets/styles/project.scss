@@ -48,8 +48,8 @@
       z-index: 2;
     }
     &--5 {
-      top: 0;
-      left: 0;
+      top: 18%;
+      left: -15%;
       width: 50%;
       height: 20vw;
     }
@@ -98,12 +98,23 @@
   }
 
   &--building {
+    .svg--5 {
+      top: 22% !important;
+    }
+
     .preview {
       background-color: #cc833d !important;
+      margin-top: 20vw !important;
+      // z-index: -1;
+
+      &::before {
+        background-color: #cc833d !important;
+      }
     }
 
     .middle__caption {
       background-color: #cc833d !important;
+      transform: translateY(15%);
 
       .--caption {
         // margin-top: 100vw;
@@ -119,14 +130,19 @@
   &--property-development {
     .preview {
       background-color: #00b7aa !important;
+      margin-top: 20vw !important;
+
+      &::before {
+        background-color: #00b7aa !important;
+      }
     }
 
     .middle__caption {
       background-color: #00b7aa !important;
+      transform: translateY(25%);
 
-      .--caption {
+      &--caption {
         // margin-top: 100vw;
-        transform: translateY(20%);
       }
     }
 
@@ -178,6 +194,8 @@
 
     &--tropicana-cenang {
       // background-color: #cc833d !important;
+      padding-bottom: 15vw;
+      background-color: #cc833d !important;
 
       &--1 {
         .middle__polygon-image {
@@ -221,10 +239,12 @@
     }
     &__caption {
       font-family: "gill sans", sans-serif !important;
+      white-space: pre-line;
 
-      padding: 0 10vw $padding-bottom 10vw;
-      height: 50%;
+      padding: 0 5vw 0 10vw;
+      height: 60%;
       margin-top: auto;
+
       //   padding-bottom: 5vw;
       //   background-color: #00b7aa;
 
@@ -234,10 +254,10 @@
 
       p {
         width: 50%;
-        font-size: 2.5vw;
+        font-size: 2.7vw;
         color: white;
         letter-spacing: 0.2em;
-        line-height: 1.7em;
+        line-height: 2em;
         font-family: "gill sans medium", sans-serif !important;
       }
     }
@@ -247,9 +267,22 @@
     // background-color: #00b7aa;
     padding-bottom: 10vw;
     margin-top: -1px;
+
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      width: 100%;
+      height: 16vw;
+      z-index: -1;
+    }
   }
 
   .related {
+    margin-top: -1px;
+    // z-index: -1;
     // background-color: #00b7aa;
     padding: 25vw 0 13vw;
 

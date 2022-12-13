@@ -198,7 +198,6 @@ const Description = styled.p`
 `;
 
 const Qoute = styled.p`
-  font-weight: 600 !important;
   line-height: 2em;
   font-size: 4vw;
   font-family: "gill sans", sans-serif !important;

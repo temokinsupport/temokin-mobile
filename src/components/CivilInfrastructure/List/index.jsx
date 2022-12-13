@@ -34,7 +34,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -47,7 +46,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -67,7 +65,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -87,7 +84,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -122,7 +118,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -137,7 +132,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -157,7 +151,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -177,7 +170,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -225,7 +217,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -239,7 +230,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -259,7 +249,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -279,7 +268,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -313,7 +301,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -326,7 +313,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -346,7 +332,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -366,7 +351,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -413,7 +397,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -427,7 +410,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -447,7 +429,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -467,7 +448,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -501,7 +481,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -515,7 +494,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -535,7 +513,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -555,7 +532,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -603,7 +579,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -616,7 +591,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -636,7 +610,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -656,7 +629,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -690,7 +662,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -703,7 +674,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -723,7 +693,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -743,7 +712,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -791,7 +759,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -805,7 +772,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -825,7 +791,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -845,7 +810,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -879,7 +843,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -895,7 +858,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -915,7 +877,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -935,7 +896,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -982,7 +942,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -996,7 +955,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -1016,7 +974,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -1036,7 +993,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -1066,7 +1022,6 @@ export default function CivilInfrastructure() {
                   style={{
                     "margin-top": "5vw",
                     "font-size": "3.2vw",
-                    "font-weight": "700",
                     "letter-spacing": "1px",
                     "line-height": "2",
                   }}
@@ -1081,7 +1036,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -1101,7 +1055,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}
@@ -1121,7 +1074,6 @@ export default function CivilInfrastructure() {
                     <Col
                       style={{
                         "font-size": "3.2vw",
-                        "font-weight": "700",
                         "margin-top": "3vw",
                         "letter-spacing": ".1em",
                       }}

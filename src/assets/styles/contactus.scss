@@ -16,6 +16,10 @@
   position: relative;
   overflow-x: hidden;
 
+  background: url("../images/contactus/Contact_BG-01.png");
+  background-position: -365vw -35vw;
+  background-repeat: no-repeat;
+
   .svg {
     position: absolute;
     z-index: 3;
@@ -258,7 +262,7 @@
     }
   }
 
-  .header-bg {
+  /* .header-bg {
     background: url("../images/contactus/Contact_BG-01.png");
     // background-size: 105vw auto !important;
     background-size: 105% !important;
@@ -273,7 +277,7 @@
     top: 0;
     z-index: -3;
   }
-
+ */
   .form-bg {
     position: absolute;
     top: -5vw;
@@ -295,12 +299,12 @@
   }
 
   @media (max-width: 1024px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 155vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .header-bg {
       display: none;
     }
@@ -402,12 +406,12 @@
     }
   }
   @media (max-width: 920px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /*  background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 165vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .--bg-2 {
       h3.--title {
@@ -434,12 +438,12 @@
     }
   }
   @media (max-width: 740px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 180vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .form-bg {
       height: 195vw;
     }
@@ -469,12 +473,12 @@
     }
   }
   @media (max-width: 600px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 200vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .--bg-2 {
       h3.--title {
@@ -513,12 +517,12 @@
     }
   }
   @media (max-width: 566px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 220vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .form-bg {
       background-size: 350vw 370vw !important;
       height: 320vw !important;
@@ -561,12 +565,12 @@
     }
   }
   @media (max-width: 500px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 235vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -602,12 +606,12 @@
     }
   }
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 0 right -38vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top 0 right -38vw;
     background-size: 400vw 50%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -651,12 +655,12 @@
     }
   }
   @media (max-width: 400px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
+    /*  background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
     background-size: 250vw 150vh;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {

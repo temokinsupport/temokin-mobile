@@ -61,7 +61,8 @@
     width: 100%;
     text-align: center;
     // margin-top: 8%;
-    font-size: 1vw;
+    font-size: 0.8vw;
+    text-transform: uppercase;
   }
 
   .textBody {
@@ -553,7 +554,8 @@
     }
 
     .--subContent {
-      font-size: 14px;
+      font-size: 3vw;
+      line-height: 2.5em;
     }
 
     .--bg-1 {
@@ -589,7 +591,7 @@
     image-rendering: -webkit-optimize-contrast;
 
     .--bg-1 {
-      padding: 150px 0 100px 0;
+      padding: 150px 0 0 0;
 
       // .header-shapes {
       //   &::before {
@@ -639,7 +641,7 @@
     }
 
     .--bg-2 {
-      padding: 10vw 0 0 0;
+      padding: 0 0 0 0;
 
       form {
         margin-left: 0;
@@ -685,7 +687,7 @@
     image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
-      padding: 10vw 0 0 0;
+      padding: 0 0 0 0;
 
       form {
         margin-left: 0;
@@ -731,7 +733,7 @@
     image-rendering: -webkit-optimize-contrast;
 
     .--bg-2 {
-      padding: 10vw 0 0 0;
+      padding: 0 0 0 0;
 
       form {
         margin-left: 0;

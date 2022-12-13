@@ -45,7 +45,8 @@ export default function Header() {
       </div>
       <div className="hero">
         <h1>
-          Winning <br /> your trust <br /> everytime
+          <span style={{ marginLeft: "2.3vw" }}>Winning</span> <br /> your trust{" "}
+          <br /> everytime
         </h1>
         <Image
           className="hero-bg"

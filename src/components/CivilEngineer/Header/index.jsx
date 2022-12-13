@@ -13,8 +13,8 @@ export default function Header() {
               Our Showcase
             </h1>
             <p className="--desc" data-scroll data-scroll-speed="2">
-              As a builder, we are only as successful as <br />
-              the milestones that we've built. <br /> <br />
+              As a builder, we are only as successful as the <br /> milestones
+              that we've built. <br />
               Here, we would like to share with you some <br />
               of the work that proudly carry the <br />
               TEMOKIN badge

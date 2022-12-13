@@ -654,7 +654,7 @@
     }
   }
 
-  @media (max-width: 992px) { 
+  @media (max-width: 992px) {
     margin-top: 0;
     transition: margin-top 0.5s;
     image-rendering: pixelated;
@@ -761,11 +761,15 @@
           height: 200vw;
           opacity: 0;
           transform: 0;
+          display: block !important;
 
-          transition: opacity 0.2s ease-in-out;
+          transition: all 0.5s ease-in-out;
 
           &.true {
+            display: block !important;
+
             opacity: 1;
+            transition: all 0.5s ease-in-out 0.2s;
 
             // height: 100%;
           }
@@ -893,7 +897,7 @@
   }
   @media (max-width: 769px) {
     margin-top: 0;
-    transition: margin-top 0.5s; 
+    transition: margin-top 0.5s;
     image-rendering: pixelated;
     .header-bg {
       height: 120vw;

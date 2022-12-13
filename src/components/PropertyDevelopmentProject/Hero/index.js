@@ -24,15 +24,17 @@ const Hero = ({ projectData }) => {
               </Col>
             </Row>
             <div className="--about-content">
-              <Row className="justify-content-between"> 
+              <Row className="justify-content-between">
                 <Col md={12}>
                   <Name>{projectData.title}</Name>
-                  
-                  <Description>{projectData.description}</Description> 
+
+                  <Description>{projectData.description}</Description>
                   <Line />
                 </Col>
                 <Col md={12}>
-                  <TextContainer style={{ 'margin-top': '10vw', 'margin-bottom': '20vw'}}>
+                  <TextContainer
+                    style={{ "margin-top": "10vw", "margin-bottom": "20vw" }}
+                  >
                     {projectData.client ? (
                       <>
                         <Label>Client</Label>
@@ -69,7 +71,7 @@ const Hero = ({ projectData }) => {
           </div>
         </Col>
       </Row>
-    </Container> 
+    </Container>
   );
 };
 
@@ -83,7 +85,7 @@ const Name = styled.h3`
   margin: 0;
   text-align: left;
   font-weight: 600 !important;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 `;
 
 const Line = styled.hr`
@@ -98,18 +100,22 @@ const Description = styled.h4`
   font-weight: 600 !important;
   line-height: 2.5;
   font-size: 2.8vw !important;
-  font-family: "gill sans light", sans-serif !important; 
+  font-family: "gill sans light", sans-serif !important;
   color: #283a97;
   margin: 0;
   text-align: center;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin-top: 5vw;
   white-space: pre-line;
+
+  @supports (-webkit-touch-callout: none) {
+    letter-spacing: 0em;
+  }
 `;
 const TextContainer = styled.div``;
 
 const Label = styled.h2`
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1.4;
   font-size: 3vw;
   font-family: "gill sans medium", sans-serif !important;
@@ -127,7 +133,7 @@ const Text = styled.h2`
   color: #283a97;
   margin: 0 0 1.5vw 0;
   text-align: center;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 `;
 
 export default Hero;

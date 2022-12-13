@@ -46,10 +46,9 @@ export default function Testimonials() {
             <h5 className="sender__position">
               <span>
                 SENIOR GENERAL MANAGER OF {"\n"} CONSTRUCTION, SPECIAL PROJECT
+                UNIT 1,
               </span>
-              <span>
-                UNIT 1, ROADWORKS DIVISION, JKR {"\n"} HEADQUARTERS MALAYSIA.
-              </span>
+              <span>ROADWORKS DIVISION, JKR {"\n"} HEADQUARTERS MALAYSIA.</span>
             </h5>
           </div>
         </Row>

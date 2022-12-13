@@ -19,6 +19,7 @@
       left: 0;
 
       width: 15vw;
+      display: none;
     }
 
     /* &--2 {
@@ -88,6 +89,12 @@
 
     &--12 {
       bottom: 11%;
+      right: 0;
+      width: 28vw;
+    }
+
+    &--13 {
+      top: -2%;
       right: 0;
       width: 28vw;
     }
@@ -194,7 +201,7 @@
   .--subContent {
     width: 100%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
     line-height: 2.6em;
     letter-spacing: 0.1em;
     color: #676ab1;

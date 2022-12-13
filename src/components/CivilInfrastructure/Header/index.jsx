@@ -33,7 +33,7 @@ export default function HeaderCivilInfrastructure() {
                     milestones that we’ve built.
                   </p>
 
-                  <p className="--desc">
+                  <p className="--desc m-0">
                     Here, we would like to share with you some {"\n"}
                     of the work that proudly carry the {"\n"}
                     TEMOKIN badge.

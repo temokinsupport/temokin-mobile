@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  useHistory,
+  withRouter,
+} from "react-router-dom";
 import "./assets/styles/app.scss";
 import Home from "./views/Home";
 import AboutTemokin from "./views/AboutTemokin";
@@ -38,18 +44,33 @@ import PrivacyPolicy from "./views/PrivacyPolicy";
 import Career from "./views/Career";
 import CivilInfrastructure from "./views/CivilInfrastructure";
 import Building from "./views/Building";
+import { useEffect } from "react";
 
 export default function App() {
+  const history = useHistory();
+
   var AOS = require("aos");
   AOS.init();
 
-  window.addEventListener("resize", () => {
+  useEffect(() => {
     let width = parseInt(window.innerWidth);
 
     if (width > 420) {
-      window.location.replace("https://temokin.hirayamnl.com/");
+      console.log(width, width > 420);
+      // history.push("https://temokin.hirayamnl.com");
+
+      window.location.replace("https://temokin.hirayamnl.com");
     }
-  });
+
+    window.addEventListener("resize", () => {
+      let width = parseInt(window.innerWidth);
+
+      if (width > 420) {
+        // history.push("https://temokin.hirayamnl.com");
+        window.location.replace("https://temokin.hirayamnl.com");
+      }
+    });
+  }, []);
 
   return (
     <BrowserRouter>

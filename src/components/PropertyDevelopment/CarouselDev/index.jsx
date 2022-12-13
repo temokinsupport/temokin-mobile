@@ -61,7 +61,7 @@ export default function CarouselDev() {
       },
     },
     {
-      name: "TROPICANA MIYU, PETALING JAYA",
+      name: "TROPICANA MIYU, \n PETALING JAYA",
       background: "carousel/tropicana.png",
       description:
         "Envisioning itself as being a perfect home for \n individuals and their loved one, Tropicana Miyu \n which means A Place For Me and You, \n clearly blends modern conveniences with \n traditionalism so that the older and younger \n generation can pursue their lifestyle choices at \n the very best.",

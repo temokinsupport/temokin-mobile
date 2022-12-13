@@ -191,6 +191,10 @@ const Description = styled.p`
     font-size: 2.6vw;
     letter-spacing: 0em;
   }
+
+  @-moz-document url-prefix() {
+    letter-spacing: 0.05em;
+  }
 `;
 
 const Qoute = styled.p`

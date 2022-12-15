@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
   useHistory,
-  withRouter,
+  HashRouter,
 } from "react-router-dom";
 import "./assets/styles/app.scss";
 import Home from "./views/Home";
@@ -53,7 +53,7 @@ export default function App() {
   AOS.init();
 
   useEffect(() => {
-    /* let width = parseInt(window.innerWidth);
+    let width = parseInt(window.innerWidth);
 
     if (width > 420) {
       console.log(width, width > 420);
@@ -69,11 +69,11 @@ export default function App() {
         // history.push("https://temokin.hirayamnl.com");
         window.location.replace("https://temokin.hirayamnl.com");
       }
-    }); */
+    });
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Route
         render={({ location }) => {
           return (
@@ -244,6 +244,6 @@ export default function App() {
           );
         }}
       />
-    </BrowserRouter>
+    </HashRouter>
   );
 }

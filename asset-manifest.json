@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.537b5193.chunk.css",
+    "main.css": "/static/css/main.8510a581.chunk.css",
     "main.js": "/static/js/main.fc7e20f7.chunk.js",
     "main.js.map": "/static/js/main.fc7e20f7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b46b5926.js",
@@ -12,7 +12,7 @@
     "static/js/3.74e4224a.chunk.js.map": "/static/js/3.74e4224a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ffd0fd5c.chunk.css.map": "/static/css/2.ffd0fd5c.chunk.css.map",
-    "static/css/main.537b5193.chunk.css.map": "/static/css/main.537b5193.chunk.css.map",
+    "static/css/main.8510a581.chunk.css.map": "/static/css/main.8510a581.chunk.css.map",
     "static/js/2.cea9b55f.chunk.js.LICENSE.txt": "/static/js/2.cea9b55f.chunk.js.LICENSE.txt",
     "static/js/main.fc7e20f7.chunk.js.LICENSE.txt": "/static/js/main.fc7e20f7.chunk.js.LICENSE.txt",
     "static/media/01.svg": "/static/media/01.fa8ec035.svg",
@@ -43,7 +43,7 @@
     "static/media/6-09.svg": "/static/media/6-09.89b529c0.svg",
     "static/media/6-10.svg": "/static/media/6-10.65592a6c.svg",
     "static/media/6.svg": "/static/media/6.024e30bd.svg",
-    "static/media/termsofservice.scss": "/static/media/Contact_BG-new.362a9d2c.png",
+    "static/media/termsofservice.scss": "/static/media/628.539f8dd1.svg",
     "static/media/6rsj9lxtlgs.pdf": "/static/media/6rsj9lxtlgs.fa436779.pdf",
     "static/media/977.svg": "/static/media/977.4f2abdd8.svg",
     "static/media/AboutUs_BG-01.png": "/static/media/AboutUs_BG-01.d0575848.png",
@@ -107,6 +107,7 @@
     "static/media/CivilEng_Shapes-06.png": "/static/media/CivilEng_Shapes-06.7d23497c.png",
     "static/media/career.scss": "/static/media/Contact_BG-01.20a223f0.png",
     "static/media/Contact_BG-02.png": "/static/media/Contact_BG-02.fe0f6573.png",
+    "static/media/privacypolicy.scss": "/static/media/svg-5.f1d6c408.svg",
     "static/media/Contact_Icon-01.png": "/static/media/Contact_Icon-01.5d9f2483.png",
     "static/media/Contact_Icon-02.png": "/static/media/Contact_Icon-02.1907127f.png",
     "static/media/Contact_Icon-03.png": "/static/media/Contact_Icon-03.44fc3b11.png",
@@ -275,7 +276,6 @@
     "static/media/form-vector-1.png": "/static/media/form-vector-1.47328cd0.png",
     "static/media/form-vector-2.png": "/static/media/form-vector-2.f7991c6c.png",
     "static/media/form-vector-3.png": "/static/media/form-vector-3.376970dd.png",
-    "static/media/privacypolicy.scss": "/static/media/svg-5.f1d6c408.svg",
     "static/media/hero-bg.png": "/static/media/hero-bg.bcb67777.png",
     "static/media/icon1.svg": "/static/media/icon1.b56d8fd9.svg",
     "static/media/icon2.svg": "/static/media/icon2.a7d0aee3.svg",
@@ -341,7 +341,7 @@
     "static/js/runtime-main.b46b5926.js",
     "static/css/2.ffd0fd5c.chunk.css",
     "static/js/2.cea9b55f.chunk.js",
-    "static/css/main.537b5193.chunk.css",
+    "static/css/main.8510a581.chunk.css",
     "static/js/main.fc7e20f7.chunk.js"
   ]
 }

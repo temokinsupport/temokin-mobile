@@ -46,7 +46,7 @@ export default function Header() {
           </Col>
         </Col>
         <Col>
-          <Col md={4} style={{ "margin-bottom": "10vw" }}>
+          <Col md={4} style={{ "margin-bottom": "17vw" }}>
             <Image
               data-aos="zoom-in"
               src={
@@ -81,7 +81,7 @@ export default function Header() {
               51000 Kuala Lumpur
             </p>
           </Col>
-          <Col md={4} style={{ "margin-bottom": "10vw" }}>
+          <Col md={4} style={{ "margin-bottom": "17vw" }}>
             <Image
               data-aos="zoom-in"
               src={
@@ -105,7 +105,7 @@ export default function Header() {
               +603-40441111 <br />
             </p>
           </Col>
-          <Col md={4} style={{ "margin-bottom": "10vw" }}>
+          <Col md={4}>
             <Image
               data-aos="zoom-in"
               src={

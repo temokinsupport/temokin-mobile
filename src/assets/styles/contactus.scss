@@ -21,10 +21,10 @@
     z-index: 3;
 
     &--1 {
-      top: -3%;
-      right: -90%;
+      top: -5%;
+      right: -135%;
 
-      width: 150vw;
+      width: 200vw;
     }
 
     &--2 {
@@ -622,8 +622,8 @@
     }
   }
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 0 right -38vw;
-    background-size: 400vw 50%;
+    background: url("../images/contactus/Contact_BG-01.png") top 45vw right -24vw;
+    background-size: 280vw 250vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -670,8 +670,8 @@
 
         .--image {
           width: 80vw;
-          top: 9.5%;
-          left: -45%;
+          top: 6%;
+          left: -48%;
           position: absolute;
         }
 
@@ -685,8 +685,8 @@
   }
 
   @media (max-width: 393px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
-    background-size: 250vw 150vh;
+    background: url("../images/contactus/Contact_BG-01.png") top 63vw right -26vw;
+    background-size: 280vw 250vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -736,8 +736,8 @@
 
         .--image {
           width: 80vw;
-          top: 9.5%;
-          left: -45%;
+          top: 6%;
+          left: -55%;
           position: absolute;
         }
 
@@ -750,9 +750,10 @@
     }
   }
 
+
   @media (max-width: 390px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
-    background-size: 250vw 150vh;
+    background: url("../images/contactus/Contact_BG-01.png") top 65vw right -24.5vw;
+    background-size: 280vw 250vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -802,74 +803,8 @@
 
         .--image {
           width: 80vw;
-          top: 9.5%;
-          left: -45%;
-          position: absolute;
-        }
-
-        h1.--title {
-          font-size: 6vw;
-          color: #283a97;
-          margin: -8vw 0 10.5vw 0;
-        }
-      }
-    }
-  }
-
-  @media (max-width: 390px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
-    background-size: 250vw 150vh;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
-    .--bg-2 {
-      padding: 45.5vw 0 0 0;
-      form {
-        margin-left: 0;
-        width: 90%;
-        margin: 0 auto;
-        label {
-          text-align: left !important;
-        }
-        
-        .--btn-send {
-          margin: 5vw auto 0 auto;
-        }
-
-        .btn-send {
-          border: none;
-          width: 200px;
-          height: 60px;
-          transform: translateX(31%);
-          color: #283A97;
-          letter-spacing: 2px;
-          font-size: 10px;
-          // font-family: "gill sans", sans-serif !important;
-          font-weight: 750;
-          margin-top: 30px;
-        }
-      }
-
-      h3.--title {
-        font-size: 17px;
-        line-height: 1.6;
-      }
-    }
-
-    .--bg-1 {
-      .--max {
-        max-width: 100%;
-
-        img {
-          height: 30vw;
-          width: 30vw;
-        }
-
-        .--image {
-          width: 80vw;
-          top: 9.5%;
-          left: -45%;
+          top: 6%;
+          left: -55%;
           position: absolute;
         }
 
@@ -883,8 +818,8 @@
   }
 
   @media (max-width: 375px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
-    background-size: 250vw 150vh;
+    background: url("../images/contactus/Contact_BG-01.png") top 68vw right -24vw;
+    background-size: 280vw 250vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -934,8 +869,8 @@
 
         .--image {
           width: 80vw;
-          top: 9.5%;
-          left: -45%;
+          top: 6.3%;
+          left: -55%;
           position: absolute;
         }
 
@@ -949,8 +884,8 @@
   }
 
   @media (max-width: 360px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 50vw right;
-    background-size: 250vw 150vh;
+    background: url("../images/contactus/Contact_BG-01.png") top 40vw right -26vw;
+    background-size: 300vw 300vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -1000,8 +935,8 @@
 
         .--image {
           width: 80vw;
-          top: 9.5%;
-          left: -45%;
+          top: 6.3%;
+          left: -55%;
           position: absolute;
         }
 
@@ -1066,8 +1001,8 @@
 
         .--image {
           width: 80vw;
-          top: 9.5%;
-          left: -45%;
+          top: 6.3%;
+          left: -55%;
           position: absolute;
         }
 

@@ -27,7 +27,7 @@ export default function Launches() {
               <Image
                 className="--img-logo"
                 src={
-                  require("../../../assets/images/home/Home_Logo-Mahligai.png")
+                  require("../../../assets/images/home/Home_Logo-Mahligai.svg")
                     .default
                 }
               />
@@ -56,7 +56,7 @@ export default function Launches() {
               href="https://www.mahligai.my/"
               target="_blank"
               rel="noreferrer"
-              className="--btn-im-interested" 
+              className="--btn-im-interested"
             >
               I'M INTERESTED
             </a>

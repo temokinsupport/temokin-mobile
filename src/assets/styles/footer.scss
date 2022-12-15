@@ -91,6 +91,10 @@
       a {
         color: #4d569c !important;
         font-size: 2.6vw;
+
+        @supports (-webkit-touch-callout: none) {
+          font-size: 2.5vw;
+        }
       }
     }
   }

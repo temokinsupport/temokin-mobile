@@ -61,7 +61,8 @@
     width: 100%;
     text-align: center;
     // margin-top: 8%;
-    font-size: 1vw;
+    font-size: 0.8vw;
+    text-transform: uppercase;
   }
 
   .textBody {
@@ -87,7 +88,7 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: 100%;
+        bottom: 99.3%;
         width: 100vw;
         height: 40vw;
 
@@ -555,7 +556,8 @@
     }
 
     .--subContent {
-      font-size: 14px;
+      font-size: 3vw;
+      line-height: 2.5em;
     }
 
     .--bg-1 {
@@ -724,8 +726,8 @@
   //   }
   // }
 
-  @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-new.png") top -18vw right -38vw;
+  @media (max-width: 414px) {
+    background: url("../images/contactus/Contact_BG-new.png") top -12vw right -38vw;
     background-size: 210vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -734,7 +736,58 @@
 
     .--bg-2 {
       padding: 0 0 0 0;
-      margin-top: -18vw;
+      margin-top: -25.5vw;
+
+      form {
+        margin-left: 0;
+        width: 90%;
+        margin: 0 auto;
+
+        label {
+          text-align: left !important;
+        }
+
+        .--btn-send {
+          margin: 5vw auto 0 auto;
+        }
+      }
+    }
+
+    .--bg-1 {
+      h1.--title {
+        font-size: 22px;
+      }
+    }
+
+    .--subtitle {
+      font-size: 18px;
+    }
+
+    .textBodyTitle {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30vh;
+      margin-bottom: 12vh;
+    }
+
+    .bodyContent {
+      font-size: 12px;
+      text-align: center;
+      line-height: 2;
+    }
+  }
+
+  @media (max-width: 412px) {
+    background: url("../images/contactus/Contact_BG-new.png") top -12vw right -38vw;
+    background-size: 210vw auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    image-rendering: -webkit-optimize-contrast;
+
+    .--bg-2 {
+      padding: 0 0 0 0;
+      margin-top: -27vw;
 
       form {
         margin-left: 0;
@@ -776,7 +829,7 @@
   }
 
   @media (max-width: 393px) {
-    background: url("../images/contactus/Contact_BG-new.png") top -11vw right -38vw;
+    background: url("../images/contactus/Contact_BG-new.png") top -10vw right -38vw;
     background-size: 210vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -785,7 +838,7 @@
 
     .--bg-2 {
       padding: 0 0 0 0;
-      margin-top: -19vw;
+      margin-top: -27vw;
 
       form {
         margin-left: 0;
@@ -827,7 +880,7 @@
   }
 
   @media (max-width: 390px) {
-    background: url("../images/contactus/Contact_BG-new.png") top -9vw right -38vw;
+    background: url("../images/contactus/Contact_BG-new.png") top -10vw right -38vw;
     background-size: 210vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -836,7 +889,7 @@
 
     .--bg-2 {
       padding: 0 0 0 0;
-      margin-top: -18vw;
+      margin-top: -27vw;
 
       form {
         margin-left: 0;
@@ -887,7 +940,7 @@
 
     .--bg-2 {
       padding: 0 0 0 0;
-      margin-top: -15vw;
+      margin-top: -19vw;
 
       form {
         margin-left: 0;
@@ -929,7 +982,7 @@
   }
 
   @media (max-width: 360px) {
-    background: url("../images/contactus/Contact_BG-new.png") top 0 right -37.5vw;
+    background: url("../images/contactus/Contact_BG-new.png") top -6vw right -37.5vw;
     background-size: 210vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -938,7 +991,7 @@
 
     .--bg-2 {
       padding: 0 0 0 0;
-      margin-top: -20vw;
+      margin-top: -28vw;
 
       form {
         margin-left: 0;

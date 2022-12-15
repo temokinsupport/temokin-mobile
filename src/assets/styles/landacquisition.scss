@@ -144,12 +144,13 @@
   .land-submit {
     width: 60%;
     height: 100%;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding: 1.2em 0;
     border: 1px solid #283a97;
     border-radius: 0;
     background-color: #283a97;
     color: white;
+    letter-spacing: 0.1em;
+    line-height: 1em;
   }
   .land-upload {
     width: 100%;

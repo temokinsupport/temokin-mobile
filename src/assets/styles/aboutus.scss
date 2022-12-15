@@ -11,13 +11,14 @@
 .--about {
   width: 100%;
   position: relative;
+  overflow-x: hidden;
 
   .svg {
     position: absolute;
 
     &--2 {
       bottom: 0;
-      right: 0;
+      right: -12%;
       width: 100%;
     }
 
@@ -32,6 +33,10 @@
       top: 0;
       left: 0;
       width: 100%;
+
+      &:nth-of-type(1) {
+        margin-bottom: -1px;
+      }
 
       &:nth-of-type(2) {
         transform: rotateZ(180deg);
@@ -68,7 +73,7 @@
       width: 100%;
       img {
         // width: 66%;
-        width: 80vw;
+        width: 75vw;
         aspect-ratio: 1/1;
         // height: 40vw;
         object-fit: cover;
@@ -137,7 +142,7 @@
         letter-spacing: 0.2em;
         font-weight: 500 !important;
         text-transform: uppercase;
-        font-size: 4vw;
+        font-size: 4.4vw;
         color: #ffffff;
         margin: 0;
         text-align: center;
@@ -150,8 +155,9 @@
         font-weight: 400 !important;
         text-transform: uppercase;
         line-height: 2.3em;
-        font-size: 3.5vw;
+        font-size: 4.4vw;
         color: #ffffff;
+        white-space: pre-line;
 
         text-align: center;
       }
@@ -239,14 +245,16 @@
 
       &--0 {
         .background {
-          transform: translateX(-80vw);
-          opacity: 0.8;
+          transform: translate(-29%, -8%);
+          height: 110%;
+          opacity: 0.4;
         }
       }
 
       &--1 {
         .background {
-          transform: translateX(-170vw);
+          height: 130%;
+          transform: translate(-52%, -25%);
           opacity: 0.4;
         }
       }
@@ -261,7 +269,7 @@
         top: 0;
         left: 0;
 
-        height: 100%;
+        // height: 100%;
       }
 
       .carousel-caption {
@@ -293,7 +301,7 @@
 
       .features {
         display: grid;
-        // width: 60%;
+        width: 60%;
         gap: 1vw 5vw;
         margin: 0 auto;
         grid-template-columns: 1fr 1fr;
@@ -340,29 +348,34 @@
   }
   .--container-2 {
     position: relative;
-    height: 68vw;
+    height: 110vh;
     padding: 10vw 0;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     h1 {
       &.--title {
         font-family: "gill sans light", sans-serif !important;
-        letter-spacing: 0.5vw;
+        letter-spacing: 0.3em;
         font-weight: 600 !important;
         text-transform: uppercase;
-        line-height: 1.5;
-        font-size: 2.8vw;
+        line-height: 1.5em;
+        font-size: 5.7vw;
         color: #283a97;
-        margin: 4vw 0 0 0;
+        margin: 12vw 0 0 0;
         text-align: center;
       }
     }
     h2 {
       &.--title {
         font-family: "gill sans", sans-serif !important;
-        letter-spacing: 0.4vw;
+        letter-spacing: 0.2em;
         font-weight: 600 !important;
         text-transform: uppercase;
         line-height: 3vw;
-        font-size: 2.2vw;
+        font-size: 4.5vw;
         color: #283a97;
         margin: 5.5vw 0 0 0;
         text-align: center;
@@ -371,13 +384,13 @@
     p {
       &.--sub-title {
         font-family: "gill sans", sans-serif !important;
-        letter-spacing: 0.2vw;
+        letter-spacing: 0.2em;
         font-weight: 600 !important;
         text-transform: uppercase;
-        line-height: 1.9vw;
-        font-size: 1.5vw;
+        line-height: 1.3em;
+        font-size: 3.5vw;
         color: #676ab1;
-        margin: 5.5vw 0 0 0;
+        margin: 15vw 0 0 0;
         text-align: center;
       }
     }
@@ -389,18 +402,21 @@
 
     .container {
       background-color: #2c3991;
-      height: 80vh;
+      height: 120vw;
     }
     .vision-content {
       isolation: isolate;
+      padding: 0 !important;
+      transform: translateY(25%);
     }
     .vision-bg {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 70%;
+      width: 70vw;
       height: auto;
+      z-index: -1;
     }
 
     h2 {
@@ -419,11 +435,11 @@
     p {
       &.--sub-title {
         font-family: "gill sans", sans-serif !important;
-        letter-spacing: 0.5vw;
+        letter-spacing: 0.27em;
         font-weight: 600 !important;
         text-transform: uppercase;
-        line-height: 1.7;
-        font-size: 2vw;
+        line-height: 1.7em;
+        font-size: 3.4vw;
         color: #ffffff;
         margin: 5vw 0 0 0;
         text-align: center;
@@ -526,7 +542,8 @@
   }
   .--container-8 {
     background-image: url("../images/aboutus/wedig-bg.png");
-    height: 100vh;
+    height: 80vh;
+    // min-height: 667px;
     // min-height: 59vw;
     // padding: 10vw 0;
     position: relative;
@@ -569,15 +586,26 @@
     pointer-events: none;
   }
   .vision-bg {
-    background: url("../images/aboutus/Group 107.png") top 0 center;
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
-    transition: background 0.3s;
-    width: 100%;
     position: absolute;
-    z-index: -5;
-    height: 66vw;
+    left: 0;
     top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      background: url("../images/aboutus/Group 107.png");
+      background-position: 50% top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: background 0.3s;
+      width: 100%;
+      position: absolute;
+      z-index: -5;
+      height: 110%;
+      top: 0;
+    }
   }
   .overlay-shape--1 {
     background-image: url("../images/aboutus/About_BG-Shapes-02 1.png");
@@ -753,40 +781,40 @@
     }
     .vision-bg {
       // background-size: 100vw 700px;
-      background-size: cover !important;
-      height: 700px;
+      /* background-size: cover !important;
+      height: 700px; */
     }
     .overlay-shape {
       background-size: 100vw 700px;
       height: 700px;
     }
     .--container-2 {
-      padding: 100px 0 !important;
+      /*  padding: 100px 0 !important;
       height: 700px !important;
       position: relative;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: center; */
       h2 {
         &.--title {
-          font-size: 5.5vw;
-          margin-top: 0;
+          // font-size: 5.5vw;
+          // margin-top: 0;
         }
       }
       p {
         &.--sub-title {
-          font-size: 5.5vw;
+          /*  font-size: 5.5vw;
           line-height: 1.2;
-          margin: 50px 0 0 0;
+          margin: 50px 0 0 0; */
         }
       }
-      h1 {
+      /* h1 {
         &.--title {
           margin: 50px 0 0 0;
           font-size: 7vw;
           letter-spacing: 0.1em;
         }
-      }
+      } */
     }
     .mission-bg {
       height: 700px;
@@ -813,8 +841,8 @@
       }
       p {
         &.--sub-title {
-          margin-top: 50px;
-          font-size: 4.1vw;
+          /* margin-top: 50px;
+          font-size: 4.1vw; */
         }
       }
     }
@@ -832,15 +860,14 @@
       .--max {
         max-width: 90%;
 
-        
         .--right-container {
-          .--title {
+          /* .--title {
             font-size: 4.8vw;
           }
 
           .--desc {
             font-size: 4.8vw;
-          }
+          } */
         }
       }
       .--bg-1,
@@ -852,10 +879,11 @@
         font-size: 4vw;
         letter-spacing: 0.2em;
         line-height: 1.8em;
-        font-family: "gill sans medium", sans-serif !important;
+        font-family: "gill sans", sans-serif !important;
         text-transform: uppercase;
         color: #ffffff;
         text-align: center;
+        white-space: pre;
       }
     }
     .--container-7 {
@@ -870,14 +898,14 @@
         margin-top: -15vw;
 
         .--right-container {
-          .--title {
+          /* .--title {
             font-size: 4.8vw;
           }
 
           .--desc {
             font-size: 4.8vw;
             white-space: pre-line;
-          }
+          } */
         }
       }
       h1 {
@@ -897,7 +925,7 @@
         font-size: 4vw;
         letter-spacing: 0.2em;
         line-height: 1.8em;
-        font-family: "gill sans medium", sans-serif !important;
+        font-family: "gill sans", sans-serif !important;
         text-transform: uppercase;
         color: #ffffff;
         text-align: center;
@@ -1002,12 +1030,12 @@
       height: 500px;
     }
     .vision-bg {
-      background-size: 100vw 500px;
-      height: 100%;
+      /* background-size: 100vw 500px;
+      height: 100%; */
     }
     .--container-2 {
-      padding: 100px 0 !important;
-      height: 130vh !important;
+      /* padding: 100px 0 !important;
+      height: 130vh !important; */
     }
     .--container-3 {
       // height: 100vh !important;
@@ -1044,7 +1072,6 @@
       //     font-size: 100vw;
       //   }
       // }
-      
     }
   }
 }

@@ -73,7 +73,7 @@
     padding-top: 7vw;
     display: flex;
     align-items: flex-start;
-    min-height: 50vw;
+    min-height: 67vh !important;
 
     .load {
       position: absolute;
@@ -176,7 +176,7 @@
     width: 100%;
     min-height: 67vw;
     z-index: 2;
-    &::after {
+    /* &::after {
       content: "";
       position: absolute;
       bottom: -14%;
@@ -189,7 +189,7 @@
       background-position: contain;
       background-repeat: no-repeat;
       height: 30vw;
-    }
+    } */
     .hero-container {
       width: 120vw;
       position: absolute;
@@ -265,7 +265,7 @@
               letter-spacing: 0.02vw;
             }
             .--btn-check-our-work-1 {
-              font-family: "gill sans medium", sans-serif !important;
+              font-family: "gill sans", sans-serif !important;
               letter-spacing: 0.2em;
               font-size: 0.7vw;
               color: #283a97;
@@ -282,7 +282,7 @@
               text-decoration: none !important;
             }
             .--btn-check-our-work-2 {
-              font-family: "gill sans medium", sans-serif !important;
+              font-family: "gill sans", sans-serif !important;
               letter-spacing: 0.2em;
               font-size: 0.7vw;
               color: #283a97;
@@ -369,7 +369,7 @@
     }
   }
   .--container-3 {
-    padding: 10vw 0 10vw 0;
+    padding: 10vw 0 8vw 0;
 
     &.--max {
       max-width: 93%;
@@ -407,6 +407,7 @@
         margin-bottom: 1vw;
         text-align: center;
         color: #283a97;
+        line-height: 0.9em;
       }
     }
     p {
@@ -418,6 +419,7 @@
         font-weight: 400;
         letter-spacing: 0.02vw;
         text-align: center;
+        margin-bottom: 3.5vw;
       }
     }
   }
@@ -519,7 +521,7 @@
         &.--txt {
           font-weight: 600;
           &:nth-child(3) {
-            margin-bottom: 30px;
+            margin-bottom: 6vw;
           }
         }
         &.--desc {
@@ -654,7 +656,7 @@
     }
   }
 
-  @media (max-width: 992px) { 
+  @media (max-width: 992px) {
     margin-top: 0;
     transition: margin-top 0.5s;
     image-rendering: pixelated;
@@ -663,7 +665,7 @@
       transition: height 0.5s;
     }
     .--header {
-      min-height: 50vh;
+      min-height: 67vh !important;
       padding: 20vw 0 10vw 0;
       .--title {
         font-size: 1.5em;
@@ -677,8 +679,9 @@
         height: 65vw !important;
       }
       .--title {
-        font-size: 1.5em;
+        font-size: 4vw;
         line-height: 1.6;
+        letter-spacing: 0.2em;
       }
       .--carousel-container {
         position: relative;
@@ -761,11 +764,15 @@
           height: 200vw;
           opacity: 0;
           transform: 0;
+          display: block !important;
 
-          transition: opacity 0.2s ease-in-out;
+          transition: all 0.5s ease-in-out;
 
           &.true {
+            display: block !important;
+
             opacity: 1;
+            transition: all 0.5s ease-in-out 0.2s;
 
             // height: 100%;
           }
@@ -778,7 +785,7 @@
           }
         }
         .--btn-check-our-work {
-          font-family: "gill sans medium", sans-serif !important;
+          font-family: "gill sans", sans-serif !important;
           letter-spacing: 0.3vw;
           font-size: 0.875em;
           color: #283a97;
@@ -796,10 +803,11 @@
       }
     }
     .--container-3 {
-      padding: 10vw 0;
+      padding: 10vw 0 6vw;
       .--title {
-        font-size: 1.5em;
+        font-size: 4.5vw;
         line-height: 1.6;
+        letter-spacing: 0.2em;
       }
     }
     .--container-4 {
@@ -826,7 +834,8 @@
         z-index: -1;
       }
       .--title {
-        font-size: 1.5em !important;
+        font-size: 4.5vw !important;
+        letter-spacing: 0.2em;
         line-height: 1.6;
         margin: 0 0 50px 0;
       }
@@ -893,14 +902,14 @@
   }
   @media (max-width: 769px) {
     margin-top: 0;
-    transition: margin-top 0.5s; 
+    transition: margin-top 0.5s;
     image-rendering: pixelated;
     .header-bg {
       height: 120vw;
       transition: height 0.5s;
     }
     .--header {
-      min-height: 60vh;
+      min-height: 67vh !important;
       padding: 35vw 0 10vw 0;
       .hero-container {
         height: 100vw;
@@ -937,9 +946,9 @@
         bottom: 0;
         right: 0;
         background: url("../images/mobile/home/Page3_BG.png");
-        background-size: auto 110%;
+        background-size: auto 103%;
         background-repeat: no-repeat;
-        background-position: -45vw 5vw;
+        background-position: -6vw 5vw;
         background-attachment: scroll;
         padding: 100px 0;
         z-index: -1;
@@ -949,13 +958,13 @@
         overflow: hidden;
       }
       .--title {
-        margin-bottom: 55px;
+        margin-bottom: 8vw;
         margin-top: 2vw;
       }
       img {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 25px !important;
+        width: 28vw;
+        height: 28vw;
+        margin-bottom: 3vw !important;
         transform: inherit !important;
       }
       h5 {
@@ -967,7 +976,7 @@
       p {
         &.--desc {
           font-size: 3vw;
-          margin-bottom: 50px !important;
+          // margin-bottom: 50px !important;
           clip-path: none;
         }
       }
@@ -1010,11 +1019,11 @@
     }
 
     .hero h1 {
-      font-size: 8vw !important;
-      top: 47% !important;
+      font-size: 7vw !important;
+      top: 43% !important;
     }
     .--header {
-      min-height: 65vh;
+      min-height: 67vh !important;
     }
     .overlay-blue {
       top: -39vw;
@@ -1107,7 +1116,7 @@
         .--desc {
           display: none;
         }
-        width: 80vw;
+        width: 100vw;
         grid-template-areas: unset !important;
         grid-template-columns: 26vw 1fr;
         transform: inherit !important;
@@ -1116,12 +1125,17 @@
         img {
           &.--img-logo {
             width: 30vw !important;
-            margin: 0 auto;
+            margin: 0 auto 5vw;
           }
         }
         p {
           &.--txt {
-            font-size: 5.6vw !important;
+            font-size: 4.5vw !important;
+            letter-spacing: 0.2em;
+
+            @supports (-webkit-touch-callout: none) {
+              letter-spacing: 0.1em;
+            }
           }
         }
       }
@@ -1129,7 +1143,7 @@
   }
   @media (max-width: 428px) {
     .--header {
-      min-height: 100vh !important;
+      min-height: 67vh !important;
 
       .hero {
         h1 {
@@ -1190,7 +1204,7 @@
     }
 
     .--btn-check-our-work-1 {
-      font-family: "gill sans medium", sans-serif !important;
+      font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.3vw;
       font-size: 0.875em;
       color: #283a97;
@@ -1208,7 +1222,7 @@
     }
 
     .--btn-check-our-work-2 {
-      font-family: "gill sans medium", sans-serif !important;
+      font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.3vw;
       font-size: 0.875em;
       color: #283a97;

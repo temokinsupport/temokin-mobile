@@ -44,7 +44,7 @@ export default function OurValues() {
                   <h5 className="--title">Wisdom</h5>
                   <hr />
                   <p className="--desc">
-                    We are relentless in our pursuit for wisdom
+                    We are relentless in our {"\n"} pursuit for wisdom
                   </p>
                 </div>
               </SplideSlide>
@@ -59,7 +59,7 @@ export default function OurValues() {
                   <h5 className="--title">Equality</h5>
                   <hr />
                   <p className="--desc">
-                    We embrace inclusivity and equality for all
+                    We embrace inclusivity and {"\n"} equality for all
                   </p>
                 </div>
               </SplideSlide>
@@ -74,7 +74,7 @@ export default function OurValues() {
                   <h5 className="--title">Diligence</h5>
                   <hr />
                   <p className="--desc">
-                    We achieve success without taking shortcuts
+                    We achieve success without {"\n"} taking shortcuts
                   </p>
                 </div>
               </SplideSlide>
@@ -88,8 +88,9 @@ export default function OurValues() {
                 <div className="--right-container">
                   <h5 className="--title">Integrity</h5>
                   <hr />
-                  <p className="--desc"> 
-                    We endorse transparency {"\n"} and honesty {"\n"} in all that we do
+                  <p className="--desc">
+                    We endorse transparency {"\n"} and honesty {"\n"} in all
+                    that we do
                   </p>
                 </div>
               </SplideSlide>
@@ -105,7 +106,7 @@ export default function OurValues() {
                   <h5 className="--title">Guidance</h5>
                   <hr />
                   <p className="--desc">
-                    We pave the way for others to shine and progress
+                    We pave the way for others {"\n"} to shine and progress
                   </p>
                 </div>
               </SplideSlide>

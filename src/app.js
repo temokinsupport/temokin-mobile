@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
   useHistory,
-  withRouter,
+  HashRouter,
 } from "react-router-dom";
 import "./assets/styles/app.scss";
 import Home from "./views/Home";
@@ -73,7 +73,7 @@ export default function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Route
         render={({ location }) => {
           return (
@@ -244,6 +244,6 @@ export default function App() {
           );
         }}
       />
-    </BrowserRouter>
+    </HashRouter>
   );
 }

@@ -12,34 +12,12 @@ export default function useLocoScroll(start) {
 
   useEffect(() => {
     if (!start) return;
-
-    // const scrollEl = document.querySelector("#main-container");
-    /* locoScroll.current = new locomotiveScroll({
-      el: scrollEl,
-      smooth: true,
-      multiplier: 1,
-      class: "is-reveal",
-      repeat: true,
-    }); */
-
-    // gsap.registerPlugin(ScrollTrigger);
-
-    // locoScroll.current.on("scroll", ScrollTrigger.update);
-
-    /* ScrollTrigger.create({
-      trigger: ".header-bg",
-      scroller: ".container",
-      start: "top+=30% 50%",
-      end: "bottom-=40% 50%",
-      animation: gsap.to(".header-bg", { backgroundSize: "120%" }),
-      scrub: 2,
-      // markers: true
-    }); */
   }, [start]);
 
   useEffect(() => {
-    console.log("scroll to top");
-    window.scrollTo(0, 0);
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
     if (!!locoScroll.current) {
     }
   }, [location]);

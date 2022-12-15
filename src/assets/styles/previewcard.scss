@@ -1,6 +1,7 @@
 .preview-card {
   aspect-ratio: 60/45;
   position: relative;
+  transition: opacity 0.2s ease-in-out;
 
   &__inner {
     position: relative;
@@ -30,12 +31,16 @@
     transition: opacity 0.2s ease-in-out;
   }
 
-  &:hover .preview-card__overlay {
+  /* &:hover {
+    opacity: 0.5;
+  } */
+
+  /* &:hover .preview-card__overlay {
     opacity: 0.4;
   }
   &:hover .caption {
     opacity: 1;
-  }
+  } */
 
   .caption {
     width: 90%;

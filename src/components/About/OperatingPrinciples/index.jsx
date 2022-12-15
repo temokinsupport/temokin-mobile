@@ -44,11 +44,11 @@ export default function OperatingPrinciples() {
                       .default
                   }
                 />
-                <div className="--right-container"> 
+                <div className="--right-container">
                   <h5 className="--title">People</h5>
                   <hr />
                   <p className="--desc">
-                    We are <br />
+                    We are {"\n"}
                     client-oriented
                   </p>
                 </div>
@@ -64,7 +64,7 @@ export default function OperatingPrinciples() {
                   <h5 className="--title">Accountability</h5>
                   <hr />
                   <p className="--desc">
-                    We ensure <br />
+                    We ensure {"\n"}
                     peace of mind
                   </p>
                 </div>
@@ -80,7 +80,7 @@ export default function OperatingPrinciples() {
                   <h5 className="--title">Timing</h5>
                   <hr />
                   <p className="--desc">
-                    We deliver <br />
+                    We deliver {"\n"}
                     on schedule
                   </p>
                 </div>
@@ -96,7 +96,7 @@ export default function OperatingPrinciples() {
                   <h5 className="--title">Quality</h5>
                   <hr />
                   <p className="--desc">
-                    We exceed <br />
+                    We exceed {"\n"}
                     Expectations
                   </p>
                 </div>

@@ -16,6 +16,8 @@
 
   .carousel-item img {
     height: 100%;
+    width: 105% !important;
+    object-fit: cover;
   }
 
   .carousel-indicators {

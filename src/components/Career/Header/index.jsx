@@ -46,9 +46,7 @@ export default function Header() {
         />
         <Image
           className="svg svg--2"
-          src={
-            require("../../../assets/images/career/1041.svg").default
-          }
+          src={require("../../../assets/images/career/1041.svg").default}
         />
         <Image
           className="svg svg--3"
@@ -70,10 +68,8 @@ export default function Header() {
         />
         <Image
           className="svg"
-          style={{'width' : '90vw', 'height': '40vw', 'bottom': '-1%', 'left': '-15%'}}
-          src={
-            require("../../../assets/images/career/Shapes-1.png").default
-          }
+          style={{ width: "90vw", height: "40vw", bottom: "-1%", left: "-15%" }}
+          src={require("../../../assets/images/career/Shapes-1.png").default}
         />
         <Container className="--max">
           <Row>
@@ -91,80 +87,130 @@ export default function Header() {
             <Col md="8" sm="12" className="pb-5 mb-5 text-header__desc">
               From our humble start, we have grown <br />
               tremendously and now we are looking to <br />
-              go  next level. We have a no-discrimination <br />
+              go next level. We have a no-discrimination <br />
               policy and believe in attitude, not so much <br />
-              aptitude. Of course, hard work is rewarded, <br /> 
+              aptitude. Of course, hard work is rewarded, <br />
               and excellence is our lifestyle. If you're <br />
-              energetic, eager to learn and a team player, <br /> 
-              send us your resume and you  could be on <br />
+              energetic, eager to learn and a team player, <br />
+              send us your resume and you could be on <br />
               your way to a career with Temokin.
             </Col>
-            <Col md="12" sm="12" className="mb-4" style={{'margin-top': '10vw'}}>
-              
-                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
-                  <Form.Label >
-                    NAME
-                  </Form.Label>
-                </Col>
-                <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext  style={{ 'height' : '10vw'}}/>
-                </Col>
-                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
-                  <Form.Label>
-                    CONTACT NUMBER
-                  </Form.Label>
-                </Col>
-                <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext  style={{ 'height' : '10vw'}}/>
-                </Col>
-                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
-                  <Form.Label>
-                    EMAIL ADDRESS
-                  </Form.Label>
-                </Col>
-                <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext style={{ 'height' : '10vw'}} />
-                </Col>
+            <Col
+              md="12"
+              sm="12"
+              className="mb-4"
+              style={{ "margin-top": "10vw" }}
+            >
+              <Col
+                md="3"
+                style={{
+                  "text-align": "left",
+                  "font-size": "12px",
+                  "margin-top": "5vw",
+                  color: "#283A97",
+                  "font-weight": "bold",
+                }}
+              >
+                <Form.Label>NAME</Form.Label>
+              </Col>
+              <Col md="7">
+                <Form.Control
+                  className="land-form"
+                  plaintext
+                  style={{ height: "10vw" }}
+                />
+              </Col>
+              <Col
+                md="3"
+                style={{
+                  "text-align": "left",
+                  "font-size": "12px",
+                  "margin-top": "5vw",
+                  color: "#283A97",
+                  "font-weight": "bold",
+                }}
+              >
+                <Form.Label>CONTACT NUMBER</Form.Label>
+              </Col>
+              <Col md="7">
+                <Form.Control
+                  className="land-form"
+                  plaintext
+                  style={{ height: "10vw" }}
+                />
+              </Col>
+              <Col
+                md="3"
+                style={{
+                  "text-align": "left",
+                  "font-size": "12px",
+                  "margin-top": "5vw",
+                  color: "#283A97",
+                  "font-weight": "bold",
+                }}
+              >
+                <Form.Label>EMAIL ADDRESS</Form.Label>
+              </Col>
+              <Col md="7">
+                <Form.Control
+                  className="land-form"
+                  plaintext
+                  style={{ height: "10vw" }}
+                />
+              </Col>
 
-                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
-                  <Form.Label>
-                    MESSAGE
-                  </Form.Label>
-                </Col>
-                <Col md="7">
-                  <Form.Control
-                    className="career-form-textarea"
-                    value=""
-                    style={{ 'height' : '30vw'}}
-                    as="textarea"
-                    rows={10}
-                    cols={10}
-                  />
-                </Col>
+              <Col
+                md="3"
+                style={{
+                  "text-align": "left",
+                  "font-size": "12px",
+                  "margin-top": "5vw",
+                  color: "#283A97",
+                  "font-weight": "bold",
+                }}
+              >
+                <Form.Label>MESSAGE</Form.Label>
+              </Col>
+              <Col md="7">
+                <Form.Control
+                  className="career-form-textarea"
+                  style={{ height: "30vw" }}
+                  as="textarea"
+                  rows={10}
+                  cols={10}
+                />
+              </Col>
 
-                <Col md="3" style={{'text-align': 'left', 'font-size': '12px', 'margin-top': '5vw', 'color': '#283A97', 'font-weight': 'bold'}}>
-                  <Form.Label column>
-                    UPLOAD RESUME
-                  </Form.Label>
-                </Col>
-                <Col md="7">
-                  <div className="text-start">
-                    <Button className="career-choosefile-button">
-                      CHOOSE FILE
-                    </Button><br />
-                    <span className="career-choosefile-text">
-                      *PDF FORMAT ONLY, MAXIMUM FILE SIZE IS 10MB
-                    </span>
-                  </div>
-                </Col>
-                <Col
-                  md={{ span: 7, offset: 3 }}
-                  className="text-start pt-5 land-submit__container"
-                  style={{'margin-bottom': '25vw'}}
-                >
-                  <Button className="land-submit">SUBMIT</Button>
-                </Col>
-              
+              <Col
+                md="3"
+                style={{
+                  "text-align": "left",
+                  "font-size": "12px",
+                  "margin-top": "5vw",
+                  color: "#283A97",
+                  "font-weight": "bold",
+                }}
+              >
+                <Form.Label column>UPLOAD RESUME</Form.Label>
+              </Col>
+              <Col md="7">
+                <div className="text-start">
+                  <Button className="career-choosefile-button">
+                    CHOOSE FILE
+                  </Button>
+                  <br />
+                  <span className="career-choosefile-text">
+                    *PDF FORMAT ONLY, MAXIMUM FILE SIZE IS 10MB
+                  </span>
+                </div>
+              </Col>
+              <Col
+                md={{ span: 7, offset: 3 }}
+                className="text-start pt-5 land-submit__container"
+                style={{ "margin-bottom": "25vw" }}
+              >
+                <Button className="land-submit">SUBMIT</Button>
+              </Col>
             </Col>
           </Row>
         </Container>

@@ -19,7 +19,8 @@
       top: -44vw;
       right: -33%;
 
-      width: 65vw;
+      width: 15vw;
+      display: none;
     }
 
     /* &--2 {
@@ -89,6 +90,12 @@
 
     &--12 {
       bottom: 9.7%;
+      right: 0;
+      width: 28vw;
+    }
+
+    &--13 {
+      top: -2%;
       right: 0;
       width: 28vw;
     }

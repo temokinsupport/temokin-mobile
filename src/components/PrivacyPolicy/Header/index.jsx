@@ -12,7 +12,7 @@ export default function Header() {
         <Row className="justify-content-center">
           <Col md="7">
             <h1 className="--title">
-              GENERAL NOTICE {"\n"} ON PROCESSING{"\n"} OF PERSONAL DATA
+              GENERAL NOTICE ON {"\n"} PROCESSING{"\n"} OF PERSONAL DATA
             </h1>
           </Col>
         </Row>
@@ -28,8 +28,8 @@ export default function Header() {
               <br />
               <br />
               In the course of your dealings with TEMOKIN [meaning TEMOKIN,
-              {"\n"} and the holding, subsidiary, {"\n"} and/or related companies
-              (as defined by the {"\n"}
+              {"\n"} and the holding, subsidiary, {"\n"} and/or related
+              companies (as defined by the {"\n"}
               Companies Act 1965) of TEMOKIN] as our valued {"\n"}
               customer / prospective customer, we may {"\n"} request that you
               provide data and information {"\n"} about yourself ("Personal

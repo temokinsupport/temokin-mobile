@@ -134,18 +134,26 @@ export default class EmailUs extends React.Component {
             require("../../../assets/images/privacypolicy/1043.svg").default
           }
         />
+        <Image
+          className="svg svg--13"
+          src={
+            require("../../../assets/images/privacypolicy/svg-14.svg").default
+          }
+        />
         {/* <Image
           className="svg svg--2"
           src={
             require("../../../assets/images/privacypolicy/svg-1.svg").default
           }
-        />
-        <Image
+        /> */}
+        {/* <Image
           className="svg svg--3"
           src={
             require("../../../assets/images/privacypolicy/svg-2.svg").default
           }
-        />
+        /> */}
+        {/* 
+        
         <Image
           className="svg svg--4"
           src={
@@ -259,7 +267,8 @@ export default class EmailUs extends React.Component {
               </div>
               <div className="bodyContent">
                 Personal Data you provide will be collected, used and {"\n"}{" "}
-                otherwise processed by us for, amongst others, the following{" "}purposes:
+                otherwise processed by us for, amongst others, the following{" "}
+                purposes:
                 <br />
                 <br />* for the delivery of notices, services, or products and
                 the{"\n"}
@@ -277,10 +286,12 @@ export default class EmailUs extends React.Component {
                 particular service or product offered by us;
                 <br />
                 <br />* for our conducting marketing and client profiling
-                activities in connection with our services and {"\n"} related products;
+                activities in connection with our services and {"\n"} related
+                products;
                 <br />
                 <br />* for our credit assessments and other background checks
-                of users as we may determine to be necessary or {"\n"} appropriate;
+                of users as we may determine to be necessary or {"\n"}{" "}
+                appropriate;
                 <br />
                 <br />
                 * for our internal record keeping;
@@ -296,11 +307,12 @@ export default class EmailUs extends React.Component {
                 {"\n"} our provision of services and products and to make {"\n"}{" "}
                 disclosure under the requirements of any applicable law, {"\n"}
                 regulation, direction, court order, by-law, guideline, circular,{" "}
-                code applicable to us or any member companies {"\n"} 
+                code applicable to us or any member companies {"\n"}
                 of TEMOKIN;
                 <br />
                 <br />* for purposes relating to any of the above (including but
-                not limited to research, benchmarking, and statistical analysis);
+                not limited to research, benchmarking, and statistical
+                analysis);
                 <br />
                 <br />* to enable us to send you information by e-mail, {"\n"}
                 telecommunication means (telephone cell or text messages) {

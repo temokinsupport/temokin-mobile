@@ -167,8 +167,6 @@ export default class EmailUs extends React.Component {
                             />
                         </Col>
                         </Form.Group>
-    
-                        {/* <Button onClick={this.btnClick} className="--btn-send"  data-scroll disabled={this.state.btnLoading}></Button> */}
                         <button onClick={this.btnClick} disabled={this.state.btnLoading} className="btn-send">
                             SEND
                         </button>

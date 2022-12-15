@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4747cccf.chunk.css",
-    "main.js": "/static/js/main.0736b2ad.chunk.js",
-    "main.js.map": "/static/js/main.0736b2ad.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.86117f0a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.86117f0a.js.map",
+    "main.css": "/static/css/main.af005237.chunk.css",
+    "main.js": "/static/js/main.cf8193e8.chunk.js",
+    "main.js.map": "/static/js/main.cf8193e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6d9b5548.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6d9b5548.js.map",
     "static/css/2.ffd0fd5c.chunk.css": "/static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.35444172.chunk.js": "/static/js/2.35444172.chunk.js",
-    "static/js/2.35444172.chunk.js.map": "/static/js/2.35444172.chunk.js.map",
-    "static/js/3.c34a9dac.chunk.js": "/static/js/3.c34a9dac.chunk.js",
-    "static/js/3.c34a9dac.chunk.js.map": "/static/js/3.c34a9dac.chunk.js.map",
+    "static/js/2.d31c040d.chunk.js": "/static/js/2.d31c040d.chunk.js",
+    "static/js/2.d31c040d.chunk.js.map": "/static/js/2.d31c040d.chunk.js.map",
+    "static/js/3.e46929e5.chunk.js": "/static/js/3.e46929e5.chunk.js",
+    "static/js/3.e46929e5.chunk.js.map": "/static/js/3.e46929e5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ffd0fd5c.chunk.css.map": "/static/css/2.ffd0fd5c.chunk.css.map",
-    "static/css/main.4747cccf.chunk.css.map": "/static/css/main.4747cccf.chunk.css.map",
-    "static/js/2.35444172.chunk.js.LICENSE.txt": "/static/js/2.35444172.chunk.js.LICENSE.txt",
-    "static/js/main.0736b2ad.chunk.js.LICENSE.txt": "/static/js/main.0736b2ad.chunk.js.LICENSE.txt",
+    "static/css/main.af005237.chunk.css.map": "/static/css/main.af005237.chunk.css.map",
+    "static/js/2.d31c040d.chunk.js.LICENSE.txt": "/static/js/2.d31c040d.chunk.js.LICENSE.txt",
+    "static/js/main.cf8193e8.chunk.js.LICENSE.txt": "/static/js/main.cf8193e8.chunk.js.LICENSE.txt",
     "static/media/01.svg": "/static/media/01.fa8ec035.svg",
     "static/media/1.png": "/static/media/1.c1f8ae6e.png",
     "static/media/1.svg": "/static/media/1.a52c1bbb.svg",
@@ -143,6 +143,7 @@
     "static/media/Home_IMG-Civil-02.png": "/static/media/Home_IMG-Civil-02.fa38a08c.png",
     "static/media/Home_IMG-Civil.png": "/static/media/Home_IMG-Civil.2b5a5e82.png",
     "static/media/Home_IMG-Property.png": "/static/media/Home_IMG-Property.461147e8.png",
+    "static/media/Home_Logo-Mahligai.svg": "/static/media/Home_Logo-Mahligai.5a4f219b.svg",
     "static/media/Home_Logo-Mahligai.png": "/static/media/Home_Logo-Mahligai.d2781072.png",
     "static/media/Image 78.png": "/static/media/Image 78.e2556140.png",
     "static/media/Image 78@2x.png": "/static/media/Image 78@2x.6496e1dd.png",
@@ -249,6 +250,7 @@
     "static/media/Subtract.svg": "/static/media/Subtract.b145cb1c.svg",
     "static/media/Tem_Prompt-Modal-BG.png": "/static/media/Tem_Prompt-Modal-BG.176fb354.png",
     "static/media/Tem_Prompt-Modal.png": "/static/media/Tem_Prompt-Modal.c2929d20.png",
+    "static/media/Temokin_MobileVer_Icon-01.svg": "/static/media/Temokin_MobileVer_Icon-01.1457e952.svg",
     "static/media/apa.png": "/static/media/apa.2172879c.png",
     "static/media/appa.png": "/static/media/appa.e0d8098b.png",
     "static/media/awards-bg-1.svg": "/static/media/awards-bg-1.e95e4632.svg",
@@ -330,10 +332,10 @@
     "static/media/wedig-bg.png": "/static/media/wedig-bg.d17e3b83.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.86117f0a.js",
+    "static/js/runtime-main.6d9b5548.js",
     "static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.35444172.chunk.js",
-    "static/css/main.4747cccf.chunk.css",
-    "static/js/main.0736b2ad.chunk.js"
+    "static/js/2.d31c040d.chunk.js",
+    "static/css/main.af005237.chunk.css",
+    "static/js/main.cf8193e8.chunk.js"
   ]
 }

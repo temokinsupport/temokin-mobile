@@ -135,7 +135,7 @@
     color: white;
     letter-spacing: 0.2vw;
     font-family: "gill sans medium", sans-serif !important;
-    padding-top: 6vw;
+    padding-top: 0;
     padding-bottom: 45vw;
     background-color: #283a97;
     white-space: pre-line;
@@ -502,6 +502,9 @@
     /* .header-bg {
       display: none;
     } */
+    .header-bg {
+      display: none;
+    }
 
     .form-bg {
       background-size: 193vw 194vw !important;
@@ -648,7 +651,7 @@
     image-rendering: -webkit-optimize-contrast; */
 
     .--bg-1 {
-      padding: 80px 0 100px 0;
+      padding: 80px 0 0 0;
 
       // .header-shapes {
       //   &::before {
@@ -733,36 +736,84 @@
         }
 
         .--btn-send {
-          margin: 5vw auto 0 auto;
+          margin: 5vw auto 0 auto; 
         }
       }
     } */
   }
 
-  @media (max-width: 400px) {
-    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 280vw auto;
+  @media (max-width: 414px) {
+    background: url("../images/contactus/Contact_BG-new.png") top -30vw right -45vw;
+    background-size: 240vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast; */
+    image-rendering: -webkit-optimize-contrast;
 
-    /* .--bg-2 {
-      padding: 45.5vw 0 0 0;
-
-      form {
-        margin-left: 0;
-        width: 90%;
-        margin: 0 auto;
-
-        label {
-          text-align: left !important;
-        }
-
-        .--btn-send {
-          margin: 5vw auto 0 auto;
-        }
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--13 {
+        top: -4.4%;
+        right: 0;
+        width: 32vw;
       }
-    } */
+    }
+
+
+    .--bg-2 {
+      margin-top: 12vw;
+    }
+  }
+
+  @media (max-width: 412px) {
+    background: url("../images/contactus/Contact_BG-new.png") top -30vw right -45vw;
+    background-size: 240vw auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--13 {
+        top: -4.4%;
+        right: 0;
+        width: 32vw;
+      }
+    }
+
+
+    .--bg-2 {
+      margin-top: 12vw;
+    }
+  }
+
+  @media (max-width: 400px) {
+    background: url("../images/contactus/Contact_BG-new.png") top -30vw right -45vw;
+    background-size: 240vw auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--13 {
+        top: -4.3%;
+        right: 0;
+        width: 32vw;
+      }
+    }
+
+
+    .--bg-2 {
+      margin-top: 10vw;
+    }
   }
 }

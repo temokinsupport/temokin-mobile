@@ -134,7 +134,8 @@ export default class EmailUs extends React.Component {
                                 Name
                             </Form.Label>
                             <Col sm="6">
-                                <Form.Control value={this.state.name} onChange={event => this.setState({name: event.target.value})} plaintext/>
+                                <Form.Control value={this.state.name} onChange={event => this.setState({name: event.target.value})} plaintext 
+                                />
                             </Col>
                         </Form.Group>
     
@@ -161,11 +162,17 @@ export default class EmailUs extends React.Component {
                             Message
                         </Form.Label>
                         <Col sm={6}>
-                            <Form.Control value={this.state.message} onChange={event => this.setState({message: event.target.value})} as="textarea" rows={10} />
+                            <Form.Control value={this.state.message} onChange={event => this.setState({message: event.target.value})} as="textarea" rows={20} 
+                                
+                            />
                         </Col>
                         </Form.Group>
     
-                        <Button onClick={this.btnClick} className="--btn-send"  data-scroll disabled={this.state.btnLoading}></Button>
+                        {/* <Button onClick={this.btnClick} className="--btn-send"  data-scroll disabled={this.state.btnLoading}></Button> */}
+                        <button onClick={this.btnClick} disabled={this.state.btnLoading} className="btn-send">
+                            SEND
+                        </button>
+
                     </Form>
                     </Col>
                     <Col md={6}>
@@ -189,7 +196,14 @@ export default class EmailUs extends React.Component {
                         <Image
                             className="svg svg--3"
                             src={
-                                require("../../../assets/images/contactus/Group_1093.svg").default
+                                require("../../../assets/images/contactus/485.svg").default
+                            }
+                        />
+
+                        <Image
+                            className="svg svg--4"
+                            src={
+                                require("../../../assets/images/contactus/484.svg").default
                             }
                         />
                     </div>

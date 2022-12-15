@@ -222,7 +222,7 @@ export default class EmailUs extends React.Component {
                 responsibility for the content of the linked website(s).
               </div>
               <hr className="separator" />
-              <div className="bodyContent">
+              <div className="bodyContent" style={{'margin-bottom': '10vw'}}>
                 Your use of this website and any dispute arising out of <br />
                 such use of the website is subject to the laws of Malaysia.
               </div>

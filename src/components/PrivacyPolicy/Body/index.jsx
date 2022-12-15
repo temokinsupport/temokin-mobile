@@ -131,7 +131,7 @@ export default class EmailUs extends React.Component {
         <Image
           className="svg svg--1"
           src={
-            require("../../../assets/images/privacypolicy/svg-7.svg").default
+            require("../../../assets/images/privacypolicy/1043.svg").default
           }
         />
         {/* <Image

@@ -10,15 +10,16 @@
 */
 
 .--privacy-policy {
+  overflow-x: hidden;
   .svg {
     position: absolute;
     z-index: 3;
 
     &--1 {
-      top: -8%;
-      left: 0;
+      top: -44vw;
+      right: -33%;
 
-      width: 15vw;
+      width: 65vw;
     }
 
     /* &--2 {
@@ -56,26 +57,26 @@
     } */
 
     &--7 {
-      top: -1%;
+      top: -2.7%;
       left: 0;
 
       width: 27vw;
     }
 
     &--8 {
-      top: 11.2%;
+      top: 9.6%;
       right: 0;
       width: 35vw;
     }
 
     &--9 {
-      top: 36%;
+      top: 35.7%;
       left: 0;
       width: 10vw;
     }
 
     &--10 {
-      bottom: 48%;
+      bottom: 49%;
       right: 0;
       width: 23vw;
     }
@@ -87,7 +88,7 @@
     }
 
     &--12 {
-      bottom: 11%;
+      bottom: 9.7%;
       right: 0;
       width: 28vw;
     }
@@ -100,7 +101,7 @@
   .--subtitle {
     width: 100%;
     text-align: center !important;
-    font-family: "gill sans light", sans-serif !important;
+    font-family: "gill sans light", sans-serif !important; 
     color: #283a97;
     letter-spacing: 0.15vw;
   }
@@ -141,7 +142,7 @@
       height: 30vw;
 
       background: url("../images/privacypolicy/svg-5.svg");
-      background-size: contain;
+      background-size: 145vw auto;
       background-repeat: no-repeat;
       background-position: left bottom;
     }
@@ -194,7 +195,8 @@
   .--subContent {
     width: 100%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 5vw;
+    margin-bottom: 35vw;
     line-height: 2.6em;
     letter-spacing: 0.1em;
     color: #676ab1;
@@ -298,7 +300,8 @@
   }
 
   .--bg-2 {
-    padding: 20vw 0;
+    // padding: 0 0;
+    margin-top: -55px;
     min-height: 80vw;
     width: 100%;
     position: relative;
@@ -448,15 +451,15 @@
   .header-bg {
     background: url("../images/privacypolicy/header-bg.png");
     background-repeat: no-repeat;
-    background-size: auto 245vw !important;
+    background-size: 240vw 240vw !important;
     background-position: -100vw top;
 
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
     position: absolute;
-    height: 250vw;
+    height: 240vw;
     width: 100%;
-    top: 0;
+    top: -2.6%;
     z-index: -3;
   }
 
@@ -638,7 +641,7 @@
     image-rendering: -webkit-optimize-contrast; */
 
     .--bg-1 {
-      padding: 150px 0 100px 0;
+      padding: 80px 0 100px 0;
 
       // .header-shapes {
       //   &::before {

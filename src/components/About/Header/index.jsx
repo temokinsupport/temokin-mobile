@@ -83,7 +83,7 @@ export default function AboutTemokin() {
                 {" \n"} RING ROAD SEREMBAN PROJECT FROM 2002 TO 2017.
               </p>
               <NavLink
-                to="/land-acquisition" 
+                to="/land-acquisition"
                 variant="light"
                 className="grow-with-us"
               >
@@ -110,9 +110,10 @@ export default function AboutTemokin() {
             />
             <Carousel.Caption>
               <p className="description">
-                FROM A SOLID FOUNDATION, WE EXPANDED TO {"\n"}BECOME THE PRE-EMINENT TURKEY CIVIL{"\n"} ENGINEERING AND PROPERTY conglomerate
-                that{"\n"} the nation and the world have come to know{"\n"} and
-                trust today.
+                FROM A SOLID FOUNDATION, WE EXPANDED TO {"\n"}BECOME THE
+                PRE-EMINENT TURKEY CIVIL{"\n"} ENGINEERING AND PROPERTY
+                conglomerate that{"\n"} the nation and the world have come to
+                know{"\n"} and trust today.
               </p>
               <p className="description">
                 At heart, we are a construction company with{"\n"} an integrated

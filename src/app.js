@@ -53,7 +53,7 @@ export default function App() {
   AOS.init();
 
   useEffect(() => {
-    let width = parseInt(window.innerWidth);
+    /* let width = parseInt(window.innerWidth);
 
     if (width > 420) {
       console.log(width, width > 420);
@@ -69,7 +69,7 @@ export default function App() {
         // history.push("https://temokin.hirayamnl.com");
         window.location.replace("https://temokin.hirayamnl.com");
       }
-    });
+    }); */
   }, []);
 
   return (

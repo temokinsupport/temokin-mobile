@@ -85,7 +85,7 @@ const PropertyDevelopmentProject = () => {
               <Image
                 className="svg svg--1"
                 src={
-                  require("../assets/images/propertydevelopment/svg-1.svg")
+                  require("../assets/images/propertydevelopment/991.svg")
                     .default
                 }
                 style={{ "z-index": "999" }}

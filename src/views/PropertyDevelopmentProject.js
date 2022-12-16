@@ -93,14 +93,14 @@ const PropertyDevelopmentProject = () => {
               <Image
                 className="svg"
                 style={{
-                  width: "30vw",
-                  height: "30vw",
-                  right: "-5%",
+                  width: "55vw",
+                  height: "55vw",
+                  right: "-24%",
                   "z-index": "999",
-                  top: "-2%",
+                  top: "-11.8%",
                 }}
                 src={
-                  require("../assets/images/propertydevelopment/svg-2.svg")
+                  require("../assets/images/propertydevelopment/993.svg")
                     .default
                 }
               />
@@ -115,13 +115,13 @@ const PropertyDevelopmentProject = () => {
                       .default
                   }
                 />
-                <Image
+                {/* <Image
                   className="svg svg--4"
                   src={
                     require("../assets/images/propertydevelopment/svg-4.svg")
                       .default
                   }
-                />
+                /> */}
                 <div className="middle__polygon-image">
                   <Image
                     src={

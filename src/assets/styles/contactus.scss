@@ -20,7 +20,7 @@
     position: absolute;
     z-index: 3;
 
-    &--1 {
+    &--1 { 
       top: -5%;
       right: -135%;
 
@@ -491,7 +491,7 @@
     }
 
     .--bg-1 {
-      padding: 150px 0 100px 0;
+      padding: 150px 0 70px 0;
       .header-shapes {
         &::before {
           top: 13vw;
@@ -621,13 +621,103 @@
       }
     }
   }
+
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 45vw right -24vw;
-    background-size: 280vw 250vw;
+    background: url("../images/contactus/Contact_BG-01.png") top -72vw right -108vw;
+    background-size: 430vw 330vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 { 
+        top: -4%;
+        right: -137%;
+  
+        width: 200vw;
+      }
+    }
+    
+    .--bg-2 {
+      padding: 45.5vw 0 0 0;
+      form {
+        margin-left: 0;
+        width: 90%;
+        margin: 0 auto;
+        label {
+          text-align: left !important;
+        }
+        .--btn-send {
+          margin: 5vw auto 0 auto;
+        }
+
+        .btn-send {
+          border: none;
+          width: 200px;
+          height: 60px;
+          transform: translateX(35.5%);
+          color: #283A97;
+          letter-spacing: 2px;
+          font-size: 10px;
+          font-family: "gill sans", sans-serif !important;
+          font-weight: 750;
+          margin-top: 30px;
+        }
+      }
+
+      h3.--title {
+        font-size: 17px;
+        line-height: 1.6;
+      }
+    }
+    .--bg-1 {
+      .--max {
+        max-width: 86%;
+        img {
+          height: 25vw;
+          width: 25vw;
+        }
+
+        .--image {
+          width: 80vw;
+          top: 6%;
+          left: -48%;
+          position: absolute;
+        }
+
+        h1.--title {
+          font-size: 6vw;
+          color: #283a97;
+          margin: -8vw 0 10.5vw 0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 412px) {
+    background: url("../images/contactus/Contact_BG-01.png") top -70vw right -102.8vw;
+    background-size: 410vw 330vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 { 
+        top: -3.5%;
+        right: -137%;
+  
+        width: 200vw;
+      }
+    }
+    
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -685,12 +775,25 @@
   }
 
   @media (max-width: 393px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 63vw right -26vw;
-    background-size: 280vw 250vw;
+    background: url("../images/contactus/Contact_BG-01.png") top -127vw right -125.5vw;
+    background-size: 500vw 420vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 { 
+        top: -3%;
+        right: -135%;
+  
+        width: 200vw;
+      }
+    }
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -752,12 +855,25 @@
 
 
   @media (max-width: 390px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 65vw right -24.5vw;
-    background-size: 280vw 250vw;
+    background: url("../images/contactus/Contact_BG-01.png") top -127vw right -125.5vw;
+    background-size: 500vw 420vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 { 
+        top: -3%;
+        right: -135%;
+  
+        width: 200vw;
+      }
+    }
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -818,12 +934,25 @@
   }
 
   @media (max-width: 375px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 68vw right -24vw;
-    background-size: 280vw 250vw;
+    background: url("../images/contactus/Contact_BG-01.png") top -108vw right -113vw;
+    background-size: 450vw 400vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 { 
+        top: -3.5%;
+        right: -135%;
+  
+        width: 200vw;
+      }
+    }
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -884,12 +1013,25 @@
   }
 
   @media (max-width: 360px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 40vw right -26vw;
-    background-size: 300vw 300vw;
+    background: url("../images/contactus/Contact_BG-01.png") top -105vw right -113vw;
+    background-size: 450vw 400vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 { 
+        top: -3.5%;
+        right: -135%;
+  
+        width: 200vw;
+      }
+    }
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -950,12 +1092,25 @@
   }
 
   @media (max-width: 320px) {
-    background: url("../images/contactus/Contact_BG-01.png") top 75vw right -23vw;
-    background-size: 270vw 270vw;
+    background: url("../images/contactus/Contact_BG-01.png") top -93vw right -113vw;
+    background-size: 450vw 400vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 { 
+        top: -3.5%;
+        right: -135%;
+  
+        width: 200vw;
+      }
+    }
+    
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {

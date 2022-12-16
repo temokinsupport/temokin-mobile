@@ -161,7 +161,7 @@ const PropertyDevelopmentProject = () => {
               <Image
                 className="svg svg--7"
                 src={
-                  require("../assets/images/propertydevelopment/svg-6.svg")
+                  require("../assets/images/propertydevelopment/Shapes-03.svg")
                     .default
                 }
               />

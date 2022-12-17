@@ -7,9 +7,9 @@ export default function Header() {
     <div className="--bg-1" data-scroll-section>
       <Navigation />
       <Container>
-        <Row className="justify-content-center" style={{'margin-top': '15vw'}}>
+        <Row className="justify-content-center" style={{'margin-top': '20vw'}}>
           <Col xs={12}>
-            <h1 className="--title">Property <br /> Development</h1>
+            <h1 className="--title">Property <br /> Development</h1> 
             
             {/* <p className="--desc">
               As a people developer, we are only as successful as the

@@ -185,7 +185,7 @@ export default function CarouselDev() {
                             />
                           </div>
                         );
-                      })}
+                      })} 
                     </p>
                   ) : null}
                 </div>
@@ -199,7 +199,7 @@ export default function CarouselDev() {
                     );
                   })}
                 </div>
-                <div className="--buttons">
+                <div className="--buttons" style={{ 'margin-bottom': '20vw'}}>
                   {item.links.project ? (
                     <NavLink
                       className="--btn-view-project"

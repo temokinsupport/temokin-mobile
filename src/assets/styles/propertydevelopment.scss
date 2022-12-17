@@ -105,7 +105,7 @@
       pointer-events: none;
 
       &--1 {
-        top: -8%;
+        top: -11%;
         left: -10%;
         width: 45vw;
         height: 45vw;
@@ -113,10 +113,10 @@
       }
 
       &--2 {
-        top: -38%;
-        right: 0;
-        width: 20vw;
-        height: 20vw;
+        top: -35.5%;
+        right: -3%;
+        width: 25vw;
+        height: 25vw;
       }
 
       &--3 {
@@ -390,8 +390,9 @@
   }
   @media (max-width: 500px) {
     .--bg-1 {
-      min-height: 120vw;
+      
       padding-top: 0;
+      padding-bottom: 20vw;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -406,22 +407,7 @@
       }
     }
     .--bg-2 {
-      /* .carousel {
-                height: 200vw;
-                .carousel-inner {
-                    height: 200vw;
-                    img {
-                        height: 200vw;
-                    }
-                }
-                .carousel-caption {
-                    left: 25px;
-                    padding-bottom: 35.3vw;
-                }
-                .carousel-indicators {
-                    bottom: 50vw;
-                }
-            } */
+      
     }
   }
 }

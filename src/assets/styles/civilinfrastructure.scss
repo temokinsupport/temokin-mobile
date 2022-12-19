@@ -16,9 +16,9 @@
     position: absolute;
 
     &--2 {
-      top: 40vw;
-      left: 0;
-      width: 10vw;
+      top: 31vw;
+      left: -1vw;
+      width: 12vw;
       z-index: 2;
     }
   }
@@ -32,7 +32,7 @@
 
     position: relative;
     width: 100%;
-    margin-top: 14vw;
+    margin-top: 5vw;
   }
   .hr-carousel {
     width: 100%;
@@ -59,15 +59,15 @@
 
   .--right-3 {
     position: absolute;
-    top: 40vw;
-    left: -5vw;
-    width: 22vw;
+    top: 17vw;
+    left: -3vw;
+    width: 27vw;
   }
 
   .--right-4 {
     position: absolute;
-    right: 0;
-    top: -28vw;
+    right: -5%;
+    top: -53.5vw;
     width: 50vw;
   }
 
@@ -89,7 +89,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 100vw;
+    width: 90vw;
   }
 
   .--bg-mid {
@@ -1245,7 +1245,7 @@
       height: 700px;
     }
     .--container-2 {
-      padding: 100px 0 !important;
+      padding: 0px 0 !important;
       height: 700px !important;
       position: relative;
       display: flex;
@@ -1686,8 +1686,8 @@
       height: 500px;
     }
     .--container-2 {
-      padding: 100px 0 !important;
-      height: 500px !important;
+      padding: 0 0 !important;
+      height: 400px !important;
     }
     .--container-3 {
       height: 500px !important;
@@ -1712,7 +1712,7 @@
       height: 700px;
     }
     .parallax-bg {
-      background-size: 400vw 140%;
+      background-size: 400vw 115%;
       background-position: -70vw -50vw !important;
     }
     .--container-5 {
@@ -1729,4 +1729,188 @@
     font-family: "gill sans light", sans-serif !important;
     letter-spacing: 0.1em;
   }
+
+  @media (max-width: 375px) {
+    .parallax-bg {
+      background-size: 400vw 115%;
+      background-position: -70vw -50vw !important;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .parallax-bg {
+      background-size: 400vw 120%;
+      background-position: -70vw -50vw !important;
+    }
+
+    .svg {
+      position: absolute;
+  
+      &--2 {
+        top: 28vw;
+        left: -1vw;
+        width: 12vw;
+        z-index: 2;
+      }
+    }
+
+    .--right-4 {
+      position: absolute;
+      right: -5%;
+      top: -48.5vw;
+      width: 50vw;
+    }
+
+    .--right-3 {
+      position: absolute;
+      right: -3vw;
+      top: 16vw;
+      width: 27vw;
+    }
+
+    .--container-2 {
+      padding: 0 0 5vw 0  !important;
+      height: 400px !important;
+    }
+  
+  }
+
+  @media (max-width: 390px) {
+    .parallax-bg {
+      background-size: 400vw 120%;
+      background-position: -70vw -50vw !important;
+    }
+
+    .svg {
+      position: absolute;
+  
+      &--2 {
+        top: 28vw;
+        left: -1vw;
+        width: 12vw;
+        z-index: 2;
+      }
+    }
+
+    .--right-4 {
+      position: absolute;
+      right: -5%;
+      top: -47vw;
+      width: 50vw;
+    }
+
+    
+  }
+
+  @media (max-width: 393px) {
+    .parallax-bg {
+      background-size: 400vw 120%;
+      background-position: -70vw -50vw !important;
+    }
+
+    .svg {
+      position: absolute;
+  
+      &--2 {
+        top: 28vw;
+        left: -1vw;
+        width: 12vw;
+        z-index: 2;
+      }
+    }
+
+    .--right-4 {
+      position: absolute;
+      right: -5%;
+      top: -47vw;
+      width: 50vw;
+    }
+
+    .--right-3 {
+      position: absolute;
+      right: -3vw;
+      top: 18vw;
+      width: 27vw;
+    }
+
+    .--container-2 {
+      padding: 0 0 0 0  !important;
+      height: 380px !important;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .parallax-bg {
+      background-size: 400vw 110%;
+      background-position: -70vw -50vw !important;
+    }
+
+    .svg {
+      position: absolute;
+  
+      &--2 {
+        top: 31vw;
+        left: -1vw;
+        width: 12vw;
+        z-index: 2;
+      }
+    }
+
+    .--right-4 {
+      position: absolute;
+      right: -5%;
+      top: -61vw;
+      width: 50vw;
+    }
+
+    .--right-3 {
+      position: absolute;
+      right: -3vw;
+      top: 6vw;
+      width: 27vw;
+    }
+
+    .--container-2 {
+      padding: 0 0 10vw 0  !important;
+      height: 300px !important;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .parallax-bg {
+      background-size: 400vw 110%;
+      background-position: -70vw -50vw !important;
+    }
+
+    .svg {
+      position: absolute;
+  
+      &--2 {
+        top: 33vw;
+        left: -1vw;
+        width: 12vw;
+        z-index: 2;
+      }
+    }
+
+    .--right-4 {
+      position: absolute;
+      right: -5%;
+      top: -59vw;
+      width: 50vw;
+    }
+
+    .--right-3 {
+      position: absolute;
+      right: -3vw;
+      top: 13vw;
+      width: 27vw;
+    }
+
+    .--container-2 {
+      padding: 0 0 8vw 0  !important;
+      height: 300px !important;
+    }
+  }
+
 }

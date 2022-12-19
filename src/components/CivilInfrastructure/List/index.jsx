@@ -928,7 +928,7 @@ export default function CivilInfrastructure() {
                 <Image
                   style={{
                     position: "absolute",
-                    top: "84%",
+                    top: "53%",
                     right: "-65%",
                     width: "100vw",
                   }}

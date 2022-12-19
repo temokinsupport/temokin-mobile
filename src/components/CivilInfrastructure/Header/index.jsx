@@ -21,7 +21,7 @@ export default function HeaderCivilInfrastructure() {
 
         <div className="content">
           <div className="parallax-bg"></div>
-          <div className="--header-civil">
+          <div className="--header-civil"> 
             <Container className="--max">
               <Row>
                 <Col md={12}>

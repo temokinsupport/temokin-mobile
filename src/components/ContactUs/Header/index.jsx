@@ -46,7 +46,7 @@ export default function Header() {
           </Col>
         </Col>
         <Col>
-          <Col md={4} style={{ "margin-bottom": "17vw" }}>
+          <Col md={4} style={{ "margin-bottom": "17vw", "margin-top": "17vw" }}>
             <Image
               data-aos="zoom-in"
               src={

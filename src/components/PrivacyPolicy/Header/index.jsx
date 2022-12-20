@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className="--bg-1">
       <Navigation />
-      <Container className="--max">
+      <Container className="--max"> 
         <Row className="justify-content-center">
           <Col md="7">
             <h1 className="--title">
@@ -27,8 +27,8 @@ export default function Header() {
               Malaysian Personal Data Protection Act (2010).
               <br />
               <br />
-              In the course of your dealings with TEMOKIN [meaning TEMOKIN,
-              {"\n"} and the holding, subsidiary, {"\n"} and/or related
+              In the course of your dealings with TEMOKIN {"\n"} [meaning TEMOKIN,
+              and the holding, subsidiary, {"\n"} and/or related
               companies (as defined by the {"\n"}
               Companies Act 1965) of TEMOKIN] as our valued {"\n"}
               customer / prospective customer, we may {"\n"} request that you

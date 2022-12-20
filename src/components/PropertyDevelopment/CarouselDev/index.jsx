@@ -121,6 +121,7 @@ export default function CarouselDev() {
           return (
             <Carousel.Item
               className={`${index} ${carouselIndex} ${index === carouselIndex}`}
+              style={{'margin-top': '10vw'}}
             >
               <img
                 className="d-block w-100"

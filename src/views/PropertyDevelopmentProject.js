@@ -13,7 +13,7 @@ import Navigation from "../components/Navigation";
 import PreviewCard from "../components/PreviewCard";
 import PreviewCarousel from "../components/PreviewCarousel";
 
-import projects from "../data/property-development.json";
+import projects from "../data/property-development.json"; 
 
 const PropertyDevelopmentProject = () => {
   const location = useLocation();
@@ -83,7 +83,7 @@ const PropertyDevelopmentProject = () => {
 
             <section className="hero">
               <Image
-                className="svg svg--1"
+                className="svg svg--100"
                 src={
                   require("../assets/images/propertydevelopment/991.svg")
                     .default

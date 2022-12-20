@@ -42,7 +42,7 @@
 
   &--property-development {
     .carousel-item {
-      // min-height: 200vw;
+      min-height: 200vw;
     }
     .carousel-caption {
       .--desc {
@@ -61,24 +61,9 @@
 
     transition: opacity 0.2s ease-in-out;
 
-    &.false {
-      height: 0;
-    }
-
     &.true {
       opacity: 1;
       // height: 100%;
-      &.0 {
-        height: 100vh;
-      }
-
-      &.1 {
-        height: 30vh;
-      }
-
-      &.2 {
-        height: 100vw;
-      }
     }
   }
   .carousel-inner {

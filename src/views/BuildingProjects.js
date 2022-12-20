@@ -69,7 +69,7 @@ const BuildingProject = () => {
           src={require("../assets/images/building/svg-3.svg").default}
         />
         <Image
-          className="svg svg--4"
+          className="svg svg--101"
           src={require("../assets/images/building/svg-4.svg").default}
         />
         <div className="middle__polygon-image">
@@ -213,7 +213,7 @@ const BuildingProject = () => {
               projectData.name === "natl-camp" ? null : (
                 <Image
                   className="svg svg--7"
-                  src={require("../assets/images/building/svg-6.svg").default}
+                  src={require("../assets/images/building/__02.svg").default}
                 />
               )}
               <Image

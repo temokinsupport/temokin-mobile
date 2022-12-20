@@ -145,7 +145,7 @@ export default function Header() {
                 <Form.Label
                   column
                   className="land-label"
-                  style={{ "font-size": "3.5vw", "margin-top": "5vw" }}
+                  style={{ "font-size": "15px", "margin-top": "5vw" }}
                 >
                   MODE OF COLLABORATION
                 </Form.Label>
@@ -227,7 +227,7 @@ export default function Header() {
                 <Form.Check
                   type="checkbox"
                   style={{ "white-space": "pre-line" }}
-                  label={`BY TICKING THIS BOX, I HEREBY CONFIRM THAT I UNDERSTAND \n & ACCEPT YOUR PRIVACY POLICY AND TERMS AND \n CONDITION OF USE OF THE WEBSITE. I HEREBY AGREE AND GIVE CONSENT TO TEMOKIN AND/OR SUBSIDIARY COMPANIES AND/OR ASSOCIATE COMPANIES  WITHIN TEMOKIN GROUP OF \n  COMPANIES TO COLLECT, PROCESS AND DISCLOSE MY \n  PERSONAL DATA IN ACCORDANCE WITH THE PRIVACY POLICY.`}
+                  label={`BY TICKING THIS BOX, I HEREBY CONFIRM THAT I UNDERSTAND \n & ACCEPT YOUR PRIVACY POLICY AND TERMS AND \n CONDITION OF USE OF THE WEBSITE. I HEREBY AGREE AND \n GIVE CONSENT TO TEMOKIN AND/OR SUBSIDIARY COMPANIES AND/OR ASSOCIATE COMPANIES  WITHIN TEMOKIN GROUP OF \n  COMPANIES TO COLLECT, PROCESS AND DISCLOSE MY \n  PERSONAL DATA IN ACCORDANCE WITH THE PRIVACY POLICY.`}
                   className="land-radio text-start land-check"
                 />
               </Col>

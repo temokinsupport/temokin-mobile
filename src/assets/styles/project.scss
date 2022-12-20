@@ -48,15 +48,22 @@
       height: 30vw;
     }
     &--4 {
-      top: 20%;
-      right: 0;
-      width: 20%;
-      height: 20vw;
+      top: 50%;
+      right: -14%;
+      width: 35vw;
+      height: 35vw;
+      z-index: 2;
+    }
+    &--101 {
+      top: 25%;
+      right: -5%;
+      width: 30vw;
+      height: 30vw;
       z-index: 2;
     }
     &--5 {
       top: 18%;
-      left: -15%;
+      left: -1%;
       width: 50%;
       height: 20vw;
     }
@@ -68,10 +75,10 @@
       height: 42%;
     }
     &--7 {
-      top: -35%;
-      left: -45%;
-      width: 90%;
-      height: 90%;
+      top: -25%;
+      left: -35%;
+      width: 70%;
+      height: 70%;
       mix-blend-mode: multiply;
       opacity: 0.8;
     }
@@ -91,7 +98,7 @@
     &--10 {
       left: 0;
       bottom: 0%;
-      width: 30%;
+      width: 60%;
       height: auto;
       // z-index: 2;
     }

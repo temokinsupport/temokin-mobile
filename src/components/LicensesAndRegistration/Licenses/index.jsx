@@ -90,7 +90,7 @@ export default function Licenses() {
                       require(`../../../assets/images/licensesandregistrations/${license.image}`)
                         .default
                     }
-                  />
+                  /> 
                 </Col>
                 <Col xs={12}>
                   <div className="license__content">
@@ -116,7 +116,7 @@ export default function Licenses() {
           })}
         </Row>
       </Container>
-      <div className="licenses-vector licenses-vector__bottom">
+      <div className="licenses-vector licenses-vector__bottom"> 
         <Image
           className=""
           fluid
@@ -125,6 +125,23 @@ export default function Licenses() {
               .default
           }
         />
+
+      {/* <Image
+        className="svg svg--3"
+        fluid
+        src={
+          require("../../../assets/images/licensesandregistrations/430.svg")
+            .default
+        }
+      />
+      <Image
+        className="svg svg--4"
+        fluid
+        src={
+          require("../../../assets/images/licensesandregistrations/107.svg")
+            .default
+        }
+      /> */}
       </div>
     </div>
   );

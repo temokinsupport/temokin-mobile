@@ -10,14 +10,15 @@
 */
 
 .--building {
+  overflow-x: hidden;
   .svg {
     position: absolute;
     pointer-events: none;
 
     &--1 {
-      bottom: 0;
+      bottom: -4%;
       left: 0;
-      width: 100%;
+      width: 140%;
       z-index: 2;
       mix-blend-mode: multiply;
     }
@@ -2042,10 +2043,100 @@
 
     .--right {
       position: absolute;
-      right: -6%;
+      right: -10%;
       z-index: 9;
-      top: 2%;
+      top: -38%;
+      width: 50vw;
+    }
+  }
+
+  @media (max-width: 414px) {
+    .--container-2 {
+      padding: 0 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -8%;
+      z-index: 9;
+      top: -23%;
       width: 45vw;
+    }
+  }
+
+  @media (max-width: 412px) {
+    .--container-2 {
+      padding: 0 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -8%;
+      z-index: 9;
+      top: -23%;
+      width: 45vw;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .--container-2 {
+      padding: 0 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -10%;
+      z-index: 9;
+      top: -25%;
+      width: 50vw;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .--container-2 {
+      padding: 0 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -10%;
+      z-index: 9;
+      top: -25%;
+      width: 50vw;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .--container-2 {
+      padding: 0 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -10%;
+      z-index: 9;
+      top: -18%;
+      width: 45vw;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .--container-2 {
+      padding: 0 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -10%;
+      z-index: 9;
+      top: -25%;
+      width: 50vw;
     }
   }
 

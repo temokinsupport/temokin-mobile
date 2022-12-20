@@ -27,13 +27,14 @@
     position: relative;
     width: 100%;
     margin-top: 14vw;
+    height: 100%;
   }
   .--right {
     position: absolute;
-    right: 0;
+    right: -6%;
     z-index: 9;
-    top: -21vw;
-    width: 30vw;
+    top: -20vw;
+    width: 45vw;
   }
 
   .--left {
@@ -1985,7 +1986,7 @@
     }
 
     .--container-2 {
-      // padding: 100px 0 !important;
+      padding: 30px 0 !important;
       // height: 500px !important;
     }
 
@@ -2030,6 +2031,36 @@
     .--container-7 {
       height: 650px;
       background-size: 100vw 650px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .--container-2 {
+      padding: 0 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -6%;
+      z-index: 9;
+      top: 2%;
+      width: 45vw;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .--container-2 {
+      padding: 100px 0 !important;
+      // height: 500px !important;
+    }
+
+    .--right {
+      position: absolute;
+      right: -6%;
+      z-index: 9;
+      top: 2%;
+      width: 45vw;
     }
   }
 }

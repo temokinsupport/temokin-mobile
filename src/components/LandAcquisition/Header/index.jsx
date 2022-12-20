@@ -47,7 +47,7 @@ export default function Header() {
         <Image
           className="svg svg--2"
           src={
-            require("../../../assets/images/landacquisition/svg-2.svg").default
+            require("../../../assets/images/landacquisition/919.svg").default
           }
         />
         <Image
@@ -59,15 +59,15 @@ export default function Header() {
         <Image
           className="svg svg--4"
           src={
-            require("../../../assets/images/landacquisition/svg-4.svg").default
+            require("../../../assets/images/landacquisition/921.svg").default
           }
         />
-        <Image
+        {/* <Image
           className="svg svg--5"
           src={
             require("../../../assets/images/landacquisition/svg-5.svg").default
           }
-        />
+        /> */}
         {/* <Image
           className="svg svg--6"
           src={
@@ -145,7 +145,7 @@ export default function Header() {
                 <Form.Label
                   column
                   className="land-label"
-                  style={{ "font-size": "3vw", "margin-top": "5vw" }}
+                  style={{ "font-size": "3.5vw", "margin-top": "5vw" }}
                 >
                   MODE OF COLLABORATION
                 </Form.Label>
@@ -170,7 +170,7 @@ export default function Header() {
                   <Col className="d-flex" style={{ "margin-top": "2vw" }}>
                     <Form.Check
                       type="radio"
-                      label="OTHERS"
+                      label="OTHERS:"
                       className="land-radio"
                     />
                   </Col>

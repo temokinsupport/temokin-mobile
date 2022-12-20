@@ -181,7 +181,7 @@ const TeamLeaders = () => {
                 </Col>
               </Row>
             </Container>
-            <Container className="--max">
+            <Container className="--max" style={{ 'margin-top' : '15vw'}}>
               <Row>
                 {teamLeaders.map((teamLeader) => (
                   <Col

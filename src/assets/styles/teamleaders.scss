@@ -16,15 +16,15 @@
     position: absolute;
 
     &--1 {
-      left: 0;
-      top: 18%;
-      width: 40vw;
+      left: -4%;
+      top: 19%;
+      width: 42vw;
     }
 
     &--2 {
-      right: 0;
-      top: 5%;
-      width: 15vw;
+      right: -2%;
+      top: 4.5%;
+      width: 17vw;
     }
 
     &--3 {
@@ -82,10 +82,10 @@
     font-size: 3vw;
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 83%;
     margin: 0 auto;
 
-    padding: 5%;
+    padding: 10%;
 
     &__container {
       &:not(:first-child) {

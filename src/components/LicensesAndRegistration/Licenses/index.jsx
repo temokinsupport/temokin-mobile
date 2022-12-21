@@ -22,7 +22,7 @@ export default function Licenses() {
     },
     {
       image: "bpkud.png",
-      descriptions: [ 
+      descriptions: [
         {
           content: "KEMENTERIAN KEWANGAN \n MALAYSIA",
           type: "name",
@@ -90,7 +90,7 @@ export default function Licenses() {
                       require(`../../../assets/images/licensesandregistrations/${license.image}`)
                         .default
                     }
-                  /> 
+                  />
                 </Col>
                 <Col xs={12}>
                   <div className="license__content">
@@ -116,17 +116,17 @@ export default function Licenses() {
           })}
         </Row>
       </Container>
-      <div className="licenses-vector licenses-vector__bottom"> 
-        <Image
+      <div className="licenses-vector licenses-vector__bottom">
+        {/* <Image
           className=""
           fluid
           src={
             require("../../../assets/images/licensesandregistrations/license-bottom-vector.png")
               .default
           }
-        />
-
-      {/* <Image
+        /> */}
+      </div>
+      <Image
         className="svg svg--3"
         fluid
         src={
@@ -141,8 +141,7 @@ export default function Licenses() {
           require("../../../assets/images/licensesandregistrations/107.svg")
             .default
         }
-      /> */}
-      </div>
+      />
     </div>
   );
 }

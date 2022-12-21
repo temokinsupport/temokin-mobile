@@ -35,11 +35,13 @@ export default function Testimonials() {
               ROADWAYS AND BRIDGE CONSTRUCTION <span>(DESIGN & BUILT)</span>
             </p>
           </div>
+          <hr />
           <div className="testimonial__message message">
             <p className="message__content">
               “GENERALLY THE OVERALL PERFORMANCE HAS BEEN EXCELLENT”
             </p>
           </div>
+          <hr />
 
           <div className="testimonial__sender sender">
             <h4 className="sender__name">IR. HJ. OTHMAN IBRAHIM</h4>

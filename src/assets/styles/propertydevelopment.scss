@@ -81,7 +81,7 @@
       position: relative;
 
       &::after {
-        background: url("../images/propertydevelopment/Shape-04.svg"); 
+        background: url("../images/propertydevelopment/Shape-04.svg");
         background-repeat: no-repeat;
         // background-size: cover;
         // background-position: bottom -10vw;
@@ -100,7 +100,7 @@
       }
 
       &::before {
-        background: url("../images/propertydevelopment/Shape-05.svg"); 
+        background: url("../images/propertydevelopment/Shape-05.svg");
         background-repeat: no-repeat;
         // background-size: cover;
         // background-position: bottom -10vw;
@@ -125,10 +125,13 @@
       pointer-events: none;
 
       &--1 {
-        top: -11%;
+        /* top: -11%;
         left: -11%;
         width: 50vw;
-        mix-blend-mode: multiply;
+        mix-blend-mode: multiply; */
+        top: -5.8%;
+        left: -8%;
+        width: 38vw;
       }
 
       &--2 {
@@ -409,7 +412,6 @@
   }
   @media (max-width: 500px) {
     .--bg-1 {
-      
       padding-top: 0;
       padding-bottom: 20vw;
       display: flex;
@@ -426,7 +428,6 @@
       }
     }
     .--bg-2 {
-      
     }
   }
 }

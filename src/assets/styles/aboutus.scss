@@ -50,12 +50,15 @@
       &:nth-of-type(1) {
         top: 0;
         right: 0;
+        width: 90vw;
       }
 
       &:nth-of-type(2) {
         bottom: 0;
         left: 0;
-        transform: rotateZ(180deg);
+        width: 98vw;
+
+        // transform: rotateZ(180deg);
       }
     }
   }
@@ -253,8 +256,8 @@
 
       &--1 {
         .background {
-          height: 130%;
-          transform: translate(-52%, -25%);
+          height: 350vw;
+          transform: translate(-340vw, -128vw);
           opacity: 0.4;
         }
       }
@@ -366,6 +369,12 @@
         color: #283a97;
         margin: 12vw 0 0 0;
         text-align: center;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: currentColor;
+
+        @supports (-webkit-touch-callout: none) {
+          -webkit-text-stroke-width: 1px;
+        }
       }
     }
     h2 {
@@ -542,13 +551,17 @@
   }
   .--container-8 {
     background-image: url("../images/aboutus/wedig-bg.png");
-    height: 80vh;
+    height: 155vw;
     // min-height: 667px;
     // min-height: 59vw;
     // padding: 10vw 0;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    .col {
+      margin-top: -10vw;
+    }
+
     .--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.6vw;

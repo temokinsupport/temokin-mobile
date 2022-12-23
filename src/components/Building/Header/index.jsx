@@ -12,13 +12,13 @@ export default function HeaderBuilding() {
                     <label for="button-2" className="arrow a2"></label> */}
 
         <div className="content">
-          <div className="--header-building"> 
+          <div className="--header-building">
             <Image
               style={{
                 position: "absolute",
-                width: "30vw",
+                width: "27vw",
                 left: "-19%",
-                top: "18%",
+                top: "8%",
               }}
               src={require("../../../assets/images/building/left.png").default}
             />

@@ -52,7 +52,7 @@ export default function App() {
   var AOS = require("aos");
   AOS.init();
 
-  useEffect(() => {
+  /* useEffect(() => {
     let width = parseInt(window.innerWidth);
 
     if (width > 420) {
@@ -70,7 +70,7 @@ export default function App() {
         window.location.replace("https://temokin.hirayamnl.com");
       }
     });
-  }, []);
+  }, []); */
 
   return (
     <HashRouter>

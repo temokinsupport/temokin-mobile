@@ -18,11 +18,11 @@ export default function HeaderBuilding() {
                 position: "absolute",
                 width: "27vw",
                 left: "-19%",
-                top: "8%",
+                top: "6%",
               }}
               src={require("../../../assets/images/building/left.png").default}
             />
-            <Container className="--max" style={{ "margin-top": "15vw" }}>
+            <Container className="--max" style={{ "margin-top": "23vw" }}>
               <Row>
                 <Col md={12}>
                   <h1 className="--title">BUILDING</h1>

@@ -31,10 +31,16 @@
     height: 100%;
   }
   .--right {
-    position: absolute;
+    /* position: absolute;
     right: -6%;
     z-index: -26% !important;
-    width: 45vw;
+    width: 45vw; */
+
+    position: absolute;
+    right: -10%;
+    z-index: 9;
+    top: -20vw;
+    width: 43vw;
   }
 
   .--left {
@@ -109,6 +115,7 @@
   }
 
   .--header-container {
+    height: 90vw;
     .--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.5vw;
@@ -1284,7 +1291,7 @@
     }
 
     .--header-container {
-      height: 85vw;
+      // height: 85vw;
       background-size: 120vw auto, auto 140vw;
       padding: 0;
       max-width: 100%;
@@ -1491,7 +1498,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 25vw;
+      // margin-top: 25vw;
 
       h2 {
         &.--title {
@@ -1823,7 +1830,7 @@
     }
 
     .--header-container {
-      height: 38vh !important;
+      // height: 38vh !important;
 
       button {
         &.carousel-control-next {
@@ -1846,7 +1853,7 @@
 
   @media (max-width: 700px) {
     .--header-container {
-      height: 38vh !important;
+      // height: 38vh !important;
     }
 
     .parallax-bg {
@@ -1945,7 +1952,7 @@
 
   @media (max-width: 590px) {
     .--header-container {
-      height: 50vh !important;
+      // height: 50vh !important;
 
       .--build-project-list {
         figure {
@@ -2035,7 +2042,7 @@
     }
   }
 
-  @media (max-width: 420px) {
+  /* @media (max-width: 420px) {
     .--container-2 {
       padding: 0 0 !important;
       // height: 500px !important;
@@ -2153,5 +2160,5 @@
       top: 2%;
       width: 45vw;
     }
-  }
+  } */
 }

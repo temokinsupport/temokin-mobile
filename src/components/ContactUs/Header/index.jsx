@@ -46,86 +46,55 @@ export default function Header() {
           </Col>
         </Col>
         <Col>
-          <Col md={4} style={{ "margin-bottom": "17vw", "margin-top": "17vw" }}>
+          <Col md={4} style={{ "margin-bottom": "5vh", "margin-top": "7vh" }}>
             <Image
-              data-aos="zoom-in"
+              className="--icon"
               src={
                 require("../../../assets/images/contactus/icon1.svg").default
               }
             />
 
             <Image
-              data-aos="zoom-in"
               className="--image"
               src={
                 require("../../../assets/images/contactus/Path_482.svg").default
               }
             />
 
-            <h3
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="--title"
-              style={{ "margin-top": "5vw" }}
-            >
+            <h3 className="--title" style={{ "margin-top": "5vw" }}>
               Address
             </h3>
-            <p
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="--desc"
-              style={{ "margin-top": "3vw" }}
-            >
+            <p className="--desc" style={{ "margin-top": "2vw" }}>
               No.2, Jalan 15/48 A, <br />
               Sentul Raya Boulevard, <br />
               51000 Kuala Lumpur
             </p>
           </Col>
-          <Col md={4} style={{ "margin-bottom": "17vw" }}>
+          <Col md={4} style={{ "margin-bottom": "5vh" }}>
             <Image
-              data-aos="zoom-in"
+              className="--icon"
               src={
                 require("../../../assets/images/contactus/icon2.svg").default
               }
             />
-            <h3
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="--title"
-              style={{ "margin-top": "5vw" }}
-            >
+            <h3 className="--title" style={{ "margin-top": "5vw" }}>
               Tel
             </h3>
-            <p
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="--desc"
-              style={{ "margin-top": "3vw" }}
-            >
+            <p className="--desc" style={{ "margin-top": "2vw" }}>
               +603-40441111 <br />
             </p>
           </Col>
           <Col md={4}>
             <Image
-              data-aos="zoom-in"
+              className="--icon"
               src={
                 require("../../../assets/images/contactus/icon3.svg").default
               }
             />
-            <h3
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="--title"
-              style={{ "margin-top": "5vw" }}
-            >
+            <h3 className="--title" style={{ "margin-top": "5vw" }}>
               Email
             </h3>
-            <p
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="--desc"
-              style={{ "margin-top": "5vw" }}
-            >
+            <p className="--desc" style={{ "margin-top": "2vw" }}>
               temokin@temokin.com
             </p>
           </Col>

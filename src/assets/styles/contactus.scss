@@ -49,39 +49,45 @@
   }
 
   .--bg-1 {
-    padding: 10vw 0 0 0;
-    min-height: 50vw;
+    padding: 12vh 0 10vh 0;
+    min-height: 107vh;
     width: 100%;
 
     .--max {
       max-width: 86%;
-      img {
+      .--icon {
         margin: 0 auto 3vw auto;
         display: block;
-        height: 8vw;
-        width: 8vw;
+        height: 12vh;
+        width: 12vh;
         object-fit: contain;
         image-rendering: pixelated;
+      }
+      .--image {
+        height: 32vw;
+        top: 6%;
+        left: -55%;
+        position: absolute;
       }
     }
     h1.--title {
       font-family: "gill sans", sans-serif !important;
-      letter-spacing: 0.4vw;
+      letter-spacing: 0.2em;
       font-weight: 600 !important;
       text-transform: uppercase;
       line-height: 1;
-      font-size: 2vw;
+      font-size: 5vw;
       color: #283a97;
-      margin: 4vw 0 10.5vw 0;
+      // margin: 4vw 0 10.5vw 0;
       text-align: center;
     }
     h3.--title {
       font-family: "gill sans", sans-serif !important;
-      letter-spacing: 0.2vw;
+      letter-spacing: 0.25em;
       font-weight: 600 !important;
       text-transform: uppercase;
       line-height: 1.1;
-      font-size: 1.19vw;
+      font-size: 3vw;
       color: #283a97;
       margin: 0 0 0.5vw 0;
       text-align: center;
@@ -90,11 +96,11 @@
       font-family: "gill sans medium", sans-serif;
       font-weight: 500 !important;
       margin-bottom: 2.4vw;
-      font-size: 1.2vw;
+      font-size: 3.2vw;
       color: #283a97;
-      line-height: 1.4vw;
+      line-height: 1.8em;
       text-align: center;
-      letter-spacing: 0.17vw;
+      letter-spacing: 0.2em;
     }
     .header-shapes {
       position: absolute;
@@ -267,19 +273,23 @@
   }
 
   .header-bg {
-    background: url("../images/contactus/Contact_BG-01.png");
-    // background-size: 105vw auto !important;
-    background-size: 105% !important;
-    background-position: center;
+    background: url("../images/contactus/header-bg.png");
+    /* background-size: auto 178vh !important;
+    background-position: -153vh -49vh; */
+    background-size: auto 235vw;
+    background-position: right 3vh;
     background-repeat: no-repeat;
-    // background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
     position: absolute;
-    height: 80vw;
+    height: 140vh;
     width: 100%;
     top: 0;
     z-index: -3;
+
+    @supports (-webkit-touch-callout: none) {
+      background-position: right -5vh;
+    }
   }
 
   .form-bg {
@@ -303,14 +313,14 @@
   }
 
   @media (max-width: 1024px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 155vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .header-bg {
-      display: none;
+      // display: none;
     }
     .form-bg {
       background-size: 193vw 194vw !important;
@@ -325,28 +335,28 @@
       z-index: 0;
     }
     .--bg-1 {
-      padding: 200px 0 0 0;
+      // padding: 200px 0 0 0;
       .--max {
         max-width: 90%;
       }
-      h1.--title {
+      /* h1.--title {
         font-size: 1.5em;
-      }
-      img {
+      } */
+      /* img {
         height: 10vw;
         width: 10vw;
-      }
+      } */
       h3 {
         &.--title {
-          font-size: 0.875em;
+          // font-size: 0.875em;
         }
       }
-      p {
+      /* p {
         &.--desc {
           font-size: 0.875em;
           line-height: 1.4;
         }
-      }
+      } */
       .row {
         &:nth-child(2) {
           .col-md-4 {
@@ -410,12 +420,12 @@
     }
   }
   @media (max-width: 920px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 165vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .--bg-2 {
       h3.--title {
@@ -427,27 +437,27 @@
     .--bg-1 {
       .--max {
         max-width: 86%;
-        img {
+        /* img {
           height: 25vw;
           width: 25vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 9.5%;
           left: -45%;
           position: absolute;
-        }
+        } */
       }
     }
   }
   @media (max-width: 740px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 180vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .form-bg {
       height: 195vw;
     }
@@ -463,27 +473,27 @@
     .--bg-1 {
       .--max {
         max-width: 86%;
-        img {
+        /* img {
           height: 25vw;
           width: 25vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 9.5%;
           left: -45%;
           position: absolute;
-        }
+        } */
       }
     }
   }
   @media (max-width: 600px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 200vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .--bg-2 {
       h3.--title {
@@ -494,7 +504,7 @@
     }
 
     .--bg-1 {
-      padding: 150px 0 70px 0;
+      // padding: 150px 0 70px 0;
       .header-shapes {
         &::before {
           top: 13vw;
@@ -504,31 +514,31 @@
       .--max {
         max-width: 86%;
 
-        h1.--title {
+        /* h1.--title {
           font-size: 10px;
-        }
+        } */
 
-        img {
+        /* img {
           height: 25vw;
           width: 25vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 9.5%;
           left: -45%;
           position: absolute;
-        }
+        } */
       }
     }
   }
   @media (max-width: 566px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 220vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .form-bg {
       background-size: 350vw 370vw !important;
       height: 320vw !important;
@@ -557,27 +567,27 @@
     .--bg-1 {
       .--max {
         max-width: 86%;
-        img {
+        /* img {
           height: 25vw;
           width: 25vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 9.5%;
           left: -45%;
           position: absolute;
-        }
+        } */
       }
     }
   }
   @media (max-width: 500px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 235vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
     .--bg-2 {
       padding: 45.5vw 0 0 0;
       form {
@@ -611,28 +621,28 @@
     .--bg-1 {
       .--max {
         max-width: 86%;
-        img {
+        /* img {
           height: 25vw;
           width: 25vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 9.5%;
           left: -45%;
           position: absolute;
-        }
+        } */
       }
     }
   }
 
   @media (max-width: 420px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -72vw right -108vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -72vw right -108vw;
     background-size: 430vw 330vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .svg {
       position: absolute;
@@ -681,34 +691,34 @@
     .--bg-1 {
       .--max {
         max-width: 86%;
-        img {
+        /* img {
           height: 25vw;
           width: 25vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 6%;
           left: -48%;
           position: absolute;
-        }
+        } */
 
-        h1.--title {
+        /* h1.--title {
           font-size: 6vw;
           color: #283a97;
           margin: -8vw 0 10.5vw 0;
-        }
+        } */
       }
     }
   }
 
   @media (max-width: 412px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -70vw right -102.8vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -70vw right -102.8vw;
     background-size: 410vw 330vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .svg {
       position: absolute;
@@ -757,34 +767,34 @@
     .--bg-1 {
       .--max {
         max-width: 86%;
-        img {
+        /* img {
           height: 25vw;
           width: 25vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 6%;
           left: -48%;
           position: absolute;
-        }
+        } */
 
-        h1.--title {
+        /* h1.--title {
           font-size: 6vw;
           color: #283a97;
           margin: -8vw 0 10.5vw 0;
-        }
+        } */
       }
     }
   }
 
   @media (max-width: 393px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -127vw right -125.5vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -127vw right -125.5vw;
     background-size: 500vw 420vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .svg {
       position: absolute;
@@ -836,34 +846,34 @@
       .--max {
         max-width: 100%;
 
-        img {
+        /* img {
           height: 30vw;
           width: 30vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 6%;
           left: -55%;
           position: absolute;
-        }
+        } */
 
-        h1.--title {
+        /* h1.--title {
           font-size: 6vw;
           color: #283a97;
           margin: -8vw 0 10.5vw 0;
-        }
+        } */
       }
     }
   }
 
   @media (max-width: 390px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -127vw right -125.5vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -127vw right -125.5vw;
     background-size: 500vw 420vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .svg {
       position: absolute;
@@ -915,34 +925,34 @@
       .--max {
         max-width: 100%;
 
-        img {
+        /* img {
           height: 30vw;
           width: 30vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 6%;
           left: -55%;
           position: absolute;
-        }
+        } */
 
-        h1.--title {
+        /* h1.--title {
           font-size: 6vw;
           color: #283a97;
           margin: -8vw 0 10.5vw 0;
-        }
+        } */
       }
     }
   }
 
   @media (max-width: 375px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -108vw right -113vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -108vw right -113vw;
     background-size: 450vw 400vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .svg {
       position: absolute;
@@ -994,34 +1004,34 @@
       .--max {
         max-width: 100%;
 
-        img {
+        /* img {
           height: 30vw;
           width: 30vw;
-        }
+        } */
 
-        .--image {
+        /*  .--image {
           width: 80vw;
           top: 6.3%;
           left: -55%;
           position: absolute;
-        }
+        } */
 
-        h1.--title {
+        /* h1.--title {
           font-size: 6vw;
           color: #283a97;
           margin: -8vw 0 10.5vw 0;
-        }
+        } */
       }
     }
   }
 
   @media (max-width: 360px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -105vw right -113vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -105vw right -113vw;
     background-size: 450vw 400vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .svg {
       position: absolute;
@@ -1073,34 +1083,34 @@
       .--max {
         max-width: 100%;
 
-        img {
+        /* img {
           height: 30vw;
           width: 30vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 6.3%;
           left: -55%;
           position: absolute;
-        }
+        } */
 
-        h1.--title {
+        /* h1.--title {
           font-size: 6vw;
           color: #283a97;
           margin: -8vw 0 10.5vw 0;
-        }
+        } */
       }
     }
   }
 
   @media (max-width: 320px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -93vw right -113vw;
+    /* background: url("../images/contactus/Contact_BG-01.png") top -93vw right -113vw;
     background-size: 450vw 400vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; */
 
     .svg {
       position: absolute;
@@ -1152,23 +1162,23 @@
       .--max {
         max-width: 100%;
 
-        img {
+        /* img {
           height: 30vw;
           width: 30vw;
-        }
+        } */
 
-        .--image {
+        /* .--image {
           width: 80vw;
           top: 6.3%;
           left: -55%;
           position: absolute;
-        }
+        } */
 
-        h1.--title {
+        /* h1.--title {
           font-size: 6vw;
           color: #283a97;
           margin: -8vw 0 10.5vw 0;
-        }
+        } */
       }
     }
   }

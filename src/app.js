@@ -52,11 +52,10 @@ export default function App() {
   var AOS = require("aos");
   AOS.init();
 
-  useEffect(() => {
+  /* useEffect(() => {
     let width = parseInt(window.innerWidth);
 
     if (width > 480) {
-      // history.push("https://temokin.hirayamnl.com");
 
       window.location.replace("https://temokin.hirayamnl.com");
     }
@@ -65,11 +64,10 @@ export default function App() {
       let width = parseInt(window.innerWidth);
 
       if (width > 480) {
-        // history.push("https://temokin.hirayamnl.com");
         window.location.replace("https://temokin.hirayamnl.com");
       }
     });
-  }, []);
+  }, []); */
 
   return (
     <HashRouter>

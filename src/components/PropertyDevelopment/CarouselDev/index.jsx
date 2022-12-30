@@ -121,7 +121,7 @@ export default function CarouselDev() {
           return (
             <Carousel.Item
               className={`${index} ${carouselIndex} ${index === carouselIndex}`}
-              style={{'margin-top': '10vw'}}
+              style={{ "margin-top": "10vw" }}
             >
               <img
                 className="d-block w-100"
@@ -169,7 +169,7 @@ export default function CarouselDev() {
                   ) : null}
                   {item.awards ? (
                     <p className="--bottom-detail awards">
-                      <span className="--title">Awards</span>
+                      <span className="--title">Award</span>
                       {item.awards.map((award) => {
                         return (
                           <div className="award">
@@ -186,7 +186,7 @@ export default function CarouselDev() {
                             />
                           </div>
                         );
-                      })} 
+                      })}
                     </p>
                   ) : null}
                 </div>
@@ -200,7 +200,7 @@ export default function CarouselDev() {
                     );
                   })}
                 </div>
-                <div className="--buttons" style={{ 'margin-bottom': '20vw'}}>
+                <div className="--buttons" style={{ "margin-bottom": "20vw" }}>
                   {item.links.project ? (
                     <NavLink
                       className="--btn-view-project"

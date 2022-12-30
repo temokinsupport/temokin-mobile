@@ -55,8 +55,7 @@ export default function App() {
   useEffect(() => {
     let width = parseInt(window.innerWidth);
 
-    if (width > 420) {
-      console.log(width, width > 420);
+    if (width > 480) {
       // history.push("https://temokin.hirayamnl.com");
 
       window.location.replace("https://temokin.hirayamnl.com");
@@ -65,7 +64,7 @@ export default function App() {
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
-      if (width > 420) {
+      if (width > 480) {
         // history.push("https://temokin.hirayamnl.com");
         window.location.replace("https://temokin.hirayamnl.com");
       }

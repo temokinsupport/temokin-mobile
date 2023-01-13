@@ -38,13 +38,13 @@ const OtherBusinessVentures = () => {
               <h1 className="hero__title">Affiliates</h1>
 
               <p className="hero__desc">coming soon</p>
-              <Image
+              {/* <Image
                 className="--image"
                 src={
                   require("../assets/images/otherbusinessventures/Group_1091.svg")
                     .default
                 }
-              />
+              /> */}
             </div>
           </section>
 

@@ -102,7 +102,8 @@ export default function Header() {
               style={{ "margin-top": "10vw" }}
             >
               <Col
-                md="3"
+                sm="3"
+                md="12"
                 style={{
                   "text-align": "left",
                   "font-size": "12px",
@@ -113,15 +114,16 @@ export default function Header() {
               >
                 <Form.Label>NAME</Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Form.Control
                   className="land-form"
                   plaintext
-                  style={{ height: "10vw" }}
+                  style={{ height: "10vw", width: "100%" }}
                 />
               </Col>
               <Col
-                md="3"
+                sm="3"
+                md="12"
                 style={{
                   "text-align": "left",
                   "font-size": "12px",
@@ -132,7 +134,10 @@ export default function Header() {
               >
                 <Form.Label>CONTACT NUMBER</Form.Label>
               </Col>
-              <Col md="7">
+              <Col 
+                sm="3"
+                md="12"
+              >
                 <Form.Control
                   className="land-form"
                   plaintext
@@ -140,7 +145,8 @@ export default function Header() {
                 />
               </Col>
               <Col
-                md="3"
+                sm="3"
+                md="12"
                 style={{
                   "text-align": "left",
                   "font-size": "12px",
@@ -151,7 +157,8 @@ export default function Header() {
               >
                 <Form.Label>EMAIL ADDRESS</Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="3"
+                md="12">
                 <Form.Control
                   className="land-form"
                   plaintext
@@ -160,7 +167,8 @@ export default function Header() {
               </Col>
 
               <Col
-                md="3"
+                sm="3"
+                md="12"
                 style={{
                   "text-align": "left",
                   "font-size": "12px",
@@ -171,7 +179,8 @@ export default function Header() {
               >
                 <Form.Label>MESSAGE</Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="3"
+                md="12">
                 <Form.Control
                   className="career-form-textarea"
                   style={{ height: "30vw" }}
@@ -182,7 +191,8 @@ export default function Header() {
               </Col>
 
               <Col
-                md="3"
+                sm="3"
+                md="12"
                 style={{
                   "text-align": "left",
                   "font-size": "12px",
@@ -193,7 +203,8 @@ export default function Header() {
               >
                 <Form.Label column>UPLOAD RESUME</Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="3"
+                md="12">
                 <div className="text-start">
                   <Button className="career-choosefile-button">
                     CHOOSE FILE

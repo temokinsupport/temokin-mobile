@@ -53,23 +53,23 @@ export default function App() {
   AOS.init();
 
   useEffect(() => {
-    // let width = parseInt(window.innerWidth);
+    let width = parseInt(window.innerWidth);
 
-    // if (width > 420) {
-    //   console.log(width, width > 420);
-    //   // history.push("https://temokin.hirayamnl.com");
+    if (width > 1024) {
+      console.log(width, width > 420);
+      // history.push("https://temokin.hirayamnl.com");
 
-    //   window.location.replace("https://temokin.hirayamnl.com");
-    // }
+      window.location.replace("https://temokin.hirayamnl.com");
+    }
 
-    // window.addEventListener("resize", () => {
-    //   let width = parseInt(window.innerWidth);
+    window.addEventListener("resize", () => {
+      let width = parseInt(window.innerWidth);
 
-    //   if (width > 420) {
-    //     // history.push("https://temokin.hirayamnl.com");
-    //     window.location.replace("https://temokin.hirayamnl.com");
-    //   }
-    // });
+      if (width > 1024) {
+        // history.push("https://temokin.hirayamnl.com");
+        window.location.replace("https://temokin.hirayamnl.com");
+      }
+    });
   }, []);
 
   return (

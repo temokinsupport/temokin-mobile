@@ -40,13 +40,13 @@ export default function Header() {
       <Container className="--max">
         <Col>
           <Col>
-            <h1 className="--title" data-scroll id="header-text">
+            <h1 className="--title" data-scroll id="header-text"> 
               Get In Touch
             </h1>
           </Col>
         </Col>
         <Col>
-          <Col md={4} style={{ "margin-bottom": "17vw", "margin-top": "17vw" }}>
+          <Col md={4} style={{ "margin-bottom": "17vw", "margin-top": "17vw" }} className="--col-cnt">
             <Image
               data-aos="zoom-in"
               src={
@@ -81,7 +81,7 @@ export default function Header() {
               51000 Kuala Lumpur
             </p>
           </Col>
-          <Col md={4} style={{ "margin-bottom": "17vw" }}>
+          <Col md={4} style={{ "margin-bottom": "17vw" }} className="--col-cnt">
             <Image
               data-aos="zoom-in"
               src={
@@ -105,7 +105,7 @@ export default function Header() {
               +603-40441111 <br />
             </p>
           </Col>
-          <Col md={4}>
+          <Col md={4} style={{ "margin-bottom": "17vw" }} className="--col-cnt">
             <Image
               data-aos="zoom-in"
               src={

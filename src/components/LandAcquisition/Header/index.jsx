@@ -106,7 +106,7 @@ export default function Header() {
                   NAME
                 </Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Form.Control className="land-form" plaintext />
               </Col>
               <Col md="3" className="text-end land-label__container">
@@ -114,7 +114,7 @@ export default function Header() {
                   CONTACT NUMBER
                 </Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Form.Control className="land-form" plaintext />
               </Col>
               <Col md="3" className="text-end land-label__container">
@@ -122,7 +122,7 @@ export default function Header() {
                   EMAIL ADDRESS
                 </Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Form.Control className="land-form" plaintext />
               </Col>
               <Col md="3" className="text-end land-label__container">
@@ -130,7 +130,7 @@ export default function Header() {
                   LOCATION OF LAND
                 </Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Form.Control className="land-form" plaintext />
               </Col>
               <Col md="3" className="text-end land-label__container">
@@ -138,7 +138,7 @@ export default function Header() {
                   ASKING PRICE
                 </Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Form.Control className="land-form" plaintext />
               </Col>
               <Col md="12" className="land-label__container">
@@ -177,7 +177,7 @@ export default function Header() {
                 </Col>
               </Col>
               <Col
-                md="3"
+                sm="3" md="12"
                 className="text-end land-label__container"
                 style={{ "margin-top": "10vw" }}
               >
@@ -195,7 +195,7 @@ export default function Header() {
                   </ul>
                 </Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Button
                   className="land-upload"
                   style={{
@@ -217,11 +217,11 @@ export default function Header() {
                   REMARKS
                 </Form.Label>
               </Col>
-              <Col md="7">
+              <Col sm="7" md="12">
                 <Form.Control className="land-form land-remarks" plaintext />
               </Col>
               <Col
-                md={{ span: 7, offset: 3 }}
+                md={{ span: 11, offset: 1 }}
                 style={{ "margin-top": "1rem", "line-height": "2" }}
               >
                 <Form.Check
@@ -231,7 +231,7 @@ export default function Header() {
                   className="land-radio text-start land-check"
                 />
               </Col>
-              <Col md={{ span: 12, offset: 3 }} className="mt-5 pt-5">
+              <Col  className="mt-5 pt-5">
                 <Button className="land-submit">SUBMIT</Button>
               </Col>
               {/* </Row> */}

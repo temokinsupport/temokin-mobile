@@ -7,7 +7,7 @@ export default function HeaderCivilInfrastructure() {
     <section className="--header-container" data-scroll-section>
       <Navigation />
 
-      <div className="slideshow">
+      <div className="slideshow"> 
         <Image
           className="svg svg--2"
           src={
@@ -20,12 +20,12 @@ export default function HeaderCivilInfrastructure() {
                     <label for="button-2" className="arrow a2"></label> */}
 
         <div className="content">
-          <div className="parallax-bg"></div>
+          <div className="parallax-bg"></div> 
           <div className="--header-civil"> 
             <Container className="--max">
               <Row>
                 <Col md={12}>
-                  <h1 className="--titles">Our Showcase</h1>
+                  <h1 className="--titles" style={{'color' : '#283a97', 'text-align': 'center'}}>Our Showcase</h1>
                 </Col>
                 <Col md={12}>
                   <p className="--desc">

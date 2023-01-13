@@ -367,7 +367,7 @@
       }
       .col-md-6 {
         width: 100%;
-        max-width: 100%;
+        max-width: 100%; 
       }
       h3 {
         &.--title {
@@ -380,7 +380,7 @@
           font-size: 0.875em;
         }
         input {
-          height: 37px !important;
+          height: 70px !important;
         }
         textarea {
           height: 75px;
@@ -390,11 +390,23 @@
           height: 45px;
           margin: 5vw auto 0 23.7vw;
         }
+
+        .btn-send {
+          border: none;
+          width: 200px;
+          height: 60px;
+          transform: translateX(155%);
+          color: #283A97;
+          letter-spacing: 2px;
+          font-size: 14px;
+          font-family: "gill sans", sans-serif !important;
+          margin-top: 30px;
+        }
       }
       .--map-container {
         width: 90%;
-        height: 60vw;
-        padding-top: 2vw;
+        height: 40vw;
+        padding-top: 0;
         position: relative;
         display: block;
         margin: 100px auto;
@@ -406,11 +418,12 @@
           object-fit: cover;
         }
       }
+      
     }
   }
   @media (max-width: 920px) {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
-    background-size: 165vw auto;
+    background: url("../images/contactus/Contact_BG-01.png") top -93vw right -113vw;
+    background-size: 450vw 340vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -425,10 +438,10 @@
 
     .--bg-1 {
       .--max {
-        max-width: 86%;
+        max-width: 100%;
         img {
-          height: 25vw;
-          width: 25vw;
+          height: 20vw;
+          width: 20vw;
         }
 
         .--image {
@@ -436,6 +449,43 @@
           top: 9.5%;
           left: -45%;
           position: absolute;
+        }
+
+        h1.--title {
+          font-family: "gill sans", sans-serif !important;
+          letter-spacing: 0.4vw;
+          font-weight: 600 !important;
+          text-transform: uppercase;
+          line-height: 1;
+          font-size: 4vw;
+          color: #283a97;
+          margin: 4vw 0 10.5vw 0;
+          text-align: center;
+        }
+        h3.--title {
+          font-family: "gill sans", sans-serif !important;
+          letter-spacing: 0.2vw;
+          font-weight: 600 !important;
+          text-transform: uppercase;
+          line-height: 1.1;
+          font-size: 4vw;
+          color: #283a97;
+          margin: 0 0 0.5vw 0;
+          text-align: center;
+        }
+        p.--desc {
+          font-family: "gill sans medium", sans-serif;
+          font-weight: 500 !important;
+          margin-bottom: 2.4vw;
+          font-size: 2.5vw;
+          color: #283a97;
+          line-height: 3vw;
+          text-align: center;
+          letter-spacing: 0.17vw;
+        }
+
+        .--col-cnt {
+          margin: 0 auto 0 auto;
         }
       }
     }

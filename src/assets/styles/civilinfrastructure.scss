@@ -8,7 +8,7 @@
 |  Last update     : July 1 2021
 *
 */
-
+ 
 .--civil-infrastructure {
   overflow-x: hidden;
 
@@ -1220,6 +1220,14 @@
     }
     .parallax-bg {
       background-size: auto 124vw;
+    }
+
+    .--header-civil {
+      font-family: "gill sans", sans-serif !important;
+  
+      position: relative;
+      width: 100%;
+      margin-top: 15vw;
     }
     .slideshow {
       height: 100%;

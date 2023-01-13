@@ -133,7 +133,7 @@ export default class EmailUs extends React.Component {
                             <Form.Label column sm="3">
                                 Name
                             </Form.Label>
-                            <Col sm="6">
+                            <Col sm="6" md="7">
                                 <Form.Control value={this.state.name} onChange={event => this.setState({name: event.target.value})} plaintext 
                                 />
                             </Col>
@@ -143,7 +143,7 @@ export default class EmailUs extends React.Component {
                         <Form.Label column sm="3">
                             Contact Number
                         </Form.Label>
-                        <Col sm="6">
+                        <Col sm="6" md="7">
                             <Form.Control value={this.state.contact_number} onChange={event => this.setState({contact_number: event.target.value})} plaintext />
                         </Col>
                         </Form.Group>
@@ -152,7 +152,7 @@ export default class EmailUs extends React.Component {
                         <Form.Label column sm="3">
                             Email Address
                         </Form.Label>
-                        <Col sm="6">
+                        <Col sm="6" md="7">
                             <Form.Control value={this.state.email} onChange={event => this.setState({email: event.target.value})} plaintext />
                         </Col>
                         </Form.Group>
@@ -161,7 +161,7 @@ export default class EmailUs extends React.Component {
                         <Form.Label column sm="3">
                             Message
                         </Form.Label>
-                        <Col sm={6}>
+                        <Col sm={6} md="7">
                             <Form.Control value={this.state.message} onChange={event => this.setState({message: event.target.value})} as="textarea" rows={20} 
                                 
                             />

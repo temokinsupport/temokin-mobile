@@ -30,7 +30,7 @@ export default function CivilInfrastructure() {
             </h2>
             <br /> <br /> 
             <hr />
-            <p className="--sub-title" data-scroll data-scroll-speed="2" style={{'line-height' : '3', 'text-transform': 'uppercase', 'font-size' : '3vw'}}>
+            <p className="--sub-title" data-scroll data-scroll-speed="2" style={{'line-height' : '3', 'text-transform': 'uppercase'}}>
               Our expertise in engineering has seen <br />
               us build many of the nation’s  <br /> 
               electricity substations, major <br /> 

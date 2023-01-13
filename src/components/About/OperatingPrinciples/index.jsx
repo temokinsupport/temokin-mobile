@@ -12,7 +12,6 @@ export default function OperatingPrinciples() {
         <Row>
           <Col data-scroll className="p-0 position-relative">
             <Image
-              fluid
               src={
                 require("../../../assets/images/aboutus/our-operating-principles-bg.png")
                   .default

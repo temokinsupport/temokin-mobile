@@ -55,14 +55,14 @@ export default function Testimonials() {
           </div>
         </Row>
       </Container>
-      <Image
+      {/* <Image
         className="svg svg--4"
         fluid
         src={
           require("../../../assets/images/awardsandachievements/svg-4.svg")
             .default
         }
-      />
+      /> */}
       <div className="testimonial-bg" />
     </div>
   );

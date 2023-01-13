@@ -36,7 +36,7 @@
     &--4 {
       right: 0;
       top: -20%;
-      width: 45vw;
+      width: 45vw; 
     }
   }
 
@@ -94,7 +94,7 @@
 
     &__container {
       &:not(:first-child) {
-        margin-top: 8vw;
+        margin-top: 8vw; 
       }
     }
 
@@ -166,6 +166,54 @@
 
         padding: 0.8em 13vw;
       }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .svg {
+      position: absolute;
+  
+      &--1 {
+        left: -4%;
+        top: 20%;
+        width: 42vw;
+      }
+    }
+
+    .join-our-team {
+  
+      .--btn-send-resume {
+        background: #283a97;
+        display: flex;
+        border-radius: 0;
+        border: 0;
+        margin-top: 10vw;
+  
+        a {
+          color: white;
+          text-decoration: none;
+          font-family: "gill sans", sans-serif !important;
+          text-transform: uppercase;
+          font-size: 2vw;
+          letter-spacing: 0.2em;
+          line-height: 2em;
+  
+          padding: 0.8em 13vw;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .svg {
+      position: absolute;
+  
+      &--1 {
+        left: -4%;
+        top: 19%;
+        width: 42vw;
+      }
+  
     }
   }
 }

@@ -9,7 +9,7 @@ export default function Header() {
       <Container>
         <Row className="justify-content-center" style={{'margin-top': '20vw'}}>
           <Col xs={12}>
-            <h1 className="--title">Property <br /> Development</h1> 
+            <h1 className="--title">Property <br /> Development</h1>  
             
             {/* <p className="--desc">
               As a people developer, we are only as successful as the

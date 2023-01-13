@@ -147,7 +147,7 @@ const TeamLeaders = () => {
       {" "}
       {
         <div
-          className="--team-leaders
+          className="--team-leaders 
             main-container"
           id="main-container"
           data-scroll-container
@@ -186,7 +186,8 @@ const TeamLeaders = () => {
                 {teamLeaders.map((teamLeader) => (
                   <Col
                     className="team-leader__container"
-                    md={4}
+                    sm="4"
+                    sm="12"
                     key={teamLeader.id}
                   >
                     <NavLink

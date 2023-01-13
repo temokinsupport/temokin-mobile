@@ -29,7 +29,6 @@ export default function Winner() {
       />
       <Image
         className="svg svg--2"
-        fluid
         src={
           require("../../../assets/images/awardsandachievements/svg-2.svg")
             .default

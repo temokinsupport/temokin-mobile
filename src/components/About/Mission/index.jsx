@@ -8,7 +8,7 @@ export default function Mission() {
         className="svg svg--4"
         src={require("../../../assets/images/aboutus/svg-3.svg").default}
       />
-      <Container className="d-flex align-items-center justify-content-center">
+      <Container className="d-flex align-items-center justify-content-center" >
         <Row>
           <Col className="vision-content">
             <Image

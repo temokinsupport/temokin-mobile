@@ -32,7 +32,7 @@
 
     &--3 {
       right: 0;
-      transform: translate(30%, 60%);
+      transform: translate(30%, 60%); 
       top: -4vw;
     }
 
@@ -111,6 +111,7 @@
     .--max {
       background-color: #676ab1;
       padding: 10vw 0;
+      max-width: 100%;
     }
     .--awards {
       width: 90%;
@@ -559,6 +560,72 @@
 
     img {
       width: 100%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .svg {
+      position: absolute;
+      &--1 {
+        right: 0;
+        top: 30vw;
+        transform: translate(60%, 0);
+        width: 40vw;
+      }
+
+      &--2 {
+        left: 0;
+        transform: translate(-50%, -50%);
+        mix-blend-mode: multiply;
+        opacity: 0.8;
+        top: 2vw;
+        width: 50vw;
+      }
+      &--3 {
+        right: 0;
+        transform: translate(30%, 60%); 
+        top: 0%;
+        width: 50vw;
+      }
+    }
+    .--bg-2 {
+      .tips {
+        &--top {
+          margin-bottom: -1px;
+          width: 100vw;
+        }
+        &--bottom {
+          margin-top: -1px;
+          transform: rotateZ(180deg);
+          width: 100vw;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .svg {
+      position: absolute;
+
+      &--1 {
+        right: 0;
+        top: 30vw;
+        transform: translate(60%, 0);
+      }
+
+      &--2 {
+        left: 0;
+        transform: translate(-50%, -50%);
+        mix-blend-mode: multiply;
+        opacity: 0.8;
+        top: 2vw;
+      }
+
+      &--3 {
+        right: 0;
+        transform: translate(30%, 60%); 
+        top: 0;
+      }
     }
   }
 

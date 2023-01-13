@@ -75,7 +75,7 @@ export default function Header() {
           }
         /> */}
         <Container
-          className="--max land-acquisition__container"
+          className="--max land-acquisition__container" 
           style={{ "margin-top": "25vw" }}
         >
           <Row>

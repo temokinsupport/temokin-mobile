@@ -25,7 +25,7 @@ export default function HeaderCivilInfrastructure() {
             <Container className="--max">
               <Row>
                 <Col md={12}>
-                  <h1 className="--titles" style={{'color' : '#283a97', 'text-align': 'center'}}>Our Showcase</h1>
+                  <h1 className="--titles">Our Showcase</h1> 
                 </Col>
                 <Col md={12}>
                   <p className="--desc">

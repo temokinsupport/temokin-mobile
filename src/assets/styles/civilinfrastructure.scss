@@ -1073,6 +1073,36 @@
     }
   }
   @media (max-width: 992px) {
+    .parallax-bg {
+      background-size: 400vw 400vw;
+      background-position: -60vw -50vw !important;
+    }
+
+    .svg {
+      position: absolute;
+  
+      &--2 {
+        top: 15vw;
+        left: -1vw;
+        width: 12vw;
+        z-index: 2;
+      }
+    }
+
+    .--right-4 {
+      position: absolute;
+      right: -5%;
+      top: -30vw;
+      width: 30vw;
+    }
+
+    .--right-3 {
+      position: absolute;
+      right: -3vw;
+      top: 10vw;
+      width: 30vw;
+    }
+    
     margin: 0;
     .--mob {
       display: block;
@@ -1096,6 +1126,29 @@
       .--about-content {
         .col-md-5 {
           width: 60.666667%;
+        }
+      }
+      .--max {
+        max-width: 95%;
+
+        .--titles {
+          font-size: 4vw;
+          margin-top: 5%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #283a97;
+          line-height: 200%;
+          letter-spacing: 2px;
+          font-weight: 600 !important;
+          font-family: "gill sans", sans-serif !important;
+        }
+
+        .--desc {
+          text-transform: uppercase;
+          font-size: 1.8vw;
+          letter-spacing: 0.05em;
+          line-height: 3em;
+          white-space: pre-line;
         }
       }
       .--build-project-list {
@@ -1251,32 +1304,46 @@
       background-size: 100vw 700px;
       height: 700px;
     }
+
     .--container-2 {
-      padding: 0px 0 !important;
-      height: 700px !important;
       position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      padding: 0vw 0;
+      height: 70vh;
+      h1 {
+        &.--title {
+          font-family: "gill sans light", sans-serif !important;
+          letter-spacing: 0.5vw;
+          font-weight: 600 !important;
+          text-transform: uppercase;
+          line-height: 1.5;
+          font-size: 2.8vw;
+          color: #283a97;
+          margin: 0 0 0 0;
+          text-align: center;
+        }
+      }
       h2 {
         &.--title {
-          font-size: 1.5em;
-          margin-top: 0;
+          font-family: "gill sans", sans-serif !important;
+          letter-spacing: 0.01em;
+          // font-weight: 600 !important;
+          text-transform: uppercase;
+          line-height: 3vw;
+          font-size: 4.5vw;
+          color: #283a97;
+          margin: 3vw 0 0 0;
+          text-align: center;
         }
       }
       p {
         &.--sub-title {
-          font-size: 0.875em;
-          letter-spacing: 0.01em;
-          line-height: 1.2;
-          margin: 50px 0 0 0;
-          // font-family: "gill sans light", sans-serif !important;
-        }
-      }
-      h1 {
-        &.--title {
-          margin: 50px 0 0 0;
-          font-size: 1.5em;
+          font-family: "gill sans medium", sans-serif !important;
+          letter-spacing: 0.2vw;
+          line-height: 1.9vw;
+          font-size: 2vw;
+          color: #676ab1;
+          margin: 5.5vw 0 0 0;
+          text-align: center;
         }
       }
     }
@@ -1697,6 +1764,45 @@
     .--container-2 {
       padding: 0 0 !important;
       height: 400px !important;
+
+      h1 {
+        &.--title {
+          font-family: "gill sans light", sans-serif !important;
+          letter-spacing: 0.5vw;
+          font-weight: 600 !important;
+          text-transform: uppercase;
+          line-height: 1.5;
+          font-size: 2.8vw;
+          color: #283a97;
+          margin: 4vw 0 0 0;
+          text-align: center;
+        }
+      }
+      h2 {
+        &.--title {
+          font-family: "gill sans", sans-serif !important;
+          letter-spacing: 0.01em;
+          // font-weight: 600 !important;
+          text-transform: uppercase;
+          line-height: 3vw;
+          font-size: 5vw;
+          color: #283a97;
+          margin: 5.5vw 0 0 0;
+          text-align: center;
+        }
+      }
+      p {
+        &.--sub-title {
+          font-family: "gill sans medium", sans-serif !important;
+          letter-spacing: 0.2vw;
+          line-height: 1.9vw;
+          font-size: 2.6vw;
+          color: #676ab1;
+          margin: 5.5vw 0 0 0;
+          text-align: center;
+        }
+      }
+      
     }
     .--container-3 {
       height: 120vw !important;

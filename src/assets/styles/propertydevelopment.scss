@@ -1,6 +1,6 @@
 /*
 *
-|  Page Name       : propertydevelopment.scss
+|  Page Name       : propertydevelopment.scss 
 |  Description     : scss for property development page use
 |  Created by      : May Altamerano
 |  Date Created    : July 2 2021
@@ -204,17 +204,30 @@
       z-index: -1;
     }
     .--bg-1 {
-      min-height: 60vw;
-      padding: 150px 0 0 0;
+      // padding: 10vw 0 0 0;
+      height: 70vh;
       .--title {
-        font-size: 1.5em;
+        font-family: "gill sans", sans-serif !important;
+        letter-spacing: 0.4vw;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        line-height: 7vw;
+        font-size: 4.5vw;
+        color: #283a97;
+        margin: 6vw 0 2.5vw 0;
+        text-align: center;
       }
-      .--desc {
-        font-size: 1.125em;
-        line-height: 1.4;
-        br {
-          display: none;
-        }
+      .--content {
+        color: #676ab1;
+        text-align: center;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+        text-transform: uppercase;
+        font-size: 2vw;
+        width: 100%;
+        line-height: 4vw;
+        letter-spacing: 0.25vw;
+        font-family: "gill sans medium", sans-serif !important;
       }
     }
     .--bg-2 {
@@ -391,6 +404,39 @@
   @media (max-width: 570px) {
     .--bg-1 {
       min-height: 90vw;
+      
+      .--title {
+        font-family: "gill sans", sans-serif !important;
+        letter-spacing: 0.4vw;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        line-height: 3.1vw;
+        font-size: 5vw;
+        color: #283a97;
+        margin: 6vw 0 2.5vw 0;
+        text-align: center;
+      }
+      .--desc {
+        font-family: "gill sans medium", sans-serif;
+        // font-weight: 600 !important;
+        // margin-bottom: 9.4vw;
+        font-size: 1.25vw;
+        color: #283a97;
+        line-height: 2.4vw;
+        text-align: center;
+        letter-spacing: 0.25vw;
+      }
+      .--content {
+        color: #676ab1;
+        text-align: center;
+        margin-top: 5vh;
+        text-transform: uppercase;
+        font-size: 10px;
+        width: 100%;
+        line-height: 7vw;
+        letter-spacing: 0.25vw;
+        font-family: "gill sans medium", sans-serif !important;
+      }
     }
     .--bg-2 {
       /* .carousel {

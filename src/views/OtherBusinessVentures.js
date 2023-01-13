@@ -29,7 +29,7 @@ const OtherBusinessVentures = () => {
               className="svg svg--2"
               fluid
               src={
-                require("../assets/images/otherbusinessventures/svg-2.svg")
+                require("../assets/images/otherbusinessventures/svg-2.svg") 
                   .default
               }
             />

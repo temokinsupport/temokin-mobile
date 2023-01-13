@@ -67,16 +67,14 @@
     }
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 1024px) {
     .hero {
-      height: 75vh;
-      place-content: center;
 
       &__content {
         font-family: "gill sans", sans-serif !important;
 
         width: 100vw;
-        margin-top: -40vw;
+        margin-top: -35vw;
 
         p,
         h1 {
@@ -85,7 +83,7 @@
       }
 
       &__title {
-        font-size: 5vw;
+        font-size: 3.5vw;
         line-height: 200%;
         letter-spacing: 5px;
       }
@@ -93,11 +91,48 @@
       &__desc {
         padding-top: 10vw;
 
-        font-size: 3vw;
+        font-size: 2.5vw;
+      }
+
+    }
+  }
+
+  @media (max-width: 769px) {
+    .hero {
+      background: url("../images/otherbusinessventures/hero-bg.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      background-position: -49vw center;
+      height: 75vh;
+      place-content: center;
+
+      &__content {
+        font-family: "gill sans", sans-serif !important;
+
+        width: 100vw;
+        margin-top: -30vw;
+
+        p,
+        h1 {
+          margin: 0;
+        }
+      }
+
+      &__title {
+        font-size: 3.5vw;
+        line-height: 200%;
+        letter-spacing: 5px;
+      }
+
+      &__desc {
+        padding-top: 10vw;
+
+        font-size: 2.5vw;
       }
 
       .--image {
-        width: 140vw;
+        width: 200vw;
         height: 70vw;
         position: absolute;
         // margin-top: 80vh;

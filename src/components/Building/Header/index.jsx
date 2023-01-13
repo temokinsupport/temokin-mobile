@@ -12,17 +12,17 @@ export default function HeaderBuilding() {
                     <label for="button-2" className="arrow a2"></label> */}
 
         <div className="content">
-          <div className="--header-building"> 
+          <div className="--header-building">
             <Image
               style={{
                 position: "absolute",
-                width: "30vw",
+                width: "27vw",
                 left: "-19%",
-                top: "18%",
+                top: "6%",
               }}
               src={require("../../../assets/images/building/left.png").default}
             />
-            <Container className="--max" style={{ "margin-top": "15vw" }}>
+            <Container className="--max" style={{ "margin-top": "23vw" }}>
               <Row>
                 <Col md={12}>
                   <h1 className="--title">BUILDING</h1>

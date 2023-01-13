@@ -6,11 +6,11 @@ export default function WeDig() {
     <div className="--container-8" data-scroll-section>
       <Image
         className="svg svg--5"
-        src={require("../../../assets/images/aboutus/About_BG-09.svg").default}
+        src={require("../../../assets/images/aboutus/Shapes-01.svg").default}
       />
       <Image
         className="svg svg--5"
-        src={require("../../../assets/images/aboutus/About_BG-09.svg").default}
+        src={require("../../../assets/images/aboutus/Shapes-02.svg").default}
       />
       <Container className="d-flex h-100 justify-content-center align-items-center">
         <Row>

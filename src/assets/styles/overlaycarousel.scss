@@ -34,7 +34,22 @@
       min-height: 130vw;
       &--0 {
         img {
-          object-position: -22vw !important;
+          object-position: -26vw 5vw !important;
+          height: 110% !important;
+        }
+      }
+
+      &--1 {
+        img {
+          object-position: center 5vw !important;
+          height: 110% !important;
+          width: 115vw !important;
+        }
+      }
+
+      &--2 {
+        img {
+          object-position: right bottom !important;
         }
       }
     }

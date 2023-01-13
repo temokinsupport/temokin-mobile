@@ -95,12 +95,7 @@ export default function Header() {
               send us your resume and you could be on <br />
               your way to a career with Temokin.
             </Col>
-            <Col
-              md="12"
-              sm="12"
-              className="mb-4"
-              style={{ "margin-top": "10vw" }}
-            >
+            <Col md="12" sm="12" className="mb-4">
               <Col
                 sm="3"
                 md="12"

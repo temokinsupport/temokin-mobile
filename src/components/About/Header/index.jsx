@@ -53,7 +53,11 @@ export default function AboutTemokin() {
           onSlide={controlCarousel}
           fade
         >
-          <Carousel.Item className={`carousel-item--0 ${0 === carouselIndex}`}>
+          <Carousel.Item
+            className={`carousel-item--0 carousel-item--${carouselIndex} ${
+              0 === carouselIndex
+            }`}
+          >
             <Image
               className="background"
               src={

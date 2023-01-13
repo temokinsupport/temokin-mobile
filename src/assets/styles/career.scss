@@ -21,7 +21,7 @@
     &--1 {
       top: -1%;
       right: -10%;
-      width: 40vw;
+      width: 36vw;
       height: 40vw;
     }
 
@@ -40,9 +40,9 @@
     }
 
     &--4 {
-      top: 30%;
+      top: 27%;
       right: -3.5%;
-      width: 25vw;
+      width: 17vw;
       height: 25vw;
     }
 
@@ -72,11 +72,12 @@
     height: 3rem;
   } 
   .career-choosefile-text {
-    font-size: 2.6vw;
-    // letter-spacing: normal;
+    font-size: 2.82vw;
     margin-left: 0;
     letter-spacing: 0.18em;
     color: #283a97;
+    white-space: nowrap;
+    text-align: center;
   }
 
   .career-choosefile-button:hover {

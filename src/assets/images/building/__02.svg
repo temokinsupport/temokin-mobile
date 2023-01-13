@@ -1,8 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="246.275" height="100.818" viewBox="0 0 246.275 100.818">
-  <g id="Shapes" transform="translate(419.582 -1432.11)">
-    <g id="BG" transform="translate(-419.582 1432.11)">
-      <path id="Path_230" data-name="Path 230" d="M522.092,1623.269l-164.8-65.214,28.461-35.6,164.965,65.008Z" transform="translate(-304.443 -1522.451)" fill="#5a5d9b"/>
-      <path id="Path_229" data-name="Path 229" d="M-129.422,1449.186l-155.16-61.4,26.8-33.521,155.315,61.205Z" transform="translate(284.582 -1351.316)" fill="#cc833d" style="mix-blend-mode: multiply;isolation: isolate"/>
-    </g>
-  </g>
+<svg width="247" height="101" viewBox="0 0 247 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_431_102)">
+<path d="M217.65 100.814L168.388 81.3205L155.16 97.8663L0 36.4663L26.8 2.94531L66.461 18.5745L81.3106 0L246.276 65.0081L217.65 100.814Z" fill="white"/>
+<path d="M217.65 100.818L52.8496 35.604L81.3106 0.00390625L246.276 65.012L217.65 100.818Z" fill="#5A5D9B"/>
+<g style="mix-blend-mode:multiply">
+<path d="M155.16 97.8702L0 36.4702L26.8 2.94922L182.115 64.1542L155.16 97.8702Z" fill="#CC833D"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_431_102">
+<rect width="246.275" height="100.818" fill="white"/>
+</clipPath>
+</defs>
 </svg>

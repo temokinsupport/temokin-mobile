@@ -75,12 +75,22 @@
       height: 42%;
     }
     &--7 {
-      top: -25%;
-      left: -35%;
-      width: 70%;
-      height: 70%;
-      mix-blend-mode: multiply;
-      opacity: 0.8;
+      width: 40%;
+      // height: 70%;
+      // mix-blend-mode: multiply;
+      // opacity: 0.8;
+
+      &--1 {
+        mix-blend-mode: multiply;
+        z-index: 2;
+        left: -27%;
+        top: 0;
+      }
+
+      &--2 {
+        left: -15vw;
+        top: 0;
+      }
     }
     &--8 {
       bottom: 0%;

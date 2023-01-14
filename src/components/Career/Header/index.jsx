@@ -181,7 +181,7 @@ export default function Header() {
                   style={{ height: "30vw" }}
                   as="textarea"
                   rows={10}
-                  cols={10}
+                  cols={10} 
                 />
               </Col>
 

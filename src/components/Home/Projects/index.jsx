@@ -12,7 +12,7 @@ export default function Projects() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
+                    <Col sm="4" md="12">
                         <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Page03-IMG3.png').default} roundedCircle />
                         <h5 className="--project-title font-weight-bold" data-scroll>
                             <span style={{ 'margin-left': '1vw'}}> CONSTRUCTION </span>-<br/> 
@@ -20,12 +20,12 @@ export default function Projects() {
                         </h5>
                         <p className="--desc" data-scroll>Tropicana Cenang</p>
                     </Col>
-                    <Col md={4}>
+                    <Col sm="4" md="12">
                         <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Page03-IMG1.png').default} roundedCircle />
                         <h5 className="--project-title font-weight-bold" data-scroll>CONSTRUCTION - <br/> CIVIL & INFRASTRUCTURE</h5>
                         <p className="--desc" data-scroll>Seremban Middle Ring Road (MRRS)</p>
                     </Col>
-                    <Col md={4}>
+                    <Col sm="4" md="12">
                         <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Page03-IMG2.png').default} roundedCircle />
                         <h5 className="--project-title font-weight-bold" data-scroll>PROPERTY DEVELOPMENT</h5>
                         <p className="--desc" data-scroll>Mahligai at Nusa Damai</p>

@@ -1073,6 +1073,14 @@
     }
   }
   @media (max-width: 992px) {
+
+    .--container-4 {
+      hr {
+        margin: 4vw 0;
+        width: 55vw;
+      }
+    }
+
     .parallax-bg {
       background-size: 400vw 400vw;
       background-position: -60vw -50vw !important;
@@ -1588,6 +1596,13 @@
     // }
   }
   @media (max-width: 769px) {
+    .--container-4 {
+      hr {
+        margin: 4vw 0;
+        width: 55vw;
+      }
+    }
+    
     .slideshow {
       input {
         bottom: 15vw;
@@ -1707,6 +1722,13 @@
     }
   }
   @media (max-width: 590px) {
+    .--container-4 {
+      hr {
+        margin: 4vw auto;
+        width: 82vw;
+      }
+    }
+    
     .--header-container {
       height: 600px !important;
       .--build-project-list {

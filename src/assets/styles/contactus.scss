@@ -318,7 +318,7 @@
       transition: background 0.3s;
       image-rendering: -webkit-optimize-contrast;
       position: absolute;
-      height: 170vw;
+      height: 200vw;
       width: 100%;
       // top: -20vw;
       z-index: 0;
@@ -376,8 +376,10 @@
         }
       }
       form {
+        width: 90%;
         label {
           font-size: 0.875em;
+          text-align: left !important;
         }
         input {
           height: 70px !important;
@@ -395,7 +397,7 @@
           border: none;
           width: 200px;
           height: 60px;
-          transform: translateX(155%);
+          transform: translateX(130%);
           color: #283A97;
           letter-spacing: 2px;
           font-size: 14px;
@@ -409,7 +411,8 @@
         padding-top: 0;
         position: relative;
         display: block;
-        margin: 100px auto;
+        // margin: 100px auto;
+        margin: 100px auto 100px auto;
         iframe {
           margin-left: 0;
           width: 100%;

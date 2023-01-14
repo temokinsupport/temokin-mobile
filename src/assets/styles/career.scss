@@ -465,6 +465,7 @@
       display: none;
     }
 
+
     .form-bg {
       background-size: 193vw 194vw !important;
       background-repeat: no-repeat;
@@ -486,7 +487,15 @@
       }
 
       h1.--title {
-        font-size: 1.5em;
+        font-size:5vw;
+      }
+
+      .text-header__desc {
+        font-size: 2vw;
+        text-transform: uppercase;
+        line-height: 2;
+        letter-spacing: 0.4px;
+        margin-top: 7vw;
       }
 
       // img {
@@ -576,6 +585,15 @@
         }
       }
     }
+
+    .career-choosefile-text {
+      font-size: 1.5vw;
+      margin-left: 0;
+      letter-spacing: 0.18em;
+      color: #283a97;
+      white-space: nowrap;
+      text-align: center;
+    }
   }
 
   @media (max-width: 920px) {
@@ -616,6 +634,15 @@
           top: 13vw;
         }
       }
+    }
+
+    .career-choosefile-text {
+      font-size: 2.5vw;
+      margin-left: 0;
+      letter-spacing: 0.18em;
+      color: #283a97;
+      white-space: nowrap;
+      text-align: center;
     }
   }
 

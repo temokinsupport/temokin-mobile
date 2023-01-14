@@ -32,7 +32,7 @@ export default function Featured() {
   const [isLeftActive, setLeftActive] = useState(false);
 
   return (
-    <section className="--bg-2" data-scroll-section>
+    <section className="--bg-2" data-scroll-section> 
       <Container className="--container-2 --max">
         <Row>
           <Col>

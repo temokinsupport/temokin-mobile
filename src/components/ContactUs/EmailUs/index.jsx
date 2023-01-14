@@ -130,44 +130,44 @@ export default class EmailUs extends React.Component {
                     
                     <Form>
                         <Form.Group as={Row} controlId="formPlaintextName" data-scroll>
-                            <Form.Label column sm="3">
+                            <Form.Label column sm="3" md="12">
                                 Name
                             </Form.Label>
-                            <Col sm="6" md="7">
+                            <Col sm="6" md="7" md="12">
                                 <Form.Control value={this.state.name} onChange={event => this.setState({name: event.target.value})} plaintext 
                                 />
                             </Col>
                         </Form.Group>
     
                         <Form.Group as={Row} controlId="formPlaintextContact"  data-scroll>
-                        <Form.Label column sm="3">
+                        <Form.Label column sm="3" md="12">
                             Contact Number
                         </Form.Label>
-                        <Col sm="6" md="7">
+                        <Col sm="6" md="7" md="12">
                             <Form.Control value={this.state.contact_number} onChange={event => this.setState({contact_number: event.target.value})} plaintext />
                         </Col>
                         </Form.Group>
     
                         <Form.Group as={Row} controlId="formPlaintextEmail" data-scroll>
-                        <Form.Label column sm="3">
+                        <Form.Label column sm="3" md="12">
                             Email Address
                         </Form.Label>
-                        <Col sm="6" md="7">
+                        <Col sm="6" md="7" md="12">
                             <Form.Control value={this.state.email} onChange={event => this.setState({email: event.target.value})} plaintext />
                         </Col>
                         </Form.Group>
     
                         <Form.Group as={Row} controlId="formPlaintextMessage" data-scroll>
-                        <Form.Label column sm="3">
+                        <Form.Label column sm="3" md="12">
                             Message
                         </Form.Label>
-                        <Col sm={6} md="7">
+                        <Col sm={6} md="7" md="12">
                             <Form.Control value={this.state.message} onChange={event => this.setState({message: event.target.value})} as="textarea" rows={20} 
                                 
                             />
                         </Col>
                         </Form.Group>
-                        <button onClick={this.btnClick} disabled={this.state.btnLoading} className="btn-send">
+                        <button onClick={this.btnClick} disabled={this.state.btnLoading} className="btn-send"> 
                             SEND
                         </button>
 

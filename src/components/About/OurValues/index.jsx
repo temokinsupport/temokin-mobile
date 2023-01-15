@@ -1,10 +1,14 @@
-import React from "react";
+import React from "react"; 
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { useMediaQuery } from "react-responsive";
 
 export default function OurValues() {
+  const isTablet = useMediaQuery({ query: "(min-width: 760px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+
   return (
-    <div className="--container-7" data-scroll-section>
+    <div className="--container-7" data-scroll-section> 
       <div className="--bg-1" />
       <Container>
         <Row>
@@ -15,6 +19,7 @@ export default function OurValues() {
                 require("../../../assets/images/aboutus/AboutUs_BG-02 2.png")
                   .default
               }
+              style={{'width': isTablet ? '100vw' : ''}}
             />
             <h1 className="--title --mob  position-absolute top-50 start-50 translate-middle">
               Our Values
@@ -33,7 +38,7 @@ export default function OurValues() {
                 resetProgress: false,
               }}
             >
-              <SplideSlide>
+              <SplideSlide> 
                 <Image
                   src={
                     require("../../../assets/images/aboutus/About_IMG-Wisdom.png")

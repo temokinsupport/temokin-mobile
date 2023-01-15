@@ -206,7 +206,7 @@ export default function Header() {
                   }}
                 >
                   UPLOAD OR DROP AND DRAG <br /> YOUR FILES HERE
-                </Button>
+                </Button> 
               </Col>
               <Col
                 md="3"
@@ -221,14 +221,14 @@ export default function Header() {
                 <Form.Control className="land-form land-remarks" plaintext />
               </Col>
               <Col
-                md={{ span: 11, offset: 1 }}
+                md="12"
                 style={{ "margin-top": "1rem", "line-height": "2" }}
               >
                 <Form.Check
                   type="checkbox"
                   style={{ "white-space": "pre-line" }}
-                  label={`BY TICKING THIS BOX, I HEREBY CONFIRM THAT I UNDERSTAND \n & ACCEPT YOUR PRIVACY POLICY AND TERMS AND \n CONDITION OF USE OF THE WEBSITE. I HEREBY AGREE AND \n GIVE CONSENT TO TEMOKIN AND/OR SUBSIDIARY COMPANIES AND/OR ASSOCIATE COMPANIES  WITHIN TEMOKIN GROUP OF \n  COMPANIES TO COLLECT, PROCESS AND DISCLOSE MY \n  PERSONAL DATA IN ACCORDANCE WITH THE PRIVACY POLICY.`}
-                  className="land-radio text-start land-check"
+                  label={`BY TICKING THIS BOX, I HEREBY CONFIRM THAT I UNDERSTAND \n & ACCEPT YOUR PRIVACY POLICY AND TERMS AND \n CONDITION OF USE OF THE WEBSITE. I HEREBY AGREE AND \n GIVE CONSENT TO TEMOKIN AND/OR SUBSIDIARY COMPANIES \n AND/OR ASSOCIATE COMPANIES  WITHIN TEMOKIN GROUP OF \n  COMPANIES TO COLLECT, PROCESS AND DISCLOSE MY \n  PERSONAL DATA IN ACCORDANCE WITH THE PRIVACY POLICY.`}
+                  className="land-radio text-start land-check" 
                 />
               </Col>
               <Col  className="mt-5 pt-5">

@@ -12,10 +12,10 @@ export default function CivilInfrastructure() {
       {isTablet && (
         <Row className="justify-content-center" 
         style={{
-          "margin-top": "40vw",
+          "margin-top": "50vw",
         }}
         > 
-          <Col md={8}>
+          <Col md={12}>
             <div>
               <Row
                 className="item"
@@ -27,8 +27,8 @@ export default function CivilInfrastructure() {
                 <Image
                   style={{
                     position: "absolute",
-                    top: "50%",
-                    right: "-80%",
+                    top: "40%",
+                    right: "-55%",
                     width: "75%",
                   }}
                   src={
@@ -49,7 +49,7 @@ export default function CivilInfrastructure() {
                   PIPE JACKING WORK{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -68,7 +68,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -87,7 +87,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -133,7 +133,7 @@ export default function CivilInfrastructure() {
                   DIA. & 1350 DIA{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -152,7 +152,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -171,7 +171,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -206,8 +206,8 @@ export default function CivilInfrastructure() {
                   style={{
                     position: "absolute",
                     top: "15vw",
-                    right: "-100%",
-                    width: "100vw",
+                    right: "-55%",
+                    width: "70vw",
                   }}
                   src={
                     require("../../../assets/images/civilinfrastructure/460.svg")
@@ -229,7 +229,7 @@ export default function CivilInfrastructure() {
                   PRIVATIZATION @ 1500MM DIA. <br /> & 1350MM DIA.
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -248,7 +248,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -267,7 +267,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -310,7 +310,7 @@ export default function CivilInfrastructure() {
                   KTM LINE RAILWAY N. SEMBILAN, <br />@ SIZE ID 1.5M & ID= 1.8M{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -329,7 +329,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -348,7 +348,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -383,8 +383,8 @@ export default function CivilInfrastructure() {
                   style={{
                     position: "absolute",
                     top: "15vw",
-                    right: "-40%",
-                    width: "25vw",
+                    right: "-10%",
+                    width: "30vw",
                   }}
                   src={
                     require("../../../assets/images/civilinfrastructure/svg-1.svg")
@@ -405,7 +405,7 @@ export default function CivilInfrastructure() {
                   <br />@ SIZE ID= 1.8M{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -424,7 +424,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -443,7 +443,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -487,7 +487,7 @@ export default function CivilInfrastructure() {
                   NEG. SEMBILAN @ 1.9M{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -506,7 +506,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -525,7 +525,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -560,8 +560,8 @@ export default function CivilInfrastructure() {
                   style={{
                     position: "absolute",
                     top: "45%",
-                    right: "-100%",
-                    width: "100vw",
+                    right: "-55%",
+                    width: "70vw",
                   }}
                   src={
                     require("../../../assets/images/civilinfrastructure/460.svg")
@@ -582,7 +582,7 @@ export default function CivilInfrastructure() {
                   SENAI HIGHWAY TWIN @ SIZE 1.8M DIA.{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -601,7 +601,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -620,7 +620,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -663,7 +663,7 @@ export default function CivilInfrastructure() {
                   LINE RAILWAY GASING INDAH PETALING{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -682,7 +682,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -701,7 +701,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -735,9 +735,9 @@ export default function CivilInfrastructure() {
                 <Image
                   style={{
                     position: "absolute",
-                    top: "50%",
-                    right: "-80%",
-                    width: "75%",
+                    top: "45%",
+                    right: "-50%",
+                    width: "65vw",
                   }}
                   src={
                     require("../../../assets/images/civilinfrastructure/350.svg")
@@ -759,7 +759,7 @@ export default function CivilInfrastructure() {
                   MUKIM PAGOH, ALOR GAJAH MELAKA{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -778,7 +778,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -797,7 +797,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -843,7 +843,7 @@ export default function CivilInfrastructure() {
                   REMBAU, N. SEMBILAN{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -862,7 +862,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -881,7 +881,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -916,8 +916,8 @@ export default function CivilInfrastructure() {
                   style={{
                     position: "absolute",
                     top: "45%",
-                    right: "-95%",
-                    width: "100vw",
+                    right: "-55%",
+                    width: "70vw",
                   }}
                   src={
                     require("../../../assets/images/civilinfrastructure/460.svg")
@@ -938,7 +938,7 @@ export default function CivilInfrastructure() {
                   RANCANGAN JAYA SELATAN, PJS2-PKNS{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -957,7 +957,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -976,7 +976,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -1018,7 +1018,7 @@ export default function CivilInfrastructure() {
                   JOHOR BAHRU-KOTA TINGGI ROAD{" "}
                 </Col>
                 <Row>
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -1037,7 +1037,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",
@@ -1056,7 +1056,7 @@ export default function CivilInfrastructure() {
                     </Col>
                   </Col>
 
-                  <Col md={4}>
+                  <Col md={12}>
                     <Col
                       style={{
                         "font-size": "2vw",

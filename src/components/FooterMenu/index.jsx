@@ -3,8 +3,12 @@ import { NavLink } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import "../../assets/styles/footer.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useMediaQuery } from "react-responsive";
 
 export default function FooterMenu() {
+  const isTablet = useMediaQuery({ query: "(min-width: 760px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+
   return (
     <footer className="--footer" data-scroll-section>
       {/* <Container fluid className="--max">
@@ -76,7 +80,7 @@ export default function FooterMenu() {
             </div>
           </Col>
           <Col className="">
-            <div className="--address container">
+            <div className="--address container" style={{'margin-left': isTablet ? '4%' : '' }}>
               <div class="w-100 text-end d-flex justify-content-center">
                 <a
                   href="https://www.facebook.com/TemokinDev/"

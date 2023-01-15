@@ -3,8 +3,12 @@ import { NavLink } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import "../assets/styles/footer.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useMediaQuery } from "react-responsive";
 
 function Footer() {
+  const isTablet = useMediaQuery({ query: "(min-width: 760px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+
   return (
     <footer className="--footer">
       <Container fluid className="--max">
@@ -21,7 +25,7 @@ function Footer() {
             </div>
           </Col>
           <Col className="">
-            <div className="--address container">
+            <div className="--address container" style={{'margin-left': '4%'}}>
               <div class="w-100 text-end d-flex justify-content-center">
                 <a
                   href="https://www.facebook.com/TemokinDev/"

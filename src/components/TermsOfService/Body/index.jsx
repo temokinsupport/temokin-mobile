@@ -12,10 +12,11 @@ import {
 import Footer from "../../Footer";
 import axios from "axios";
 import bgModalImg from "../../../assets/images/contactus/Tem_Prompt-Modal-BG.png";
-import btnModalImg from "../../../assets/images/contactus/Tem_Prompt-Modal_Button.png";
+import btnModalImg from "../../../assets/images/contactus/Tem_Prompt-Modal_Button.png"; 
 
 export default class EmailUs extends React.Component {
   constructor() {
+    
     super();
     this.state = {
       name: "",
@@ -162,7 +163,7 @@ export default class EmailUs extends React.Component {
         <Container className="--max p-0">
           <Row className="justify-content-center textBody m-0">
             <div className="textBody-bg" />
-            <Col md={8}>
+            <Col md={10}>
               <div className="textBodyTitle" data-scroll>
                 The use of this website is subject to the <br />
                 following terms of use:

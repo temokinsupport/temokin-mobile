@@ -1,13 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Navigation from "../../Navigation";
+import { useMediaQuery } from "react-responsive";
 
-export default function Header() {
+export default function Header() { 
+  const isTablet = useMediaQuery({ query: "(min-width: 760px)" }); 
+
   return (
     <div className="--bg-1" data-scroll-section>
       <Navigation />
       <Container>
-        <Row className="justify-content-center" style={{'margin-top': '20vw'}}>
+        <Row className="justify-content-center" style={{'margin-top': isTablet ? '7vw' : '20vw'}}>
           <Col xs={12}>
             <h1 className="--title">Property <br /> Development</h1>  
             
@@ -17,7 +20,7 @@ export default function Header() {
             </p>
             <p className="--desc">
               Here are some of the projects that people can call home. We never
-              stand still and continue to pursue excellence with the Temokin
+              stand still and continue to pursue excellence with the Temokin 
               Badge.{" "}
             </p> */}
             <p className="--content">

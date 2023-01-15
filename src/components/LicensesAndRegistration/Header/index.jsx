@@ -17,7 +17,7 @@ export default function Header() {
         className="svg svg--2"
         fluid
         src={
-          require("../../../assets/images/licensesandregistrations/svg-2.svg")
+          require("../../../assets/images/licensesandregistrations/svg-2.svg") 
             .default
         }
       />

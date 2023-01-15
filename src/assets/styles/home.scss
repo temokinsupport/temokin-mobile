@@ -701,7 +701,7 @@
           background-repeat: no-repeat;
           background-size: contain;
           width: 9vw;
-          display: block;
+          display: none;
           padding: 0;
           cursor: pointer;
           height: 35vw;
@@ -715,12 +715,12 @@
         }
         &.carousel-control-next {
           background: url("../images/mobile/home/Obj_Arrow-01.png") center;
-          transition: background 0.3s;
+          transition: background 0.3s; 
           background-attachment: local;
           background-repeat: no-repeat;
           background-size: contain;
           width: 9vw;
-          display: block;
+          display: none;
           padding: 0;
           cursor: pointer;
           height: 35vw;
@@ -746,13 +746,13 @@
             white-space: break-spaces;
             margin-top: 10vw;
             h3 {
-              font-size: 1.1em;
+              font-size: 3vw;
               margin-bottom: 4.5vw;
               letter-spacing: 0.7vw;
               font-family: "gill sans", sans-serif !important;
             }
             p {
-              font-size: 0.875em;
+              font-size: 2.5vw;
               letter-spacing: 0.1vw !important;
               font-family: "gill sans", sans-serif;
               br {
@@ -872,23 +872,24 @@
             height: auto;
             width: 25vw !important;
             margin-right: 25px;
+            // margin-left: 20vw;
           }
         }
         p {
           &.--txt {
             grid-area: mytxtOne;
-            font-size: 2.2vw !important;
+            font-size: 3vw !important;
             &:nth-child(3) {
               grid-area: mytxtTwo;
             }
           }
           &.--desc {
-            font-size: 0.875em !important;
+            font-size: 3vw !important;
             text-align: center;
             margin: 0 auto;
             grid-area: myDesc;
             br {
-              display: none;
+              display: block;
             }
           }
         }

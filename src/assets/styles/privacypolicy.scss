@@ -119,7 +119,6 @@
     width: 100%;
     text-align: center;
     margin-top: 8%;
-    font-size: 1.4rem;
     font-family: "gill sans medium", sans-serif !important;
     color: #676ab1 !important;
     text-transform: uppercase;
@@ -507,6 +506,25 @@
       display: none;
     }
 
+    .svg {
+      &--13 {
+        top: -4%;
+        right: 0;
+        width: 28vw;
+      }
+    }
+
+    .--subContent {
+      width: 100%;
+      text-align: center;
+      margin-top: 8%;
+      font-family: "gill sans medium", sans-serif !important;
+      color: #676ab1 !important;
+      text-transform: uppercase;
+  
+      font-size: 1.6vw;
+    }
+
     .form-bg {
       background-size: 193vw 194vw !important;
       background-repeat: no-repeat;
@@ -521,14 +539,14 @@
     }
 
     .--bg-1 {
-      padding: 200px 0 0 0;
+      padding: 200px 0 150px 0;
 
       .--max {
         max-width: 90%;
       }
 
       h1.--title {
-        font-size: 4.5vw;
+        font-size: 3vw;
         letter-spacing: 0.25em;
       }
 
@@ -659,6 +677,17 @@
       //     top: 13vw;
       //   }
       // }
+    }
+
+    .--subContent {
+      width: 100%;
+      text-align: center;
+      margin-top: 8%;
+      font-family: "gill sans medium", sans-serif !important;
+      color: #676ab1 !important;
+      text-transform: uppercase;
+  
+      font-size: 2.5vw;
     }
   }
 

@@ -34,11 +34,10 @@ export default function Launches() {
               <p className="--txt">2 & 2.5 Storey Terrace Homes</p>
               <p className="--txt">| 20' x 70' | FREEHOLD</p>
               <p className="--desc">
-                Mahligai offers spacious yet affordable terrace homes with
-                perimeter <br />
-                fencing and 24-hour security, nestled in the growing township of{" "}
-                <br />
-                Nusa Damai with all the features to call it your ideal home.
+                Mahligai offers spacious yet affordable terrace homes <br />
+                with perimeter fencing and 24-hour security, nestled <br />
+                in the growing township of Nusa Damai with all the <br />
+                features to call it your ideal home.
               </p>
               <p className="--desc-mobile">
                 Mahligai offers spacious yet affordable terrace homes <br />

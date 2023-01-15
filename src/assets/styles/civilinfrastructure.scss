@@ -1077,13 +1077,13 @@
     .--container-4 {
       hr {
         margin: 4vw 0;
-        width: 55vw;
+        width: 85vw;
       }
     }
 
     .parallax-bg {
-      background-size: 400vw 400vw;
-      background-position: -60vw -50vw !important;
+      background-size: 400vw 500vw;
+      background-position: -60vw -25vw !important;
     }
 
     .svg {
@@ -1100,7 +1100,7 @@
     .--right-4 {
       position: absolute;
       right: -5%;
-      top: -30vw;
+      top: -17.5vw;
       width: 30vw;
     }
 
@@ -1116,7 +1116,7 @@
       display: block;
     }
     .--header-container {
-      height: 85vw;
+      height: 100vw;
       background-size: 120vw auto, auto 140vw;
       padding: 0;
       .--title {
@@ -1141,7 +1141,7 @@
 
         .--titles {
           font-size: 4vw;
-          margin-top: 5%;
+          margin-top: 10vw;
           text-align: center;
           text-transform: uppercase;
           color: #283a97;
@@ -1316,7 +1316,7 @@
     .--container-2 {
       position: relative;
       padding: 0vw 0;
-      height: 70vh;
+      height: 60vh;
       h1 {
         &.--title {
           font-family: "gill sans light", sans-serif !important;

@@ -519,6 +519,19 @@
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
 
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 {
+        top: 11.5%;
+        right: -22%;
+  
+        width: 50vw;
+        height: 200px;
+      }
+    }
+
     .--bg-1 {
       h1.--title {
         font-size: 22px;
@@ -530,16 +543,71 @@
     }
 
     .textBodyTitle {
-      font-size: 14px;
+      font-size: 3vw;
       text-align: center;
-      margin-top: 30vh;
+      margin-top: 10vw;
       margin-bottom: 12vh;
     }
 
     .bodyContent {
-      font-size: 12px;
+      font-size: 2vw;
       text-align: center;
       line-height: 2;
+    }
+
+    .--subContent {
+      font-size: 1.5vw;
+      line-height: 2.5em;
+    }
+
+    .textBody {
+      width: 100%;
+      color: white;
+      letter-spacing: 0.2em;
+      padding-bottom: 30vw;
+      padding-top: 40vw;
+      position: relative;
+      font-size: 2vw;
+  
+      &-bg {
+        position: absolute;
+        width: 100vw;
+        height: 90%;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+  
+        background-color: #283a97;
+  
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 99.3%;
+          width: 100vw;
+          height: 45vw;
+  
+          background: url("../images/termsofservice/svg-06.svg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: left bottom;
+        }
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: -0%;
+        width: 100vw;
+        height: 50vw;
+        
+  
+        background: url("../images/termsofservice/628.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+      }
     }
   }
 
@@ -550,6 +618,69 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
+    .textBody {
+      width: 100%;
+      color: white;
+      letter-spacing: 0.2em;
+      padding-bottom: 30vw;
+      padding-top: 20vw;
+      position: relative;
+      font-size: 1.1vw;
+  
+      &-bg {
+        position: absolute;
+        width: 100vw;
+        height: 90%;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+  
+        background-color: #283a97;
+  
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 99.3%;
+          width: 100vw;
+          height: 40vw;
+  
+          background: url("../images/termsofservice/svg-06.svg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: left bottom;
+        }
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: -0%;
+        width: 100vw;
+        height: 50vw;
+        
+  
+        background: url("../images/termsofservice/628.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+      }
+    }
+
+    .svg {
+      position: absolute;
+      z-index: 3;
+  
+      &--1 {
+        top: 6%;
+        right: -32%;
+  
+        width: 80vw;
+        height: 150px;
+      }
+    }
 
     .form-bg {
       height: 195vw;

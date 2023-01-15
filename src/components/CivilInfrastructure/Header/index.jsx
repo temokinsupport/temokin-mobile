@@ -4,7 +4,7 @@ import Navigation from "../../Navigation";
 
 export default function HeaderCivilInfrastructure() {
   return (
-    <section className="--header-container" data-scroll-section>
+    <section className="--header-container" data-scroll-section> 
       <Navigation />
 
       <div className="slideshow"> 
@@ -20,7 +20,7 @@ export default function HeaderCivilInfrastructure() {
                     <label for="button-2" className="arrow a2"></label> */}
 
         <div className="content">
-          <div className="parallax-bg"></div> 
+          <div className="parallax-bg"></div>  
           <div className="--header-civil"> 
             <Container className="--max">
               <Row>

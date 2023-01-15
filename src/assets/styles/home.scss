@@ -251,7 +251,7 @@
             transition-delay: 0.3s;
 
             h3 {
-              font-family: "gill sans", sans-serif !important;
+              font-family: "gill sans medium", sans-serif !important;
               letter-spacing: 0.4vw;
               font-size: 1.62vw;
               font-weight: 600;
@@ -263,7 +263,7 @@
               min-height: 19vw;
               font-weight: 400 !important;
               line-height: 1.9;
-              letter-spacing: 0.02vw;
+              letter-spacing: 0.04vw;
             }
             .--btn-check-our-work-1 {
               font-family: "gill sans", sans-serif !important;
@@ -661,6 +661,13 @@
     margin-top: 0;
     transition: margin-top 0.5s;
     image-rendering: pixelated;
+    
+    // .hero-bg {
+    //   width: 550vw !important;
+    //   margin-right: 440vw;
+    //   margin-top: 0;
+    // }
+
     .header-bg {
       height: 90vw;
       transition: height 0.5s;
@@ -752,9 +759,9 @@
               font-family: "gill sans", sans-serif !important;
             }
             p {
-              font-size: 2.5vw;
-              letter-spacing: 0.1vw !important;
-              font-family: "gill sans", sans-serif;
+              font-size: 2.3vw;
+              letter-spacing: 0.3vw !important;
+              font-family: "gill sans medium", sans-serif;
               br {
                 display: none;
               }

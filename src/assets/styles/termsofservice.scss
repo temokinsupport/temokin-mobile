@@ -512,8 +512,8 @@
   }
 
   @media (max-width: 920px) {
-    background: url("../images/contactus/Contact_BG-new.png") top -8vw right;
-    background-size: 165vw auto;
+    background: url("../images/contactus/Contact_BG-new.png") top -6.2vw right;
+    background-size: 145vw auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -556,14 +556,18 @@
     }
 
     .--subContent {
-      font-size: 1.5vw;
+      font-size: 1.8vw;
       line-height: 2.5em;
+    }
+
+    .--bg-2 {
+      margin-top: -33vw;
     }
 
     .textBody {
       width: 100%;
       color: white;
-      letter-spacing: 0.2em;
+      letter-spacing: 0.2em; 
       padding-bottom: 30vw;
       padding-top: 40vw;
       position: relative;

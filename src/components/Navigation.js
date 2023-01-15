@@ -103,7 +103,7 @@ function Navigation() {
       <NavLink data-scroll exact to="/" className="--logo">
         <img
           className="web-logo"
-          src={require("../assets/images/home/Group 833.png").default}
+          src={require("../assets/images/mobile/home/Group 838@3x.png").default}
           alt="logo"
         />
         <img

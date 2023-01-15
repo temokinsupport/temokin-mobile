@@ -151,13 +151,15 @@ export default function Header() {
                 </Form.Label>
               </Col>
               <br /> <br /> <br />
-              <Col md="12" className=" pt-1">
+              <Col md="12" className=" pt-1" style={{'transform': 'translateX(-3.5%)'}}>
                 <Col className="land-radio__row">
-                  <Col className="d-flex" style={{ "margin-top": "2vw" }}>
+                  <Col className="d-flex" style={{ "margin-top": "2vw" }}> 
                     <Form.Check
                       type="radio"
                       label="JOINT VENTURE"
                       className="land-radio"
+                      name="group1"
+                      
                     />
                   </Col>
                   <Col className="d-flex" style={{ "margin-top": "2vw" }}>
@@ -165,6 +167,7 @@ export default function Header() {
                       type="radio"
                       label="OUTRIGHT SALE"
                       className="land-radio"
+                      name="group2"
                     />
                   </Col>
                   <Col className="d-flex" style={{ "margin-top": "2vw" }}>
@@ -172,6 +175,7 @@ export default function Header() {
                       type="radio"
                       label="OTHERS:"
                       className="land-radio"
+                      name="group3"
                     />
                   </Col>
                 </Col>

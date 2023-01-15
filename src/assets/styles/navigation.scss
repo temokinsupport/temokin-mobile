@@ -274,13 +274,14 @@
     }
     a {
       &.--logo {
-        margin: 5.5vw 0 0 5.4vw !important;
+        margin: 3vw 0 0 5.4vw !important;
         img {
-          width: 200px;
+          width: 40px;
         }
       }
     }
   }
+
 
   @media (max-width: 428px) {
     .static_nav {
@@ -301,6 +302,12 @@
       }
       &.--web {
         display: none;
+      }
+    }
+
+    a {
+      &.--logo {
+        margin: 5.4vw 0 0 5.4vw !important;
       }
     }
   }

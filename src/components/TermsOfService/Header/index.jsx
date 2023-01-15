@@ -32,7 +32,7 @@ export default function Header() {
       ease: "power2",
     });
   }, []);
-
+ 
   return (
     <div className="--bg-1" data-scroll-section>
       <Navigation /> 
@@ -49,7 +49,7 @@ export default function Header() {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col md="7" sm="12">
+          <Col md="12">
             <div className="--subContent">
               Welcome to our website. If you continue to <br />
               browse and use website you  are agreeing <br />

@@ -121,7 +121,7 @@ export default function FooterMenu() {
           </Col>
           <Col>
             <div className="--right-container">
-              <p>© Temokin 2022</p>
+              <p>© Temokin 2023</p>
               <div className="links d-flex justify-content-between">
                 <NavLink
                   exact

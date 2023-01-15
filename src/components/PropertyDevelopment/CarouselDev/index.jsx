@@ -89,7 +89,7 @@ export default function CarouselDev() {
     setCarouselIndex(index);
   };
 
-  useEffect(() => {
+  useEffect(() => { 
     console.log(carouselIndex);
   }, [carouselIndex]);
 

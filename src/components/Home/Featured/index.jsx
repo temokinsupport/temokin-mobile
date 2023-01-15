@@ -8,6 +8,8 @@ export default function Featured() {
   // DESKTOP, TABLET & MOBILE
   const isTablet = useMediaQuery({ query: "(min-width: 992px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 992px)" });
+  const isTabletView  = useMediaQuery({ query: "(min-width: 750px)" });
+
   const [carouselIndex, setCarouselIndex] = useState(0);
 
   // MOBILE CAROUSEL
@@ -31,7 +33,7 @@ export default function Featured() {
   const [isRightActive, setRightActive] = useState(false);
   const [isLeftActive, setLeftActive] = useState(false);
 
-  return (
+  return ( 
     <section className="--bg-2" data-scroll-section> 
       <Container className="--container-2 --max">
         <Row>
@@ -174,6 +176,7 @@ export default function Featured() {
                         to="/building"
                         variant="light"
                         className="--btn-check-our-work-1 w-75"
+                        style={{'margin-top': isTabletView ? '7vw' : ''}}
                       >
                         BUILDING
                       </NavLink>
@@ -213,6 +216,7 @@ export default function Featured() {
                         to="/property-development"
                         variant="light"
                         className="--btn-check-our-work"
+                        style={{'margin-top': isTabletView ? '7vw' : ''}}
                       >
                         VIEW MORE
                       </NavLink>

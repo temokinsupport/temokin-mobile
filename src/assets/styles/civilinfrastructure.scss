@@ -1081,6 +1081,14 @@
       }
     }
 
+    .--bg-mid {
+      position: absolute;
+      left: 0;
+      z-index: -1;
+      width: 100vw;
+      top: -17vw;
+    }
+
     .parallax-bg {
       background-size: 400vw 500vw;
       background-position: -60vw -25vw !important;
@@ -1643,6 +1651,14 @@
     // }
   }
   @media (max-width: 700px) {
+    .--bg-mid {
+      position: absolute;
+      left: 0;
+      z-index: -1;
+      width: 100vw;
+      top: -3vw;
+    }
+    
     .--header-container {
       height: 120vw !important;
     }

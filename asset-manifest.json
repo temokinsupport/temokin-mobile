@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d35bbcdc.chunk.css",
-    "main.js": "/static/js/main.e705a8aa.chunk.js",
-    "main.js.map": "/static/js/main.e705a8aa.chunk.js.map",
+    "main.js": "/static/js/main.5d3cc796.chunk.js",
+    "main.js.map": "/static/js/main.5d3cc796.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.326dfe48.js",
     "runtime-main.js.map": "/static/js/runtime-main.326dfe48.js.map",
     "static/css/2.ffd0fd5c.chunk.css": "/static/css/2.ffd0fd5c.chunk.css",
@@ -14,8 +14,10 @@
     "static/css/2.ffd0fd5c.chunk.css.map": "/static/css/2.ffd0fd5c.chunk.css.map",
     "static/css/main.d35bbcdc.chunk.css.map": "/static/css/main.d35bbcdc.chunk.css.map",
     "static/js/2.db16475f.chunk.js.LICENSE.txt": "/static/js/2.db16475f.chunk.js.LICENSE.txt",
-    "static/js/main.e705a8aa.chunk.js.LICENSE.txt": "/static/js/main.e705a8aa.chunk.js.LICENSE.txt",
+    "static/js/main.5d3cc796.chunk.js.LICENSE.txt": "/static/js/main.5d3cc796.chunk.js.LICENSE.txt",
     "static/media/01.svg": "/static/media/01.fa8ec035.svg",
+    "static/media/02-1.svg": "/static/media/02-1.a73fde7c.svg",
+    "static/media/02-2.svg": "/static/media/02-2.0735bb46.svg",
     "static/media/1.png": "/static/media/1.c1f8ae6e.png",
     "static/media/1.svg": "/static/media/1.a52c1bbb.svg",
     "static/media/1040.svg": "/static/media/1040.81f87849.svg",
@@ -270,8 +272,6 @@
     "static/media/Tem_Prompt-Modal-BG.png": "/static/media/Tem_Prompt-Modal-BG.176fb354.png",
     "static/media/Tem_Prompt-Modal.png": "/static/media/Tem_Prompt-Modal.c2929d20.png",
     "static/media/Temokin_MobileVer_Icon-01.svg": "/static/media/Temokin_MobileVer_Icon-01.1457e952.svg",
-    "static/media/__02-1.svg": "/static/media/__02-1.a73fde7c.svg",
-    "static/media/__02-2.svg": "/static/media/__02-2.0735bb46.svg",
     "static/media/__02.png": "/static/media/__02.100caa8e.png",
     "static/media/__02.svg": "/static/media/__02.d5582d05.svg",
     "static/media/apa.png": "/static/media/apa.2172879c.png",
@@ -363,6 +363,6 @@
     "static/css/2.ffd0fd5c.chunk.css",
     "static/js/2.db16475f.chunk.js",
     "static/css/main.d35bbcdc.chunk.css",
-    "static/js/main.e705a8aa.chunk.js"
+    "static/js/main.5d3cc796.chunk.js"
   ]
 }

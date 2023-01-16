@@ -59,7 +59,7 @@ export default function App() {
       console.log(width, width > 420);
       // history.push("https://temokin.hirayamnl.com");
 
-      window.location.replace("https://temokin.hirayamnl.com");
+      window.location.replace("https://temokin.com");
     }
 
     window.addEventListener("resize", () => {
@@ -67,7 +67,7 @@ export default function App() {
 
       if (width > 1024) {
         // history.push("https://temokin.hirayamnl.com");
-        window.location.replace("https://temokin.hirayamnl.com");
+        window.location.replace("https://temokin.com");
       }
     });
   }, []);

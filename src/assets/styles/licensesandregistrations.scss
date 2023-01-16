@@ -224,7 +224,7 @@
     }
     .--text-container {
       display: flex;
-      justify-content: flex-start;
+      justify-content: flex-start; 
       align-items: center;
       flex-direction: column;
       height: 100%;
@@ -245,7 +245,7 @@
         margin-bottom: 0;
         margin-top: 1vw;
         letter-spacing: 0.2vw;
-        font-size: 1.1vw;
+        font-size: 1.1vw; 
         color: #283997;
         line-height: 2.5vw;
         text-align: center;
@@ -336,10 +336,10 @@
 
     img {
       width: 150vw;
-      height: 100vw;
+      height: 120vw;
       // object-fit: cover;
       object-position: top center;
-      transform: translateY(15%);
+      transform: translateY(0%);
       margin-left: -30vw;
     }
     /* background: url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw;

@@ -702,7 +702,7 @@
     .overlay-white2 {
       height: 24vw;
       top: 95%;
-      left: -30vw;
+      left: -40vw;
 
       &::before {
         left: 20vw;
@@ -815,21 +815,25 @@
           }
         }
         .carousel-item {
-          height: 200vw;
-          opacity: 0;
-          transform: 0;
-          display: block !important;
 
-          transition: all 0.5s ease-in-out;
-
-          &.true {
+          &--1 {
+            height: 95vw;
+            opacity: 0;
+            transform: 0;
             display: block !important;
 
-            opacity: 1;
-            transition: all 0.5s ease-in-out 0.2s;
+            transition: all 0.5s ease-in-out;
 
-            // height: 100%;
+            &.true {
+              display: block !important;
+
+              opacity: 1;
+              transition: all 0.5s ease-in-out 0.2s;
+
+              // height: 100%;
+            }
           }
+        
         }
         a.carousel-control-next,
         a.carousel-control-prev {
@@ -1417,6 +1421,33 @@
         padding-top: 5vw !important;
         .--title {
           transform: inherit !important;
+        }
+      }
+
+      .--carousel-mb {
+        .carousel-item {
+            height: 200vw;
+            opacity: 0;
+            transform: 0;
+            display: block !important;
+
+            transition: all 0.5s ease-in-out;
+
+            &.true {
+              display: block !important;
+
+              opacity: 1;
+              transition: all 0.5s ease-in-out 0.2s;
+
+              // height: 100%;
+            }
+        }
+        a.carousel-control-next,
+        a.carousel-control-prev {
+          display: none;
+          span {
+            display: none !important;
+          }
         }
       }
     }

@@ -64,7 +64,7 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                     </PageTitle>
                     <div className="--about-content">
                       <Row>
-                        <Col md={5}>
+                        <Col sm="5" md="12">
                           <Name>
                             DATO' IR. TAN KIM KUAN <br />
                             (ROBERT)
@@ -76,7 +76,7 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                             </div>
                           </Position>
                         </Col>
-                        <Col md={7}>
+                        <Col sm="7" md ="12">
                           <Description>
                             Dato’ Robert is responsible for the overall
                             strategic {"\n"} direction of TEMOKIN and leads our

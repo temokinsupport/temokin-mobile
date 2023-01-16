@@ -64,7 +64,7 @@ const TanChienWen = () => {
                     </PageTitle>
                     <div className="--about-content">
                       <Row>
-                        <Col md={5}>
+                        <Col sm="5" md="12">
                           <Name>
                             Tan
                             <br />
@@ -77,7 +77,7 @@ const TanChienWen = () => {
                             </div>
                           </Position>
                         </Col>
-                        <Col md={7}>
+                        <Col sm="7" md="12">
                           <Description>
                             Since joining Temokin, Chien Wen has introduced
                             several{"\n"} corporate initiatives to streamline

@@ -64,7 +64,7 @@ const ChanYoonSang = () => {
                     </PageTitle>
                     <div className="--about-content">
                       <Row>
-                        <Col md={5}>
+                        <Col sm="5" md="12">
                           <Name>
                             Chan <br /> Yoon Sang
                           </Name>
@@ -75,7 +75,7 @@ const ChanYoonSang = () => {
                             </div>
                           </Position>
                         </Col>
-                        <Col md={7}>
+                        <Col sm="5" md="12">
                           <Description>
                             Yoon Sang is responsible for securing and
                             implementing {"\n"} project contracts for Temokin.

@@ -82,7 +82,7 @@ export default function Leaders() {
                         <p className="--desc"
                         >With a combined 55 years of experience in the construction and <br/>
                         property industry, our Board of Directors bring to the table a wide <br/>
-                        spectrum skill sets and visionary ideas will keep the TEMOKIN ship <br/>
+                        spectrum skill sets and visionary ideas will keep the TEMOKIN ship <br/> 
                         steering in the right direction. Here you'll meet a diverse group of <br/>
                         leaders, from highly-acclaimed and respected veterans to a new <br/>
                         generation of young powerhouses.</p>

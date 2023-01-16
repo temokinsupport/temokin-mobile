@@ -64,7 +64,7 @@ const TanChienWen = () => {
                     </PageTitle>
                     <div className="--about-content">
                       <Row>
-                        <Col md={5}>
+                        <Col sm="5" md="12">
                           <Name>
                             Tan <br />
                             Chien Yih (Jeremiah)
@@ -76,7 +76,7 @@ const TanChienWen = () => {
                             </div>
                           </Position>
                         </Col>
-                        <Col md={7}>
+                        <Col sm="7" md="12">
                           <Description>
                             Jeremiah is responsible for Temokin’s business
                             development, {"\n"} opening new markets while

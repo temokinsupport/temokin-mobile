@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 export default function CivilInfrastructure() {
   return (
-    <section className="--container-2 civilinfra" data-scroll-section>
+    <section className="--container-2 civilinfra" data-scroll-section> 
       <Image
         className="--right-3" 
         src={

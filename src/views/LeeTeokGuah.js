@@ -64,7 +64,7 @@ const LeeTeokGuah = () => {
                     </PageTitle>
                     <div className="--about-content">
                       <Row>
-                        <Col md={5}>
+                        <Col sm="5" md="12">
                           <Name>
                             LEE <br />
                             TEOK GUAH (EDWARD)
@@ -78,7 +78,7 @@ const LeeTeokGuah = () => {
                             </div>
                           </Position>
                         </Col>
-                        <Col md={7}>
+                        <Col sm="7" md="12">
                           <Description>
                             Edward possess more than 28 years of experience in{" "}
                             {"\n"}

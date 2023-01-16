@@ -260,7 +260,7 @@ function Navigation() {
                   onClick={() => setOpen(!open)}
                   aria-controls="basic-navbar-nav"
                   aria-expanded={open}
-                  className="dynamic_nav --mobile-nav-text"
+                  className="dynamic_nav --mobile-nav-text" 
                 >
                   Building
                 </NavLink>
@@ -329,8 +329,10 @@ function Navigation() {
           onMouseEnter={() => setNavLinkHoverState("about", true)}
           onMouseLeave={() => setNavLinkHoverState("about", false)}
         >
-          <Button>About Temokin</Button>
-          <div
+          <Button>
+            About Temokin
+          </Button>
+          <div 
             className={`--dropdown-container --dropdown__about ${
               hovered.about ? "--dropdown--active" : ""
             }`}

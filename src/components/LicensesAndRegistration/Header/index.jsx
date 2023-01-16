@@ -4,7 +4,7 @@ import Navigation from "../../Navigation";
 
 export default function Header() {
   return (
-    <div className="--bg-1">
+    <div className="--bg-1"> 
       <Image
         className="svg svg--1"
         fluid
@@ -27,7 +27,7 @@ export default function Header() {
         <Row>
           <Col>
             <h1 className="--title">
-              Licenses and <br /> Registrations
+              Licenses and <br /> Registrations 
             </h1>
             <p className="--desc">
               These licenses and certifications
@@ -43,7 +43,6 @@ export default function Header() {
       <div className="header-bg">
         <Image
           className=""
-          fluid
           src={
             require("../../../assets/images/licensesandregistrations/hero-bg.png")
               .default

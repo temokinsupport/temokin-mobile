@@ -3,9 +3,13 @@ import gsap from "gsap";
 import SplitText from "../../utils/split.min.js";
 import { Container, Row, Col, Image, Form, Button } from "react-bootstrap";
 import Navigation from "../../Navigation";
-import Footer from "../../Footer";
+import Footer from "../../Footer"; 
+import { useMediaQuery } from "react-responsive";
 
 export default function Header() {
+  const isTablet = useMediaQuery({ query: "(min-width: 760px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+
   useEffect(() => {
     const split = new SplitText("#header-text", {
       type: "lines",
@@ -125,7 +129,7 @@ export default function Header() {
               <Col sm="7" md="12">
                 <Form.Control className="land-form" plaintext />
               </Col>
-              <Col md="3" className="text-end land-label__container">
+              <Col md="12" className="text-end land-label__container">
                 <Form.Label column className="land-label text-end">
                   LOCATION OF LAND
                 </Form.Label>
@@ -153,7 +157,40 @@ export default function Header() {
               <br /> <br /> <br />
               <Col md="12" className=" pt-1" style={{'transform': 'translateX(-3.5%)'}}>
                 <Col className="land-radio__row">
-                  <Col className="d-flex" style={{ "margin-top": "2vw" }}> 
+                {['radio'].map((type) => (
+                  <div key={`inline-${type}`} className="mb-3">
+                    <Col className="d-flex" style={{ "margin-top": "2vw" }}> 
+                      <Form.Check
+                        label="JOINT VENTURE"
+                        name="group1"
+                        type={type}
+                        className="land-radio"
+                        id={`inline-${type}-1`}
+                      />
+                    </Col>
+
+                    <Col className="d-flex" style={{ "margin-top": "2vw" }}> 
+                      <Form.Check
+                        label="OUTRIGHT SALE"
+                        name="group1"
+                        type={type}
+                        className="land-radio"
+                        id={`inline-${type}-2`}
+                      />
+                    </Col>
+
+                    <Col className="d-flex" style={{ "margin-top": "2vw" }}> 
+                      <Form.Check
+                        label="OTHERS:"
+                        name="group1"
+                        type={type}
+                        className="land-radio"
+                        id={`inline-${type}-3`}
+                      />
+                    </Col>
+                  </div>
+                ))}
+                  {/* <Col className="d-flex" style={{ "margin-top": "2vw" }}> 
                     <Form.Check
                       type="radio"
                       label="JOINT VENTURE"
@@ -177,7 +214,7 @@ export default function Header() {
                       className="land-radio"
                       name="group3"
                     />
-                  </Col>
+                  </Col> */}
                 </Col>
               </Col>
               <Col

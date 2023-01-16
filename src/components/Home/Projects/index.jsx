@@ -35,7 +35,7 @@ export default function Projects() {
             {/* <div className="projects-bg"/> */}
             <div className="hero-container">
                 <LazyLoadImage src={require("../../../assets/images/home/Page3_BG.jpg").default} className="projects-bg"
-                 data-scroll data-scroll-speed="-2" data-scroll-direction="top"/>
+                 data-scroll data-scroll-speed="-2" data-scroll-direction="top"/> 
             </div>
         </section>
     )

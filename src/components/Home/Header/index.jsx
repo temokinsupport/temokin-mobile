@@ -22,7 +22,7 @@ export default function Header() {
       y: 0,
       opacity: 1,
       stagger: 0.1,
-      ease: "power2",
+      ease: "power2", 
     });
 
     gsap.to(splitParent.lines, {
@@ -40,7 +40,7 @@ export default function Header() {
       <div className="load">
         <Image
           className="--home-temokin-img"
-          src={require("../../../assets/images/home/Group 833.png").default}
+          src={require("../../../assets/images/home/Group 833.png").default} 
         />
       </div>
       <div className="hero">

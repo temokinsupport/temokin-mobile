@@ -65,6 +65,32 @@
   position: relative;
   overflow-x: hidden;
 
+  .carousel-indicators {
+    width: 100% !important;
+    height: 30px;
+    bottom: -1vw;
+    display: flex;
+    text-align: center;
+    margin: 0 !important;
+    padding-top: 15vh;
+    z-index: -1;
+    li {
+      height: 20px;
+      width: 20px;
+      border-radius: 100px;
+      border: 1px solid #ffffff;
+      background-color: transparent;
+      transition: background-color 0.5s;
+      margin: 4vw 0 0 3vw;
+      cursor: pointer;
+
+      &.active {
+        transition: background-color 0.5s;
+        background-color: #ffffff;
+      }
+    }
+  }
+
   .--header {
     position: relative;
     width: 100%;
@@ -311,7 +337,7 @@
             }
           }
         }
-        .carousel-indicators {
+        /* .carousel-indicators {
           width: 37.5% !important;
           height: 30px;
           margin-left: -8vw;
@@ -334,11 +360,16 @@
               background-color: #ffffff;
             }
           }
-        }
+        } */
         .carousel-control-prev,
         .carousel-control-next {
           display: none;
         }
+      }
+    }
+    .--carousel-mb {
+      .carousel-item {
+        height: 110vw;
       }
     }
   }
@@ -661,7 +692,7 @@
     margin-top: 0;
     transition: margin-top 0.5s;
     image-rendering: pixelated;
-    
+
     // .hero-bg {
     //   width: 550vw !important;
     //   margin-right: 440vw;
@@ -681,7 +712,7 @@
         margin: 0;
       }
     }
-      
+
     .--bg-2 {
       &::after {
         height: 65vw !important;
@@ -722,7 +753,7 @@
         }
         &.carousel-control-next {
           background: url("../images/mobile/home/Obj_Arrow-01.png") center;
-          transition: background 0.3s; 
+          transition: background 0.3s;
           background-attachment: local;
           background-repeat: no-repeat;
           background-size: contain;
@@ -928,17 +959,17 @@
         top: 0;
         width: 100vw;
         min-height: 55vh;
-  
+
         display: grid;
         place-content: center;
-  
+
         animation-fill-mode: both;
         animation-delay: 1s;
         animation-duration: 3s;
         animation-name: load;
         animation-iteration-count: 1;
       }
-      
+
       .hero-container {
         height: 100vw;
         transition: height 0.5s;
@@ -954,20 +985,20 @@
         &-bg {
           width: 100%;
           opacity: 1;
-  
+
           animation-fill-mode: backwards;
           animation-delay: 4s;
           animation-duration: 2s;
           animation-name: slidein;
           animation-iteration-count: 1;
         }
-  
+
         h1 {
           position: absolute;
           left: 50.2%;
           top: 0%;
           transform: translate(-50%, -100%);
-  
+
           font-family: "gill sans", sans-serif !important;
           text-transform: uppercase;
           line-height: 1.5em;
@@ -975,7 +1006,7 @@
           font-size: 5vw;
           color: #283a97;
           text-align: center;
-  
+
           animation-fill-mode: backwards;
           animation-delay: 4s;
           animation-duration: 2s;
@@ -1114,9 +1145,8 @@
         }
       }
     }
-
   }
-  
+
   @media (max-width: 700px) {
     margin-top: 0;
     transition: margin-top 0.5s;
@@ -1135,17 +1165,17 @@
         top: 0;
         width: 100vw;
         min-height: 55vh;
-  
+
         display: grid;
         place-content: center;
-  
+
         animation-fill-mode: both;
         animation-delay: 1s;
         animation-duration: 3s;
         animation-name: load;
         animation-iteration-count: 1;
       }
-      
+
       .hero-container {
         height: 100vw;
         transition: height 0.5s;
@@ -1161,20 +1191,20 @@
         &-bg {
           width: 100%;
           opacity: 1;
-  
+
           animation-fill-mode: backwards;
           animation-delay: 4s;
           animation-duration: 2s;
           animation-name: slidein;
           animation-iteration-count: 1;
         }
-  
+
         h1 {
           position: absolute;
           left: 50.2%;
           top: 0%;
           transform: translate(-50%, -100%);
-  
+
           font-family: "gill sans", sans-serif !important;
           text-transform: uppercase;
           line-height: 1.5em;
@@ -1182,7 +1212,7 @@
           font-size: 5vw;
           color: #283a97;
           text-align: center;
-  
+
           animation-fill-mode: backwards;
           animation-delay: 4s;
           animation-duration: 2s;
@@ -1274,7 +1304,6 @@
         }
       }
     }
-
   }
   @media (max-width: 650px) {
     .--bg-3 {
@@ -1286,7 +1315,7 @@
       margin-right: 450vw;
       margin-top: 88vw;
     }
-    .carousel-indicators {
+    /* .carousel-indicators {
       width: 100% !important;
       height: 30px;
       bottom: -1vw;
@@ -1310,7 +1339,7 @@
           background-color: #ffffff;
         }
       }
-    }
+    } */
 
     .hero h1 {
       font-size: 7vw !important;

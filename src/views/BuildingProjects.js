@@ -129,7 +129,7 @@ const BuildingProject = () => {
             <section className="hero">
               <Image
                 className="svg svg--1"
-                src={require("../assets/images/building/__991.svg").default}
+                src={require("../assets/images/building/991.svg").default}
               />
               <Image
                 className="svg svg--2"
@@ -215,13 +215,13 @@ const BuildingProject = () => {
                   <Image
                     className="svg svg--7 svg--7--1"
                     src={
-                      require("../assets/images/building/__02-1.svg").default
+                      require("../assets/images/building/02-1.svg").default
                     }
                   />
                   <Image
                     className="svg svg--7 svg--7--2"
                     src={
-                      require("../assets/images/building/__02-2.svg").default
+                      require("../assets/images/building/02-2.svg").default
                     }
                   />
                 </>

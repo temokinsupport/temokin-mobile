@@ -698,10 +698,25 @@
     //   margin-right: 440vw;
     //   margin-top: 0;
     // }
+    
+    .overlay-white2 {
+      height: 24vw;
+      top: 95%;
+      left: -30vw;
+
+      &::before {
+        left: 20vw;
+        height: 11.8vw;
+      }
+    }
 
     .header-bg {
       height: 90vw;
       transition: height 0.5s;
+    }
+
+    .--home-temokin-img {
+      width: 45vw !important;
     }
     .--header {
       min-height: 67vh !important;
@@ -876,7 +891,7 @@
         font-size: 4.5vw !important;
         letter-spacing: 0.2em;
         line-height: 1.6;
-        margin: 0 0 50px 0;
+        margin: 20vw 0 10vw 0;
       }
       .row {
         .col {
@@ -1413,6 +1428,15 @@
     .--container-4 {
       .--title {
         transform: inherit !important;
+        font-family: "gill sans", sans-serif !important;
+        letter-spacing: 0.5vw;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        line-height: 3vw;
+        font-size: 2.4vw;
+        color: #283a97;
+        margin: 1.5vw 0 6.5vw 0;
+        text-align: center;
       }
       &::before {
         content: "";

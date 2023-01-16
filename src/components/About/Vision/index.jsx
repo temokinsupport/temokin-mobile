@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Vision() {
   return (
     <section className="--container-2" data-scroll-section>
-      <Container>
+      <Container> 
         <Row>
           <Col>
             <h2 className="--title" data-scroll data-scroll-speed="2">
@@ -16,7 +16,7 @@ export default function Vision() {
               company that
             </p>
             <h1 className="--title" data-scroll data-scroll-speed="2">
-              WINS <br />
+              WINS <br /> 
               YOUR TRUST <br />
               EVERY TIME
             </h1>

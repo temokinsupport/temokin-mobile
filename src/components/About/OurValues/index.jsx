@@ -14,12 +14,11 @@ export default function OurValues() {
         <Row>
           <Col data-scroll className="p-0 position-relative">
             <Image
-              fluid
               src={
                 require("../../../assets/images/aboutus/AboutUs_BG-02 2.png")
                   .default
               }
-              style={{'width': isTablet ? '100vw' : ''}}
+              style={{'width': isTablet ? '110vw' : '', 'margin-left': isTablet ? '-6vw' : ''}}
             />
             <h1 className="--title --mob  position-absolute top-50 start-50 translate-middle">
               Our Values

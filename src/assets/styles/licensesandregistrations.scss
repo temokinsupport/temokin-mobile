@@ -106,7 +106,7 @@
       content: "";
       background: url("../images/licensesandregistrations/licenses-bg-after.png")
         top center / 100vw no-repeat;
-
+      
       position: absolute;
       bottom: 0;
       left: 0;
@@ -335,10 +335,12 @@
     height: 125vw;
 
     img {
-      width: 200vw;
-      height: 200vw;
-      object-fit: cover;
-      object-position: -55vw center;
+      width: 150vw;
+      height: 100vw;
+      // object-fit: cover;
+      object-position: top center;
+      transform: translateY(15%);
+      margin-left: -30vw;
     }
     /* background: url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw;
         background-repeat: no-repeat;
@@ -587,7 +589,7 @@
       margin-top: 2vw !important;
     }
 
-    // margin-top: 5vw;
+    // margin-top: 5vw; 
   }
 
   @media (max-width: 650px) {

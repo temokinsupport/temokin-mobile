@@ -81,7 +81,7 @@
         // height: 40vw;
         object-fit: cover;
         object-position: center;
-      }
+      } 
       .splide__list {
         width: 100%;
         display: flex;
@@ -982,7 +982,7 @@
   @media (max-width: 900px) {
     .overlay-shape1 {
       background: url("../images/aboutus/About_BG-Shapes-01.png") bottom 0 left;
-      background-size: 130vw auto;
+      background-size: 185vw 70vw;
       background-repeat: no-repeat;
       height: 200vw;
     }
@@ -1043,7 +1043,7 @@
           font-weight: 600 !important;
           text-transform: uppercase;
           line-height: 1.5em;
-          font-size: 4vw;
+          font-size: 5vw;
           color: #283a97;
           margin: 12vw 0 0 0;
           text-align: center;

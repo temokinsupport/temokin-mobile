@@ -220,7 +220,6 @@ export default function Header() {
               <Col
                 sm="3" md="12"
                 className="text-end land-label__container"
-                style={{ "margin-top": "10vw" }}
               >
                 <Form.Label column className="land-label text-end">
                   SUPORTING DOCUMENTS <br />

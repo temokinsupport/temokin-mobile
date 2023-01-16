@@ -16,7 +16,7 @@ export default function Vision() {
               company that
             </p>
             <h1 className="--title" data-scroll data-scroll-speed="2">
-              WINS <br />
+              WINS <br /> 
               YOUR TRUST <br />
               EVERY TIME
             </h1>

@@ -44,7 +44,7 @@ export default function Testimonials() {
           <hr />
 
           <div className="testimonial__sender sender">
-            <h4 className="sender__name">IR. HJ. OTHMAN IBRAHIM</h4>
+            <h4 className="sender__name">IR. HJ. OTHMAN IBRAHIM</h4> 
             <h5 className="sender__position">
               <span>
                 SENIOR GENERAL MANAGER OF {"\n"} CONSTRUCTION, SPECIAL PROJECT

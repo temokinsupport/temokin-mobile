@@ -70,6 +70,10 @@ export default function App() {
         window.location.replace("https://temokin.com");
       }
     });
+
+    window.addEventListener("orientationchange", () => {
+      window.location.reload();
+    });
   }, []);
 
   return (

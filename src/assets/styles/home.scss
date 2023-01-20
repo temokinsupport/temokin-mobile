@@ -699,7 +699,7 @@
     //   margin-right: 440vw;
     //   margin-top: 0;
     // }
-    
+
     .overlay-white2 {
       height: 24vw;
       top: 95%;
@@ -816,7 +816,6 @@
           }
         }
         .carousel-item {
-
           &--1 {
             height: 95vw;
             opacity: 0;
@@ -834,7 +833,6 @@
               // height: 100%;
             }
           }
-        
         }
         a.carousel-control-next,
         a.carousel-control-prev {
@@ -1427,21 +1425,21 @@
 
       .--carousel-mb {
         .carousel-item {
-            height: 200vw;
-            opacity: 0;
-            transform: 0;
+          height: 200vw;
+          opacity: 0;
+          transform: 0;
+          display: block !important;
+
+          transition: all 0.5s ease-in-out;
+
+          &.true {
             display: block !important;
 
-            transition: all 0.5s ease-in-out;
+            opacity: 1;
+            transition: all 0.5s ease-in-out 0.2s;
 
-            &.true {
-              display: block !important;
-
-              opacity: 1;
-              transition: all 0.5s ease-in-out 0.2s;
-
-              // height: 100%;
-            }
+            // height: 100%;
+          }
         }
         a.carousel-control-next,
         a.carousel-control-prev {

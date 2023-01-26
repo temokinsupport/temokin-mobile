@@ -55,24 +55,32 @@ export default function App() {
   useEffect(() => {
     let width = parseInt(window.innerWidth);
 
-    if (width > 1024) {
+    if (width >= 1024) {
       console.log(width, width > 420);
       // history.push("https://temokin.hirayamnl.com");
 
-      window.location.replace("https://temokin.com");
+      window.location.replace("https://temokin.com"); 
     }
 
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
-      if (width > 1024) {
+      if (width >= 1024) {
         // history.push("https://temokin.hirayamnl.com");
         window.location.replace("https://temokin.com");
       }
     });
 
     window.addEventListener("orientationchange", () => {
-      window.location.reload();
+      let width = parseInt(window.innerWidth);
+      let height = parseInt(window.innerHeight);
+      let orientation = parseInt(window.orientation)
+
+      if(orientation == 90 || orientation == -90) {
+        if(height >= 1024) {
+          window.location.replace("https://temokin.com");
+        }
+      }
     });
   }, []);
 

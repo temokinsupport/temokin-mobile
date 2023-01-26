@@ -12,7 +12,7 @@ export default function Header() {
 
   useEffect(() => {
     const split = new SplitText("#header-text", {
-      type: "lines",
+      type: "lines", 
       linesClass: "lineChildren",
     });
 

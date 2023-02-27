@@ -58,8 +58,8 @@ export default function App() {
     if (width >= 1024) {
       console.log(width, width > 420);
       // history.push("https://temokin.hirayamnl.com");
-      const currentUrl = window.location.hash.substring(2);
-      window.location.replace(`https://temokin.com/${currentUrl}`);
+      const currentUrl = window.location.hash.substring(1);
+      window.location.replace(`https://temokin.com${currentUrl}`);
     }
 
     window.addEventListener("resize", () => {
@@ -67,8 +67,8 @@ export default function App() {
 
       if (width >= 1024) {
         // history.push("https://temokin.hirayamnl.com");
-        const currentUrl = window.location.hash.substring(2);
-        window.location.replace(`https://temokin.com/${currentUrl}`);
+        const currentUrl = window.location.hash.substring(1);
+        window.location.replace(`https://temokin.com${currentUrl}`);
       }
     });
 
@@ -79,8 +79,8 @@ export default function App() {
 
       if (orientation == 90 || orientation == -90) {
         if (height >= 1024) {
-          const currentUrl = window.location.hash.substring(2);
-          window.location.replace(`https://temokin.com/${currentUrl}`);
+          const currentUrl = window.location.hash.substring(1);
+          window.location.replace(`https://temokin.com${currentUrl}`);
           window.location.reload();
         }
       }

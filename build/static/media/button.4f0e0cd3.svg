@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="188" height="57.16" viewBox="0 0 188 57.16">
+  <g id="Button-LandAcquisition" transform="translate(-49.389 0.3)" style="mix-blend-mode: normal;isolation: isolate">
+    <path id="Path_483" data-name="Path 483" d="M0,0H185.777V56.56H0Z" transform="translate(50.889)" fill="#fff" stroke="#283a97" stroke-width="0.6"/>
+    <text id="SEND" transform="translate(49.389 20.122)" fill="#283a97" font-size="11.2" font-family="GillSans-SemiBold, Gill Sans" font-weight="600" letter-spacing="0.2em"><tspan x="-18" y="11">SEND</tspan></text>
+  </g>
+</svg>
